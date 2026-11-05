@@ -1,0 +1,35 @@
+{
+  "dataset": "etf_profiles",
+  "revision": 2,
+  "revision_id": "d00c0ef8a54e4d7c89a9f49aceb3ac19",
+  "committed_at": "2026-10-23T13:11:46.737710+00:00",
+  "run_id": "user-approved-B-cleanup-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "5b45732d670df57ad334120819d8481b49ff3f284ff15ae6f20c51877954922a",
+  "content_digest": "f044fe4af96a05801f2ac75119835559a617aa79fe95f017c04a6c5a52433609",
+  "changed_partitions": [
+    "etf_profiles/as_of_date=2026"
+  ],
+  "files": [
+    {
+      "path": "etf_profiles/as_of_date=2026/part-merged.parquet",
+      "size_bytes": 2775,
+      "sha256": "4ac6c5625e8b7bb30169544cc963f8ef8423e38f5ab9fc8b3aba22583d91dabd"
+    }
+  ],
+  "metadata": {
+    "operation": "user_approved_dataset_clear",
+    "reason": "B stage screening-scope storage reduction",
+    "rows": 0,
+    "base_revision_id": "ac46308a072f401cabd35ab59b50aa83"
+  },
+  "generation_path": "revisions/data/etf_profiles/d00c0ef8a54e4d7c89a9f49aceb3ac19",
+  "generation_files": [
+    {
+      "path": "etf_profiles/as_of_date=2026/part-merged.parquet",
+      "size_bytes": 2775,
+      "sha256": "4ac6c5625e8b7bb30169544cc963f8ef8423e38f5ab9fc8b3aba22583d91dabd"
+    }
+  ],
+  "pointer_path": "revisions/etf_profiles/current.json"
+}

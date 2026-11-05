@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "plan_id": "d64e6c816171abed457b4a6bde756604ca31fb30646831af940d960922d35459",
+  "lake_id": "389524ca2c854c57aa0567c2191a7a7d",
+  "status": "complete",
+  "items": {
+    "revision/adj_factors/132ff52bd62c4d6086028e032296b217": "deleted",
+    "revision/announcement_index/761f8caf5b8e45d5aea76c396998171b": "deleted",
+    "revision/daily_bars/d27bc73225b9486ab47cc3000a578abf": "deleted",
+    "revision/earnings_disclosure_schedule/87e30079c5ca4b0f9fe840213ba92bd0": "deleted",
+    "revision/financial_statement_items/c8794e7dbcb44383ae337c5dad2474d5": "deleted",
+    "revision/industry_members/b2ff3edc6ffb4246811bcb2d910418dc": "deleted",
+    "revision/instruments/f6c06a737ef242ff9cb1445f99b92058": "deleted",
+    "revision/news_headlines/bf5cfbda3dc54cf79aee4f5950a2bedb": "deleted",
+    "revision/regulatory_events/f84c67d27d45401baf231d4fe41694ca": "deleted",
+    "revision/share_structure/74ab2d1d22634065b402e7e112ef78b2": "deleted",
+    "revision/trading_calendar/03e0ecb18bbe48209bba6213e7f6dfd7": "deleted",
+    "revision/trading_status/d1fe017c284343c1b9aae78f75ec6826": "deleted"
+  },
+  "logical_bytes_deleted": 490391785,
+  "filesystem_free_bytes_before": 179186114560,
+  "filesystem_free_bytes_after": 179690016768,
+  "completed_at": "2026-11-05T05:46:44.319358+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "dataset": "index_bars",
+  "revision": 7,
+  "revision_id": "a9df72f2b56d45098bb57b10e03d31ae",
+  "committed_at": "2026-10-23T14:08:41.283771+00:00",
+  "run_id": "selection-scope-retirement-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "bd7c3c01b809849d60f7d7bdb9859b4a3299d2818f57f951c3e4572c392096ff",
+  "content_digest": "e53910a467f4df1c65bfe918ea53872e74e15967cb50838df249dbba334b6845",
+  "changed_partitions": [
+    "index_bars/trade_date=2016"
+  ],
+  "files": [
+    {
+      "path": "index_bars/trade_date=2016/part-merged.parquet",
+      "size_bytes": 2210,
+      "sha256": "bdf3bb11b2188559af221c99d4380b1bb1f73febe2716314995c2c4e14a1553e"
+    }
+  ],
+  "metadata": {
+    "operation": "user_authorized_retirement",
+    "rows": 0,
+    "base_revision_id": "94a10faff0bb492b84ead16ed72070da"
+  },
+  "generation_path": "revisions/data/index_bars/a9df72f2b56d45098bb57b10e03d31ae",
+  "generation_files": [
+    {
+      "path": "index_bars/trade_date=2016/part-merged.parquet",
+      "size_bytes": 2210,
+      "sha256": "bdf3bb11b2188559af221c99d4380b1bb1f73febe2716314995c2c4e14a1553e"
+    }
+  ],
+  "pointer_path": "revisions/index_bars/current.json"
+}

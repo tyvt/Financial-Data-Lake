@@ -1,0 +1,427 @@
+{
+  "run_id": "b05d1fa1-7e0a-469f-b9c6-3b3be2a6ac42",
+  "trade_date": "2026-10-16",
+  "findings": [
+    {
+      "dataset": "corporate_actions",
+      "check": "no_snapshot",
+      "severity": "info",
+      "message": "No backup snapshot for corporate_actions source=tdx_protocol; primary rows available for comparison: 0",
+      "primary_rows": 0,
+      "snapshot_cadence": "daily",
+      "peer_unavailable": true,
+      "retryable": true
+    },
+    {
+      "dataset": "adj_factors",
+      "severity": "error",
+      "check": "adj_factor_corporate_action_divergence",
+      "message": "600306.SH (hfq) factor steps 1.47174x on 2023-12-26 but corporate_actions implies 1x (4717 bps apart, 1 divergent day(s) this run); corporate_actions has no ex-date that day, so the factor should not have moved",
+      "symbol": "600306.SH",
+      "adjust_type": "hfq",
+      "trade_date": "2023-12-26",
+      "primary_source": "sina",
+      "backup_source": "corporate_actions",
+      "actual_ratio": 1.4717444700000106,
+      "expected_ratio": 1.0,
+      "divergence_bps": 4717.444700000106,
+      "divergent_days": 1
+    },
+    {
+      "dataset": "instruments",
+      "severity": "info",
+      "check": "row_count",
+      "message": "8075 rows across dataset",
+      "sample_columns": [
+        "symbol",
+        "name",
+        "exchange",
+        "asset_type",
+        "list_date",
+        "delist_date",
+        "prev_symbol",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": null,
+      "partition_value": null,
+      "file_count": null
+    },
+    {
+      "dataset": "etf_profiles",
+      "severity": "info",
+      "check": "exists",
+      "message": "No curated data for etf_profiles"
+    },
+    {
+      "dataset": "trading_calendar",
+      "severity": "info",
+      "check": "row_count",
+      "message": "365 rows in trade_date=2026",
+      "sample_columns": [
+        "trade_date",
+        "is_trading",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026",
+      "file_count": 1
+    },
+    {
+      "dataset": "trading_status",
+      "severity": "info",
+      "check": "row_count",
+      "message": "101 rows in trade_date=2026-10",
+      "sample_columns": [
+        "symbol",
+        "trade_date",
+        "is_trading",
+        "status",
+        "risk_warning",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026-10",
+      "file_count": 1
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "row_count",
+      "message": "1 rows in trade_date=2026-07-16",
+      "sample_columns": [
+        "symbol",
+        "trade_date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "pre_close",
+        "volume",
+        "amount",
+        "source"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026-07-16",
+      "file_count": 1
+    },
+    {
+      "dataset": "index_bars",
+      "severity": "info",
+      "check": "row_count",
+      "message": "1496 rows in trade_date=2026",
+      "sample_columns": [
+        "symbol",
+        "trade_date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "pre_close",
+        "volume",
+        "amount",
+        "source"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026",
+      "file_count": 1
+    },
+    {
+      "dataset": "commodity_bars",
+      "severity": "warning",
+      "check": "exists",
+      "message": "No curated data for commodity_bars"
+    },
+    {
+      "dataset": "corporate_actions",
+      "severity": "info",
+      "check": "row_count",
+      "message": "5267 rows in ex_date=2026",
+      "sample_columns": [
+        "payment_date",
+        "payment_source",
+        "symbol",
+        "ex_date",
+        "action_type",
+        "cash_dividend",
+        "bonus_ratio",
+        "transfer_ratio",
+        "split_factor",
+        "allotment_ratio"
+      ],
+      "partition_col": "ex_date",
+      "partition_value": "2026",
+      "file_count": 1
+    },
+    {
+      "dataset": "announcement_index",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for announcement_index"
+    },
+    {
+      "dataset": "earnings_disclosure_schedule",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for earnings_disclosure_schedule"
+    },
+    {
+      "dataset": "financial_statement_items",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for financial_statement_items"
+    },
+    {
+      "dataset": "share_structure",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for share_structure"
+    },
+    {
+      "dataset": "shareholder_counts",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for shareholder_counts"
+    },
+    {
+      "dataset": "top_holders",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for top_holders"
+    },
+    {
+      "dataset": "valuation_metrics",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for valuation_metrics"
+    },
+    {
+      "dataset": "analyst_consensus",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for analyst_consensus"
+    },
+    {
+      "dataset": "fund_flow",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for fund_flow"
+    },
+    {
+      "dataset": "margin_trading",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for margin_trading"
+    },
+    {
+      "dataset": "northbound_holdings",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for northbound_holdings"
+    },
+    {
+      "dataset": "northbound_flows",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for northbound_flows"
+    },
+    {
+      "dataset": "dragon_tiger",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for dragon_tiger"
+    },
+    {
+      "dataset": "block_trades",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for block_trades"
+    },
+    {
+      "dataset": "institutional_holdings",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for institutional_holdings"
+    },
+    {
+      "dataset": "sector_members",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for sector_members"
+    },
+    {
+      "dataset": "index_constituents",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for index_constituents"
+    },
+    {
+      "dataset": "industry_members",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for industry_members"
+    },
+    {
+      "dataset": "macro_indicators",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for macro_indicators"
+    },
+    {
+      "dataset": "market_breadth",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for market_breadth"
+    },
+    {
+      "dataset": "sentiment_scores",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for sentiment_scores"
+    },
+    {
+      "dataset": "hot_rank",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for hot_rank"
+    },
+    {
+      "dataset": "sector_bars",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for sector_bars"
+    },
+    {
+      "dataset": "sector_fund_flow",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for sector_fund_flow"
+    },
+    {
+      "dataset": "fund_flow_ths",
+      "severity": "info",
+      "check": "exists",
+      "message": "No curated data for fund_flow_ths"
+    },
+    {
+      "dataset": "sector_fund_flow_ths",
+      "severity": "info",
+      "check": "exists",
+      "message": "No curated data for sector_fund_flow_ths"
+    },
+    {
+      "dataset": "news_headlines",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for news_headlines"
+    },
+    {
+      "dataset": "flash_news_wire",
+      "severity": "info",
+      "check": "exists",
+      "message": "No curated data for flash_news_wire"
+    },
+    {
+      "dataset": "economic_calendar",
+      "severity": "info",
+      "check": "exists",
+      "message": "No curated data for economic_calendar"
+    },
+    {
+      "dataset": "share_unlock_schedule",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for share_unlock_schedule"
+    },
+    {
+      "dataset": "regulatory_events",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for regulatory_events"
+    },
+    {
+      "dataset": "trading_status",
+      "severity": "info",
+      "check": "trading_status_coverage_start",
+      "message": "Historical ST evidence is an optional backfill outside init; use cne backfill trading_status for historical ST research. trading_status rows exist, but no complete current-scope ST evidence receipt covers the bar window (no_matching_complete_receipt)",
+      "coverage_start": "2026-10-16",
+      "st_coverage_start": null,
+      "st_evidence_coverage_start": null,
+      "st_evidence_coverage_end": null,
+      "st_evidence_verified": false,
+      "st_evidence_receipt_reason": "no_matching_complete_receipt",
+      "st_evidence_checkpoint_status": null,
+      "st_evidence_checkpoint_scope_start": null,
+      "st_evidence_checkpoint_scope_end": null,
+      "st_evidence_checkpoint_completed_symbols": null,
+      "st_evidence_checkpoint_expected_symbols": null,
+      "st_evidence_checkpoint_unresolved_symbols": null,
+      "st_evidence_supported_symbols": 101,
+      "st_evidence_unsupported_symbols": 0,
+      "st_evidence_unsupported_exchange_counts": {},
+      "source_limited": false,
+      "daily_bars_start": "2023-10-16",
+      "daily_bars_end": "2026-07-16"
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "error",
+      "check": "daily_bars_calendar_missing_day",
+      "message": "9 calendar trading day(s) in 2023-10-16..2026-07-16 have zero traded bars (e.g. 2026-05-06, 2026-05-07, 2026-05-08, 2026-05-11, 2026-05-12, 2026-05-13, 2026-05-14, 2026-05-15)",
+      "missing_count": 9,
+      "missing_sample": [
+        "2026-05-06",
+        "2026-05-07",
+        "2026-05-08",
+        "2026-05-11",
+        "2026-05-12",
+        "2026-05-13",
+        "2026-05-14",
+        "2026-05-15"
+      ]
+    },
+    {
+      "dataset": "trading_calendar",
+      "severity": "warning",
+      "check": "trading_calendar_beyond_holiday_table",
+      "message": "calendar marks trading days through 2027-10-15 but the bundled holiday table ends 2027-10-07; dates past it only drop weekends, so public holidays are marked as sessions — refresh adapters/calendar/holidays_cn.py and the seed CSV",
+      "calendar_last_trading_day": "2027-10-15",
+      "holiday_table_end": "2027-10-07",
+      "days_beyond": 8
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "universe_survivorship",
+      "message": "82/101 symbols stopped trading more than 180 days before 2026-07-16 (81.2% of the lake over 2.7 years)",
+      "retired_symbols": 82,
+      "total_symbols": 101,
+      "span_years": 2.75
+    },
+    {
+      "dataset": "daily_bars",
+      "check": "no_snapshot",
+      "severity": "info",
+      "message": "No backup snapshot for daily_bars source=eastmoney; primary rows available for comparison: 0",
+      "primary_rows": 0,
+      "snapshot_cadence": "daily",
+      "peer_unavailable": true,
+      "retryable": true
+    },
+    {
+      "dataset": "corporate_actions",
+      "check": "no_snapshot",
+      "severity": "info",
+      "message": "No backup snapshot for corporate_actions source=tdx_protocol; primary rows available for comparison: 0",
+      "primary_rows": 0,
+      "snapshot_cadence": "daily",
+      "peer_unavailable": true,
+      "retryable": true
+    }
+  ]
+}

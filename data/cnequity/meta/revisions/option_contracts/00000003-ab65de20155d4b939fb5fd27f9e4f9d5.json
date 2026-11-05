@@ -1,0 +1,34 @@
+{
+  "dataset": "option_contracts",
+  "revision": 3,
+  "revision_id": "ab65de20155d4b939fb5fd27f9e4f9d5",
+  "committed_at": "2026-10-23T14:09:45.855243+00:00",
+  "run_id": "selection-scope-retirement-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "2192159f52680e0009e87e721ac1caa38aeb405d5c8e17e9c0dcb0760d83a76d",
+  "content_digest": "19fba44e8b1eae84660a00a2a728adcc78847555adcff84eb4de5ce842f37c85",
+  "changed_partitions": [
+    "option_contracts"
+  ],
+  "files": [
+    {
+      "path": "option_contracts/part-merged.parquet",
+      "size_bytes": 3689,
+      "sha256": "a268268253f7486270f7dcd2d3819b2110354a51a18fbc39ba9148ca2c0f8d82"
+    }
+  ],
+  "metadata": {
+    "operation": "user_authorized_retirement",
+    "rows": 0,
+    "base_revision_id": "cf450965967241b8be5917736e34b2d1"
+  },
+  "generation_path": "revisions/data/option_contracts/ab65de20155d4b939fb5fd27f9e4f9d5",
+  "generation_files": [
+    {
+      "path": "option_contracts/part-merged.parquet",
+      "size_bytes": 3689,
+      "sha256": "a268268253f7486270f7dcd2d3819b2110354a51a18fbc39ba9148ca2c0f8d82"
+    }
+  ],
+  "pointer_path": "revisions/option_contracts/current.json"
+}

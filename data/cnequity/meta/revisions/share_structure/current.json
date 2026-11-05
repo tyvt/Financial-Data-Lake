@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "share_structure",
+  "revision": 5,
+  "revision_id": "ffb65e1ab72842da871634087bb055d7",
+  "generation_path": "revisions/data/share_structure/ffb65e1ab72842da871634087bb055d7",
+  "receipt": "revisions/share_structure/00000005-ffb65e1ab72842da871634087bb055d7.json",
+  "content_digest": "71b04a5e9dcbc00d33d91526bac865dabb75e6c22c3b925cbdce6d6c79201c23",
+  "committed_at": "2026-11-05T01:21:44.828024+00:00"
+}

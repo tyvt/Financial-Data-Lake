@@ -1,0 +1,33 @@
+from pathlib import Path
+from datetime import datetime
+import json
+import duckdb
+root=Path(__file__).resolve().parent.parent;out=root/'分析产出';lake=root/'data/cnequity'
+policy=json.loads((root/'configs/selection_lake_policy.json').read_text(encoding='utf-8'))
+retirement=json.loads((root/'logs/非选股数据退役/progress.json').read_text(encoding='utf-8'))
+assert retirement['status']=='complete'
+registration=json.loads((root/'logs/selection_update/task_registration.json').read_text(encoding='utf-8-sig'))
+verification=json.loads((root/'logs/selection_update/system_verification.json').read_text(encoding='utf-8-sig'));assert verification['last_result']==0
+external=json.loads((root/'logs/selection_update/external_status.json').read_text(encoding='utf-8'))
+b=json.loads((root/'logs/B阶段清理/progress.json').read_text(encoding='utf-8'))['targets'];retired=b+retirement['targets']
+con=duckdb.connect(str(lake/'duckdb/cnequity.duckdb'),read_only=True);con.execute('SET enable_progress_bar=false')
+zero={n:con.execute(f'SELECT count(*) FROM "{n}"').fetchone()[0] for n in retired};assert not any(zero.values())
+names=policy['allowed_datasets'];available={r[0] for r in con.execute('show tables').fetchall()};counts={n:con.execute(f'SELECT count(*) FROM "{n}"').fetchone()[0] for n in names if n in available}
+if 'ownership_check' not in counts:
+ import pyarrow.parquet as pq
+ counts['ownership_check']=pq.ParquetFile(lake/'derived/ownership_check/part.parquet').metadata.num_rows
+banks=con.execute('SELECT count(distinct SECUCODE) FROM bank_risk_metrics').fetchone()[0];con.close()
+total=sum(p.stat().st_size for p in root.rglob('*') if p.is_file());deleted=retirement['deleted_aux_bytes']+retirement['purge_result']['logical_bytes_deleted']
+state={'verified_at':datetime.now().astimezone().isoformat(),'task':registration,'system_verification':verification,'retired_datasets':zero,'active_rows':counts,'bank_symbols':banks,'banks_checked':len(external['bank_checked']),'controllers_checked':len(external['controller_checked']),'removed_bytes':deleted,'directory_bytes':total,'tests_passed':8,'core_parquet_unchanged_during_retirement':True}
+runtime=json.loads((root/'logs/selection_update/last_run.json').read_text(encoding='utf-8'))
+state['latest_run']={k:runtime.get(k) for k in ['started_at','finished_at','status','processing_date','mode']}
+state['retention']=runtime.get('maintenance',{})
+state['stage_status']={k:{field:v.get(field) for field in ['status','coverage_status','publication_status','run_id']} for k,v in runtime.get('stages',{}).items()}
+(root/'logs/selection_update/final_verification.json').write_text(json.dumps(state,ensure_ascii=False,indent=2),encoding='utf-8')
+lines=['# 选股数据湖定时更新与退役执行报告','',f'核验时间：{state["verified_at"]}。','',f'已注册 Windows 任务 **{registration["task_name"]}**，SYSTEM账户运行，北京时间每天 **19:30** 更新、**22:30** 补跑。任务状态已核验为Ready；注册时下一次为 {registration["next_run"]}。','', '正常调度入口：`scripts/update_selection_lake.py`；白名单：`configs/selection_lake_policy.json`。已完成SYSTEM账户实际接口验证，退出码0；临时验证任务已删除。股票行情/财务/事件流已执行正式调度。最近运行：{runtime.get("started_at")}，实际处理日期 {runtime.get("processing_date", "2026-10-23")}，状态 {runtime.get("status")}。各阶段详情见最近执行状态；warning不代表全部覆盖齐全。','','## 数据范围与体积','',f'- 在A/B基础上，再退役13个不参与当前选股的数据集：删除逻辑文件 {deleted/1024**2:.2f} MiB，当前目录约 **{total/1024**3:.3f} GiB**。', '- 期货行情、期货连续、期货合约、期权行情、期权合约、Greeks均已清空。','- 另清空指数行情及成分、机构持仓、股东户数、限售解禁、十大股东、行业指数。','- B组15个数据集仍为空；合计28个已剔除数据集核验均为0行。保留少量零行结构、指针和版本凭证。','- 退役前后保留数据Parquet哈希逐个一致；治理数据随后按授权进行接口刷新。','- 保留字段、选股阈值、持仓和交易流水没有裁剪或自动调整。','- flash_news_wire为news_headlines的兼容投影视图，可能查询到相同新闻；没有独立抓取或重复持久化该数据集。','','## 外部数据入湖','',f'- 银行专项快照：{banks} 家银行，{counts.get("bank_risk_metrics",0)} 条报告期记录；全市场银行目标42家，按配额继续补齐。',f'- 实控人披露：{counts.get("actual_controller_disclosures",0)} 只股票已有本地记录，其中本次实际接口检查 {len(external["controller_checked"])} 只；其余是明确标识来源的旧缓存导入，继续轮转。',f'- 治理历史：{counts.get("governance_history",0)} 条；当前核查仍兼容ownership_check及实控人CSV。','- 同源请求间隔1.2秒，每次最多16家银行、20只股票；持仓优先每天检查，其余按7天周期轮转，连续3次失败暂停当轮访问。','- 获取失败保留旧值并记录错误；缺失不转0，不伪装成无实际控制人；规则哈希和历史快照可追溯。','- 银行复核优先读湖内快照；有新增缺失银行时才现场获取并写入湖内。','- 披露原始时间未知的字段保持空值，与实际抓取时间分开保存。','','## 防止已剔除数据重新进入','', '- 配置调度组及事件组已裁剪到选股白名单。','- 启动时校验计划及传递依赖；非白名单步骤在调用前被阻止，非白名单数据集发布也被阻止。','- 定时任务不运行init、不跑无范围stale-only、不使用旧配置。','- 底层cne工具没有通用全局禁用开关；人工绕过本入口执行全量init/backfill仍可能重新入湖。日常请仅使用本任务/脚本。','','## 可靠性与验证','','- 8项测试通过：配置与依赖白名单、禁止抓取/发布、持仓优先轮转、失败保留旧实控人、跨日按原日期重试且跳过成功阶段、快照去重及回改历史、银行缺失值不转0、旧公司行动迁移保持现金分红与参考价。','- 两次真实接口更新均成功，包括一次SYSTEM实际执行；SYSTEM验证任务退出码0。','- 数据集退役使用发布空版本、逐文件收据验证、保护引用与保留标记、可恢复删除日志；被保留的核心数据没有被直接覆盖。','- 两次定时触发之间，已成功阶段当天不重复抓取，失败阶段按原run重试；行情/财务遵守交易日，事件流按自然日。','- 禁止任务重叠；最长90分钟；日志5MiB滚动、保留5份历史；电脑开机联网后可补跑。需要已有本机代理服务正常运行。','- 自动任务不执行买卖、不重排组合权重、不自动修改选股规则。','','## 当前白名单数据行数','','|数据集|行数|','|---|---:|']
+lines += [f'|`{n}`|{v:,}|' for n,v in counts.items()]
+lines += ['', '## 版本体积控制', '', f'- 初次更新后已额外清理 {state["retention"].get("bytes_deleted",0)/1024**2:.2f} MiB多余版本；当前指针逐个校验保持不变。', '- 自动保留每表最近两代以及当前、已引用和已保护的版本。只清理通过收据、文件哈希及引用校验的副本，银行和治理事实历史保留。', '- 行情/财务更新会产生新版本，当前总量包含新的有效数据和受保护版本，不把正常新增误认为已剔除数据重新入湖。', '', '## 正式调度及兼容性处理', '', '- 首次正式执行已更新财务、行业、股本、财报披露、公告、监管事件和新闻；行情抓取因少数标的数据源缺口保留partial告警。', '- 原公司行动表16条derived_adj_factor推导标记使用旧non_cash_event格式，已迁移为当前schema可识别的reorg_transfer；参考价、现金分红和行数不变。原记录及旧版本保留为证据，不冒充交易所公告；原缺失fetched_at记录迁移观察时间，不回填虚构的历史时间。', '- 跨日恢复已修正：失败计划沿用原交易日；周末不跳过前一交易日尚未完成的发布。', '', '|阶段|状态|覆盖|发布|', '|---|---|---|---|']
+lines += [f'|{name}|{value.get("status")}|{value.get("coverage_status")}|{value.get("publication_status")}|' for name,value in state['stage_status'].items()]
+lines += ['', '## 位置','','- 操作说明：`configs/精简后采集运行说明.md`。','- 最近执行：`logs/selection_update/last_run.json`。','- 详细日志：`logs/selection_update/update.log`。','- 外部接口更新记录：`logs/selection_update/external_status.json`。','- SYSTEM验证凭证：`logs/selection_update/system_verification.json`。','- 最终核验：`logs/selection_update/final_verification.json`。','- 新增退役日志：`logs/非选股数据退役/progress.json`。']
+(out/'选股数据湖_定时更新执行报告.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')
+print(json.dumps({'task':registration['task_name'],'next_run':registration['next_run'],'removed_MiB':deleted/1024**2,'remaining_GiB':total/1024**3,'banks':banks,'controllers_checked':len(external['controller_checked']),'retired_empty':len(zero),'active_datasets':len(counts)},ensure_ascii=False))

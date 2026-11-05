@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "dataset": "announcement_index",
+  "source": "cninfo",
+  "captured_at": "2026-10-16T06:17:34.655929+00:00",
+  "payload_sha256": "22ca5262179f5184e002c7c08aa0a079b18fc546173d65338db0fe189122b877",
+  "payload_bytes": 20864,
+  "compressed_bytes": 2624,
+  "compression": "gzip",
+  "payload_format": "bytes",
+  "payload_path": "raw/announcement_index/source=cninfo/captured_date=2026-10-16/22ca5262179f5184e002c7c08aa0a079b18fc546173d65338db0fe189122b877.gz",
+  "metadata_path": "raw/announcement_index/source=cninfo/captured_date=2026-10-16/22ca5262179f5184e002c7c08aa0a079b18fc546173d65338db0fe189122b877.d2643b55069b5b844d756fc08b0fd520449bec6ed951e83d051e202346f01a96.json",
+  "request_params": {
+    "pageNum": 26,
+    "pageSize": 30,
+    "column": "szse",
+    "tabName": "fulltext",
+    "plate": "",
+    "stock": "",
+    "searchkey": "",
+    "secid": "",
+    "category": "",
+    "trade": "",
+    "seDate": "2026-10-16~2026-10-16",
+    "label": "announcement",
+    "slice_start": "2026-10-16",
+    "slice_end": "2026-10-16"
+  },
+  "run_id": "111a7981-08ea-432f-a5ed-7ff7aa61cd5d",
+  "url": "https://www.cninfo.com.cn/new/hisAnnouncement/query",
+  "response_status": 200,
+  "http_metadata": {
+    "wire_exact": true,
+    "payload_bytes": 20864,
+    "http_version": "HTTP/1.1",
+    "reason_phrase": "200",
+    "headers": {
+      "date": "Fri, 16 Oct 2026 06:17:36 GMT",
+      "content-type": "application/json;charset=UTF-8",
+      "server": "openresty",
+      "vary": "Accept-Encoding"
+    },
+    "json_parsed": true
+  },
+  "pagination": {
+    "column": "szse",
+    "page": 26,
+    "page_size": 30,
+    "slice_start": "2026-10-16",
+    "slice_end": "2026-10-16",
+    "capture_id": "78138c40b07b490fa42752ddfa2a7d84",
+    "batch_rows": 30,
+    "json_parsed": true,
+    "reported_total_pages": 33,
+    "reported_total_records": 990,
+    "has_more": true,
+    "invocation_id": "e15988abf3cd46f7bec23aa7bab0846b",
+    "attempt": 0
+  },
+  "observation_id": "111a7981-08ea-432f-a5ed-7ff7aa61cd5d:78138c40b07b490fa42752ddfa2a7d84:announcement:szse:2026-10-16:2026-10-16:page=26:attempt=0",
+  "request_scope": "range:announcement:2026-10-16:2026-10-16"
+}

@@ -1,0 +1,46 @@
+﻿环节,数据项,数据集/来源,字段/科目,口径与条件,实现/依据
+基础池,沪/深A股与板块,instruments,"symbol, name, exchange, asset_type",按SH/SZ、stock及代码前缀选市场/板块,screen_sh.py; screen_sz.py
+基础池,ST/退市整理排除,instruments + trading_status,"name, delist_date; symbol, trade_date, risk_warning, status",名称ST/退、risk_warning或delisted；证券退市日判空,screen_sh.py; screen_sz.py
+基础池,上市时长,instruments,list_date,标准要求上市满3年；沪市脚本当前只输出不足3年备注，非独立硬过滤,筛选标准_最终版.md; screen_sh.py
+共同口径,可用基准日,daily_bars,"trade_date, amount",全市场个股平均成交额≥前20日中位数80%，否则回退,lake_base.py:pick_base
+共同口径,当前价/年末价,daily_bars,"symbol, trade_date, close",基准日以前最近收盘价；各财年末最后交易日收盘价,screen_sh.py; screen_sz.py
+共同口径,现金分红与财年归因,corporate_actions,"symbol, ex_date, action_type, cash_dividend",只取cash_dividend动作；财年=(除权日减8个月)年份,screen_sz.py:load_dividend; annual_review.py
+共同口径,分红总额对应的历史股本,share_structure,"symbol, change_date, total_shares",除权日as-of股本×每股分红；缺股本时才按净利/EPS推算,screen_sz.py:load_dividend; annual_review.py
+共同口径,股本缺失回退,financial_statement_items,"net_profit, eps；report_period, announce_date, fetched_at",用净利/EPS推算股本；保留公告/抓取日以选择记录,screen_sz.py; annual_review.py
+沪市①/深市④,连续三年分红,corporate_actions,"ex_date, cash_dividend + 财年归因",三个完整财年每年派现>0,screen_sh.py; screen_sz.py
+沪市②,三年平均股息率,corporate_actions + daily_bars,"cash_dividend, ex_date; close, trade_date",各财年每股分红/该年末收盘价，三年平均>3.5%,screen_sh.py
+沪市③,连续三年净利同比为正,financial_statement_items,"item_code=net_profit_yoy；report_period, item_value",三年年报净利同比均>0,screen_sh.py
+沪市④,资产负债率,financial_statement_items + industry_members,"total_liabilities, total_assets；classification_system, industry_name",最新半年报负债/资产<60%，缺失回退年报；银行豁免,screen_sh.py
+沪市⑤,三年支付率均值,corporate_actions + share_structure + financial_statement_items,年度分红总额；net_profit,各年分红/各年净利，三年平均30%–80%；公用事业豁免,screen_sh.py
+沪市⑥,经营现金流覆盖分红,financial_statement_items + corporate_actions,ocf_per_share；年度cash_dividend,三年每股OCF/每股分红的算术均值>1,screen_sh.py
+沪市⑦,三年ROE均值,financial_statement_items,"item_code=roe；report_period, item_value",三年年报平均>8%,screen_sh.py
+沪市⑧,现金流/净利,financial_statement_items,"net_cash_operate, net_profit",三年各年OCF/净利的平均>80%,screen_sh.py
+沪市⑨,近12个月复权收益,daily_bars + corporate_actions,"close, trade_date；ex_date, cash_dividend, bonus_ratio, transfer_ratio",重建除权收益，滚动252日累计>-20%,screen_sz.py:rebuilt_returns; screen_sh.py
+沪市⑩,三年净利CAGR,financial_statement_items,net_profit；四个年报点,(最新年净利/三年前净利)^(1/3)-1>3%,screen_sh.py
+沪市⑪,三年累计分红总额,corporate_actions + share_structure,"cash_dividend, ex_date；as-of total_shares",三年分红总额>10亿元,screen_sh.py
+沪市⑫/深市③,252日年化波动,daily_bars + corporate_actions,"close；cash_dividend, bonus_ratio, transfer_ratio, ex_date",重建日收益std×√252<25%；不足200样本不参与,screen_sz.py; screen_sh.py
+沪市⑬/替补席,63日均成交额,daily_bars,"symbol, trade_date, amount",最近63交易日日均≥5000万元,screen_sh.py; build_bench.py; annual_review.py
+沪市⑭,股息率异常抬升,corporate_actions + daily_bars,近365日cash_dividend；当前close；历史年末close,TTM股息率/三年平均股息率<2,screen_sh.py
+深市②/复核,实控人及治理三态,外部东财F10 + derived/ownership_check,"ACTUAL_HOLDER → actual_holder, owner_type, governance_ok, reason, fetched_at",国资/无实控人通过；个人家族/民营/外资否决；未证实法人待确认,ownership.py
+深市②/复核,国资与非国资认定依据,人工CSV,国资主体白名单.csv；非国资法人名单.csv,名称匹配及人工证据；不是从十大股东表自动推断实控人,ownership.py
+深市④,当前财年股息率,corporate_actions + daily_bars,最近完整财年每股分红；close,财年股息率>2.5%；TTM口径另列参考，不混用,screen_sz.py
+深市⑤,三年累计OCF覆盖,financial_statement_items + corporate_actions + share_structure,net_cash_operate；年度分红总额,三年ΣOCF/Σ分红>1,screen_sz.py
+深市⑥,三年累计支付率,financial_statement_items + corporate_actions + share_structure,net_profit；年度分红总额,三年Σ分红/Σ净利<100%,screen_sz.py
+行业识别,银行/公用事业豁免,industry_members + instruments,"classification_system=eastmoney, industry_name；name",沪市脚本当前用东财行业+证券简称识别豁免，不能只留申万分类,screen_sh.py
+银行专项,核心一级/不良/拨备,外部东财RPT_F10_FINANCE_MAINFINADATA,"SECUCODE, REPORT_DATE, HXYJBCZL, NONPERLOAN, BLDKBBL",主标准入选≥9.5%/≤1.5%/≥180%；比较近两个报告期趋势,annual_review.py:fetch_bank
+银行专项,分红比例与ROE,corporate_actions + share_structure + financial_statement_items,"年度分红总额, net_profit, roe",三年分红比例≥28%且无趋势下修；ROE均值≥8%,筛选标准_最终版.md; annual_review.py
+组合/替补,最大回撤与score,daily_bars + corporate_actions,重建日收益/累计净值,252日净值/窗口内cummax-1最小值；score=1/√(波动×绝对回撤),annual_review.py; final_portfolio_v2.py; build_bench.py
+组合,行业集中度,industry_members,"classification_system=sw, industry_code, as_of_date",取最新申万分类，industry_code前2位归一级行业；单行业≤35%,final_portfolio_v2.py; annual_review.py
+组合,单只上限与沪深比例,组合CSV + 外部IPO统计/人工配置,"symbol, 市场, 权重；IPO募资额来源",单只≤25%；基准沪深60/40；IPO募资比例是外部报告依据，非湖内估值,final_portfolio_v2.py; 打新底仓_最终配置.md
+建仓参考,60日VWAP/区间/250日分位,daily_bars,"close, volume, amount, trade_date",VWAP=Σamount/Σvolume；收盘价区间/分位；用于建仓参考与面板,final_portfolio_v2.py:price_ref
+年度/半年报,利润/OCF同比与TTM,financial_statement_items,"net_profit, net_cash_operate；report_period",年报+最新半年报+去年同期；TTM=去年年报+本期-去年同期,annual_review.py
+年度/半年报,分红纪律连续触发,corporate_actions + share_structure + financial_statement_items,逐财年DPS/分红总额/净利/OCF,连续两年支付率或覆盖率越线；DPS同比下降；不同标的阈值分别处理,annual_review.py; 清单拉取与卖出触发_操作手册.md
+年度/半年报,银行资本与资产质量退出,外部银行F10,"HXYJBCZL, NONPERLOAN, BLDKBBL, REPORT_DATE",资本<9%退出；拨备<180%且不良上升等联合条件，不能只读当期,annual_review.py
+年度/半年报,波动与流动性复查,daily_bars + corporate_actions,"日收益, amount；252/126/63交易日窗口",波动>25%红线；半年波动预警；替补资格重新核验,annual_review.py
+黑天鹅,人工登记触发移出,人工黑天鹅登记簿.csv,"symbol, name, date, type, detail, status, clear_date",立案/非标审计/重大事故/造假退市风险；未解除记录触发，未登记不等于无风险,annual_review.py
+黑天鹅辅助,公告/新闻/监管材料,announcement_index + news_headlines + regulatory_events,"symbol/related_symbols, title, announce_date/publish_date/event_date, category/event_type, url/summary",人工季度巡检与风险证据入口；现有年度复核未自动解析这些表,清单拉取与卖出触发_操作手册.md
+复核安排,披露日与交易日,earnings_disclosure_schedule + trading_calendar,"report_period, scheduled_date, actual_date；trade_date, is_trading",披露表为辅助；交易日历直接参与复核窗口；年报5月、半年报9月,annual_review.py; 操作手册
+复现/审计,时点/来源/版本,各数据集公共元数据,"source, data_version, fetched_at；announce_date, available_at, source_published_at, observed_at, revision_id（存在者）",记录选择/防未来数据/来源追踪/版本审计；不是选股比率字段,screen_sz.py; annual_review.py; lake storage
+质量核验,OHLC/昨收/量额及复权一致性,daily_bars + daily_bars_adj + corporate_actions,"open, high, low, close, pre_close, volume, amount；qfq_close, adj_is_exact",audit_lake.py校验价格边界、昨收、零量、截断、复权；OHLC虽不入筛选比率仍用于审计,audit_lake.py
+持仓执行,持仓、费用、实际到账分红,持仓面板/holding.sqlite,"account；trade(code, side, date, shares, price, fee)；dividend(amount,tax)；setting",人工交易流水，不是湖内公司行动的重复；计算成本/盈亏/到账分红,持仓面板/README.md
+持仓执行,实时价格与目标权重,外部腾讯qt.gtimg.cn/东财push2 + config.js,实时价格；目标权重、60日参考价、风控规则,面板实时行情从外部获取；目标权重由组合脚本生成,持仓面板/README.md; final_portfolio_v2.py

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "index_bars",
+  "revision": 7,
+  "revision_id": "a9df72f2b56d45098bb57b10e03d31ae",
+  "generation_path": "revisions/data/index_bars/a9df72f2b56d45098bb57b10e03d31ae",
+  "receipt": "revisions/index_bars/00000007-a9df72f2b56d45098bb57b10e03d31ae.json",
+  "content_digest": "e53910a467f4df1c65bfe918ea53872e74e15967cb50838df249dbba334b6845",
+  "committed_at": "2026-10-23T14:08:41.283771+00:00"
+}

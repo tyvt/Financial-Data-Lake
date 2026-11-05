@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "industry_index",
+  "revision": 7,
+  "revision_id": "b670c566d0a648c39352b157424ec993",
+  "generation_path": "revisions/data/industry_index/b670c566d0a648c39352b157424ec993",
+  "receipt": "revisions/industry_index/00000007-b670c566d0a648c39352b157424ec993.json",
+  "content_digest": "26cd9b63bcafc4bcb5b8f5a8e5c4de272098ecfb9e420ede626282ed57bea164",
+  "committed_at": "2026-10-23T14:08:41.445798+00:00"
+}

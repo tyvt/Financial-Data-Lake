@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "timezone": "Asia/Shanghai",
+  "proxy_url": "http://127.0.0.1:7890",
+  "allowed_datasets": ["instruments", "trading_calendar", "trading_status", "corporate_actions", "daily_bars", "financial_statement_items", "industry_members", "share_structure", "earnings_disclosure_schedule", "announcement_index", "regulatory_events", "news_headlines", "delisting_events", "adj_factors", "ownership_check", "bank_risk_metrics", "actual_controller_disclosures", "governance_history"],
+  "allowed_steps": ["instruments", "trading_calendar", "trading_status", "corporate_actions", "daily_bars", "financial_statement_items", "industry_members", "share_structure", "earnings_disclosure_schedule", "announcement_index", "regulatory_events", "news_headlines", "compact", "derive_adj_factors"],
+  "external_max_bank_requests": 16,
+  "external_max_controller_requests": 20,
+  "external_request_interval_seconds": 1.2,
+  "external_consecutive_failure_limit": 3,
+  "external_refresh_days": 7,
+  "retained_generations": 1,
+  "weekly_audit_dow": 6,
+  "weekly_audit_time": "09:00",
+  "weekly_audit_task_name": "CNEquity-SelectionLake-Audit",
+  "task_name": "CNEquity-SelectionLake-Update",
+  "run_times": ["19:30", "22:30"]
+}

@@ -1,0 +1,19 @@
+{
+  "revision": 6,
+  "revision_id": "9e86d640edd74eef98fbea78293504b2",
+  "revision_at": "2026-11-05T01:16:48.145210+00:00",
+  "revision_run_id": "18d1290a-213e-4144-b119-60836dc3a9b3",
+  "schema_version": 1,
+  "contract_fingerprint": "471888a3a64e8f2b6790f90e5badd90f012a77bd452542d1a5711be494195325",
+  "content_digest": "8c2e769075c07608f7a496b74831289086d0cc1671f92a038ce0dc6fd65ddd0f",
+  "revision_receipt": "revisions/trading_calendar/00000006-9e86d640edd74eef98fbea78293504b2.json",
+  "revision_pointer": "revisions/trading_calendar/current.json",
+  "changed_partitions": [
+    "trading_calendar/trade_date=2027"
+  ],
+  "updated_at": "2026-11-05T01:16:48.337281+00:00",
+  "last_success_trade_date": "2027-11-05",
+  "observed_max": "2027-11-05",
+  "complete_through": "2027-11-05",
+  "coverage_status": "complete"
+}

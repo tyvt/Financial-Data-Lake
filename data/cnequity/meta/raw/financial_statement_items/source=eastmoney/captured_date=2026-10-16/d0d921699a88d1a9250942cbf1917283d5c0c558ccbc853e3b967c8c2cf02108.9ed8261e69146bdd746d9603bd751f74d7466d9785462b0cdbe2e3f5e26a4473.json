@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "dataset": "financial_statement_items",
+  "source": "eastmoney",
+  "captured_at": "2026-10-16T06:14:19.460056+00:00",
+  "payload_sha256": "d0d921699a88d1a9250942cbf1917283d5c0c558ccbc853e3b967c8c2cf02108",
+  "payload_bytes": 39152,
+  "compressed_bytes": 8608,
+  "compression": "gzip",
+  "payload_format": "bytes",
+  "payload_path": "raw/financial_statement_items/source=eastmoney/captured_date=2026-10-16/d0d921699a88d1a9250942cbf1917283d5c0c558ccbc853e3b967c8c2cf02108.gz",
+  "metadata_path": "raw/financial_statement_items/source=eastmoney/captured_date=2026-10-16/d0d921699a88d1a9250942cbf1917283d5c0c558ccbc853e3b967c8c2cf02108.9ed8261e69146bdd746d9603bd751f74d7466d9785462b0cdbe2e3f5e26a4473.json",
+  "request_params": {
+    "report": "RPT_DMSK_FN_BALANCE",
+    "columns": "SECURITY_CODE,SECUCODE,REPORT_DATE,NOTICE_DATE,TOTAL_ASSETS,TOTAL_EQUITY,TOTAL_LIABILITIES,INVENTORY,ACCOUNTS_RECE,MONETARYFUNDS,FIXED_ASSET",
+    "filter": "(NOTICE_DATE>='2026-09-17') AND (NOTICE_DATE<='2026-10-16')",
+    "page_size": 500,
+    "page_number": 1
+  },
+  "run_id": "6ef2eb7a-4931-4eb6-b5f9-f739f9373482",
+  "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_BALANCE&columns=SECURITY_CODE%2CSECUCODE%2CREPORT_DATE%2CNOTICE_DATE%2CTOTAL_ASSETS%2CTOTAL_EQUITY%2CTOTAL_LIABILITIES%2CINVENTORY%2CACCOUNTS_RECE%2CMONETARYFUNDS%2CFIXED_ASSET&pageSize=500&pageNumber=1&filter=%28NOTICE_DATE%3E%3D%272026-09-17%27%29+AND+%28NOTICE_DATE%3C%3D%272026-10-16%27%29",
+  "response_status": 200,
+  "http_metadata": {
+    "wire_exact": true,
+    "json_parsed": true,
+    "response_envelope": "json",
+    "content_type": "text/plain;charset=UTF-8"
+  },
+  "pagination": {
+    "page": 1,
+    "page_size": 500
+  },
+  "observation_id": "6ef2eb7a-4931-4eb6-b5f9-f739f9373482:eastmoney:RPT_DMSK_FN_BALANCE:(NOTICE_DATE>='2026-09-17') AND (NOTICE_DATE<='2026-10-16'):1:scope=daily:2026-10-16",
+  "request_scope": "daily:2026-10-16"
+}

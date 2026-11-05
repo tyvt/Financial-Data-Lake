@@ -1,0 +1,52 @@
+{
+  "deep_reconciled_on": "2026-11-05",
+  "updated_at": "2026-11-05T01:50:42.648973+00:00",
+  "tail_reconciled_on": "2026-11-05",
+  "last_attempt": "2026-11-05T01:50:41.600441+00:00",
+  "revision": 6,
+  "revision_id": "1a7f6873f0df44a387a70313ebb6f49e",
+  "revision_at": "2026-11-05T01:50:42.596240+00:00",
+  "revision_run_id": "4429bc25-ef33-4a4d-be66-8175e7cafb55",
+  "schema_version": 1,
+  "contract_fingerprint": "9d5c03ee16eaa4ccbee0d58a430953efecaf0b303a076c7750128e07b5e47ff2",
+  "content_digest": "2bae7b10b97a531109e986236a6c1c7e28f5e30486da694ff8f80a99d0ad3e74",
+  "revision_receipt": "revisions/announcement_index/00000006-1a7f6873f0df44a387a70313ebb6f49e.json",
+  "revision_pointer": "revisions/announcement_index/current.json",
+  "changed_partitions": [
+    "announcement_index/announce_date=2026-09-29",
+    "announcement_index/announce_date=2026-09-30",
+    "announcement_index/announce_date=2026-10-21",
+    "announcement_index/announce_date=2026-10-24",
+    "announcement_index/announce_date=2026-10-26",
+    "announcement_index/announce_date=2026-10-27",
+    "announcement_index/announce_date=2026-10-28",
+    "announcement_index/announce_date=2026-10-29",
+    "announcement_index/announce_date=2026-10-30",
+    "announcement_index/announce_date=2026-10-31",
+    "announcement_index/announce_date=2026-11-02",
+    "announcement_index/announce_date=2026-11-03",
+    "announcement_index/announce_date=2026-11-04",
+    "announcement_index/announce_date=2026-11-05"
+  ],
+  "missing_ranges": [],
+  "last_success": "2026-11-05T01:50:42.643987+00:00",
+  "coverage_status": "complete",
+  "last_success_trade_date": "2026-11-05",
+  "observed_max": "2026-11-05",
+  "complete_through": "2026-11-05",
+  "staged_request_days": {
+    "5f44ee7a-9f8e-4d2f-8174-b6370d10b67f": [
+      "2026-10-18",
+      "2026-10-19",
+      "2026-10-20",
+      "2026-10-21",
+      "2026-10-22",
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-26",
+      "2026-10-27",
+      "2026-10-28",
+      "2026-10-29"
+    ]
+  }
+}

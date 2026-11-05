@@ -1,0 +1,21 @@
+{
+  "last_attempt": "2026-10-20T02:57:57.092030+00:00",
+  "updated_at": "2026-10-23T13:11:46.654213+00:00",
+  "revision": 4,
+  "revision_id": "7a0ecf33c7c448f892e871b4756dce59",
+  "revision_at": "2026-10-23T13:11:46.654213+00:00",
+  "revision_run_id": "user-approved-B-cleanup-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "042c8f7b3e0767bb7ba48ffe5b8d6767e62562c40c2cba33c42c78540f8ae6dd",
+  "content_digest": "d26a81affbe8f0e8dcf9efed9e7f8719f900bde9996f4cbe9f339d4e2256c229",
+  "revision_receipt": "revisions/analyst_consensus/00000004-7a0ecf33c7c448f892e871b4756dce59.json",
+  "revision_pointer": "revisions/analyst_consensus/current.json",
+  "changed_partitions": [
+    "analyst_consensus/forecast_date=2026-10-16"
+  ],
+  "missing_ranges": [],
+  "coverage_status": "unknown",
+  "last_success_trade_date": "2026-10-19",
+  "row_count": 0,
+  "cleared_by": "user-approved-B-cleanup-20261023"
+}

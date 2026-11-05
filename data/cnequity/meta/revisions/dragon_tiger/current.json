@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "dragon_tiger",
+  "revision": 3,
+  "revision_id": "db083e4957bf48c2b1a7853b7b6fae7b",
+  "generation_path": "revisions/data/dragon_tiger/db083e4957bf48c2b1a7853b7b6fae7b",
+  "receipt": "revisions/dragon_tiger/00000003-db083e4957bf48c2b1a7853b7b6fae7b.json",
+  "content_digest": "1ab1e6abf262277cc0bf6f01ddfcca5e39c57e3232f86d831ea8350d7251c162",
+  "committed_at": "2026-10-23T13:11:46.717574+00:00"
+}

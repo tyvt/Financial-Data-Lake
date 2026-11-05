@@ -1,0 +1,11 @@
+{
+  "dataset": "daily_bars",
+  "run_id": "f0b7c11f-6e36-474d-9e3d-322a5187db53",
+  "rule": "bj_price_limit",
+  "rows_rejected": 3,
+  "rejected": [
+    "920091.BJ|2026-10-23",
+    "920096.BJ|2026-10-23",
+    "920207.BJ|2026-10-23"
+  ]
+}

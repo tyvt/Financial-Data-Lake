@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "dataset": "trading_status",
+  "source": "exchange",
+  "data_version": "v1",
+  "run_id": "ad0831cf-eac2-4144-a463-9f0ad45b8efc",
+  "created_at": "2026-10-20T01:58:16.844319+00:00",
+  "updated_at": "2026-10-20T01:58:16.844319+00:00"
+}

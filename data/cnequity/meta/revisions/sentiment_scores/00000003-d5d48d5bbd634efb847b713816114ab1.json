@@ -1,0 +1,35 @@
+{
+  "dataset": "sentiment_scores",
+  "revision": 3,
+  "revision_id": "d5d48d5bbd634efb847b713816114ab1",
+  "committed_at": "2026-10-23T13:11:46.932256+00:00",
+  "run_id": "user-approved-B-cleanup-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "3b632c3ac6c9d15cb3a55d87795c372f5ec19265ab80c337645dc37ec15ddfc2",
+  "content_digest": "4e9f54773a962918cf5a36603b48ad33c8445d07b2f44c5144b75a099be79283",
+  "changed_partitions": [
+    "sentiment_scores/trade_date=2026-10"
+  ],
+  "files": [
+    {
+      "path": "sentiment_scores/trade_date=2026-10/part-merged.parquet",
+      "size_bytes": 1569,
+      "sha256": "c430c08560e389edf055f7bf8d574e2f1e2627f42f9a70812908fd5426b67dc0"
+    }
+  ],
+  "metadata": {
+    "operation": "user_approved_dataset_clear",
+    "reason": "B stage screening-scope storage reduction",
+    "rows": 0,
+    "base_revision_id": "70cfe8889c4d4c84b02520d833b59c58"
+  },
+  "generation_path": "revisions/data/sentiment_scores/d5d48d5bbd634efb847b713816114ab1",
+  "generation_files": [
+    {
+      "path": "sentiment_scores/trade_date=2026-10/part-merged.parquet",
+      "size_bytes": 1569,
+      "sha256": "c430c08560e389edf055f7bf8d574e2f1e2627f42f9a70812908fd5426b67dc0"
+    }
+  ],
+  "pointer_path": "revisions/sentiment_scores/current.json"
+}

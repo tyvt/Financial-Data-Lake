@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "bytes": 92293223,
+  "deleted_files_count": 3170,
+  "retained_cache_files": 10275,
+  "original_detail_sha256": "e27a3b62f881ef9ca62c7ef6acf73cef1cdf567f50377201a008ed8f171dde83",
+  "note": "已完成清理的逐文件路径/哈希明细已精简；原版本删除审计仍保留在湖内生命周期日志。"
+}

@@ -1,0 +1,499 @@
+{
+  "dataset": "industry_members",
+  "revision": 6,
+  "revision_id": "90fa1072fe4d4bd8bb0bd6e6aac7681e",
+  "committed_at": "2026-11-05T01:21:44.853684+00:00",
+  "run_id": "3d58731b-bdba-456b-84aa-396ab74de361",
+  "schema_version": 1,
+  "contract_fingerprint": "162302465ddd77c14a76a02002312dc2348007b18c2f930f624ecc2aa174ee57",
+  "content_digest": "9e05ea2cc98e030f077ce71dcfffdc1b205485a22e228030e0f03fae8c1a0982",
+  "changed_partitions": [
+    "industry_members/as_of_date=2026-11-05"
+  ],
+  "files": [
+    {
+      "path": "industry_members/as_of_date=2026-11-05/part-merged.parquet",
+      "size_bytes": 34181,
+      "sha256": "1051197fdcc4c492633e06012b94f9035b1ea9451d94a834d450b96d192d4ba9"
+    }
+  ],
+  "metadata": {
+    "trade_date": "2026-11-05",
+    "partition_col": "as_of_date",
+    "rows_written": 5578,
+    "canonical_policy": "observation_recency_v1",
+    "changes": [
+      {
+        "partition": "as_of_date=2026-11-05",
+        "inserted_keys": 5578,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      }
+    ],
+    "publication_audit": {
+      "mode": "off",
+      "blocked": false,
+      "report_path": null
+    },
+    "validation": {
+      "schema": "passed",
+      "staging_seals": "passed",
+      "batch_completeness": "passed",
+      "source_diff_gate": "not_configured"
+    },
+    "coverage": {
+      "status": "unknown",
+      "requested_scope": {
+        "start": null,
+        "end": "2026-11-05",
+        "universe": "all_a"
+      },
+      "gaps": {
+        "missing_ranges": [],
+        "missing_units": {},
+        "outstanding_keys": []
+      },
+      "resolved_outstanding_keys": 0
+    },
+    "package_version": "0.16.0",
+    "git_commit": null,
+    "git_dirty": null,
+    "config_fingerprint": "e77d893d9f290cd3ea10ba64361cc558cadd5f9bc071a0c0a8308b7778bc01f3",
+    "base_revision_id": "d8b3332aa3164393be8ddcd759a828d6"
+  },
+  "generation_path": "revisions/data/industry_members/90fa1072fe4d4bd8bb0bd6e6aac7681e",
+  "generation_files": [
+    {
+      "path": "industry_members/as_of_date=2020-01-23/part-merged.parquet",
+      "size_bytes": 16106,
+      "sha256": "2ec36a1f49a9e67dd7bb9a82ba826f7d6aafff0546c54ff79c65dbb48ff8135a"
+    },
+    {
+      "path": "industry_members/as_of_date=2020-02-28/part-merged.parquet",
+      "size_bytes": 16177,
+      "sha256": "67af3c6129711c1d4fc3a7b9be9aa83fc1b0958c4c9f1591b706eff29c6e8389"
+    },
+    {
+      "path": "industry_members/as_of_date=2020-03-31/part-merged.parquet",
+      "size_bytes": 16153,
+      "sha256": "d5675c02dc422b7b2260c2d30bd226729660c0b5d1951f4de82c8eda3981afa6"
+    },
+    {
+      "path": "industry_members/as_of_date=2020-04-30/part-merged.parquet",
+      "size_bytes": 16259,
+      "sha256": "eef64233297ebf5273194c1c3bdeabbe0524a6e5f1cc8b1ba323af2c35e0a3ca"
+    },
+    {
+      "path": "industry_members/as_of_date=2020-05-29/part-merged.parquet",
+      "size_bytes": 16316,
+      "sha256": "5cdeb52e3d1c80042dba9da36f4c5d6b7f24911e6b2517394ce9a2ea1b299a9d"
+    },
+    {
+      "path": "industry_members/as_of_date=2020-06-30/part-merged.parquet",
+      "size_bytes": 16471,
+      "sha256": "ecf9fa37f36303074f4771e7cb4f09b75b041e55ffc273a2ee09e79583d567af"
+    },
+    {
+      "path": "industry_members/as_of_date=2020-07-31/part-merged.parquet",
+      "size_bytes": 16787,
+      "sha256": "53b8f19909f43bd7a988315a5c7b77c55c04f3defc9e23a90495afb2c732efbe"
+    },
+    {
+      "path": "industry_members/as_of_date=2020-08-31/part-merged.parquet",
+      "size_bytes": 16979,
+      "sha256": "48c326bf97f5adf2c550c4b5fc63adb58f935d01fda7063453990690b472b9fe"
+    },
+    {
+      "path": "industry_members/as_of_date=2020-09-30/part-merged.parquet",
+      "size_bytes": 17217,
+      "sha256": "bb21662d179e277f894171594fbd11044e2e3ac84f509c1063ad8635ecbb6f7f"
+    },
+    {
+      "path": "industry_members/as_of_date=2020-10-30/part-merged.parquet",
+      "size_bytes": 17326,
+      "sha256": "2dbc65736225a1cc954189fc1fa5391659955b49c71325c5da052b645fb0f67b"
+    },
+    {
+      "path": "industry_members/as_of_date=2020-11-30/part-merged.parquet",
+      "size_bytes": 17343,
+      "sha256": "16aecb12a543b60bb9fc7c0b6ab1226e6cadb9afe50db18df8170927767f88f0"
+    },
+    {
+      "path": "industry_members/as_of_date=2020-12-31/part-merged.parquet",
+      "size_bytes": 17521,
+      "sha256": "8becd9dc48c394b7bb25332b860da76762c370071f310de2d3b4f18a45ae3c2d"
+    },
+    {
+      "path": "industry_members/as_of_date=2021-01-29/part-merged.parquet",
+      "size_bytes": 17688,
+      "sha256": "f190c86312413bdbc0ae9056741a3ae4818074b6927a8914cc4070e4f0987e8d"
+    },
+    {
+      "path": "industry_members/as_of_date=2021-02-26/part-merged.parquet",
+      "size_bytes": 17751,
+      "sha256": "58a1a6c9a6d68e974b14089cbc419664d92d080ce00bbdeea628849d91e3b91e"
+    },
+    {
+      "path": "industry_members/as_of_date=2021-03-31/part-merged.parquet",
+      "size_bytes": 17953,
+      "sha256": "ec289294205e74e292dfec5ec9d60d9e75250da940fdb33935aa66b05a095b92"
+    },
+    {
+      "path": "industry_members/as_of_date=2021-04-30/part-merged.parquet",
+      "size_bytes": 18128,
+      "sha256": "44d223741b07eb3f5c01ccb4834a36d3d39820c01684e981bfcfcb3f15edc300"
+    },
+    {
+      "path": "industry_members/as_of_date=2021-05-31/part-merged.parquet",
+      "size_bytes": 18180,
+      "sha256": "143aa9ad1939f49fd63d7104cb073de442dea82f8c3acccb8dcc0dcc782160ad"
+    },
+    {
+      "path": "industry_members/as_of_date=2021-06-30/part-merged.parquet",
+      "size_bytes": 18347,
+      "sha256": "baef07bab0ef170c098fcfbd534b79e8e749a47d8c936b2cdc45a4f86910e569"
+    },
+    {
+      "path": "industry_members/as_of_date=2021-07-30/part-merged.parquet",
+      "size_bytes": 21479,
+      "sha256": "ada07b4d4bbc35f6e72ac9689fe0f36b39069c68338d3cdb847bf6cbe1b76359"
+    },
+    {
+      "path": "industry_members/as_of_date=2021-08-31/part-merged.parquet",
+      "size_bytes": 21686,
+      "sha256": "3bf4df4b9b9c68888d533f3bb01f24bd87c07ada1beb37af6fb656ca030abecd"
+    },
+    {
+      "path": "industry_members/as_of_date=2021-09-30/part-merged.parquet",
+      "size_bytes": 21818,
+      "sha256": "768af97bce89d35a8819e44a6a9ca471458d6e98ce47924fec1247de70682415"
+    },
+    {
+      "path": "industry_members/as_of_date=2021-10-29/part-merged.parquet",
+      "size_bytes": 21958,
+      "sha256": "5b5e89681cff37a0fb80f6d184568dd187f44cd144bbba1cb5b783eaf9d62df7"
+    },
+    {
+      "path": "industry_members/as_of_date=2021-11-30/part-merged.parquet",
+      "size_bytes": 22194,
+      "sha256": "4a46fbea1f0bc646d79d1013e690f7953df3eeb559be9c66f61176d400d5951a"
+    },
+    {
+      "path": "industry_members/as_of_date=2021-12-31/part-merged.parquet",
+      "size_bytes": 22345,
+      "sha256": "19d821587a8fef1d6944443b4be0074f501a9714deb0c2b6a50a9c0a5f61b704"
+    },
+    {
+      "path": "industry_members/as_of_date=2022-01-28/part-merged.parquet",
+      "size_bytes": 22463,
+      "sha256": "6c9dfd124d232a6d6b45713b9007b737c6f70d7d9ce3bd1b1151d94cda3d6d7c"
+    },
+    {
+      "path": "industry_members/as_of_date=2022-02-28/part-merged.parquet",
+      "size_bytes": 22523,
+      "sha256": "2538fa9e5eded2fc1f90389513599fcfcef1dbed654b51f5f8e7cdec1b37de46"
+    },
+    {
+      "path": "industry_members/as_of_date=2022-03-31/part-merged.parquet",
+      "size_bytes": 22663,
+      "sha256": "fa3999492653ef8a2e708eea47178d14209910379a68be858170419add723f61"
+    },
+    {
+      "path": "industry_members/as_of_date=2022-04-29/part-merged.parquet",
+      "size_bytes": 22740,
+      "sha256": "2d66c329ce9d60f54bf5ae7040ae209bab29dc474f520dddba7f139018ccc315"
+    },
+    {
+      "path": "industry_members/as_of_date=2022-05-31/part-merged.parquet",
+      "size_bytes": 22818,
+      "sha256": "9acb045b50c4b251741e5039b469a7ee455304b56ecb39d77a463ef5f35fb367"
+    },
+    {
+      "path": "industry_members/as_of_date=2022-06-30/part-merged.parquet",
+      "size_bytes": 22950,
+      "sha256": "6aeb477312846950ccc10913e0705593e967dd9063e977a924572ebd670f1589"
+    },
+    {
+      "path": "industry_members/as_of_date=2022-07-29/part-merged.parquet",
+      "size_bytes": 23028,
+      "sha256": "3a136cf4983ccb2dd8c992e2f2cf433687f2ee8ceb3d30e5610f6cfea6a7ae58"
+    },
+    {
+      "path": "industry_members/as_of_date=2022-08-31/part-merged.parquet",
+      "size_bytes": 23202,
+      "sha256": "381b9b643d60572d8f5a7a34346d45644076207c9f4db8b2ee93696d5a1fc9c4"
+    },
+    {
+      "path": "industry_members/as_of_date=2022-09-30/part-merged.parquet",
+      "size_bytes": 23459,
+      "sha256": "02a912d767f31e99246374531620bc2f9eb058d2603f4f005729bbe979d7f5cf"
+    },
+    {
+      "path": "industry_members/as_of_date=2022-10-31/part-merged.parquet",
+      "size_bytes": 23512,
+      "sha256": "a672a484c6c39358daab59a6e617d7a6e96b0451ad29ac2b6911a33ac7162e67"
+    },
+    {
+      "path": "industry_members/as_of_date=2022-11-30/part-merged.parquet",
+      "size_bytes": 23649,
+      "sha256": "f3c0c46826fe2626550e366975cb538292ebbc908767786e1e902d8780fa3767"
+    },
+    {
+      "path": "industry_members/as_of_date=2022-12-30/part-merged.parquet",
+      "size_bytes": 23814,
+      "sha256": "84aa0e957a9eb8ee42cd9a11e710a3ceb144d72bbb75529cbb3c536a25a7a22d"
+    },
+    {
+      "path": "industry_members/as_of_date=2023-01-31/part-merged.parquet",
+      "size_bytes": 23866,
+      "sha256": "a35cc0d6dd4bba173b56aca2e10de13a861f9b1c6a17a6380ddcf1ea186e6173"
+    },
+    {
+      "path": "industry_members/as_of_date=2023-02-28/part-merged.parquet",
+      "size_bytes": 23984,
+      "sha256": "c8278f18e9c479f1634be55ba5d3e1b52abbbae82a8fa8a441bc27b879ee9836"
+    },
+    {
+      "path": "industry_members/as_of_date=2023-03-31/part-merged.parquet",
+      "size_bytes": 24099,
+      "sha256": "cc35190979d3410f59826367375e0f016c05717411d3f4b5533419efc84ca87c"
+    },
+    {
+      "path": "industry_members/as_of_date=2023-04-28/part-merged.parquet",
+      "size_bytes": 24162,
+      "sha256": "5ad130defb848addb16d66f6a3e4cb5083d57a70436c2825ea46a0676df74108"
+    },
+    {
+      "path": "industry_members/as_of_date=2023-05-31/part-merged.parquet",
+      "size_bytes": 24278,
+      "sha256": "26aa53119f889e450d9823a9e093b84c207120fdd9c5dfba26d6043a2197f54d"
+    },
+    {
+      "path": "industry_members/as_of_date=2023-06-30/part-merged.parquet",
+      "size_bytes": 24345,
+      "sha256": "24d15537602c67cbc4a284d1a8a09ff84033a442b70ab643e1ea4162e0cd1000"
+    },
+    {
+      "path": "industry_members/as_of_date=2023-07-31/part-merged.parquet",
+      "size_bytes": 24492,
+      "sha256": "dbdcf121840d1c3aa5902615d388fe2e6ff1af28d519781f01ab4c88527a0392"
+    },
+    {
+      "path": "industry_members/as_of_date=2023-08-31/part-merged.parquet",
+      "size_bytes": 24557,
+      "sha256": "be2301a04f11afd86f8eb833125f95369f512bb3c23685929fcf1902a4bfdb9c"
+    },
+    {
+      "path": "industry_members/as_of_date=2023-09-28/part-merged.parquet",
+      "size_bytes": 24622,
+      "sha256": "fa0ec63d24706e6c53d7702aac708c6fce4d4301a77b9f8c725765a6d90af8a7"
+    },
+    {
+      "path": "industry_members/as_of_date=2023-10-31/part-merged.parquet",
+      "size_bytes": 24732,
+      "sha256": "388c153323ede57edf0e310185cedb5316c5efe5f914a5c72dd734fc093c5856"
+    },
+    {
+      "path": "industry_members/as_of_date=2023-11-30/part-merged.parquet",
+      "size_bytes": 24787,
+      "sha256": "7ba315cdb6eaac72fa2cb6278d940bbd6da06d1bdb66ee4f859dc7e6e945dbbb"
+    },
+    {
+      "path": "industry_members/as_of_date=2023-12-29/part-merged.parquet",
+      "size_bytes": 24884,
+      "sha256": "0fea70d6e87e639588e4d328b932dec712902cf2539bade0e0375293f2f5bdba"
+    },
+    {
+      "path": "industry_members/as_of_date=2024-01-31/part-merged.parquet",
+      "size_bytes": 24932,
+      "sha256": "e1b3b95db815afe0d5135925e227103a1ac99964adbde95ccefad41e9e8dff00"
+    },
+    {
+      "path": "industry_members/as_of_date=2024-02-29/part-merged.parquet",
+      "size_bytes": 24942,
+      "sha256": "0e6cac38e57b83d14a26889855b3f7770b0f7e0b867a2e8f5cb94fb17ef36669"
+    },
+    {
+      "path": "industry_members/as_of_date=2024-03-29/part-merged.parquet",
+      "size_bytes": 24997,
+      "sha256": "aa55c9d1dc172cbbe6735db11a11972832212c7a10e552a38357c6c4a06290f3"
+    },
+    {
+      "path": "industry_members/as_of_date=2024-04-30/part-merged.parquet",
+      "size_bytes": 25007,
+      "sha256": "77b1ebcd6b656038fdb15fcfc734e233d0384fb7bf051045414e6657b4bf1da5"
+    },
+    {
+      "path": "industry_members/as_of_date=2024-05-31/part-merged.parquet",
+      "size_bytes": 25015,
+      "sha256": "c1be585b660bf206e08402adb330e234e549d4de1dbc413c8dab3852aea9384a"
+    },
+    {
+      "path": "industry_members/as_of_date=2024-06-28/part-merged.parquet",
+      "size_bytes": 25021,
+      "sha256": "50304958ec470cf0a2eab6969e7ebe2d668176d7b644ac67974a4a96a2f3a4ba"
+    },
+    {
+      "path": "industry_members/as_of_date=2024-07-31/part-merged.parquet",
+      "size_bytes": 25032,
+      "sha256": "d0a413c0d218e568de5e64a511907f1a746b80743020f8cbbbf830f7c97b426b"
+    },
+    {
+      "path": "industry_members/as_of_date=2024-08-30/part-merged.parquet",
+      "size_bytes": 25077,
+      "sha256": "fad182f845cccdf7fe338b8e58539b39dcea05df7e6a5770093697b3fa013b47"
+    },
+    {
+      "path": "industry_members/as_of_date=2024-09-30/part-merged.parquet",
+      "size_bytes": 25116,
+      "sha256": "3f7f18e3c1e69562cf52eb22c6a38f8789ae4d4d624b98e4387dedbd1c533bd2"
+    },
+    {
+      "path": "industry_members/as_of_date=2024-10-31/part-merged.parquet",
+      "size_bytes": 25138,
+      "sha256": "a012611384538bccd3dbe1d4c37af1566be92a703b643d109935d6e864756ee8"
+    },
+    {
+      "path": "industry_members/as_of_date=2024-11-29/part-merged.parquet",
+      "size_bytes": 25157,
+      "sha256": "105f50429dd3e1a11aaaa38136f065206fbdfb3c4dc7425f6ee31a7c04d8d305"
+    },
+    {
+      "path": "industry_members/as_of_date=2024-12-31/part-merged.parquet",
+      "size_bytes": 25211,
+      "sha256": "961fe92f56a7a08af5118252c187a02f9b97bad38422d2360cd328572e4ccb56"
+    },
+    {
+      "path": "industry_members/as_of_date=2025-01-27/part-merged.parquet",
+      "size_bytes": 25228,
+      "sha256": "2cd0ecb4ead3c03a32b14a0328c1e467644e7f1c60bcfba5f579709c89828cb3"
+    },
+    {
+      "path": "industry_members/as_of_date=2025-02-28/part-merged.parquet",
+      "size_bytes": 25287,
+      "sha256": "5de275af754f980569f81ac704225071cb2b1ab5fc840babf031a203e0781efa"
+    },
+    {
+      "path": "industry_members/as_of_date=2025-03-31/part-merged.parquet",
+      "size_bytes": 25346,
+      "sha256": "42c559ddd783b08ba5b7d6578b6f4834059a757fc86bf30daf3c1037955c28f5"
+    },
+    {
+      "path": "industry_members/as_of_date=2025-04-30/part-merged.parquet",
+      "size_bytes": 25301,
+      "sha256": "0b8bd9ee126e9e2675e1dd355c3422776b3a2f8be3dd118ed482a392a9907f75"
+    },
+    {
+      "path": "industry_members/as_of_date=2025-05-30/part-merged.parquet",
+      "size_bytes": 25352,
+      "sha256": "d2832f0e6d83148dbed2ddb279c21646198f1edbc72d691225173b474441118d"
+    },
+    {
+      "path": "industry_members/as_of_date=2025-06-30/part-merged.parquet",
+      "size_bytes": 25355,
+      "sha256": "3e93cee55bbaadf2f47c9686cc4dd56334c3b4b6e03e447b7d34d9e97561bee0"
+    },
+    {
+      "path": "industry_members/as_of_date=2025-07-31/part-merged.parquet",
+      "size_bytes": 25376,
+      "sha256": "876b8da068650efa99e1289d23915a8bf23e0fb367e98d42d7c0efa5a627b932"
+    },
+    {
+      "path": "industry_members/as_of_date=2025-08-29/part-merged.parquet",
+      "size_bytes": 25396,
+      "sha256": "e16bd6be0c8cf7a73c3fe6f6ee5506adbcc819fcff59b09d76298d66f86a6cd4"
+    },
+    {
+      "path": "industry_members/as_of_date=2025-09-30/part-merged.parquet",
+      "size_bytes": 25453,
+      "sha256": "f8eec5f217077df2e510267b20ce77214c4d1fff5794558ce89bc0639125dc86"
+    },
+    {
+      "path": "industry_members/as_of_date=2025-10-31/part-merged.parquet",
+      "size_bytes": 25489,
+      "sha256": "7fc97d9dffc972dc278e2d336ee73e708a4b1e078b10b08bff9ca8ead2d7b841"
+    },
+    {
+      "path": "industry_members/as_of_date=2025-11-28/part-merged.parquet",
+      "size_bytes": 25510,
+      "sha256": "dffd0d93e104c1de95444210341a5b6475a807f9662aafe352db47c808d57f8e"
+    },
+    {
+      "path": "industry_members/as_of_date=2025-12-31/part-merged.parquet",
+      "size_bytes": 25581,
+      "sha256": "76f8fb904926fbf47233c84e92693d03f7f3bc1d0b414665ef71fc35f34738b8"
+    },
+    {
+      "path": "industry_members/as_of_date=2026-01-30/part-merged.parquet",
+      "size_bytes": 25649,
+      "sha256": "cc59e3a70e040500a20a24a0e46ce7ea1d43a8e2b8035b22497ae85ecadc2610"
+    },
+    {
+      "path": "industry_members/as_of_date=2026-02-27/part-merged.parquet",
+      "size_bytes": 25665,
+      "sha256": "fbb2110280ad00e251d25f13e025266f47121e9820420a8b00717f556af1956b"
+    },
+    {
+      "path": "industry_members/as_of_date=2026-03-31/part-merged.parquet",
+      "size_bytes": 25738,
+      "sha256": "75e659d17fa63d17f359ac0d1b08ea19b3418f3ea72584a56b2816d0530e7bad"
+    },
+    {
+      "path": "industry_members/as_of_date=2026-04-30/part-merged.parquet",
+      "size_bytes": 25748,
+      "sha256": "a37cd0063f610f947b7a29a8f344da7a0577c57d82c05aedd5202f323d638c5c"
+    },
+    {
+      "path": "industry_members/as_of_date=2026-05-29/part-merged.parquet",
+      "size_bytes": 25775,
+      "sha256": "00a73eb98c88ee4fe986ff3300f1fae4df304c78cb91f7bcbebbde3d55eb8d93"
+    },
+    {
+      "path": "industry_members/as_of_date=2026-06-30/part-merged.parquet",
+      "size_bytes": 25837,
+      "sha256": "5010bb4b8ee86625ba4d9cc907d7c9b8c689f876b6c4a9b51472c0481dbb4c5b"
+    },
+    {
+      "path": "industry_members/as_of_date=2026-07-31/part-merged.parquet",
+      "size_bytes": 25922,
+      "sha256": "14d64d75036ecf6b40cc685945dcd8ef38cf71729eb1360bc44ba494b1ba442c"
+    },
+    {
+      "path": "industry_members/as_of_date=2026-08-31/part-merged.parquet",
+      "size_bytes": 25964,
+      "sha256": "cd887b8f442806438d18676ee1c1caa416174ea29677b299322472dfaefc27c9"
+    },
+    {
+      "path": "industry_members/as_of_date=2026-09-30/part-merged.parquet",
+      "size_bytes": 26028,
+      "sha256": "53b26810b1c7cf9c5d379f444248a4c63e710c48b48f5f0fb01eb53355677937"
+    },
+    {
+      "path": "industry_members/as_of_date=2026-10-16/part-merged.parquet",
+      "size_bytes": 75270,
+      "sha256": "e13f5fdacb60a1817080e3fd483ddec279b8b0c1e968f0cda532c2cc63c93ad7"
+    },
+    {
+      "path": "industry_members/as_of_date=2026-10-19/part-merged.parquet",
+      "size_bytes": 34945,
+      "sha256": "ac0acde27fcaddc156832279091e837a7084821f90d05050015dac56a7b5a9ed"
+    },
+    {
+      "path": "industry_members/as_of_date=2026-10-23/part-merged.parquet",
+      "size_bytes": 34961,
+      "sha256": "619c95f2e4aa5f4a2eaec169553c8e09f28978ba682a0205d8faec8d0f6b7e02"
+    },
+    {
+      "path": "industry_members/as_of_date=2026-10-29/part-merged.parquet",
+      "size_bytes": 34569,
+      "sha256": "24dc61a5dbf0e45fe08546f4f4d4cbdee1f3a824ae10d14328547d0f1682f628"
+    },
+    {
+      "path": "industry_members/as_of_date=2026-11-05/part-merged.parquet",
+      "size_bytes": 34181,
+      "sha256": "1051197fdcc4c492633e06012b94f9035b1ea9451d94a834d450b96d192d4ba9"
+    }
+  ],
+  "pointer_path": "revisions/industry_members/current.json"
+}

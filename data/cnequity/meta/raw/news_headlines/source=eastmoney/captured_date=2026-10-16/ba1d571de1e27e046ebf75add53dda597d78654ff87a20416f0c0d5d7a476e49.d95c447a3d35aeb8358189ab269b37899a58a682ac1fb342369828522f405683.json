@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "dataset": "news_headlines",
+  "source": "eastmoney",
+  "captured_at": "2026-10-16T06:06:26.999558+00:00",
+  "payload_sha256": "ba1d571de1e27e046ebf75add53dda597d78654ff87a20416f0c0d5d7a476e49",
+  "payload_bytes": 121660,
+  "compressed_bytes": 40097,
+  "compression": "gzip",
+  "payload_format": "bytes",
+  "payload_path": "raw/news_headlines/source=eastmoney/captured_date=2026-10-16/ba1d571de1e27e046ebf75add53dda597d78654ff87a20416f0c0d5d7a476e49.gz",
+  "metadata_path": "raw/news_headlines/source=eastmoney/captured_date=2026-10-16/ba1d571de1e27e046ebf75add53dda597d78654ff87a20416f0c0d5d7a476e49.d95c447a3d35aeb8358189ab269b37899a58a682ac1fb342369828522f405683.json",
+  "request_params": {
+    "client": "web",
+    "biz": "web_724",
+    "fastColumn": "102",
+    "sortEnd": "1792114809073077",
+    "pageSize": 200,
+    "req_trace": "1",
+    "page": 2
+  },
+  "run_id": "b56fdf68-2d1e-4afa-8fd2-d3adce89b7a1",
+  "url": "https://np-listapi.eastmoney.com/comm/web/getFastNewsList?client=web&biz=web_724&fastColumn=102&sortEnd=1792114809073077&pageSize=200&req_trace=1",
+  "response_status": 200,
+  "http_metadata": {
+    "wire_exact": true,
+    "json_parsed": true,
+    "response_envelope": "json",
+    "content_type": "application/json;charset=UTF-8"
+  },
+  "pagination": {
+    "page": 2,
+    "sort_end": "1792089063034766"
+  },
+  "observation_id": "b56fdf68-2d1e-4afa-8fd2-d3adce89b7a1:news_headlines:2",
+  "request_scope": "snapshot:2026-10-16"
+}

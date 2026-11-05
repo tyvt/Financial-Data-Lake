@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "margin_trading",
+  "revision": 3,
+  "revision_id": "83ab8026dc6041be8cbe7095c1359151",
+  "generation_path": "revisions/data/margin_trading/83ab8026dc6041be8cbe7095c1359151",
+  "receipt": "revisions/margin_trading/00000003-83ab8026dc6041be8cbe7095c1359151.json",
+  "content_digest": "0f4ce6f40ea6d26ed445c50f406acc2e351d175de16f8ca1d3220a7bb21e7bad",
+  "committed_at": "2026-10-23T13:11:46.803025+00:00"
+}

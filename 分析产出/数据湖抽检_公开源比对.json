@@ -1,0 +1,86 @@
+{
+  "audited_at": "2026-11-05T09:13:33.758746+08:00",
+  "sample": {
+    "held": [
+      "600461.SH",
+      "601298.SH",
+      "601825.SH",
+      "601000.SH",
+      "601288.SH",
+      "000651.SZ",
+      "000598.SZ",
+      "000429.SZ"
+    ],
+    "extra": [
+      {
+        "pool": "SH主板",
+        "symbol": "603293.SH"
+      },
+      {
+        "pool": "SH科创",
+        "symbol": "688205.SH"
+      },
+      {
+        "pool": "SZ主板",
+        "symbol": "003039.SZ"
+      },
+      {
+        "pool": "SZ创业",
+        "symbol": "300154.SZ"
+      },
+      {
+        "pool": "BJ",
+        "symbol": "920242.BJ"
+      }
+    ]
+  },
+  "latest_trade_date": "2026-10-29",
+  "checks": 317,
+  "match": 242,
+  "mismatch": 11,
+  "inconclusive": 64,
+  "by_category": {
+    "内部一致性": {
+      "checks": 11,
+      "match": 6,
+      "mismatch": 0,
+      "inconclusive": 5
+    },
+    "分红": {
+      "checks": 61,
+      "match": 60,
+      "mismatch": 0,
+      "inconclusive": 1
+    },
+    "日线历史": {
+      "checks": 13,
+      "match": 12,
+      "mismatch": 1,
+      "inconclusive": 0
+    },
+    "行业分类": {
+      "checks": 13,
+      "match": 0,
+      "mismatch": 0,
+      "inconclusive": 13
+    },
+    "行情快照": {
+      "checks": 37,
+      "match": 2,
+      "mismatch": 10,
+      "inconclusive": 25
+    },
+    "证券资料": {
+      "checks": 26,
+      "match": 26,
+      "mismatch": 0,
+      "inconclusive": 0
+    },
+    "财务": {
+      "checks": 156,
+      "match": 136,
+      "mismatch": 0,
+      "inconclusive": 20
+    }
+  }
+}

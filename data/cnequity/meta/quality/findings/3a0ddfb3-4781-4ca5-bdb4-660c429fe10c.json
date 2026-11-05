@@ -1,0 +1,941 @@
+{
+  "run_id": "3a0ddfb3-4781-4ca5-bdb4-660c429fe10c",
+  "trade_date": "2026-10-29",
+  "findings": [
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_bse_tip_unavailable",
+      "message": "BSE tip quote unavailable for 2026-10-29: [WinError 10061] 由于目标计算机积极拒绝，无法连接。",
+      "source": "bse",
+      "source_limited": true
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "fallback_source_incomplete",
+      "message": "353/353 symbols without a TDX route failed to fetch from the fallback vendor (e.g. 920000.BJ, 920001.BJ, 920002.BJ, 920003.BJ, 920005.BJ)",
+      "empty_symbols": 0
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "fallback_source_incomplete",
+      "message": "355/355 symbols without a TDX route failed to fetch from the fallback vendor (e.g. 001381.SZ, 301139.SZ, 920000.BJ, 920001.BJ, 920002.BJ)",
+      "empty_symbols": 0
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_eastmoney_gapfill",
+      "message": "EastMoney historical fallback wrote 0 row(s) for 355 remaining symbol(s); status=failed",
+      "status": "failed",
+      "requests": 355,
+      "rows": 0,
+      "rows_written": 0,
+      "empty_symbols": 0,
+      "failed_symbols": 3,
+      "failure_reasons": {
+        "001381.SZ": "transport_error",
+        "301139.SZ": "transport_error",
+        "920000.BJ": "transport_error"
+      },
+      "proxy_failed": 0,
+      "direct_failed": 0,
+      "direct_succeeded": 0
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_ths_gapfill",
+      "message": "THS final fallback wrote 0 row(s) for 2 remaining symbol(s); empty=0, failed=2",
+      "rows_written": 0,
+      "empty_symbols": [],
+      "failed_symbols": [
+        "001381.SZ",
+        "301139.SZ"
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_baostock_gapfill",
+      "message": "baostock final fallback wrote 7 row(s) for 2 remaining symbol(s); empty=1, failed=0",
+      "rows_written": 7,
+      "empty_symbols": [
+        "001381.SZ"
+      ],
+      "failed_symbols": []
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_gapfill_incomplete",
+      "message": "multi-source gap-fill left 3187 symbol×session key(s) unresolved over 2026-10-19..2026-10-29",
+      "missing_keys": 3187,
+      "sample_keys": [
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-19"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-20"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-21"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-22"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-26"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-27"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-28"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_eastmoney_gapfill",
+      "message": "EastMoney historical fallback wrote 0 row(s) for 11 remaining symbol(s); status=failed",
+      "status": "failed",
+      "requests": 11,
+      "rows": 0,
+      "rows_written": 0,
+      "empty_symbols": 0,
+      "failed_symbols": 3,
+      "failure_reasons": {
+        "002388.SZ": "transport_error",
+        "002717.SZ": "transport_error",
+        "002731.SZ": "transport_error"
+      },
+      "proxy_failed": 0,
+      "direct_failed": 0,
+      "direct_succeeded": 0
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_ths_gapfill",
+      "message": "THS final fallback wrote 0 row(s) for 11 remaining symbol(s); empty=0, failed=11",
+      "rows_written": 0,
+      "empty_symbols": [],
+      "failed_symbols": [
+        "002388.SZ",
+        "002717.SZ",
+        "002731.SZ",
+        "002827.SZ",
+        "301314.SZ",
+        "301468.SZ",
+        "600621.SH",
+        "601326.SH",
+        "603759.SH",
+        "605258.SH",
+        "688496.SH"
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_baostock_gapfill",
+      "message": "baostock final fallback wrote 0 row(s) for 11 remaining symbol(s); empty=11, failed=0",
+      "rows_written": 0,
+      "empty_symbols": [
+        "002388.SZ",
+        "002717.SZ",
+        "002731.SZ",
+        "002827.SZ",
+        "301314.SZ",
+        "301468.SZ",
+        "600621.SH",
+        "601326.SH",
+        "603759.SH",
+        "605258.SH",
+        "688496.SH"
+      ],
+      "failed_symbols": []
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_suspension_evidence",
+      "message": "49 absent key(s) confirmed as suspensions by baostock and recorded in trading_status",
+      "suspended_keys": 49
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_unknown_missing_symbols",
+      "message": "daily_bars 2026-10-19..2026-10-29: 355 expected key(s) remain unknown after failover (001381.SZ, 301139.SZ, 920000.BJ, 920001.BJ, 920002.BJ, 920003.BJ, 920005.BJ, 920006.BJ...); valid rows will be published; missing keys remain recorded",
+      "missing_keys": 355,
+      "symbols": [
+        "001381.SZ",
+        "301139.SZ",
+        "920000.BJ",
+        "920001.BJ",
+        "920002.BJ",
+        "920003.BJ",
+        "920005.BJ",
+        "920006.BJ",
+        "920007.BJ",
+        "920008.BJ",
+        "920009.BJ",
+        "920010.BJ",
+        "920011.BJ",
+        "920012.BJ",
+        "920014.BJ",
+        "920015.BJ",
+        "920016.BJ",
+        "920017.BJ",
+        "920018.BJ",
+        "920019.BJ",
+        "920020.BJ",
+        "920021.BJ",
+        "920022.BJ",
+        "920023.BJ",
+        "920025.BJ",
+        "920026.BJ",
+        "920027.BJ",
+        "920028.BJ",
+        "920029.BJ",
+        "920030.BJ",
+        "920033.BJ",
+        "920035.BJ",
+        "920036.BJ",
+        "920037.BJ",
+        "920038.BJ",
+        "920039.BJ",
+        "920045.BJ",
+        "920046.BJ",
+        "920047.BJ",
+        "920050.BJ",
+        "920055.BJ",
+        "920056.BJ",
+        "920057.BJ",
+        "920058.BJ",
+        "920059.BJ",
+        "920060.BJ",
+        "920061.BJ",
+        "920062.BJ",
+        "920065.BJ",
+        "920066.BJ",
+        "920068.BJ",
+        "920069.BJ",
+        "920071.BJ",
+        "920072.BJ",
+        "920075.BJ",
+        "920076.BJ",
+        "920077.BJ",
+        "920078.BJ",
+        "920079.BJ",
+        "920080.BJ",
+        "920081.BJ",
+        "920082.BJ",
+        "920083.BJ",
+        "920086.BJ",
+        "920087.BJ",
+        "920088.BJ",
+        "920089.BJ",
+        "920090.BJ",
+        "920091.BJ",
+        "920092.BJ",
+        "920093.BJ",
+        "920096.BJ",
+        "920098.BJ",
+        "920099.BJ",
+        "920100.BJ",
+        "920101.BJ",
+        "920106.BJ",
+        "920107.BJ",
+        "920108.BJ",
+        "920110.BJ",
+        "920111.BJ",
+        "920112.BJ",
+        "920116.BJ",
+        "920117.BJ",
+        "920118.BJ",
+        "920119.BJ",
+        "920121.BJ",
+        "920122.BJ",
+        "920123.BJ",
+        "920124.BJ",
+        "920125.BJ",
+        "920126.BJ",
+        "920128.BJ",
+        "920130.BJ",
+        "920132.BJ",
+        "920136.BJ",
+        "920138.BJ",
+        "920139.BJ",
+        "920145.BJ",
+        "920146.BJ",
+        "920149.BJ",
+        "920152.BJ",
+        "920156.BJ",
+        "920157.BJ",
+        "920158.BJ",
+        "920159.BJ",
+        "920160.BJ",
+        "920161.BJ",
+        "920162.BJ",
+        "920163.BJ",
+        "920165.BJ",
+        "920166.BJ",
+        "920167.BJ",
+        "920168.BJ",
+        "920169.BJ",
+        "920171.BJ",
+        "920174.BJ",
+        "920175.BJ",
+        "920176.BJ",
+        "920177.BJ",
+        "920178.BJ",
+        "920179.BJ",
+        "920180.BJ",
+        "920181.BJ",
+        "920183.BJ",
+        "920184.BJ",
+        "920185.BJ",
+        "920186.BJ",
+        "920187.BJ",
+        "920188.BJ",
+        "920189.BJ",
+        "920190.BJ",
+        "920191.BJ",
+        "920193.BJ",
+        "920195.BJ",
+        "920196.BJ",
+        "920198.BJ",
+        "920199.BJ",
+        "920200.BJ",
+        "920201.BJ",
+        "920202.BJ",
+        "920204.BJ",
+        "920206.BJ",
+        "920207.BJ",
+        "920208.BJ",
+        "920211.BJ",
+        "920212.BJ",
+        "920218.BJ",
+        "920220.BJ",
+        "920221.BJ",
+        "920222.BJ",
+        "920223.BJ",
+        "920225.BJ",
+        "920227.BJ",
+        "920229.BJ",
+        "920230.BJ",
+        "920237.BJ",
+        "920238.BJ",
+        "920239.BJ",
+        "920242.BJ",
+        "920245.BJ",
+        "920247.BJ",
+        "920249.BJ",
+        "920252.BJ",
+        "920258.BJ",
+        "920260.BJ",
+        "920261.BJ",
+        "920262.BJ",
+        "920263.BJ",
+        "920266.BJ",
+        "920267.BJ",
+        "920268.BJ",
+        "920269.BJ",
+        "920270.BJ",
+        "920271.BJ",
+        "920273.BJ",
+        "920274.BJ",
+        "920275.BJ",
+        "920278.BJ",
+        "920284.BJ",
+        "920285.BJ",
+        "920288.BJ",
+        "920289.BJ",
+        "920296.BJ",
+        "920298.BJ",
+        "920299.BJ",
+        "920300.BJ",
+        "920304.BJ",
+        "920339.BJ",
+        "920344.BJ",
+        "920346.BJ",
+        "920351.BJ",
+        "920357.BJ",
+        "920363.BJ",
+        "920367.BJ",
+        "920368.BJ",
+        "920370.BJ",
+        "920371.BJ",
+        "920374.BJ",
+        "920375.BJ",
+        "920378.BJ",
+        "920392.BJ",
+        "920394.BJ",
+        "920395.BJ",
+        "920396.BJ",
+        "920402.BJ",
+        "920403.BJ",
+        "920405.BJ",
+        "920407.BJ",
+        "920414.BJ",
+        "920415.BJ",
+        "920418.BJ",
+        "920419.BJ",
+        "920422.BJ",
+        "920425.BJ",
+        "920427.BJ",
+        "920429.BJ",
+        "920433.BJ",
+        "920436.BJ",
+        "920438.BJ",
+        "920445.BJ",
+        "920454.BJ",
+        "920455.BJ",
+        "920469.BJ",
+        "920471.BJ",
+        "920475.BJ",
+        "920476.BJ",
+        "920478.BJ",
+        "920489.BJ",
+        "920491.BJ",
+        "920493.BJ",
+        "920496.BJ",
+        "920504.BJ",
+        "920505.BJ",
+        "920508.BJ",
+        "920509.BJ",
+        "920510.BJ",
+        "920519.BJ",
+        "920522.BJ",
+        "920523.BJ",
+        "920526.BJ",
+        "920527.BJ",
+        "920533.BJ",
+        "920541.BJ",
+        "920547.BJ",
+        "920553.BJ",
+        "920556.BJ",
+        "920564.BJ",
+        "920566.BJ",
+        "920570.BJ",
+        "920571.BJ",
+        "920575.BJ",
+        "920576.BJ",
+        "920578.BJ",
+        "920579.BJ",
+        "920580.BJ",
+        "920592.BJ",
+        "920593.BJ",
+        "920599.BJ",
+        "920608.BJ",
+        "920627.BJ",
+        "920634.BJ",
+        "920639.BJ",
+        "920640.BJ",
+        "920641.BJ",
+        "920642.BJ",
+        "920651.BJ",
+        "920656.BJ",
+        "920662.BJ",
+        "920663.BJ",
+        "920665.BJ",
+        "920670.BJ",
+        "920675.BJ",
+        "920679.BJ",
+        "920682.BJ",
+        "920685.BJ",
+        "920689.BJ",
+        "920690.BJ",
+        "920693.BJ",
+        "920694.BJ",
+        "920699.BJ",
+        "920701.BJ",
+        "920703.BJ",
+        "920706.BJ",
+        "920717.BJ",
+        "920718.BJ",
+        "920719.BJ",
+        "920720.BJ",
+        "920725.BJ",
+        "920726.BJ",
+        "920729.BJ",
+        "920735.BJ",
+        "920748.BJ",
+        "920751.BJ",
+        "920753.BJ",
+        "920765.BJ",
+        "920768.BJ",
+        "920770.BJ",
+        "920779.BJ",
+        "920781.BJ",
+        "920786.BJ",
+        "920790.BJ",
+        "920792.BJ",
+        "920799.BJ",
+        "920802.BJ",
+        "920806.BJ",
+        "920807.BJ",
+        "920808.BJ",
+        "920809.BJ",
+        "920810.BJ",
+        "920819.BJ",
+        "920821.BJ",
+        "920826.BJ",
+        "920832.BJ",
+        "920833.BJ",
+        "920834.BJ",
+        "920837.BJ",
+        "920839.BJ",
+        "920855.BJ",
+        "920856.BJ",
+        "920857.BJ",
+        "920866.BJ",
+        "920870.BJ",
+        "920871.BJ",
+        "920873.BJ",
+        "920876.BJ",
+        "920879.BJ",
+        "920885.BJ",
+        "920892.BJ",
+        "920895.BJ",
+        "920896.BJ",
+        "920906.BJ",
+        "920914.BJ",
+        "920924.BJ",
+        "920925.BJ",
+        "920926.BJ",
+        "920931.BJ",
+        "920932.BJ",
+        "920942.BJ",
+        "920943.BJ",
+        "920946.BJ",
+        "920950.BJ",
+        "920953.BJ",
+        "920957.BJ",
+        "920961.BJ",
+        "920964.BJ",
+        "920970.BJ",
+        "920971.BJ",
+        "920974.BJ",
+        "920976.BJ",
+        "920978.BJ",
+        "920981.BJ",
+        "920982.BJ",
+        "920985.BJ",
+        "920992.BJ"
+      ],
+      "tolerated": true,
+      "tolerance_keys": 55
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_interior_gap",
+      "message": "daily_bars 2026-10-19..2026-10-29: 2 interior symbol×session key(s) remain absent across 1 symbol(s); valid rows will be published; missing keys remain recorded\n  Full list and per-key reasons: D:\\repository\\数据湖\\data\\cnequity\\meta\\quality\\findings\\3a0ddfb3-4781-4ca5-bdb4-660c429fe10c.json\n  Which vendor is down: cne sources probe\n  Resume this run once it is back: cne run retry --run-id 3a0ddfb3-4781-4ca5-bdb4-660c429fe10c\n  Or repair just these keys: cne backfill daily_bars --symbols 301139.SZ --start 2026-10-19 --end 2026-10-29",
+      "missing_keys": 2,
+      "missing_symbols": [
+        "301139.SZ"
+      ],
+      "tolerated": true,
+      "tolerance_keys": 470,
+      "expected_keys": 47025,
+      "sample_keys": [
+        {
+          "symbol": "301139.SZ",
+          "trade_date": "2026-10-28"
+        },
+        {
+          "symbol": "301139.SZ",
+          "trade_date": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "fallback_source_incomplete",
+      "message": "2/2 symbols without a TDX route failed to fetch from the fallback vendor (e.g. 001381.SZ, 301139.SZ)",
+      "empty_symbols": 0
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_eastmoney_gapfill",
+      "message": "EastMoney historical fallback wrote 0 row(s) for 2 remaining symbol(s); status=failed",
+      "status": "failed",
+      "requests": 2,
+      "rows": 0,
+      "rows_written": 0,
+      "empty_symbols": 0,
+      "failed_symbols": 2,
+      "failure_reasons": {
+        "001381.SZ": "transport_error",
+        "301139.SZ": "transport_error"
+      },
+      "proxy_failed": 0,
+      "direct_failed": 0,
+      "direct_succeeded": 0
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_ths_gapfill",
+      "message": "THS final fallback wrote 0 row(s) for 2 remaining symbol(s); empty=0, failed=2",
+      "rows_written": 0,
+      "empty_symbols": [],
+      "failed_symbols": [
+        "001381.SZ",
+        "301139.SZ"
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_baostock_gapfill",
+      "message": "baostock final fallback wrote 0 row(s) for 2 remaining symbol(s); empty=2, failed=0",
+      "rows_written": 0,
+      "empty_symbols": [
+        "001381.SZ",
+        "301139.SZ"
+      ],
+      "failed_symbols": []
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_gapfill_incomplete",
+      "message": "multi-source gap-fill left 10 symbol×session key(s) unresolved over 2026-10-19..2026-10-29",
+      "missing_keys": 10,
+      "sample_keys": [
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-19"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-20"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-21"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-22"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-26"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-27"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-28"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_unknown_missing_symbols",
+      "message": "daily_bars 2026-10-19..2026-10-29: 2 expected key(s) remain unknown after failover (001381.SZ, 301139.SZ); valid rows will be published; missing keys remain recorded",
+      "missing_keys": 2,
+      "symbols": [
+        "001381.SZ",
+        "301139.SZ"
+      ],
+      "tolerated": true,
+      "tolerance_keys": 0
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_interior_gap",
+      "message": "daily_bars 2026-10-19..2026-10-29: 2 interior symbol×session key(s) remain absent across 1 symbol(s); valid rows will be published; missing keys remain recorded\n  Full list and per-key reasons: D:\\repository\\数据湖\\data\\cnequity\\meta\\quality\\findings\\3a0ddfb3-4781-4ca5-bdb4-660c429fe10c.json\n  Which vendor is down: cne sources probe\n  Resume this run once it is back: cne run retry --run-id 3a0ddfb3-4781-4ca5-bdb4-660c429fe10c\n  Or repair just these keys: cne backfill daily_bars --symbols 301139.SZ --start 2026-10-19 --end 2026-10-29",
+      "missing_keys": 2,
+      "missing_symbols": [
+        "301139.SZ"
+      ],
+      "tolerated": true,
+      "tolerance_keys": 0,
+      "expected_keys": 18,
+      "sample_keys": [
+        {
+          "symbol": "301139.SZ",
+          "trade_date": "2026-10-28"
+        },
+        {
+          "symbol": "301139.SZ",
+          "trade_date": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "fallback_source_incomplete",
+      "message": "2/2 symbols without a TDX route failed to fetch from the fallback vendor (e.g. 001381.SZ, 301139.SZ)",
+      "empty_symbols": 1
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_sina_source_empty",
+      "message": "Sina returned an explicit empty payload for 1 symbol(s); a second independent empty source is required before no-data certification",
+      "symbols": [
+        "001381.SZ"
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_eastmoney_gapfill",
+      "message": "EastMoney historical fallback wrote 0 row(s) for 2 remaining symbol(s); status=partial",
+      "status": "partial",
+      "requests": 2,
+      "rows": 7,
+      "rows_written": 0,
+      "empty_symbols": 1,
+      "failed_symbols": 0,
+      "failure_reasons": {},
+      "proxy_failed": 0,
+      "direct_failed": 0,
+      "direct_succeeded": 0
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_ths_gapfill",
+      "message": "THS final fallback wrote 0 row(s) for 2 remaining symbol(s); empty=2, failed=0",
+      "rows_written": 0,
+      "empty_symbols": [
+        "001381.SZ",
+        "301139.SZ"
+      ],
+      "failed_symbols": []
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_baostock_gapfill",
+      "message": "baostock final fallback wrote 0 row(s) for 2 remaining symbol(s); empty=2, failed=0",
+      "rows_written": 0,
+      "empty_symbols": [
+        "001381.SZ",
+        "301139.SZ"
+      ],
+      "failed_symbols": []
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_gapfill_incomplete",
+      "message": "multi-source gap-fill left 8 symbol×session key(s) unresolved over 2026-10-19..2026-10-29",
+      "missing_keys": 8,
+      "sample_keys": [
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-19"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-20"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-21"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-22"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-26"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-27"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-28"
+        },
+        {
+          "symbol": "301139.SZ",
+          "trade_date": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_expected_no_data",
+      "message": "daily_bars 2026-10-19..2026-10-29: 1 missing key(s) were excluded by explicit listing/status/negative evidence",
+      "symbols": [
+        "301139.SZ"
+      ],
+      "reasons": {
+        "301139.SZ": "source_empty"
+      }
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_unknown_missing_symbols",
+      "message": "daily_bars 2026-10-19..2026-10-29: 1 expected key(s) remain unknown after failover (001381.SZ); valid rows will be published; missing keys remain recorded",
+      "missing_keys": 1,
+      "symbols": [
+        "001381.SZ"
+      ],
+      "tolerated": true,
+      "tolerance_keys": 0
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "fallback_source_incomplete",
+      "message": "2/2 symbols without a TDX route failed to fetch from the fallback vendor (e.g. 001381.SZ, 301139.SZ)",
+      "empty_symbols": 0
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_eastmoney_gapfill",
+      "message": "EastMoney historical fallback wrote 0 row(s) for 2 remaining symbol(s); status=failed",
+      "status": "failed",
+      "requests": 2,
+      "rows": 0,
+      "rows_written": 0,
+      "empty_symbols": 0,
+      "failed_symbols": 2,
+      "failure_reasons": {
+        "001381.SZ": "transport_error",
+        "301139.SZ": "transport_error"
+      },
+      "proxy_failed": 0,
+      "direct_failed": 0,
+      "direct_succeeded": 0
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_ths_gapfill",
+      "message": "THS final fallback wrote 0 row(s) for 2 remaining symbol(s); empty=0, failed=2",
+      "rows_written": 0,
+      "empty_symbols": [],
+      "failed_symbols": [
+        "001381.SZ",
+        "301139.SZ"
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_baostock_gapfill",
+      "message": "baostock final fallback wrote 0 row(s) for 2 remaining symbol(s); empty=2, failed=0",
+      "rows_written": 0,
+      "empty_symbols": [
+        "001381.SZ",
+        "301139.SZ"
+      ],
+      "failed_symbols": []
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_gapfill_incomplete",
+      "message": "multi-source gap-fill left 8 symbol×session key(s) unresolved over 2026-10-19..2026-10-29",
+      "missing_keys": 8,
+      "sample_keys": [
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-19"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-20"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-21"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-22"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-26"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-27"
+        },
+        {
+          "symbol": "001381.SZ",
+          "trade_date": "2026-10-28"
+        },
+        {
+          "symbol": "301139.SZ",
+          "trade_date": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_unknown_missing_symbols",
+      "message": "daily_bars 2026-10-19..2026-10-29: 2 expected key(s) remain unknown after failover (001381.SZ, 301139.SZ); valid rows will be published; missing keys remain recorded",
+      "missing_keys": 2,
+      "symbols": [
+        "001381.SZ",
+        "301139.SZ"
+      ],
+      "tolerated": true,
+      "tolerance_keys": 0
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_interior_gap",
+      "message": "daily_bars 2026-10-19..2026-10-29: 1 interior symbol×session key(s) remain absent across 1 symbol(s); valid rows will be published; missing keys remain recorded\n  Full list and per-key reasons: D:\\repository\\数据湖\\data\\cnequity\\meta\\quality\\findings\\3a0ddfb3-4781-4ca5-bdb4-660c429fe10c.json\n  Which vendor is down: cne sources probe\n  Resume this run once it is back: cne run retry --run-id 3a0ddfb3-4781-4ca5-bdb4-660c429fe10c\n  Or repair just these keys: cne backfill daily_bars --symbols 301139.SZ --start 2026-10-19 --end 2026-10-29",
+      "missing_keys": 1,
+      "missing_symbols": [
+        "301139.SZ"
+      ],
+      "tolerated": true,
+      "tolerance_keys": 0,
+      "expected_keys": 18,
+      "sample_keys": [
+        {
+          "symbol": "301139.SZ",
+          "trade_date": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}

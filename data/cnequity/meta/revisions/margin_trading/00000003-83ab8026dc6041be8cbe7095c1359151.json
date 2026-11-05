@@ -1,0 +1,35 @@
+{
+  "dataset": "margin_trading",
+  "revision": 3,
+  "revision_id": "83ab8026dc6041be8cbe7095c1359151",
+  "committed_at": "2026-10-23T13:11:46.803025+00:00",
+  "run_id": "user-approved-B-cleanup-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "6171c6f23573095a357dc697e7e127eb9a8e5f628555a38a71cc3f671e862a20",
+  "content_digest": "0f4ce6f40ea6d26ed445c50f406acc2e351d175de16f8ca1d3220a7bb21e7bad",
+  "changed_partitions": [
+    "margin_trading/trade_date=2026-10-12"
+  ],
+  "files": [
+    {
+      "path": "margin_trading/trade_date=2026-10-12/part-merged.parquet",
+      "size_bytes": 1720,
+      "sha256": "ce7e2a2db3b739f50caefa4f091735f1fbd3bb9d7109f43cf7fdc2c10d1b7f04"
+    }
+  ],
+  "metadata": {
+    "operation": "user_approved_dataset_clear",
+    "reason": "B stage screening-scope storage reduction",
+    "rows": 0,
+    "base_revision_id": "c620ad1bc65b4eb795b6c0d7545178ec"
+  },
+  "generation_path": "revisions/data/margin_trading/83ab8026dc6041be8cbe7095c1359151",
+  "generation_files": [
+    {
+      "path": "margin_trading/trade_date=2026-10-12/part-merged.parquet",
+      "size_bytes": 1720,
+      "sha256": "ce7e2a2db3b739f50caefa4f091735f1fbd3bb9d7109f43cf7fdc2c10d1b7f04"
+    }
+  ],
+  "pointer_path": "revisions/margin_trading/current.json"
+}

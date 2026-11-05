@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "analyst_consensus",
+  "revision": 4,
+  "revision_id": "7a0ecf33c7c448f892e871b4756dce59",
+  "generation_path": "revisions/data/analyst_consensus/7a0ecf33c7c448f892e871b4756dce59",
+  "receipt": "revisions/analyst_consensus/00000004-7a0ecf33c7c448f892e871b4756dce59.json",
+  "content_digest": "d26a81affbe8f0e8dcf9efed9e7f8719f900bde9996f4cbe9f339d4e2256c229",
+  "committed_at": "2026-10-23T13:11:46.654213+00:00"
+}

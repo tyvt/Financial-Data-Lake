@@ -1,0 +1,18 @@
+{
+  "last_snapshot_date": "2026-10-16",
+  "updated_at": "2026-10-23T13:11:46.737710+00:00",
+  "revision": 2,
+  "revision_id": "d00c0ef8a54e4d7c89a9f49aceb3ac19",
+  "revision_at": "2026-10-23T13:11:46.737710+00:00",
+  "revision_run_id": "user-approved-B-cleanup-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "5b45732d670df57ad334120819d8481b49ff3f284ff15ae6f20c51877954922a",
+  "content_digest": "f044fe4af96a05801f2ac75119835559a617aa79fe95f017c04a6c5a52433609",
+  "revision_receipt": "revisions/etf_profiles/00000002-d00c0ef8a54e4d7c89a9f49aceb3ac19.json",
+  "revision_pointer": "revisions/etf_profiles/current.json",
+  "changed_partitions": [
+    "etf_profiles/as_of_date=2026"
+  ],
+  "row_count": 0,
+  "cleared_by": "user-approved-B-cleanup-20261023"
+}

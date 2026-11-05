@@ -1,0 +1,35 @@
+{
+  "dataset": "analyst_consensus",
+  "revision": 4,
+  "revision_id": "7a0ecf33c7c448f892e871b4756dce59",
+  "committed_at": "2026-10-23T13:11:46.654213+00:00",
+  "run_id": "user-approved-B-cleanup-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "042c8f7b3e0767bb7ba48ffe5b8d6767e62562c40c2cba33c42c78540f8ae6dd",
+  "content_digest": "d26a81affbe8f0e8dcf9efed9e7f8719f900bde9996f4cbe9f339d4e2256c229",
+  "changed_partitions": [
+    "analyst_consensus/forecast_date=2026-10-16"
+  ],
+  "files": [
+    {
+      "path": "analyst_consensus/forecast_date=2026-10-16/part-merged.parquet",
+      "size_bytes": 2048,
+      "sha256": "06f65e36bae3f66e5cae25ee2479d3e281b3d2eccf87652c1ccd246b6181214b"
+    }
+  ],
+  "metadata": {
+    "operation": "user_approved_dataset_clear",
+    "reason": "B stage screening-scope storage reduction",
+    "rows": 0,
+    "base_revision_id": "b7024adec3e242b4bc993e800cb28d5b"
+  },
+  "generation_path": "revisions/data/analyst_consensus/7a0ecf33c7c448f892e871b4756dce59",
+  "generation_files": [
+    {
+      "path": "analyst_consensus/forecast_date=2026-10-16/part-merged.parquet",
+      "size_bytes": 2048,
+      "sha256": "06f65e36bae3f66e5cae25ee2479d3e281b3d2eccf87652c1ccd246b6181214b"
+    }
+  ],
+  "pointer_path": "revisions/analyst_consensus/current.json"
+}

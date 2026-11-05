@@ -1,0 +1,15 @@
+{
+  "revision": 38,
+  "revision_id": "00f143c642114f04814161ab4f3c9a9e",
+  "revision_at": "2026-11-05T01:16:48.127216+00:00",
+  "revision_run_id": "18d1290a-213e-4144-b119-60836dc3a9b3",
+  "schema_version": 1,
+  "contract_fingerprint": "242a397ddac3985d21646d3fc0f920d1acf7fa163bc802e2727fc18750e436a8",
+  "content_digest": "87b2f32486b2083bc0fa564349fc5b3977ab54a307a86cad129c518c3215762b",
+  "revision_receipt": "revisions/instruments/00000038-00f143c642114f04814161ab4f3c9a9e.json",
+  "revision_pointer": "revisions/instruments/current.json",
+  "changed_partitions": [
+    "instruments"
+  ],
+  "updated_at": "2026-11-05T01:16:48.127216+00:00"
+}

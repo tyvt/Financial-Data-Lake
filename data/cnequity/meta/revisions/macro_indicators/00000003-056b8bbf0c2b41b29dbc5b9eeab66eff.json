@@ -1,0 +1,35 @@
+{
+  "dataset": "macro_indicators",
+  "revision": 3,
+  "revision_id": "056b8bbf0c2b41b29dbc5b9eeab66eff",
+  "committed_at": "2026-10-23T13:11:46.780445+00:00",
+  "run_id": "user-approved-B-cleanup-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "fad37789718a4275c135848d8c5b398cbc4fcb79bcce49d7fa1f1849ebc07094",
+  "content_digest": "58607108420a23eb22e6a7d9254bc5fe246e4432a0a631c5c5de8431a277ee87",
+  "changed_partitions": [
+    "macro_indicators/obs_date=2008"
+  ],
+  "files": [
+    {
+      "path": "macro_indicators/obs_date=2008/part-merged.parquet",
+      "size_bytes": 1348,
+      "sha256": "ddf98d37303c62c7d57248df9e7abf50a7b3ef516888026a572183a41012d881"
+    }
+  ],
+  "metadata": {
+    "operation": "user_approved_dataset_clear",
+    "reason": "B stage screening-scope storage reduction",
+    "rows": 0,
+    "base_revision_id": "454fa2f600c4404f9d4314c559638cb3"
+  },
+  "generation_path": "revisions/data/macro_indicators/056b8bbf0c2b41b29dbc5b9eeab66eff",
+  "generation_files": [
+    {
+      "path": "macro_indicators/obs_date=2008/part-merged.parquet",
+      "size_bytes": 1348,
+      "sha256": "ddf98d37303c62c7d57248df9e7abf50a7b3ef516888026a572183a41012d881"
+    }
+  ],
+  "pointer_path": "revisions/macro_indicators/current.json"
+}

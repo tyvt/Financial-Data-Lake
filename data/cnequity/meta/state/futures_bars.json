@@ -1,0 +1,2072 @@
+{
+  "last_attempt": "2026-10-17T10:47:41.155980+00:00",
+  "updated_at": "2026-10-23T14:08:41.473097+00:00",
+  "revision": 3,
+  "revision_id": "65ce9cac1f9c441f95182ddd04191fbe",
+  "revision_at": "2026-10-23T14:08:41.473097+00:00",
+  "revision_run_id": "selection-scope-retirement-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "be81d25cdc8a745dc5a1d4077551624daf593b80db518e311c83e6d34561f8f8",
+  "content_digest": "5aea2c8e2a16a919427b5418156793ca73a7e2b81ba81b1b292b9dadb167c981",
+  "revision_receipt": "revisions/futures_bars/00000003-65ce9cac1f9c441f95182ddd04191fbe.json",
+  "revision_pointer": "revisions/futures_bars/current.json",
+  "changed_partitions": [
+    "futures_bars/trade_date=2002-01"
+  ],
+  "missing_ranges": [
+    {
+      "start": "2002-02-11",
+      "end": "2002-02-11",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-02-12",
+      "end": "2002-02-12",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-02-13",
+      "end": "2002-02-13",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-02-14",
+      "end": "2002-02-14",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-02-15",
+      "end": "2002-02-15",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-02-18",
+      "end": "2002-02-18",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-05-01",
+      "end": "2002-05-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-05-02",
+      "end": "2002-05-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-05-03",
+      "end": "2002-05-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-05-06",
+      "end": "2002-05-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-05-07",
+      "end": "2002-05-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-09-30",
+      "end": "2002-09-30",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-10-01",
+      "end": "2002-10-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-10-02",
+      "end": "2002-10-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-10-03",
+      "end": "2002-10-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-10-04",
+      "end": "2002-10-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2002-10-07",
+      "end": "2002-10-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-01-01",
+      "end": "2003-01-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-01-30",
+      "end": "2003-01-30",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-01-31",
+      "end": "2003-01-31",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-02-03",
+      "end": "2003-02-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-02-04",
+      "end": "2003-02-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-02-05",
+      "end": "2003-02-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-02-06",
+      "end": "2003-02-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-02-07",
+      "end": "2003-02-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-05-01",
+      "end": "2003-05-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-05-02",
+      "end": "2003-05-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-05-05",
+      "end": "2003-05-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-05-06",
+      "end": "2003-05-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-05-07",
+      "end": "2003-05-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-05-08",
+      "end": "2003-05-08",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-05-09",
+      "end": "2003-05-09",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-10-01",
+      "end": "2003-10-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-10-02",
+      "end": "2003-10-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-10-03",
+      "end": "2003-10-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-10-06",
+      "end": "2003-10-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2003-10-07",
+      "end": "2003-10-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-01-01",
+      "end": "2004-01-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-01-19",
+      "end": "2004-01-19",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-01-20",
+      "end": "2004-01-20",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-01-21",
+      "end": "2004-01-21",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-01-22",
+      "end": "2004-01-22",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-01-23",
+      "end": "2004-01-23",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-01-26",
+      "end": "2004-01-26",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-01-27",
+      "end": "2004-01-27",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-01-28",
+      "end": "2004-01-28",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-05-03",
+      "end": "2004-05-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-05-04",
+      "end": "2004-05-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-05-05",
+      "end": "2004-05-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-05-06",
+      "end": "2004-05-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-05-07",
+      "end": "2004-05-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-06-25",
+      "end": "2004-06-25",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-10-01",
+      "end": "2004-10-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-10-04",
+      "end": "2004-10-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-10-05",
+      "end": "2004-10-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-10-06",
+      "end": "2004-10-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2004-10-07",
+      "end": "2004-10-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-01-03",
+      "end": "2005-01-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-02-07",
+      "end": "2005-02-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-02-08",
+      "end": "2005-02-08",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-02-09",
+      "end": "2005-02-09",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-02-10",
+      "end": "2005-02-10",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-02-11",
+      "end": "2005-02-11",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-02-14",
+      "end": "2005-02-14",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-02-15",
+      "end": "2005-02-15",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-05-02",
+      "end": "2005-05-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-05-03",
+      "end": "2005-05-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-05-04",
+      "end": "2005-05-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-05-05",
+      "end": "2005-05-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-05-06",
+      "end": "2005-05-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-10-03",
+      "end": "2005-10-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-10-04",
+      "end": "2005-10-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-10-05",
+      "end": "2005-10-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-10-06",
+      "end": "2005-10-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2005-10-07",
+      "end": "2005-10-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-01-02",
+      "end": "2006-01-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-01-03",
+      "end": "2006-01-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-01-30",
+      "end": "2006-01-30",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-01-31",
+      "end": "2006-01-31",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-02-01",
+      "end": "2006-02-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-02-02",
+      "end": "2006-02-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-02-03",
+      "end": "2006-02-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-05-01",
+      "end": "2006-05-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-05-02",
+      "end": "2006-05-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-05-03",
+      "end": "2006-05-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-05-04",
+      "end": "2006-05-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-05-05",
+      "end": "2006-05-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-10-02",
+      "end": "2006-10-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-10-03",
+      "end": "2006-10-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-10-04",
+      "end": "2006-10-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-10-05",
+      "end": "2006-10-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2006-10-06",
+      "end": "2006-10-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-01-01",
+      "end": "2007-01-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-01-02",
+      "end": "2007-01-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-01-03",
+      "end": "2007-01-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-02-19",
+      "end": "2007-02-19",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-02-20",
+      "end": "2007-02-20",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-02-21",
+      "end": "2007-02-21",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-02-22",
+      "end": "2007-02-22",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-02-23",
+      "end": "2007-02-23",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-05-01",
+      "end": "2007-05-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-05-02",
+      "end": "2007-05-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-05-03",
+      "end": "2007-05-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-05-04",
+      "end": "2007-05-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-05-07",
+      "end": "2007-05-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-06-04",
+      "end": "2007-06-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-10-01",
+      "end": "2007-10-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-10-02",
+      "end": "2007-10-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-10-03",
+      "end": "2007-10-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-10-04",
+      "end": "2007-10-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-10-05",
+      "end": "2007-10-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2007-12-31",
+      "end": "2007-12-31",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-01-01",
+      "end": "2008-01-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-02-06",
+      "end": "2008-02-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-02-07",
+      "end": "2008-02-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-02-08",
+      "end": "2008-02-08",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-02-11",
+      "end": "2008-02-11",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-02-12",
+      "end": "2008-02-12",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-04-04",
+      "end": "2008-04-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-05-01",
+      "end": "2008-05-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-05-02",
+      "end": "2008-05-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-06-09",
+      "end": "2008-06-09",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-09-15",
+      "end": "2008-09-15",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-09-29",
+      "end": "2008-09-29",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-09-30",
+      "end": "2008-09-30",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-10-01",
+      "end": "2008-10-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-10-02",
+      "end": "2008-10-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-10-03",
+      "end": "2008-10-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2008-12-26",
+      "end": "2008-12-26",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-01-01",
+      "end": "2009-01-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-01-02",
+      "end": "2009-01-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-01-19",
+      "end": "2009-01-19",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-01-26",
+      "end": "2009-01-26",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-01-27",
+      "end": "2009-01-27",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-01-28",
+      "end": "2009-01-28",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-01-29",
+      "end": "2009-01-29",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-01-30",
+      "end": "2009-01-30",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-04-06",
+      "end": "2009-04-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-05-01",
+      "end": "2009-05-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-05-28",
+      "end": "2009-05-28",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-05-29",
+      "end": "2009-05-29",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-10-01",
+      "end": "2009-10-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-10-02",
+      "end": "2009-10-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-10-05",
+      "end": "2009-10-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-10-06",
+      "end": "2009-10-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-10-07",
+      "end": "2009-10-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2009-10-08",
+      "end": "2009-10-08",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-01-01",
+      "end": "2010-01-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-02-15",
+      "end": "2010-02-15",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-02-16",
+      "end": "2010-02-16",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-02-17",
+      "end": "2010-02-17",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-02-18",
+      "end": "2010-02-18",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-02-19",
+      "end": "2010-02-19",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-04-05",
+      "end": "2010-04-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-05-03",
+      "end": "2010-05-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-06-14",
+      "end": "2010-06-14",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-06-15",
+      "end": "2010-06-15",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-06-16",
+      "end": "2010-06-16",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-09-22",
+      "end": "2010-09-22",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-09-23",
+      "end": "2010-09-23",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-09-24",
+      "end": "2010-09-24",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-10-01",
+      "end": "2010-10-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-10-04",
+      "end": "2010-10-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-10-05",
+      "end": "2010-10-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-10-06",
+      "end": "2010-10-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2010-10-07",
+      "end": "2010-10-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-01-03",
+      "end": "2011-01-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-02-02",
+      "end": "2011-02-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-02-03",
+      "end": "2011-02-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-02-04",
+      "end": "2011-02-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-02-07",
+      "end": "2011-02-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-02-08",
+      "end": "2011-02-08",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-04-04",
+      "end": "2011-04-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-04-05",
+      "end": "2011-04-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-05-02",
+      "end": "2011-05-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-06-06",
+      "end": "2011-06-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-09-12",
+      "end": "2011-09-12",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-10-03",
+      "end": "2011-10-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-10-04",
+      "end": "2011-10-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-10-05",
+      "end": "2011-10-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-10-06",
+      "end": "2011-10-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2011-10-07",
+      "end": "2011-10-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-01-02",
+      "end": "2012-01-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-01-03",
+      "end": "2012-01-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-01-23",
+      "end": "2012-01-23",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-01-24",
+      "end": "2012-01-24",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-01-25",
+      "end": "2012-01-25",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-01-26",
+      "end": "2012-01-26",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-01-27",
+      "end": "2012-01-27",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-04-02",
+      "end": "2012-04-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-04-03",
+      "end": "2012-04-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-04-04",
+      "end": "2012-04-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-04-30",
+      "end": "2012-04-30",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-05-01",
+      "end": "2012-05-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-06-22",
+      "end": "2012-06-22",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-10-01",
+      "end": "2012-10-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-10-02",
+      "end": "2012-10-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-10-03",
+      "end": "2012-10-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-10-04",
+      "end": "2012-10-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2012-10-05",
+      "end": "2012-10-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-01-01",
+      "end": "2013-01-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-01-02",
+      "end": "2013-01-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-01-03",
+      "end": "2013-01-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-02-11",
+      "end": "2013-02-11",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-02-12",
+      "end": "2013-02-12",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-02-13",
+      "end": "2013-02-13",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-02-14",
+      "end": "2013-02-14",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-02-15",
+      "end": "2013-02-15",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-04-04",
+      "end": "2013-04-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-04-05",
+      "end": "2013-04-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-04-29",
+      "end": "2013-04-29",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-04-30",
+      "end": "2013-04-30",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-05-01",
+      "end": "2013-05-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-06-10",
+      "end": "2013-06-10",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-06-11",
+      "end": "2013-06-11",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-06-12",
+      "end": "2013-06-12",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-09-19",
+      "end": "2013-09-19",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-09-20",
+      "end": "2013-09-20",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-10-01",
+      "end": "2013-10-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-10-02",
+      "end": "2013-10-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-10-03",
+      "end": "2013-10-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-10-04",
+      "end": "2013-10-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2013-10-07",
+      "end": "2013-10-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-01-01",
+      "end": "2014-01-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-01-31",
+      "end": "2014-01-31",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-02-03",
+      "end": "2014-02-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-02-04",
+      "end": "2014-02-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-02-05",
+      "end": "2014-02-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-02-06",
+      "end": "2014-02-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-04-07",
+      "end": "2014-04-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-05-01",
+      "end": "2014-05-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-05-02",
+      "end": "2014-05-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-06-02",
+      "end": "2014-06-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-09-08",
+      "end": "2014-09-08",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-10-01",
+      "end": "2014-10-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-10-02",
+      "end": "2014-10-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-10-03",
+      "end": "2014-10-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-10-06",
+      "end": "2014-10-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2014-10-07",
+      "end": "2014-10-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-01-01",
+      "end": "2015-01-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-01-02",
+      "end": "2015-01-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-02-18",
+      "end": "2015-02-18",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-02-19",
+      "end": "2015-02-19",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-02-20",
+      "end": "2015-02-20",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-02-23",
+      "end": "2015-02-23",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-02-24",
+      "end": "2015-02-24",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-04-06",
+      "end": "2015-04-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-05-01",
+      "end": "2015-05-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-06-22",
+      "end": "2015-06-22",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-09-03",
+      "end": "2015-09-03",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-09-04",
+      "end": "2015-09-04",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-10-01",
+      "end": "2015-10-01",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-10-02",
+      "end": "2015-10-02",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-10-05",
+      "end": "2015-10-05",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-10-06",
+      "end": "2015-10-06",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    },
+    {
+      "start": "2015-10-07",
+      "end": "2015-10-07",
+      "last_failure": "source_empty",
+      "last_attempt": "2026-10-17T10:47:41.160981+00:00",
+      "next_retry_at": "2026-10-17T10:47:41.160981+00:00",
+      "attempts": 1
+    }
+  ],
+  "coverage_status": "incomplete",
+  "last_success_trade_date": "2026-10-16",
+  "observed_max": "2026-10-16",
+  "complete_through": "2002-02-10",
+  "row_count": 0,
+  "retired_by": "selection_lake_policy.json"
+}

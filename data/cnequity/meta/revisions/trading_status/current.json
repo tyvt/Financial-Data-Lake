@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "trading_status",
+  "revision": 14,
+  "revision_id": "e961950204f447c991572e7044cdcdbf",
+  "generation_path": "revisions/data/trading_status/e961950204f447c991572e7044cdcdbf",
+  "receipt": "revisions/trading_status/00000014-e961950204f447c991572e7044cdcdbf.json",
+  "content_digest": "7f2788b06562841276fb489ffdeb6f7f589d427c6bd5faf57f9e997e3b6fb6ea",
+  "committed_at": "2026-11-05T02:32:21.404506+00:00"
+}

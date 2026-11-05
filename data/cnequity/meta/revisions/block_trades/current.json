@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "block_trades",
+  "revision": 4,
+  "revision_id": "e342caef48c343b5b990e05a9e99cf5f",
+  "generation_path": "revisions/data/block_trades/e342caef48c343b5b990e05a9e99cf5f",
+  "receipt": "revisions/block_trades/00000004-e342caef48c343b5b990e05a9e99cf5f.json",
+  "content_digest": "5affc8b9eee50074a445a60462cb463b71ef8155a4e9c804239d77e3f1966376",
+  "committed_at": "2026-10-23T13:11:46.675206+00:00"
+}

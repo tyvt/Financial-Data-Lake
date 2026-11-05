@@ -1,0 +1,34 @@
+{
+  "dataset": "institutional_holdings",
+  "revision": 3,
+  "revision_id": "14a16014509349c6b2e0733c9e1ea05e",
+  "committed_at": "2026-10-23T14:08:41.359671+00:00",
+  "run_id": "selection-scope-retirement-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "a388018a9fc2b2e6c5aaf07949c286f8c676cc9cac3cb06852f5f965013a40a9",
+  "content_digest": "cfca619078124c8c9423984b31a5f2bc308b66da228b720e396d08299b731f64",
+  "changed_partitions": [
+    "institutional_holdings/report_period=2026Q2"
+  ],
+  "files": [
+    {
+      "path": "institutional_holdings/report_period=2026Q2/part-merged.parquet",
+      "size_bytes": 1700,
+      "sha256": "e2b81f58bacebc396bae7fad3a6ebc251994d22b5f827dc766682d37f1f986c5"
+    }
+  ],
+  "metadata": {
+    "operation": "user_authorized_retirement",
+    "rows": 0,
+    "base_revision_id": "fdcf4df2e3a0449885bfb646ea6100f2"
+  },
+  "generation_path": "revisions/data/institutional_holdings/14a16014509349c6b2e0733c9e1ea05e",
+  "generation_files": [
+    {
+      "path": "institutional_holdings/report_period=2026Q2/part-merged.parquet",
+      "size_bytes": 1700,
+      "sha256": "e2b81f58bacebc396bae7fad3a6ebc251994d22b5f827dc766682d37f1f986c5"
+    }
+  ],
+  "pointer_path": "revisions/institutional_holdings/current.json"
+}

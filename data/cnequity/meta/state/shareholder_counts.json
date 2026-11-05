@@ -1,0 +1,18 @@
+{
+  "revision": 4,
+  "revision_id": "a35ab482b6494825af68a239c7907e93",
+  "revision_at": "2026-10-23T14:08:41.402622+00:00",
+  "revision_run_id": "selection-scope-retirement-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "b683020108ac434849756af251e1095e7c6519c71bf295adb02683572c7732bf",
+  "content_digest": "680be641c6828aca55602a4e298bb9b1874b7adb229f8727b3edfd5e72f628a5",
+  "revision_receipt": "revisions/shareholder_counts/00000004-a35ab482b6494825af68a239c7907e93.json",
+  "revision_pointer": "revisions/shareholder_counts/current.json",
+  "changed_partitions": [
+    "shareholder_counts/count_date=2026"
+  ],
+  "updated_at": "2026-10-23T14:08:41.402622+00:00",
+  "coverage_status": "unknown",
+  "row_count": 0,
+  "retired_by": "selection_lake_policy.json"
+}

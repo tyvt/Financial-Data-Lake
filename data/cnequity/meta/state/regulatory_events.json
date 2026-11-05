@@ -1,0 +1,19 @@
+{
+  "revision": 5,
+  "revision_id": "43f418d5328647499d77cf8f9a213333",
+  "revision_at": "2026-11-05T01:51:04.348454+00:00",
+  "revision_run_id": "4429bc25-ef33-4a4d-be66-8175e7cafb55",
+  "schema_version": 1,
+  "contract_fingerprint": "6979eb4a0b37fdb6614cab978ea95e0d7e70cd511098cd805d8e6e84adb755c0",
+  "content_digest": "6cce6c07768fd0c99013a318016ef0da69cdc67fee68d90dc90eae74c5e85731",
+  "revision_receipt": "revisions/regulatory_events/00000005-43f418d5328647499d77cf8f9a213333.json",
+  "revision_pointer": "revisions/regulatory_events/current.json",
+  "changed_partitions": [
+    "regulatory_events/event_date=2026"
+  ],
+  "updated_at": "2026-11-05T01:51:04.383989+00:00",
+  "last_success_trade_date": "2026-11-05",
+  "observed_max": "2026-11-05",
+  "complete_through": "2026-11-05",
+  "coverage_status": "complete"
+}

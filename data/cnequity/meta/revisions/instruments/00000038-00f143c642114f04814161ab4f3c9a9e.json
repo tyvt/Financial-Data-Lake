@@ -1,0 +1,81 @@
+{
+  "dataset": "instruments",
+  "revision": 38,
+  "revision_id": "00f143c642114f04814161ab4f3c9a9e",
+  "committed_at": "2026-11-05T01:16:48.127216+00:00",
+  "run_id": "18d1290a-213e-4144-b119-60836dc3a9b3",
+  "schema_version": 1,
+  "contract_fingerprint": "242a397ddac3985d21646d3fc0f920d1acf7fa163bc802e2727fc18750e436a8",
+  "content_digest": "87b2f32486b2083bc0fa564349fc5b3977ab54a307a86cad129c518c3215762b",
+  "changed_partitions": [
+    "instruments"
+  ],
+  "files": [
+    {
+      "path": "instruments/part-merged.parquet",
+      "size_bytes": 107825,
+      "sha256": "175fbe04ea0c653f0093485e06512175f96535fc79fd8cfb426da0f0e1fe5bf3"
+    }
+  ],
+  "metadata": {
+    "trade_date": "2026-11-05",
+    "partition_col": null,
+    "rows_written": 8099,
+    "canonical_policy": "instrument_identity_merge_v1",
+    "changes": [
+      {
+        "partition": null,
+        "inserted_keys": 1,
+        "updated_keys": 2,
+        "source_changes": [],
+        "updated_key_sample": [
+          {
+            "symbol": "920220.BJ"
+          },
+          {
+            "symbol": "920285.BJ"
+          }
+        ]
+      }
+    ],
+    "publication_audit": {
+      "mode": "off",
+      "blocked": false,
+      "report_path": null
+    },
+    "validation": {
+      "schema": "passed",
+      "staging_seals": "passed",
+      "batch_completeness": "passed",
+      "source_diff_gate": "not_configured"
+    },
+    "coverage": {
+      "status": "unknown",
+      "requested_scope": {
+        "start": null,
+        "end": "2026-11-05",
+        "universe": "all_a"
+      },
+      "gaps": {
+        "missing_ranges": [],
+        "missing_units": {},
+        "outstanding_keys": []
+      },
+      "resolved_outstanding_keys": 0
+    },
+    "package_version": "0.16.0",
+    "git_commit": null,
+    "git_dirty": null,
+    "config_fingerprint": "e77d893d9f290cd3ea10ba64361cc558cadd5f9bc071a0c0a8308b7778bc01f3",
+    "base_revision_id": "fa56e558ab764d31a10906c2a3d4e46c"
+  },
+  "generation_path": "revisions/data/instruments/00f143c642114f04814161ab4f3c9a9e",
+  "generation_files": [
+    {
+      "path": "instruments/part-merged.parquet",
+      "size_bytes": 107825,
+      "sha256": "175fbe04ea0c653f0093485e06512175f96535fc79fd8cfb426da0f0e1fe5bf3"
+    }
+  ],
+  "pointer_path": "revisions/instruments/current.json"
+}

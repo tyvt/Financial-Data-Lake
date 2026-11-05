@@ -1,0 +1,10 @@
+﻿{
+    "task_name":  "CNEquity-SelectionLake-Audit",
+    "state":  "Ready",
+    "user":  "SYSTEM",
+    "next_run":  "2026-10-31T09:00:00.0000000+08:00",
+    "last_result":  2147942667,
+    "trigger":  "6 at 09:00 Beijing time",
+    "timezone":  "China Standard Time",
+    "read_only":  true
+}

@@ -1,0 +1,171 @@
+{
+  "dataset": "share_structure",
+  "revision": 5,
+  "revision_id": "ffb65e1ab72842da871634087bb055d7",
+  "committed_at": "2026-11-05T01:21:44.828024+00:00",
+  "run_id": "3d58731b-bdba-456b-84aa-396ab74de361",
+  "schema_version": 1,
+  "contract_fingerprint": "78ac17094009f7b9f72408737a1f533035182d0584cc9e53e2d113cf2aef34ef",
+  "content_digest": "71b04a5e9dcbc00d33d91526bac865dabb75e6c22c3b925cbdce6d6c79201c23",
+  "changed_partitions": [
+    "share_structure/change_date=2025",
+    "share_structure/change_date=2026"
+  ],
+  "files": [
+    {
+      "path": "share_structure/change_date=2025/part-merged.parquet",
+      "size_bytes": 477088,
+      "sha256": "64edc0b89df004eb5ecaa19ded602c317fb5d2a7ee010875a1a5b5541195d656"
+    },
+    {
+      "path": "share_structure/change_date=2026/part-merged.parquet",
+      "size_bytes": 377444,
+      "sha256": "54d06cd5356e25ba3b8712dfe9cf0002f9350377de7fb6b37dd01dffbcc8ab78"
+    }
+  ],
+  "metadata": {
+    "trade_date": "2026-11-05",
+    "partition_col": "change_date",
+    "rows_written": 22753,
+    "canonical_policy": "observation_recency_v1",
+    "changes": [
+      {
+        "partition": "change_date=2026",
+        "inserted_keys": 328,
+        "updated_keys": 12,
+        "source_changes": [
+          {
+            "from": "eastmoney_backfill",
+            "to": "eastmoney",
+            "keys": 4
+          }
+        ],
+        "updated_key_sample": [
+          {
+            "symbol": "002134.SZ",
+            "change_date": "2026-10-09",
+            "announce_date": "2026-10-14"
+          },
+          {
+            "symbol": "002142.SZ",
+            "change_date": "2026-10-16",
+            "announce_date": "2026-10-20"
+          },
+          {
+            "symbol": "002142.SZ",
+            "change_date": "2026-10-23",
+            "announce_date": "2026-10-20"
+          },
+          {
+            "symbol": "300782.SZ",
+            "change_date": "2026-10-28",
+            "announce_date": "2026-10-23"
+          },
+          {
+            "symbol": "300848.SZ",
+            "change_date": "2026-10-27",
+            "announce_date": "2026-10-23"
+          },
+          {
+            "symbol": "600089.SH",
+            "change_date": "2026-10-12",
+            "announce_date": "2026-10-12"
+          },
+          {
+            "symbol": "601187.SH",
+            "change_date": "2026-10-27",
+            "announce_date": "2026-10-22"
+          },
+          {
+            "symbol": "601686.SH",
+            "change_date": "2026-09-30",
+            "announce_date": "2026-10-09"
+          },
+          {
+            "symbol": "603051.SH",
+            "change_date": "2026-10-21",
+            "announce_date": "2026-10-23"
+          },
+          {
+            "symbol": "603568.SH",
+            "change_date": "2026-09-30",
+            "announce_date": "2026-10-09"
+          }
+        ]
+      },
+      {
+        "partition": "change_date=2025",
+        "inserted_keys": 1,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      }
+    ],
+    "publication_audit": {
+      "mode": "off",
+      "blocked": false,
+      "report_path": null
+    },
+    "validation": {
+      "schema": "passed",
+      "staging_seals": "passed",
+      "batch_completeness": "partial",
+      "source_diff_gate": "not_configured"
+    },
+    "coverage": {
+      "status": "partial",
+      "requested_scope": {
+        "start": null,
+        "end": "2026-11-05",
+        "universe": "all_a"
+      },
+      "gaps": {
+        "missing_ranges": [],
+        "missing_units": {
+          "notice_date:2026-09-29:2026-10-29": {
+            "reason": "EastMoney datacenter RPT_F10_EH_EQUITY page 1 failed after 5 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T12:02:14.996607+00:00",
+            "next_retry_at": "2026-10-29T12:02:14.996607+00:00",
+            "attempts": 1
+          }
+        },
+        "outstanding_keys": []
+      },
+      "resolved_outstanding_keys": 0
+    },
+    "package_version": "0.16.0",
+    "git_commit": null,
+    "git_dirty": null,
+    "config_fingerprint": "e77d893d9f290cd3ea10ba64361cc558cadd5f9bc071a0c0a8308b7778bc01f3",
+    "base_revision_id": "e5b3228ec70d46619859034fadd0d44a"
+  },
+  "generation_path": "revisions/data/share_structure/ffb65e1ab72842da871634087bb055d7",
+  "generation_files": [
+    {
+      "path": "share_structure/change_date=2022/part-merged.parquet",
+      "size_bytes": 516971,
+      "sha256": "e34ce67227295de80a2bd14582d85d658189fc4be7a136c9d5d7032b7d5d159e"
+    },
+    {
+      "path": "share_structure/change_date=2023/part-merged.parquet",
+      "size_bytes": 521484,
+      "sha256": "706d49bd719008b606552523b9d5f95d1e11e68ab8795409ceda8ea45211ac40"
+    },
+    {
+      "path": "share_structure/change_date=2024/part-merged.parquet",
+      "size_bytes": 487850,
+      "sha256": "a31db053e466c47c7309feaba204fcc284821d4129f2f77145c3e402e12f9050"
+    },
+    {
+      "path": "share_structure/change_date=2025/part-merged.parquet",
+      "size_bytes": 477088,
+      "sha256": "64edc0b89df004eb5ecaa19ded602c317fb5d2a7ee010875a1a5b5541195d656"
+    },
+    {
+      "path": "share_structure/change_date=2026/part-merged.parquet",
+      "size_bytes": 377444,
+      "sha256": "54d06cd5356e25ba3b8712dfe9cf0002f9350377de7fb6b37dd01dffbcc8ab78"
+    }
+  ],
+  "pointer_path": "revisions/share_structure/current.json"
+}

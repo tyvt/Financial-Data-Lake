@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "earnings_disclosure_schedule",
+  "revision": 6,
+  "revision_id": "099826e576924e2fa3d7f446256cacb4",
+  "generation_path": "revisions/data/earnings_disclosure_schedule/099826e576924e2fa3d7f446256cacb4",
+  "receipt": "revisions/earnings_disclosure_schedule/00000006-099826e576924e2fa3d7f446256cacb4.json",
+  "content_digest": "fd15ccdd7f48c952d79b91f5de66efd77e6116bbe74c96948c8f21112e40623e",
+  "committed_at": "2026-11-05T01:21:44.625544+00:00"
+}

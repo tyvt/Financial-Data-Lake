@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "dataset": "financial_statement_items",
+  "source": "eastmoney",
+  "captured_at": "2026-10-17T02:10:35.452035+00:00",
+  "payload_sha256": "46392961fc6feaddc4bf333dcd8a23bc3ea7fe8b3e6a84a70084046d3a1859b5",
+  "payload_bytes": 62323,
+  "compressed_bytes": 12876,
+  "compression": "gzip",
+  "payload_format": "bytes",
+  "payload_path": "raw/financial_statement_items/source=eastmoney/captured_date=2026-10-17/46392961fc6feaddc4bf333dcd8a23bc3ea7fe8b3e6a84a70084046d3a1859b5.gz",
+  "metadata_path": "raw/financial_statement_items/source=eastmoney/captured_date=2026-10-17/46392961fc6feaddc4bf333dcd8a23bc3ea7fe8b3e6a84a70084046d3a1859b5.02f902791b54167b144f0b9284af204d0e3ed95166c4ad2fd7ca1ab7f85a6a4a.json",
+  "request_params": {
+    "report": "RPT_DMSK_FN_INCOME",
+    "columns": "SECURITY_CODE,SECUCODE,REPORT_DATE,NOTICE_DATE,OPERATE_COST,OPERATE_PROFIT,TOTAL_PROFIT,DEDUCT_PARENT_NETPROFIT,INCOME_TAX,SALE_EXPENSE,MANAGE_EXPENSE,FINANCE_EXPENSE",
+    "filter": "(NOTICE_DATE>='2026-09-17') AND (NOTICE_DATE<='2026-10-16')",
+    "page_size": 500,
+    "page_number": 1
+  },
+  "run_id": "81238017-754c-4b7e-8ae0-98c5f76d4701",
+  "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_INCOME&columns=SECURITY_CODE%2CSECUCODE%2CREPORT_DATE%2CNOTICE_DATE%2COPERATE_COST%2COPERATE_PROFIT%2CTOTAL_PROFIT%2CDEDUCT_PARENT_NETPROFIT%2CINCOME_TAX%2CSALE_EXPENSE%2CMANAGE_EXPENSE%2CFINANCE_EXPENSE&pageSize=500&pageNumber=1&filter=%28NOTICE_DATE%3E%3D%272026-09-17%27%29+AND+%28NOTICE_DATE%3C%3D%272026-10-16%27%29",
+  "response_status": 200,
+  "http_metadata": {
+    "wire_exact": true,
+    "json_parsed": true,
+    "response_envelope": "json",
+    "content_type": "text/plain;charset=UTF-8"
+  },
+  "pagination": {
+    "page": 1,
+    "page_size": 500
+  },
+  "observation_id": "81238017-754c-4b7e-8ae0-98c5f76d4701:eastmoney:RPT_DMSK_FN_INCOME:(NOTICE_DATE>='2026-09-17') AND (NOTICE_DATE<='2026-10-16'):1:scope=daily:2026-10-16",
+  "request_scope": "daily:2026-10-16"
+}

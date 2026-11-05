@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "index_constituents",
+  "revision": 3,
+  "revision_id": "a6a814141675460c8920bfed9b17f8bc",
+  "generation_path": "revisions/data/index_constituents/a6a814141675460c8920bfed9b17f8bc",
+  "receipt": "revisions/index_constituents/00000003-a6a814141675460c8920bfed9b17f8bc.json",
+  "content_digest": "b2321ef6ae305ea8953511765867eb25e20b22b3ef6c2df34363159b80051bc5",
+  "committed_at": "2026-10-23T14:08:41.335322+00:00"
+}

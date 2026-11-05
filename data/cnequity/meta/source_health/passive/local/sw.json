@@ -1,0 +1,9 @@
+{
+  "key": "sw",
+  "source": "sw",
+  "dataset": "industry_members",
+  "run_id": "fb2c2fcf-df4f-4e1b-8dca-94dd10736195",
+  "rows": 425906,
+  "validated_at": "2026-10-17T07:05:56+00:00",
+  "sample_kind": "passive"
+}

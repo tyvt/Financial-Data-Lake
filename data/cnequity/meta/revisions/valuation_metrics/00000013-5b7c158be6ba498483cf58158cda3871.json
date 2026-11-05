@@ -1,0 +1,35 @@
+{
+  "dataset": "valuation_metrics",
+  "revision": 13,
+  "revision_id": "5b7c158be6ba498483cf58158cda3871",
+  "committed_at": "2026-10-23T13:11:46.985739+00:00",
+  "run_id": "user-approved-B-cleanup-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "15fa2cafd4b9b317d13dd730c27b71ca19d8f1cb52b08bf72cd541a5fc378379",
+  "content_digest": "a14a4f7debbc6e9c39d28da620c8bbf8a5ff0a24bb57adeb20c1d3de0ef9f56e",
+  "changed_partitions": [
+    "valuation_metrics/trade_date=2016-01-04"
+  ],
+  "files": [
+    {
+      "path": "valuation_metrics/trade_date=2016-01-04/part-merged.parquet",
+      "size_bytes": 2448,
+      "sha256": "ff7c3071137e0aa8c8b505abf2a8ab84ab51b5083b9f98198cdcd6bbe2da1910"
+    }
+  ],
+  "metadata": {
+    "operation": "user_approved_dataset_clear",
+    "reason": "B stage screening-scope storage reduction",
+    "rows": 0,
+    "base_revision_id": "69d4bc961b1d46fbb02d7dead8f280dc"
+  },
+  "generation_path": "revisions/data/valuation_metrics/5b7c158be6ba498483cf58158cda3871",
+  "generation_files": [
+    {
+      "path": "valuation_metrics/trade_date=2016-01-04/part-merged.parquet",
+      "size_bytes": 2448,
+      "sha256": "ff7c3071137e0aa8c8b505abf2a8ab84ab51b5083b9f98198cdcd6bbe2da1910"
+    }
+  ],
+  "pointer_path": "revisions/valuation_metrics/current.json"
+}

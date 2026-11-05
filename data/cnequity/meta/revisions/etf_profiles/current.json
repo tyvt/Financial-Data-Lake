@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "etf_profiles",
+  "revision": 2,
+  "revision_id": "d00c0ef8a54e4d7c89a9f49aceb3ac19",
+  "generation_path": "revisions/data/etf_profiles/d00c0ef8a54e4d7c89a9f49aceb3ac19",
+  "receipt": "revisions/etf_profiles/00000002-d00c0ef8a54e4d7c89a9f49aceb3ac19.json",
+  "content_digest": "f044fe4af96a05801f2ac75119835559a617aa79fe95f017c04a6c5a52433609",
+  "committed_at": "2026-10-23T13:11:46.737710+00:00"
+}

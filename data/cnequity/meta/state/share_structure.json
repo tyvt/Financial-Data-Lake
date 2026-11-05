@@ -1,0 +1,25 @@
+{
+  "revision": 5,
+  "revision_id": "ffb65e1ab72842da871634087bb055d7",
+  "revision_at": "2026-11-05T01:21:44.828024+00:00",
+  "revision_run_id": "3d58731b-bdba-456b-84aa-396ab74de361",
+  "schema_version": 1,
+  "contract_fingerprint": "78ac17094009f7b9f72408737a1f533035182d0584cc9e53e2d113cf2aef34ef",
+  "content_digest": "71b04a5e9dcbc00d33d91526bac865dabb75e6c22c3b925cbdce6d6c79201c23",
+  "revision_receipt": "revisions/share_structure/00000005-ffb65e1ab72842da871634087bb055d7.json",
+  "revision_pointer": "revisions/share_structure/current.json",
+  "changed_partitions": [
+    "share_structure/change_date=2025",
+    "share_structure/change_date=2026"
+  ],
+  "updated_at": "2026-11-05T01:21:44.948689+00:00",
+  "coverage_status": "incomplete",
+  "missing_units": {
+    "notice_date:2026-09-29:2026-10-29": {
+      "reason": "EastMoney datacenter RPT_F10_EH_EQUITY page 1 failed after 5 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+      "last_attempt": "2026-10-29T12:02:14.996607+00:00",
+      "next_retry_at": "2026-10-29T12:02:14.996607+00:00",
+      "attempts": 1
+    }
+  }
+}

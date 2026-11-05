@@ -1,0 +1,404 @@
+{
+  "dataset": "financial_statement_items",
+  "revision": 10,
+  "revision_id": "e992ead6d8824a54b9ee76fb100e6a2c",
+  "committed_at": "2026-11-05T01:21:44.699031+00:00",
+  "run_id": "3d58731b-bdba-456b-84aa-396ab74de361",
+  "schema_version": 1,
+  "contract_fingerprint": "a509617e3f0b2cd52c83d0df7e79f6d26befa3362f33ebda61f70642bebe07a5",
+  "content_digest": "ee9bf1b5cf70e135857f917b08139e27944b9b844107c95fdcf9a293d54a5c44",
+  "changed_partitions": [
+    "financial_statement_items/report_period=2023Q3",
+    "financial_statement_items/report_period=2023Q4",
+    "financial_statement_items/report_period=2024Q1",
+    "financial_statement_items/report_period=2024Q2",
+    "financial_statement_items/report_period=2024Q3",
+    "financial_statement_items/report_period=2024Q4",
+    "financial_statement_items/report_period=2025Q1",
+    "financial_statement_items/report_period=2025Q2",
+    "financial_statement_items/report_period=2025Q3",
+    "financial_statement_items/report_period=2025Q4",
+    "financial_statement_items/report_period=2026Q1",
+    "financial_statement_items/report_period=2026Q2",
+    "financial_statement_items/report_period=2026Q3"
+  ],
+  "files": [
+    {
+      "path": "financial_statement_items/report_period=2023Q3/part-merged.parquet",
+      "size_bytes": 3449031,
+      "sha256": "d2864ab39c4f59f693d3c1c8b660cc9dd61514ad13a7ab4d9674bfb556c11ea9"
+    },
+    {
+      "path": "financial_statement_items/report_period=2023Q4/part-merged.parquet",
+      "size_bytes": 3726985,
+      "sha256": "1e868df388b5430abae03d8fcc26a546f2d839224979325c27dd5959c22a4468"
+    },
+    {
+      "path": "financial_statement_items/report_period=2024Q1/part-merged.parquet",
+      "size_bytes": 3454610,
+      "sha256": "0a9d98b049e9f66f41161d7ad91f98fbdafa0d87240525331f9e882761d96bb3"
+    },
+    {
+      "path": "financial_statement_items/report_period=2024Q2/part-merged.parquet",
+      "size_bytes": 3639491,
+      "sha256": "8888ddc89d8ffa1e8c178bb35d647ed55ab4f6794c3eb7a2fecd09f08fc2122c"
+    },
+    {
+      "path": "financial_statement_items/report_period=2024Q3/part-merged.parquet",
+      "size_bytes": 3518954,
+      "sha256": "caf699ba9b52a6b675b293c9fd82543d2c653dfb9bc4cbed0ab1ebfe383f4a96"
+    },
+    {
+      "path": "financial_statement_items/report_period=2024Q4/part-merged.parquet",
+      "size_bytes": 3726957,
+      "sha256": "271b5911247f433c6a9151b22d2155c26f6bfe0d0e4a0fc02a854b941ca73f9d"
+    },
+    {
+      "path": "financial_statement_items/report_period=2025Q1/part-merged.parquet",
+      "size_bytes": 3528275,
+      "sha256": "b8cce88c9e95d25b07b0854def7e1d0f81c60a1b80d24aad7f7adbcd9991f540"
+    },
+    {
+      "path": "financial_statement_items/report_period=2025Q2/part-merged.parquet",
+      "size_bytes": 3691473,
+      "sha256": "d3ee0712caed8175c44d6127f157a79d5a31ce72729128697865b9f01a6d2c2e"
+    },
+    {
+      "path": "financial_statement_items/report_period=2025Q3/part-merged.parquet",
+      "size_bytes": 5120760,
+      "sha256": "80df891da76ee03164d2107623b438755d0ac7178d9c9c2fa1b41ad0b89c90e6"
+    },
+    {
+      "path": "financial_statement_items/report_period=2025Q4/part-merged.parquet",
+      "size_bytes": 4683617,
+      "sha256": "987884c92b20748d96297ab08b02015a0deb0478460981e91c5cab72dd833d7e"
+    },
+    {
+      "path": "financial_statement_items/report_period=2026Q1/part-merged.parquet",
+      "size_bytes": 3546803,
+      "sha256": "7921de5276d37ac215082d05f1b76644d0df18a828671489e40d1a44d5e1bc97"
+    },
+    {
+      "path": "financial_statement_items/report_period=2026Q2/part-merged.parquet",
+      "size_bytes": 3693197,
+      "sha256": "7ea4facac550a6f21d2403a30cd5a8ecce9f29bacf162b6c494ebb76a8da84dd"
+    },
+    {
+      "path": "financial_statement_items/report_period=2026Q3/part-merged.parquet",
+      "size_bytes": 3771165,
+      "sha256": "dff0dca6d5423b60199598206834137b9e28172877e4601c8d920dedb138928a"
+    }
+  ],
+  "metadata": {
+    "trade_date": "2026-11-05",
+    "partition_col": "report_period",
+    "rows_written": 3054078,
+    "canonical_policy": "observation_recency_v1",
+    "changes": [
+      {
+        "partition": "report_period=2025Q3",
+        "inserted_keys": 21929,
+        "updated_keys": 1,
+        "source_changes": [],
+        "updated_key_sample": [
+          {
+            "symbol": "300820.SZ",
+            "report_period": "2025Q3",
+            "statement_type": "income",
+            "item_code": "net_profit_deducted",
+            "announce_date": "2026-10-28"
+          }
+        ]
+      },
+      {
+        "partition": "report_period=2026Q3",
+        "inserted_keys": 51162,
+        "updated_keys": 5,
+        "source_changes": [],
+        "updated_key_sample": [
+          {
+            "symbol": "002481.SZ",
+            "report_period": "2026Q3",
+            "statement_type": "indicator",
+            "item_code": "roe",
+            "announce_date": "2026-10-22"
+          },
+          {
+            "symbol": "003021.SZ",
+            "report_period": "2026Q3",
+            "statement_type": "indicator",
+            "item_code": "bps",
+            "announce_date": "2026-10-29"
+          },
+          {
+            "symbol": "003021.SZ",
+            "report_period": "2026Q3",
+            "statement_type": "indicator",
+            "item_code": "ocf_per_share",
+            "announce_date": "2026-10-29"
+          },
+          {
+            "symbol": "300964.SZ",
+            "report_period": "2026Q3",
+            "statement_type": "indicator",
+            "item_code": "eps",
+            "announce_date": "2026-10-24"
+          },
+          {
+            "symbol": "300964.SZ",
+            "report_period": "2026Q3",
+            "statement_type": "indicator",
+            "item_code": "roe",
+            "announce_date": "2026-10-24"
+          }
+        ]
+      },
+      {
+        "partition": "report_period=2025Q4",
+        "inserted_keys": 12844,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      },
+      {
+        "partition": "report_period=2026Q1",
+        "inserted_keys": 41,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      },
+      {
+        "partition": "report_period=2023Q4",
+        "inserted_keys": 53,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      },
+      {
+        "partition": "report_period=2025Q2",
+        "inserted_keys": 63,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      },
+      {
+        "partition": "report_period=2024Q1",
+        "inserted_keys": 20,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      },
+      {
+        "partition": "report_period=2024Q4",
+        "inserted_keys": 102,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      },
+      {
+        "partition": "report_period=2026Q2",
+        "inserted_keys": 102,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      },
+      {
+        "partition": "report_period=2025Q1",
+        "inserted_keys": 27,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      },
+      {
+        "partition": "report_period=2023Q3",
+        "inserted_keys": 8,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      },
+      {
+        "partition": "report_period=2024Q2",
+        "inserted_keys": 20,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      },
+      {
+        "partition": "report_period=2024Q3",
+        "inserted_keys": 7,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      }
+    ],
+    "publication_audit": {
+      "mode": "off",
+      "blocked": false,
+      "report_path": null
+    },
+    "validation": {
+      "schema": "passed",
+      "staging_seals": "passed",
+      "batch_completeness": "passed",
+      "source_diff_gate": "not_configured"
+    },
+    "coverage": {
+      "status": "unknown",
+      "requested_scope": {
+        "start": null,
+        "end": "2026-11-05",
+        "universe": "all_a"
+      },
+      "gaps": {
+        "missing_ranges": [],
+        "missing_units": {},
+        "outstanding_keys": []
+      },
+      "resolved_outstanding_keys": 0
+    },
+    "package_version": "0.16.0",
+    "git_commit": null,
+    "git_dirty": null,
+    "config_fingerprint": "e77d893d9f290cd3ea10ba64361cc558cadd5f9bc071a0c0a8308b7778bc01f3",
+    "base_revision_id": "8260d0d4b6d748faad76a918d886f417"
+  },
+  "generation_path": "revisions/data/financial_statement_items/e992ead6d8824a54b9ee76fb100e6a2c",
+  "generation_files": [
+    {
+      "path": "financial_statement_items/report_period=2017Q4/part-merged.parquet",
+      "size_bytes": 5563,
+      "sha256": "3f2e135e723e4b1625e1d6f63e24ce397e13522e3a3ddf62864e11b162ee2bc6"
+    },
+    {
+      "path": "financial_statement_items/report_period=2018Q4/part-merged.parquet",
+      "size_bytes": 5470,
+      "sha256": "f40e070ea14a946ed482a9a75b7cca358b24d1fcecafda0ff4fa5ba29daab55e"
+    },
+    {
+      "path": "financial_statement_items/report_period=2019Q4/part-merged.parquet",
+      "size_bytes": 6510,
+      "sha256": "2b886484432b86900ffef96935f8e4470bc7611b08f1a41936942b3ae07d597d"
+    },
+    {
+      "path": "financial_statement_items/report_period=2020Q4/part-merged.parquet",
+      "size_bytes": 7594,
+      "sha256": "b3957a46963fdaaf26d7663718cfd8abbdafff52dc492001847efe0a97537844"
+    },
+    {
+      "path": "financial_statement_items/report_period=2021Q1/part-merged.parquet",
+      "size_bytes": 5320,
+      "sha256": "c846afaf114d207832c3b9cf677e4c9a26ccffb06d627eb31ec83116763d7fdf"
+    },
+    {
+      "path": "financial_statement_items/report_period=2021Q2/part-merged.parquet",
+      "size_bytes": 5319,
+      "sha256": "06c891ae0b3fa5f08700b44648f3e418f5d63a8115e58abac3c5635f5acad7b6"
+    },
+    {
+      "path": "financial_statement_items/report_period=2021Q3/part-merged.parquet",
+      "size_bytes": 5327,
+      "sha256": "b10438bfd950e960349b7a223d4d16ec2810f255d5891b04a310805ae47223f0"
+    },
+    {
+      "path": "financial_statement_items/report_period=2021Q4/part-merged.parquet",
+      "size_bytes": 7581,
+      "sha256": "2993464db8d0c43c49962d79332dec5ead7a008681b6b9afa7c9f0d2679d2bef"
+    },
+    {
+      "path": "financial_statement_items/report_period=2022Q1/part-merged.parquet",
+      "size_bytes": 3236867,
+      "sha256": "a1dbdde990429380fb1f16e54b46e23a318a76eadbea845cca6242c9c01a64bb"
+    },
+    {
+      "path": "financial_statement_items/report_period=2022Q2/part-merged.parquet",
+      "size_bytes": 3550203,
+      "sha256": "2b4ce8ed8dfba79e882d82348fa18c59d935e9be89f50fb65152aec64ef794a8"
+    },
+    {
+      "path": "financial_statement_items/report_period=2022Q3/part-merged.parquet",
+      "size_bytes": 3334377,
+      "sha256": "0d62cc04f97dc8e686faa7a8d9e42c023c768a9299615754b6aa7332a5e155b4"
+    },
+    {
+      "path": "financial_statement_items/report_period=2022Q4/part-merged.parquet",
+      "size_bytes": 3721341,
+      "sha256": "fad513b78d3ea4dea5ca2cf771042106ff9025f376c266bb70ae76ba700ac983"
+    },
+    {
+      "path": "financial_statement_items/report_period=2023Q1/part-merged.parquet",
+      "size_bytes": 3360423,
+      "sha256": "048f4d9cd726634cbde576fe9942b8d9bde40417571697c3d79f07cb9332896b"
+    },
+    {
+      "path": "financial_statement_items/report_period=2023Q2/part-merged.parquet",
+      "size_bytes": 3578527,
+      "sha256": "c5688034fd485577bb8804d969ef86acaa752f6004510992538c9e0f30cf0ee7"
+    },
+    {
+      "path": "financial_statement_items/report_period=2023Q3/part-merged.parquet",
+      "size_bytes": 3449031,
+      "sha256": "d2864ab39c4f59f693d3c1c8b660cc9dd61514ad13a7ab4d9674bfb556c11ea9"
+    },
+    {
+      "path": "financial_statement_items/report_period=2023Q4/part-merged.parquet",
+      "size_bytes": 3726985,
+      "sha256": "1e868df388b5430abae03d8fcc26a546f2d839224979325c27dd5959c22a4468"
+    },
+    {
+      "path": "financial_statement_items/report_period=2024Q1/part-merged.parquet",
+      "size_bytes": 3454610,
+      "sha256": "0a9d98b049e9f66f41161d7ad91f98fbdafa0d87240525331f9e882761d96bb3"
+    },
+    {
+      "path": "financial_statement_items/report_period=2024Q2/part-merged.parquet",
+      "size_bytes": 3639491,
+      "sha256": "8888ddc89d8ffa1e8c178bb35d647ed55ab4f6794c3eb7a2fecd09f08fc2122c"
+    },
+    {
+      "path": "financial_statement_items/report_period=2024Q3/part-merged.parquet",
+      "size_bytes": 3518954,
+      "sha256": "caf699ba9b52a6b675b293c9fd82543d2c653dfb9bc4cbed0ab1ebfe383f4a96"
+    },
+    {
+      "path": "financial_statement_items/report_period=2024Q4/part-merged.parquet",
+      "size_bytes": 3726957,
+      "sha256": "271b5911247f433c6a9151b22d2155c26f6bfe0d0e4a0fc02a854b941ca73f9d"
+    },
+    {
+      "path": "financial_statement_items/report_period=2025Q1/part-merged.parquet",
+      "size_bytes": 3528275,
+      "sha256": "b8cce88c9e95d25b07b0854def7e1d0f81c60a1b80d24aad7f7adbcd9991f540"
+    },
+    {
+      "path": "financial_statement_items/report_period=2025Q2/part-merged.parquet",
+      "size_bytes": 3691473,
+      "sha256": "d3ee0712caed8175c44d6127f157a79d5a31ce72729128697865b9f01a6d2c2e"
+    },
+    {
+      "path": "financial_statement_items/report_period=2025Q3/part-merged.parquet",
+      "size_bytes": 5120760,
+      "sha256": "80df891da76ee03164d2107623b438755d0ac7178d9c9c2fa1b41ad0b89c90e6"
+    },
+    {
+      "path": "financial_statement_items/report_period=2025Q4/part-merged.parquet",
+      "size_bytes": 4683617,
+      "sha256": "987884c92b20748d96297ab08b02015a0deb0478460981e91c5cab72dd833d7e"
+    },
+    {
+      "path": "financial_statement_items/report_period=2026Q1/part-merged.parquet",
+      "size_bytes": 3546803,
+      "sha256": "7921de5276d37ac215082d05f1b76644d0df18a828671489e40d1a44d5e1bc97"
+    },
+    {
+      "path": "financial_statement_items/report_period=2026Q2/part-merged.parquet",
+      "size_bytes": 3693197,
+      "sha256": "7ea4facac550a6f21d2403a30cd5a8ecce9f29bacf162b6c494ebb76a8da84dd"
+    },
+    {
+      "path": "financial_statement_items/report_period=2026Q3/part-merged.parquet",
+      "size_bytes": 3771165,
+      "sha256": "dff0dca6d5423b60199598206834137b9e28172877e4601c8d920dedb138928a"
+    }
+  ],
+  "pointer_path": "revisions/financial_statement_items/current.json"
+}

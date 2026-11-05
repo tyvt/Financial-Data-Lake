@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "northbound_holdings",
+  "revision": 2,
+  "revision_id": "1b2710df0bba4286bb2a239d3c593109",
+  "generation_path": "revisions/data/northbound_holdings/1b2710df0bba4286bb2a239d3c593109",
+  "receipt": "revisions/northbound_holdings/00000002-1b2710df0bba4286bb2a239d3c593109.json",
+  "content_digest": "c94c15e0d8b02089245817611bc9c4bfe5f2a215509b14f0f4464cf72ce1765a",
+  "committed_at": "2026-10-23T13:11:46.868608+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "option_contracts",
+  "revision": 3,
+  "revision_id": "ab65de20155d4b939fb5fd27f9e4f9d5",
+  "generation_path": "revisions/data/option_contracts/ab65de20155d4b939fb5fd27f9e4f9d5",
+  "receipt": "revisions/option_contracts/00000003-ab65de20155d4b939fb5fd27f9e4f9d5.json",
+  "content_digest": "19fba44e8b1eae84660a00a2a728adcc78847555adcff84eb4de5ce842f37c85",
+  "committed_at": "2026-10-23T14:09:45.855243+00:00"
+}

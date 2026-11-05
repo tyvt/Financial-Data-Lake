@@ -1,0 +1,16 @@
+{
+  "revision": 8,
+  "revision_id": "54bc165fdd444bbaa2d3638f6d9a81e3",
+  "revision_at": "2026-11-05T01:51:04.325963+00:00",
+  "revision_run_id": "4429bc25-ef33-4a4d-be66-8175e7cafb55",
+  "schema_version": 1,
+  "contract_fingerprint": "ec802ff0caead3f0868477de3bb301de95c7fad1cb90d9c0bb2e24faefc4408d",
+  "content_digest": "b3a3673340591271b26b5e0121336835f5ecd605a322e028cf1434efd053a611",
+  "revision_receipt": "revisions/news_headlines/00000008-54bc165fdd444bbaa2d3638f6d9a81e3.json",
+  "revision_pointer": "revisions/news_headlines/current.json",
+  "changed_partitions": [
+    "news_headlines/publish_date=2026-11"
+  ],
+  "updated_at": "2026-11-05T01:51:04.325963+00:00",
+  "last_success_trade_date": "2026-11-05"
+}

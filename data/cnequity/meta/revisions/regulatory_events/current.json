@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "regulatory_events",
+  "revision": 5,
+  "revision_id": "43f418d5328647499d77cf8f9a213333",
+  "generation_path": "revisions/data/regulatory_events/43f418d5328647499d77cf8f9a213333",
+  "receipt": "revisions/regulatory_events/00000005-43f418d5328647499d77cf8f9a213333.json",
+  "content_digest": "6cce6c07768fd0c99013a318016ef0da69cdc67fee68d90dc90eae74c5e85731",
+  "committed_at": "2026-11-05T01:51:04.348454+00:00"
+}

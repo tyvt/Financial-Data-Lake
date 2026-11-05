@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "sentiment_scores",
+  "revision": 3,
+  "revision_id": "d5d48d5bbd634efb847b713816114ab1",
+  "generation_path": "revisions/data/sentiment_scores/d5d48d5bbd634efb847b713816114ab1",
+  "receipt": "revisions/sentiment_scores/00000003-d5d48d5bbd634efb847b713816114ab1.json",
+  "content_digest": "4e9f54773a962918cf5a36603b48ad33c8445d07b2f44c5144b75a099be79283",
+  "committed_at": "2026-10-23T13:11:46.932256+00:00"
+}

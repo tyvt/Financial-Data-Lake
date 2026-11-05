@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "industry_members",
+  "revision": 6,
+  "revision_id": "90fa1072fe4d4bd8bb0bd6e6aac7681e",
+  "generation_path": "revisions/data/industry_members/90fa1072fe4d4bd8bb0bd6e6aac7681e",
+  "receipt": "revisions/industry_members/00000006-90fa1072fe4d4bd8bb0bd6e6aac7681e.json",
+  "content_digest": "9e05ea2cc98e030f077ce71dcfffdc1b205485a22e228030e0f03fae8c1a0982",
+  "committed_at": "2026-11-05T01:21:44.853684+00:00"
+}

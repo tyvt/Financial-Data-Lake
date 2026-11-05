@@ -1,0 +1,9 @@
+{
+  "key": "ths_kline",
+  "source": "ths",
+  "dataset": "sector_bars",
+  "run_id": "3860b5fb-894b-4f20-b4a3-e85f88f477d7",
+  "rows": 465,
+  "validated_at": "2026-10-20T03:05:02+00:00",
+  "sample_kind": "passive"
+}

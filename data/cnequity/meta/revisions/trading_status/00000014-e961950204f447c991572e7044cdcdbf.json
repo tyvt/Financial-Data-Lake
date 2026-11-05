@@ -1,0 +1,642 @@
+{
+  "dataset": "trading_status",
+  "revision": 14,
+  "revision_id": "e961950204f447c991572e7044cdcdbf",
+  "committed_at": "2026-11-05T02:32:21.404506+00:00",
+  "run_id": "7fe4e884-b476-4aa3-ae87-9da4e9e3b557",
+  "schema_version": 1,
+  "contract_fingerprint": "65ae3c93c1131187f2c9603d10f3d20f8a65b6ed71aae0fe760433df0250a60c",
+  "content_digest": "7f2788b06562841276fb489ffdeb6f7f589d427c6bd5faf57f9e997e3b6fb6ea",
+  "changed_partitions": [
+    "trading_status/trade_date=2026-10",
+    "trading_status/trade_date=2026-11"
+  ],
+  "files": [
+    {
+      "path": "trading_status/trade_date=2026-10/part-merged.parquet",
+      "size_bytes": 83034,
+      "sha256": "4e09cd4c399d6b9ef84f45be83d850b9599effe7fa926dbfc5a87250114cbea3"
+    },
+    {
+      "path": "trading_status/trade_date=2026-11/part-merged.parquet",
+      "size_bytes": 4990,
+      "sha256": "a32dc6f2c84d07ec472189753083609388e3d5b9ca5955a4cc3b5d520caa88aa"
+    }
+  ],
+  "metadata": {
+    "trade_date": "2026-11-05",
+    "partition_col": "trade_date",
+    "rows_written": 30687,
+    "canonical_policy": "trading_status_evidence_v1",
+    "changes": [
+      {
+        "partition": "trade_date=2026-10",
+        "inserted_keys": 7,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      },
+      {
+        "partition": "trade_date=2026-11",
+        "inserted_keys": 21,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      }
+    ],
+    "publication_audit": {
+      "mode": "off",
+      "blocked": false,
+      "report_path": null
+    },
+    "validation": {
+      "schema": "passed",
+      "staging_seals": "passed",
+      "batch_completeness": "passed",
+      "source_diff_gate": "not_configured"
+    },
+    "coverage": {
+      "status": "unknown",
+      "requested_scope": {
+        "start": "2026-10-30",
+        "end": "2026-11-04",
+        "symbols": null,
+        "minute_bars_scope": "index:000300.SH",
+        "minute_bars_symbols": [],
+        "baostock_repair": false,
+        "ths_repair": false,
+        "eastmoney_bj_repair": false,
+        "bse_tip_repair": false,
+        "bj_amount_repair": false,
+        "tdx_amount_repair": false,
+        "tdx_volume_repair": false,
+        "turnover_repair": false,
+        "settings": {
+          "ingest_universe": "all_a",
+          "minute_bars_enabled": false,
+          "minute_bars_frequencies": [
+            "1m"
+          ],
+          "trade_ticks_enabled": false,
+          "trade_ticks_scope": "watchlist",
+          "trade_ticks_symbols": [],
+          "trade_ticks_max_symbols": 200,
+          "margin_trading_source": "exchange",
+          "futures_enabled": false,
+          "futures_exchanges": [],
+          "futures_options": true,
+          "futures_minute_enabled": false,
+          "futures_minute_products": [],
+          "futures_minute_contracts": [],
+          "futures_minute_max_contracts": 100,
+          "_backfill_workers": 1,
+          "_corporate_actions_payment_repair": false,
+          "_corporate_actions_issuer_notice_only": false,
+          "_corporate_actions_eastmoney_date_repair": null,
+          "_valuation_fill_em_outage": false,
+          "_derivatives_refresh": false
+        }
+      },
+      "gaps": {
+        "missing_ranges": [],
+        "missing_units": {},
+        "outstanding_keys": []
+      },
+      "resolved_outstanding_keys": 0
+    },
+    "package_version": "0.16.0",
+    "git_commit": null,
+    "git_dirty": null,
+    "config_fingerprint": "4278e61c2769476c8b2c26b95eb6f57aa525c46e9043853ce06e97c1ef50520f",
+    "base_revision_id": "b9737016b1784732bb5b392cce86a9ef"
+  },
+  "generation_path": "revisions/data/trading_status/e961950204f447c991572e7044cdcdbf",
+  "generation_files": [
+    {
+      "path": "trading_status/trade_date=2016-01/part-merged.parquet",
+      "size_bytes": 5374,
+      "sha256": "027f4b1e62f93a36d5cf1812b5daab8abce18a7c377fbed020afca2f83249a28"
+    },
+    {
+      "path": "trading_status/trade_date=2016-02/part-merged.parquet",
+      "size_bytes": 3278,
+      "sha256": "3c39bc271f2074a3d025c97e8a8dbb070a16d4fd26bc9ce8b6e7ae17415e3a0f"
+    },
+    {
+      "path": "trading_status/trade_date=2016-03/part-merged.parquet",
+      "size_bytes": 3539,
+      "sha256": "2b92f94cf542d776b9fc5b4336841b5acff364c1d6ef1a86ae2d2edc209f79e7"
+    },
+    {
+      "path": "trading_status/trade_date=2016-04/part-merged.parquet",
+      "size_bytes": 3557,
+      "sha256": "35be381c2ce76f915a9eae0aadccc08cd59489b63dde08dcc897779733847360"
+    },
+    {
+      "path": "trading_status/trade_date=2016-05/part-merged.parquet",
+      "size_bytes": 3565,
+      "sha256": "3e0764c2197affce3e7a641cc4eb0d4567fc91b5a7f4c720f5f27363cf137b8a"
+    },
+    {
+      "path": "trading_status/trade_date=2016-06/part-merged.parquet",
+      "size_bytes": 3497,
+      "sha256": "f8d4ea87d265f46e3fb814bd08351e53b72255ea50322214fd41268e277d54b5"
+    },
+    {
+      "path": "trading_status/trade_date=2016-07/part-merged.parquet",
+      "size_bytes": 3575,
+      "sha256": "3731acd8576ffc997857516e6c256a02f3002f9be5030c0bc226230ba8825ff5"
+    },
+    {
+      "path": "trading_status/trade_date=2016-08/part-merged.parquet",
+      "size_bytes": 3475,
+      "sha256": "a6eee7d172dabd2ef56be2d20c46c68aee01c638c2ddb7600b750569d03cf752"
+    },
+    {
+      "path": "trading_status/trade_date=2016-09/part-merged.parquet",
+      "size_bytes": 3525,
+      "sha256": "c1a417bc11a55671a6d4911df17c475628daf2af7f0f7b3f8be6531de8ddfcb0"
+    },
+    {
+      "path": "trading_status/trade_date=2016-10/part-merged.parquet",
+      "size_bytes": 3377,
+      "sha256": "ccc81f9e24887796693f529e884f45065f0f489d4f59c003a79959f748469fcf"
+    },
+    {
+      "path": "trading_status/trade_date=2016-11/part-merged.parquet",
+      "size_bytes": 3485,
+      "sha256": "821001f571abd472bd9d6f72dae8f279bcf6230901be1ba06cd12467c1d5e3ef"
+    },
+    {
+      "path": "trading_status/trade_date=2016-12/part-merged.parquet",
+      "size_bytes": 3580,
+      "sha256": "dd060ea8946278df78fba835064caf8f6cf7bca169c05351121bbbf91ac8bf56"
+    },
+    {
+      "path": "trading_status/trade_date=2017-01/part-merged.parquet",
+      "size_bytes": 3435,
+      "sha256": "6b37d74c1f83cfa43d6bb409e6e8d8f8ab6e2bb3b8e1b2d75ffce2549b0192ca"
+    },
+    {
+      "path": "trading_status/trade_date=2017-02/part-merged.parquet",
+      "size_bytes": 3353,
+      "sha256": "33d14b65a9c876ea91d30f1707957c744cf276f9412f2576820abcc3847d6c2f"
+    },
+    {
+      "path": "trading_status/trade_date=2017-03/part-merged.parquet",
+      "size_bytes": 3564,
+      "sha256": "4ddbe429702db0a1ce2b654422317c5ee948cd2b4233f418cae02420c6d90ad3"
+    },
+    {
+      "path": "trading_status/trade_date=2017-04/part-merged.parquet",
+      "size_bytes": 3577,
+      "sha256": "5b94ae1356ea9b5deb59096b9e79649e7237d23b4cf0e706b9a153ad60ee6f50"
+    },
+    {
+      "path": "trading_status/trade_date=2017-05/part-merged.parquet",
+      "size_bytes": 3655,
+      "sha256": "d9cf5797ff5f8110bff3a117434cc00975e21a7713b5bb6a2c8c49fb5c64b671"
+    },
+    {
+      "path": "trading_status/trade_date=2017-06/part-merged.parquet",
+      "size_bytes": 3637,
+      "sha256": "879eefc78fb19bcedb1de686a54611ed5cce1e030806828b0c74bf54595354bc"
+    },
+    {
+      "path": "trading_status/trade_date=2017-07/part-merged.parquet",
+      "size_bytes": 3603,
+      "sha256": "c13eeb18281d60de112d2fb63c9ff48b928b33604489ffe07adcd7fe132eec06"
+    },
+    {
+      "path": "trading_status/trade_date=2017-08/part-merged.parquet",
+      "size_bytes": 3607,
+      "sha256": "8675e4f41c620d859b9114d1e8b2fff397018238ec638152586cde9810a1bbf3"
+    },
+    {
+      "path": "trading_status/trade_date=2017-09/part-merged.parquet",
+      "size_bytes": 3514,
+      "sha256": "b6770d31133c05a41eba27e8072d5a86bbe76d317988fe5caa9a02f875128bce"
+    },
+    {
+      "path": "trading_status/trade_date=2017-10/part-merged.parquet",
+      "size_bytes": 3455,
+      "sha256": "af06dea43f1b4e3e7683eb754b25756c1a98dda46568c67e546f110ee3424630"
+    },
+    {
+      "path": "trading_status/trade_date=2017-11/part-merged.parquet",
+      "size_bytes": 3565,
+      "sha256": "84bd6f861a83fb3c6dc99fd3082c4f5d29e44dc0a9fca2a5237cfe6c0d8b71b7"
+    },
+    {
+      "path": "trading_status/trade_date=2017-12/part-merged.parquet",
+      "size_bytes": 3594,
+      "sha256": "78443689625f22c0202e5541042fa32cf3d9561bb038985762d32003c2a5a921"
+    },
+    {
+      "path": "trading_status/trade_date=2018-01/part-merged.parquet",
+      "size_bytes": 3640,
+      "sha256": "7a7663a474ce7fc80a7851966fc7e12de98d78129dc834c58764d07b3c6bb81a"
+    },
+    {
+      "path": "trading_status/trade_date=2018-02/part-merged.parquet",
+      "size_bytes": 3622,
+      "sha256": "27cf21ed8c489d8d2a6fdf155e8101631693ab64e1e106bd862dc580e1e28190"
+    },
+    {
+      "path": "trading_status/trade_date=2018-03/part-merged.parquet",
+      "size_bytes": 3606,
+      "sha256": "17e673b327fef08c8387e1e329f4a0044768b486f06ca2158ca25cc31b4f0ef1"
+    },
+    {
+      "path": "trading_status/trade_date=2018-04/part-merged.parquet",
+      "size_bytes": 3560,
+      "sha256": "d28884d938bb2428ad92a16d44597992cae4e534398d5cfa949efc95ac8cd27d"
+    },
+    {
+      "path": "trading_status/trade_date=2018-05/part-merged.parquet",
+      "size_bytes": 3586,
+      "sha256": "8385d1037545e6da96b6d9e26b014714c03f719a072f3caf6605e8c77613869c"
+    },
+    {
+      "path": "trading_status/trade_date=2018-06/part-merged.parquet",
+      "size_bytes": 3538,
+      "sha256": "ad25de458e7a1506a8f3cbf06b0d9ab36540c1de8a281bfde587763bdf97061b"
+    },
+    {
+      "path": "trading_status/trade_date=2018-07/part-merged.parquet",
+      "size_bytes": 3455,
+      "sha256": "f3c52c9968b38d2eb6717fee26612726ac6fc6b4baf4a9ea0d9b0f741fbbe802"
+    },
+    {
+      "path": "trading_status/trade_date=2018-08/part-merged.parquet",
+      "size_bytes": 3389,
+      "sha256": "d4344ad064da7e566edb05629e5fca85aa23646f5f310bd90e4b5afe828d7a33"
+    },
+    {
+      "path": "trading_status/trade_date=2018-09/part-merged.parquet",
+      "size_bytes": 3354,
+      "sha256": "000c7ba656906452bb45e962f3680500470ab87f9c1b6938638ff1a91eb6740b"
+    },
+    {
+      "path": "trading_status/trade_date=2018-10/part-merged.parquet",
+      "size_bytes": 3346,
+      "sha256": "4b8f5b9970ecacd57857825a40c704c4da2ea2e408ca85a0c1bc317853ed7617"
+    },
+    {
+      "path": "trading_status/trade_date=2018-11/part-merged.parquet",
+      "size_bytes": 3329,
+      "sha256": "45991f9165bd82d66aea96f46da9d6b41d6c4c239642ee545e91080821a52fd9"
+    },
+    {
+      "path": "trading_status/trade_date=2018-12/part-merged.parquet",
+      "size_bytes": 3175,
+      "sha256": "2d695ef4c89113c0225b067ed36409d76bbafae4fe73d294b4509710bd1740ac"
+    },
+    {
+      "path": "trading_status/trade_date=2019-01/part-merged.parquet",
+      "size_bytes": 3203,
+      "sha256": "35b8314bdc8b7cfad5abc7f5152060a4772a26527e19cf94703e0387a38c7538"
+    },
+    {
+      "path": "trading_status/trade_date=2019-02/part-merged.parquet",
+      "size_bytes": 3121,
+      "sha256": "52945d1f752c1f8eae03716fa636d20fef966e3e07cfe53a0225e8e164c6e23b"
+    },
+    {
+      "path": "trading_status/trade_date=2019-03/part-merged.parquet",
+      "size_bytes": 3211,
+      "sha256": "3a577261fdeb576147dbf2d8e0da475b7e8341d5b124f80b165faab87ed770e3"
+    },
+    {
+      "path": "trading_status/trade_date=2019-04/part-merged.parquet",
+      "size_bytes": 3375,
+      "sha256": "dbf277243e3f764e521a5ec3710f0a70ef5cd6d8e6c02bc9a90acfa50976fc5d"
+    },
+    {
+      "path": "trading_status/trade_date=2019-05/part-merged.parquet",
+      "size_bytes": 3282,
+      "sha256": "0010b31eff86618cd0fbd78cbcf96c0165dd54cf06a50302651965509a857d37"
+    },
+    {
+      "path": "trading_status/trade_date=2019-06/part-merged.parquet",
+      "size_bytes": 3212,
+      "sha256": "e711130275f30db5a7a8d6cf15c540df5844c2ab43bd957a34ac40a0a7940126"
+    },
+    {
+      "path": "trading_status/trade_date=2019-07/part-merged.parquet",
+      "size_bytes": 3302,
+      "sha256": "8378199a7a79d2767a633eb8c3279db59518be1401981197652fc2dd4a5174d7"
+    },
+    {
+      "path": "trading_status/trade_date=2019-08/part-merged.parquet",
+      "size_bytes": 3258,
+      "sha256": "eb1ea70dd44a2ee108b8cafeb9b8e17d6020b16a6060580c580e55c990ee07f0"
+    },
+    {
+      "path": "trading_status/trade_date=2019-09/part-merged.parquet",
+      "size_bytes": 3192,
+      "sha256": "e4f4b039265b63a0cbf35ee67f3aab36bed45a4aa395da9115c4abb4029f9f89"
+    },
+    {
+      "path": "trading_status/trade_date=2019-10/part-merged.parquet",
+      "size_bytes": 3202,
+      "sha256": "eb04a61f2f539d61c7e81f926885f19740620e37933531c43660b6dfa65e95b8"
+    },
+    {
+      "path": "trading_status/trade_date=2019-11/part-merged.parquet",
+      "size_bytes": 3268,
+      "sha256": "9d0cd62214e45db7f47c8a8cf5161495504ea583baa508b6e6a8d2cf47701ee2"
+    },
+    {
+      "path": "trading_status/trade_date=2019-12/part-merged.parquet",
+      "size_bytes": 3243,
+      "sha256": "8ee55f2fb89e40590decdbb36422ad11a733def28ac02e4fd2df0fcfba0769e2"
+    },
+    {
+      "path": "trading_status/trade_date=2020-01/part-merged.parquet",
+      "size_bytes": 3117,
+      "sha256": "7b59503b1ff3037bb1cb572b1410e4067de5b37a3a81df7e325f2cd0420052a4"
+    },
+    {
+      "path": "trading_status/trade_date=2020-02/part-merged.parquet",
+      "size_bytes": 3145,
+      "sha256": "eca332091b344897201780906c4ca70eef5d9edbaabf0c6ecce407ce8bf2b66e"
+    },
+    {
+      "path": "trading_status/trade_date=2020-03/part-merged.parquet",
+      "size_bytes": 3247,
+      "sha256": "2381d938811bb2b3676e60ae2bbd192ab059ce339bf9be3fde722384380b0383"
+    },
+    {
+      "path": "trading_status/trade_date=2020-04/part-merged.parquet",
+      "size_bytes": 3388,
+      "sha256": "8093e56483ae94e2dfd5ec22f195fe2d97b33a62802ee9496a7feb776bb427e6"
+    },
+    {
+      "path": "trading_status/trade_date=2020-05/part-merged.parquet",
+      "size_bytes": 3296,
+      "sha256": "af94000a7dd80ce82ba287df1fb5a9f651a8b03fe5f4c90d72ab83a0b60a6019"
+    },
+    {
+      "path": "trading_status/trade_date=2020-06/part-merged.parquet",
+      "size_bytes": 3386,
+      "sha256": "0e4ce8f1397fac96aa20eabfd7557a75ce039781c2152bbcfa6ccec6406c4af9"
+    },
+    {
+      "path": "trading_status/trade_date=2020-07/part-merged.parquet",
+      "size_bytes": 3295,
+      "sha256": "ad81adb6ddfab68a4fbc20b81e90276cd22adb3e7e9c46beb7d3fbf96fb129ea"
+    },
+    {
+      "path": "trading_status/trade_date=2020-08/part-merged.parquet",
+      "size_bytes": 3238,
+      "sha256": "b751a4045bd0ad93211ecd64789f9e5b4209aea6b1eea4c578b700bad6530fdb"
+    },
+    {
+      "path": "trading_status/trade_date=2020-09/part-merged.parquet",
+      "size_bytes": 3293,
+      "sha256": "f1728d3298e4322c726e30732e748204b55003e42921b3655810e9d2f4549491"
+    },
+    {
+      "path": "trading_status/trade_date=2020-10/part-merged.parquet",
+      "size_bytes": 3142,
+      "sha256": "51f70c23674c3cb676451b22ae8c2ff86db791b26c402de89a5d879e326b47bf"
+    },
+    {
+      "path": "trading_status/trade_date=2020-11/part-merged.parquet",
+      "size_bytes": 3222,
+      "sha256": "26dc3d3f62fbb082cbbb60e68901537ea766b67581f04b70be25ef9d8e98ee4c"
+    },
+    {
+      "path": "trading_status/trade_date=2020-12/part-merged.parquet",
+      "size_bytes": 3287,
+      "sha256": "75ce1bf2f9e993486869c1e9e571895efade8b43bfccb1d2bd34d5df921672ef"
+    },
+    {
+      "path": "trading_status/trade_date=2021-01/part-merged.parquet",
+      "size_bytes": 3285,
+      "sha256": "deb94967beb0d50767dc2f4460b3de6e6dbe1f156faa7e48443c30725a30debd"
+    },
+    {
+      "path": "trading_status/trade_date=2021-02/part-merged.parquet",
+      "size_bytes": 3194,
+      "sha256": "2964dac22af5c83ea6b3993ac4c6fcd8517e3e4e1a86284aa6bb8b3de028cc29"
+    },
+    {
+      "path": "trading_status/trade_date=2021-03/part-merged.parquet",
+      "size_bytes": 3261,
+      "sha256": "b45d8efbaa521f9e17a61c3f179f3ab03af1d41905cc7407c205e0873689c925"
+    },
+    {
+      "path": "trading_status/trade_date=2021-04/part-merged.parquet",
+      "size_bytes": 3323,
+      "sha256": "05fa8024365faf3f298b7556f256467788adc10943a7b1dd83c53cf8265bb4de"
+    },
+    {
+      "path": "trading_status/trade_date=2021-05/part-merged.parquet",
+      "size_bytes": 3263,
+      "sha256": "a4036152f9ee21d663360f6fa3f625aceba0438d9b40f824fea67c9b8ccdf300"
+    },
+    {
+      "path": "trading_status/trade_date=2021-06/part-merged.parquet",
+      "size_bytes": 3237,
+      "sha256": "fc3c8f27d7521ed8fc3a93db54eb77fc323d78f6a50e3cd0fcc439c79d9880af"
+    },
+    {
+      "path": "trading_status/trade_date=2021-07/part-merged.parquet",
+      "size_bytes": 3155,
+      "sha256": "d4ae0e3c7f973e068fdde789078ebbdb80b6733f1c65c030f39a954606e698e4"
+    },
+    {
+      "path": "trading_status/trade_date=2021-08/part-merged.parquet",
+      "size_bytes": 3054,
+      "sha256": "16afe85a0ba9894d55fd577783eaf198be818e6bd716dc923c7fc422444d098e"
+    },
+    {
+      "path": "trading_status/trade_date=2021-09/part-merged.parquet",
+      "size_bytes": 3006,
+      "sha256": "c2c49c3ddd42359b7cab7ff0a2c9e8147feb89a3da172e4ce05932054ce453cc"
+    },
+    {
+      "path": "trading_status/trade_date=2021-10/part-merged.parquet",
+      "size_bytes": 3007,
+      "sha256": "a4cdcfb5f3e62c3fef9b4d10f082ec9d61bee543917bb5284d7bddc5328300d3"
+    },
+    {
+      "path": "trading_status/trade_date=2021-11/part-merged.parquet",
+      "size_bytes": 2974,
+      "sha256": "106d5c78c41aca3711d616cd43244fe7fa77f7c6c7f0e93c7903b5a5d37c26aa"
+    },
+    {
+      "path": "trading_status/trade_date=2023-10/part-merged.parquet",
+      "size_bytes": 2911,
+      "sha256": "c59f0d329bd6061d43ae54415a3a892edde869cde30d3bad09ffcfcb42541c12"
+    },
+    {
+      "path": "trading_status/trade_date=2023-11/part-merged.parquet",
+      "size_bytes": 2951,
+      "sha256": "38c6b1ef731f9ec12556df12df34a35352fa2adad737bad995b176efdb00ca04"
+    },
+    {
+      "path": "trading_status/trade_date=2023-12/part-merged.parquet",
+      "size_bytes": 2950,
+      "sha256": "fe896fc02092de66bffb53c6f98b7de93743cb87f89396959f13e605ce6b7585"
+    },
+    {
+      "path": "trading_status/trade_date=2024-01/part-merged.parquet",
+      "size_bytes": 2987,
+      "sha256": "ee5deca3b79a665bd2969d6076e075e67012ce31416ee132eaa0ce406f761f3b"
+    },
+    {
+      "path": "trading_status/trade_date=2024-02/part-merged.parquet",
+      "size_bytes": 3000,
+      "sha256": "74b410a7d9101ba9a6afda5b385d215bfd06ff4ed95953f3ca255696032c893e"
+    },
+    {
+      "path": "trading_status/trade_date=2024-03/part-merged.parquet",
+      "size_bytes": 3003,
+      "sha256": "a2d7a97b6902ff8a19b1cbf0e768cb06157906f4e60f31dbb271a529e4353a41"
+    },
+    {
+      "path": "trading_status/trade_date=2024-04/part-merged.parquet",
+      "size_bytes": 3157,
+      "sha256": "0a61258b8a6e2f65df4fe188902e84ca1c21a4832989b5e98710d89f25c2d020"
+    },
+    {
+      "path": "trading_status/trade_date=2024-05/part-merged.parquet",
+      "size_bytes": 3172,
+      "sha256": "e9c65a66b92d6ee04e1c39c30b26bd714e1718043887d2de2ebc4b2e380d9eee"
+    },
+    {
+      "path": "trading_status/trade_date=2024-06/part-merged.parquet",
+      "size_bytes": 3210,
+      "sha256": "1d2c5868e3143337144e8e36884293694a7c61a7a14d11233a240a8f5529c971"
+    },
+    {
+      "path": "trading_status/trade_date=2024-07/part-merged.parquet",
+      "size_bytes": 3055,
+      "sha256": "f4f1662f005f8945de8b9b8878512dcd017ef1704f59c8c63b93213b8824d4ca"
+    },
+    {
+      "path": "trading_status/trade_date=2024-08/part-merged.parquet",
+      "size_bytes": 2946,
+      "sha256": "14e9819ff4a18f91e764e4083fa105ba5ad39d9a99710b0172c5183cd10f07a8"
+    },
+    {
+      "path": "trading_status/trade_date=2024-09/part-merged.parquet",
+      "size_bytes": 3026,
+      "sha256": "95f59e37e191f42ef8b3406e471a588ac761d517656531a6bc95cd9485e4aed4"
+    },
+    {
+      "path": "trading_status/trade_date=2024-10/part-merged.parquet",
+      "size_bytes": 2996,
+      "sha256": "083f15fb443f984fc27a589304b84326b1e61e0736fcfc41d82924ec995ea1b9"
+    },
+    {
+      "path": "trading_status/trade_date=2024-11/part-merged.parquet",
+      "size_bytes": 2948,
+      "sha256": "914456c63dc4c7c43e427f08ef60be9dd6421d2f6021cd2aae24a8612c5da61c"
+    },
+    {
+      "path": "trading_status/trade_date=2024-12/part-merged.parquet",
+      "size_bytes": 2955,
+      "sha256": "6a7827fbcce7b3fe738da1a5f6900acd4ec5d04e72b65bc771985d81122436e6"
+    },
+    {
+      "path": "trading_status/trade_date=2025-01/part-merged.parquet",
+      "size_bytes": 3021,
+      "sha256": "bf2997e10559e1dcdf11192fbd5548086f21cb859819bb2874088e4f9ec692fd"
+    },
+    {
+      "path": "trading_status/trade_date=2025-02/part-merged.parquet",
+      "size_bytes": 2994,
+      "sha256": "3463bc3efbd99bc10d2f5af35cea0a3b88b4f1db4de5acea78fb4f062b8fbab6"
+    },
+    {
+      "path": "trading_status/trade_date=2025-03/part-merged.parquet",
+      "size_bytes": 3059,
+      "sha256": "85424bd18da040c7e9bfcf64b394099755acacbf60b7bb616a46f9f7dc780eb4"
+    },
+    {
+      "path": "trading_status/trade_date=2025-04/part-merged.parquet",
+      "size_bytes": 3224,
+      "sha256": "c1d7c5406dd8cb7ccba5d698043853f19aaa4d830376157814a94bb37d0a4bbd"
+    },
+    {
+      "path": "trading_status/trade_date=2025-05/part-merged.parquet",
+      "size_bytes": 3228,
+      "sha256": "df982df7cb3f1d968de9a382eba9001abb4489fac967a3556a4a936184518376"
+    },
+    {
+      "path": "trading_status/trade_date=2025-06/part-merged.parquet",
+      "size_bytes": 3209,
+      "sha256": "f0e61a8a3258daae9719542ecd3a1abb037063f2349c263015cec3ab55369fa5"
+    },
+    {
+      "path": "trading_status/trade_date=2025-07/part-merged.parquet",
+      "size_bytes": 2998,
+      "sha256": "3011cb395522d17cb7bac782383c4195123dc73fbd26a7b1c3136886cdb60355"
+    },
+    {
+      "path": "trading_status/trade_date=2025-08/part-merged.parquet",
+      "size_bytes": 3022,
+      "sha256": "e1723c12d63931d92845942666a47cd8d4890df0fce24dc0c828ab8e32d64c4a"
+    },
+    {
+      "path": "trading_status/trade_date=2025-09/part-merged.parquet",
+      "size_bytes": 2959,
+      "sha256": "f14f9224e765e92e6cdbc74d34b019949aec9b7f94ed7bf72ddd56b32fcad8ce"
+    },
+    {
+      "path": "trading_status/trade_date=2025-11/part-merged.parquet",
+      "size_bytes": 2937,
+      "sha256": "530680f2e40981cd8ab2293dc9b819651b829ae3aa737a2017ddc3ee0b238123"
+    },
+    {
+      "path": "trading_status/trade_date=2025-12/part-merged.parquet",
+      "size_bytes": 3028,
+      "sha256": "ddf7e864bab168f860756a3b23d6a58cd6a8880eeb16e24d75a85b153fc246b4"
+    },
+    {
+      "path": "trading_status/trade_date=2026-01/part-merged.parquet",
+      "size_bytes": 2983,
+      "sha256": "669bafd1feb509dc92a1abd64095e0b028f00e5a78cc77aea9a5c778c638467a"
+    },
+    {
+      "path": "trading_status/trade_date=2026-02/part-merged.parquet",
+      "size_bytes": 2998,
+      "sha256": "e3ce239143cab9f0be78ba096c98d5201157f9546d271b7782d9071eb3802da2"
+    },
+    {
+      "path": "trading_status/trade_date=2026-03/part-merged.parquet",
+      "size_bytes": 3030,
+      "sha256": "8ec14faea57a591226591a56240516573fb2404ef5488dc6f66bdc3debd0f057"
+    },
+    {
+      "path": "trading_status/trade_date=2026-04/part-merged.parquet",
+      "size_bytes": 3024,
+      "sha256": "0e538b41d65ee561a2d6ddbddc8e50a079145637ad14a08f36c8a6cc712765c3"
+    },
+    {
+      "path": "trading_status/trade_date=2026-05/part-merged.parquet",
+      "size_bytes": 3210,
+      "sha256": "17fa3e6fef0c3d78ffc25ba807d6691e5159a951f42ebbe1ca4c552ddfe5488b"
+    },
+    {
+      "path": "trading_status/trade_date=2026-06/part-merged.parquet",
+      "size_bytes": 3136,
+      "sha256": "3250a990a8c649c6673951d0b0db815e415497d7e0a5c590a096373ea8cc5d12"
+    },
+    {
+      "path": "trading_status/trade_date=2026-10/part-merged.parquet",
+      "size_bytes": 83034,
+      "sha256": "4e09cd4c399d6b9ef84f45be83d850b9599effe7fa926dbfc5a87250114cbea3"
+    },
+    {
+      "path": "trading_status/trade_date=2026-11/part-merged.parquet",
+      "size_bytes": 4990,
+      "sha256": "a32dc6f2c84d07ec472189753083609388e3d5b9ca5955a4cc3b5d520caa88aa"
+    }
+  ],
+  "pointer_path": "revisions/trading_status/current.json"
+}

@@ -1,0 +1,35 @@
+{
+  "dataset": "market_breadth",
+  "revision": 3,
+  "revision_id": "72fe7ad05d1d402cafe15e98e323622f",
+  "committed_at": "2026-10-23T13:11:46.824152+00:00",
+  "run_id": "user-approved-B-cleanup-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "a30a7cb55c0f13b0c42b0b54f2976da4794372f032cd2f663f062d8d9c25a4df",
+  "content_digest": "d0ee68ee29adbcb06a6db80688a7504c88782456ce0fcde7be46c3dc106fb855",
+  "changed_partitions": [
+    "market_breadth/trade_date=2016"
+  ],
+  "files": [
+    {
+      "path": "market_breadth/trade_date=2016/part-merged.parquet",
+      "size_bytes": 1189,
+      "sha256": "9e768426518bc921d133fd207ac823f1ffefa14e4a7a8333faaeaad6768085bc"
+    }
+  ],
+  "metadata": {
+    "operation": "user_approved_dataset_clear",
+    "reason": "B stage screening-scope storage reduction",
+    "rows": 0,
+    "base_revision_id": "1b20ea2df40340e49e39e26316510d0b"
+  },
+  "generation_path": "revisions/data/market_breadth/72fe7ad05d1d402cafe15e98e323622f",
+  "generation_files": [
+    {
+      "path": "market_breadth/trade_date=2016/part-merged.parquet",
+      "size_bytes": 1189,
+      "sha256": "9e768426518bc921d133fd207ac823f1ffefa14e4a7a8333faaeaad6768085bc"
+    }
+  ],
+  "pointer_path": "revisions/market_breadth/current.json"
+}

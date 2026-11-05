@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "option_bars",
+  "revision": 3,
+  "revision_id": "189a18f656bd4275b85ac39382786322",
+  "generation_path": "revisions/data/option_bars/189a18f656bd4275b85ac39382786322",
+  "receipt": "revisions/option_bars/00000003-189a18f656bd4275b85ac39382786322.json",
+  "content_digest": "054bff7d5500509655dd4bcbbb3bdcad8609b8b464ecca9940d356efcc511b38",
+  "committed_at": "2026-10-23T14:09:45.727713+00:00"
+}

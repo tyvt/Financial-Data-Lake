@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "market_breadth",
+  "revision": 3,
+  "revision_id": "72fe7ad05d1d402cafe15e98e323622f",
+  "generation_path": "revisions/data/market_breadth/72fe7ad05d1d402cafe15e98e323622f",
+  "receipt": "revisions/market_breadth/00000003-72fe7ad05d1d402cafe15e98e323622f.json",
+  "content_digest": "d0ee68ee29adbcb06a6db80688a7504c88782456ce0fcde7be46c3dc106fb855",
+  "committed_at": "2026-10-23T13:11:46.824152+00:00"
+}

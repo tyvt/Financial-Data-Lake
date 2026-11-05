@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 临时/锁文件
+*.tmp
+*.bak
+*.db-shm
+*.db-wal
+*.update.tmp
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 说明：data/ 数据湖本体按需完整纳入，不在此忽略
+
+# 临时探针脚本
+logs/_*.py

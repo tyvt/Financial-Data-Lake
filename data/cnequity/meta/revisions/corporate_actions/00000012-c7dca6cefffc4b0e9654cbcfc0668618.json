@@ -1,0 +1,360 @@
+{
+  "dataset": "corporate_actions",
+  "revision": 12,
+  "revision_id": "c7dca6cefffc4b0e9654cbcfc0668618",
+  "committed_at": "2026-11-05T01:16:48.289496+00:00",
+  "run_id": "18d1290a-213e-4144-b119-60836dc3a9b3",
+  "schema_version": 2,
+  "contract_fingerprint": "a885f947c018fc8968105262dd9548876e645825b63550a0410c725260f30652",
+  "content_digest": "700c619f5f206c8e3bb7af278424f899b9ccff79ebbba8ee01004c45560b6ad1",
+  "changed_partitions": [
+    "corporate_actions/ex_date=2026"
+  ],
+  "files": [
+    {
+      "path": "corporate_actions/ex_date=2026/part-merged.parquet",
+      "size_bytes": 48122,
+      "sha256": "fbe3aecaf96321d9c17a2fa6904dafe6f496c6cda2d01f2b9d78100a9928e48c"
+    }
+  ],
+  "metadata": {
+    "trade_date": "2026-11-05",
+    "partition_col": "ex_date",
+    "rows_written": 5448,
+    "canonical_policy": "corporate_action_evidence_v1",
+    "changes": [
+      {
+        "partition": "ex_date=2026",
+        "inserted_keys": 30,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      }
+    ],
+    "publication_audit": {
+      "mode": "off",
+      "blocked": false,
+      "report_path": null
+    },
+    "validation": {
+      "schema": "passed",
+      "staging_seals": "passed",
+      "batch_completeness": "partial",
+      "source_diff_gate": "passed"
+    },
+    "coverage": {
+      "status": "partial",
+      "requested_scope": {
+        "start": null,
+        "end": "2026-11-05",
+        "universe": "all_a"
+      },
+      "gaps": {
+        "missing_ranges": [
+          {
+            "start": "2026-09-24",
+            "end": "2026-09-24",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.309964+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.309964+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-09-28",
+            "end": "2026-09-28",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.331973+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.331973+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-09-29",
+            "end": "2026-09-29",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.353979+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.353979+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-09-30",
+            "end": "2026-09-30",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.375973+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.375973+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-08",
+            "end": "2026-10-08",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.397964+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.397964+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-09",
+            "end": "2026-10-09",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.422507+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.422507+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-12",
+            "end": "2026-10-12",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.444507+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.444507+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-13",
+            "end": "2026-10-13",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.465507+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.465507+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-14",
+            "end": "2026-10-14",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.487548+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.487548+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-15",
+            "end": "2026-10-15",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.514539+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.514539+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-16",
+            "end": "2026-10-16",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.535901+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.535901+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-19",
+            "end": "2026-10-19",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.558901+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.558901+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-20",
+            "end": "2026-10-20",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.581913+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.581913+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-21",
+            "end": "2026-10-21",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.603591+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.603591+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-22",
+            "end": "2026-10-22",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.633188+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.633188+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-23",
+            "end": "2026-10-23",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.653918+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.653918+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-26",
+            "end": "2026-10-26",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.675909+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.675909+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-27",
+            "end": "2026-10-27",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.696928+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.696928+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-28",
+            "end": "2026-10-28",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.720453+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.720453+00:00",
+            "attempts": 2
+          },
+          {
+            "start": "2026-10-29",
+            "end": "2026-10-29",
+            "last_failure": "EastMoney datacenter RPT_SHAREBONUS_DET page 1 failed after 3 attempts: datacenter breaker open since 2026-10-29T19:32:00+08:00 (ConnectError on datacenter-web.eastmoney.com); not sent until tomorrow: datacenter-web.eastmoney.com",
+            "last_attempt": "2026-10-29T14:32:09.750454+00:00",
+            "next_retry_at": "2026-10-29T14:32:09.750454+00:00",
+            "attempts": 2
+          }
+        ],
+        "missing_units": {},
+        "outstanding_keys": []
+      },
+      "resolved_outstanding_keys": 0
+    },
+    "package_version": "0.16.0",
+    "git_commit": null,
+    "git_dirty": null,
+    "config_fingerprint": "e77d893d9f290cd3ea10ba64361cc558cadd5f9bc071a0c0a8308b7778bc01f3",
+    "base_revision_id": "c994d5978f56457ba4c87c9ad240b03c"
+  },
+  "generation_path": "revisions/data/corporate_actions/c7dca6cefffc4b0e9654cbcfc0668618",
+  "generation_files": [
+    {
+      "path": "corporate_actions/ex_date=2001/part-merged.parquet",
+      "size_bytes": 14550,
+      "sha256": "b126b59c48703184f3570d01c31183174d0a6a1cf782e74e8e9a316549e9805e"
+    },
+    {
+      "path": "corporate_actions/ex_date=2002/part-merged.parquet",
+      "size_bytes": 12240,
+      "sha256": "95fa139401a7b54fef78ed65a09156ea9ed0d80b3082e2ab3a123cef9debe321"
+    },
+    {
+      "path": "corporate_actions/ex_date=2003/part-merged.parquet",
+      "size_bytes": 11913,
+      "sha256": "a6431eb88cba3ae9220c9c47a6b7063055317aa24a1293c5e6004eea9e6e1c28"
+    },
+    {
+      "path": "corporate_actions/ex_date=2004/part-merged.parquet",
+      "size_bytes": 12298,
+      "sha256": "c06fc109beea5b6b7771e2ad129c4309369ac8d3a4aa2065f3f5c52b4b3bb70d"
+    },
+    {
+      "path": "corporate_actions/ex_date=2005/part-merged.parquet",
+      "size_bytes": 14694,
+      "sha256": "67168d62a2b74e775d921ffe505d00438369b8a01d463aa1906dd8b04fc1a4af"
+    },
+    {
+      "path": "corporate_actions/ex_date=2006/part-merged.parquet",
+      "size_bytes": 20215,
+      "sha256": "712079d77a7addb9267f655da55536da65623f2ce72ba0e5b364d04554cf8322"
+    },
+    {
+      "path": "corporate_actions/ex_date=2007/part-merged.parquet",
+      "size_bytes": 14576,
+      "sha256": "035606bd8f6eed973e9c9e466a5a47c46d798cd19f7733c501de274cb9244a9f"
+    },
+    {
+      "path": "corporate_actions/ex_date=2008/part-merged.parquet",
+      "size_bytes": 16234,
+      "sha256": "59c3ea502eef4e8ae10a522319fe5c0bdd4956b487a19c61667b10479302e6d1"
+    },
+    {
+      "path": "corporate_actions/ex_date=2009/part-merged.parquet",
+      "size_bytes": 14279,
+      "sha256": "44113efdce0cbc62f6ef910d81a4b82addaaf1188a6d7726131c4cd29822a67e"
+    },
+    {
+      "path": "corporate_actions/ex_date=2010/part-merged.parquet",
+      "size_bytes": 17978,
+      "sha256": "dc1180b114ba4f2d18162da9b340b10ef93aa05b0d2338915b65691c315ed6e4"
+    },
+    {
+      "path": "corporate_actions/ex_date=2011/part-merged.parquet",
+      "size_bytes": 21356,
+      "sha256": "cdba1a23dc56a1a5358e426a992f3c3d193fe4bb89b45aa5566251e9f9829005"
+    },
+    {
+      "path": "corporate_actions/ex_date=2012/part-merged.parquet",
+      "size_bytes": 23609,
+      "sha256": "7f9ab75489e88a92b806bc10555259be3f80fe37a55dcd789b8224d560f6d85a"
+    },
+    {
+      "path": "corporate_actions/ex_date=2013/part-merged.parquet",
+      "size_bytes": 22379,
+      "sha256": "d22ec25e79123ee0ac4a527962d2884ff0047131afcda6397c9ed12b2101b547"
+    },
+    {
+      "path": "corporate_actions/ex_date=2014/part-merged.parquet",
+      "size_bytes": 23521,
+      "sha256": "32a5979b0506f92c89176102c1c1bae32b562e97b72c8fc8843b7ce7727ca0f9"
+    },
+    {
+      "path": "corporate_actions/ex_date=2015/part-merged.parquet",
+      "size_bytes": 29108,
+      "sha256": "760e120e6681a78838968fe981d53ceedde31126e96ce450d7b8ba491dcc80d5"
+    },
+    {
+      "path": "corporate_actions/ex_date=2016/part-merged.parquet",
+      "size_bytes": 26572,
+      "sha256": "e0005305c66770d2169b5ca561b5d00250c5adc233fa998f2452ab3b8a458a8a"
+    },
+    {
+      "path": "corporate_actions/ex_date=2017/part-merged.parquet",
+      "size_bytes": 28664,
+      "sha256": "e1a9591d52d52dad93ebee36b179469e92c32fd1018e6a6d4482fa14a09482e0"
+    },
+    {
+      "path": "corporate_actions/ex_date=2018/part-merged.parquet",
+      "size_bytes": 32619,
+      "sha256": "00ac9a95d1b4b926bec4f24cedf4d4189a626891068827262502b783649ace5d"
+    },
+    {
+      "path": "corporate_actions/ex_date=2019/part-merged.parquet",
+      "size_bytes": 31058,
+      "sha256": "c74b2335ba8027275f0bc9bb73cfa2d8b80926d63142ebcfb972af65e9f69efc"
+    },
+    {
+      "path": "corporate_actions/ex_date=2020/part-merged.parquet",
+      "size_bytes": 31805,
+      "sha256": "3896b8e8639acc399ecde929c9da58bec40f9c115be6dabf77399c2c8e94a1e5"
+    },
+    {
+      "path": "corporate_actions/ex_date=2021/part-merged.parquet",
+      "size_bytes": 34395,
+      "sha256": "32f50e6195c9d88094376705bf15c871d660dcc1ea7cd34151829e764937c22c"
+    },
+    {
+      "path": "corporate_actions/ex_date=2022/part-merged.parquet",
+      "size_bytes": 36264,
+      "sha256": "45433c1eabf0b163f6c1f3cb09cf1924b4cdd46846862335dfe281c940288ef8"
+    },
+    {
+      "path": "corporate_actions/ex_date=2023/part-merged.parquet",
+      "size_bytes": 37133,
+      "sha256": "d922e674fa25dc1190785ac107cf475a398c94951bbf4e925f3c6cac1647a410"
+    },
+    {
+      "path": "corporate_actions/ex_date=2024/part-merged.parquet",
+      "size_bytes": 43194,
+      "sha256": "a2a6f2855e58cefc05a6ed7b0c744686dee7ac56a74b3353a651a68d4ad8c8ea"
+    },
+    {
+      "path": "corporate_actions/ex_date=2025/part-merged.parquet",
+      "size_bytes": 49735,
+      "sha256": "06fa14933283cfdd1506473418487e833ccde4f9ce141a3d63a5f996856a4a52"
+    },
+    {
+      "path": "corporate_actions/ex_date=2026/part-merged.parquet",
+      "size_bytes": 48122,
+      "sha256": "fbe3aecaf96321d9c17a2fa6904dafe6f496c6cda2d01f2b9d78100a9928e48c"
+    }
+  ],
+  "pointer_path": "revisions/corporate_actions/current.json"
+}

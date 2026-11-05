@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "trading_calendar",
+  "revision": 6,
+  "revision_id": "9e86d640edd74eef98fbea78293504b2",
+  "generation_path": "revisions/data/trading_calendar/9e86d640edd74eef98fbea78293504b2",
+  "receipt": "revisions/trading_calendar/00000006-9e86d640edd74eef98fbea78293504b2.json",
+  "content_digest": "8c2e769075c07608f7a496b74831289086d0cc1671f92a038ce0dc6fd65ddd0f",
+  "committed_at": "2026-11-05T01:16:48.145210+00:00"
+}

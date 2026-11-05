@@ -1,0 +1,35 @@
+{
+  "dataset": "northbound_holdings",
+  "revision": 2,
+  "revision_id": "1b2710df0bba4286bb2a239d3c593109",
+  "committed_at": "2026-10-23T13:11:46.868608+00:00",
+  "run_id": "user-approved-B-cleanup-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "970c35c6983c9d1c9ee168b517d8c6f03e01740a48ad98b653943f2147622309",
+  "content_digest": "c94c15e0d8b02089245817611bc9c4bfe5f2a215509b14f0f4464cf72ce1765a",
+  "changed_partitions": [
+    "northbound_holdings/trade_date=2026-09-30"
+  ],
+  "files": [
+    {
+      "path": "northbound_holdings/trade_date=2026-09-30/part-merged.parquet",
+      "size_bytes": 1686,
+      "sha256": "bf5d9baf253f6b11de9480bc1e3f4affb2c05432bedbe05c69594adbc276debe"
+    }
+  ],
+  "metadata": {
+    "operation": "user_approved_dataset_clear",
+    "reason": "B stage screening-scope storage reduction",
+    "rows": 0,
+    "base_revision_id": "e4a737c55a3f44068cd675014409e5c4"
+  },
+  "generation_path": "revisions/data/northbound_holdings/1b2710df0bba4286bb2a239d3c593109",
+  "generation_files": [
+    {
+      "path": "northbound_holdings/trade_date=2026-09-30/part-merged.parquet",
+      "size_bytes": 1686,
+      "sha256": "bf5d9baf253f6b11de9480bc1e3f4affb2c05432bedbe05c69594adbc276debe"
+    }
+  ],
+  "pointer_path": "revisions/northbound_holdings/current.json"
+}

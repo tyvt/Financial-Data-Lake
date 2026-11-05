@@ -1,0 +1,14 @@
+﻿{
+    "task_name":  "CNEquity-SelectionLake-Update",
+    "state":  "Ready",
+    "user":  "SYSTEM",
+    "next_run":  "2026-10-24T19:30:30.0000000+08:00",
+    "last_result":  1,
+    "python":  "C:\\Program Files\\Python310\\python.exe",
+    "arguments":  "-X utf8 \"D:\\repository\\数据湖\\scripts\\update_selection_lake.py\"",
+    "times":  [
+                  "19:30",
+                  "22:30"
+              ],
+    "timezone":  "China Standard Time"
+}

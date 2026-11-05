@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "share_unlock_schedule",
+  "revision": 3,
+  "revision_id": "7719c1797fe5458ba0f9e2266a0d9833",
+  "generation_path": "revisions/data/share_unlock_schedule/7719c1797fe5458ba0f9e2266a0d9833",
+  "receipt": "revisions/share_unlock_schedule/00000003-7719c1797fe5458ba0f9e2266a0d9833.json",
+  "content_digest": "264a1c115ef88ca030666a240e698fd62f2328c97b62fbac220d876d1255392f",
+  "committed_at": "2026-10-23T14:08:41.380817+00:00"
+}

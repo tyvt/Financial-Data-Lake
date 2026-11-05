@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "shareholder_counts",
+  "revision": 4,
+  "revision_id": "a35ab482b6494825af68a239c7907e93",
+  "generation_path": "revisions/data/shareholder_counts/a35ab482b6494825af68a239c7907e93",
+  "receipt": "revisions/shareholder_counts/00000004-a35ab482b6494825af68a239c7907e93.json",
+  "content_digest": "680be641c6828aca55602a4e298bb9b1874b7adb229f8727b3edfd5e72f628a5",
+  "committed_at": "2026-10-23T14:08:41.402622+00:00"
+}

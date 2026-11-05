@@ -1,0 +1,129 @@
+{
+  "dataset": "trading_calendar",
+  "revision": 6,
+  "revision_id": "9e86d640edd74eef98fbea78293504b2",
+  "committed_at": "2026-11-05T01:16:48.145210+00:00",
+  "run_id": "18d1290a-213e-4144-b119-60836dc3a9b3",
+  "schema_version": 1,
+  "contract_fingerprint": "471888a3a64e8f2b6790f90e5badd90f012a77bd452542d1a5711be494195325",
+  "content_digest": "8c2e769075c07608f7a496b74831289086d0cc1671f92a038ce0dc6fd65ddd0f",
+  "changed_partitions": [
+    "trading_calendar/trade_date=2027"
+  ],
+  "files": [
+    {
+      "path": "trading_calendar/trade_date=2027/part-merged.parquet",
+      "size_bytes": 3161,
+      "sha256": "58dcf1bef51bcdd2b67aa28f9fadbe31457a7580ffd44a1346315871f6d0f5e5"
+    }
+  ],
+  "metadata": {
+    "trade_date": "2026-11-05",
+    "partition_col": "trade_date",
+    "rows_written": 674,
+    "canonical_policy": "observation_recency_v1",
+    "changes": [
+      {
+        "partition": "trade_date=2027",
+        "inserted_keys": 7,
+        "updated_keys": 0,
+        "source_changes": [],
+        "updated_key_sample": []
+      }
+    ],
+    "publication_audit": {
+      "mode": "off",
+      "blocked": false,
+      "report_path": null
+    },
+    "validation": {
+      "schema": "passed",
+      "staging_seals": "passed",
+      "batch_completeness": "passed",
+      "source_diff_gate": "not_configured"
+    },
+    "coverage": {
+      "status": "unknown",
+      "requested_scope": {
+        "start": null,
+        "end": "2026-11-05",
+        "universe": "all_a"
+      },
+      "gaps": {
+        "missing_ranges": [],
+        "missing_units": {},
+        "outstanding_keys": []
+      },
+      "resolved_outstanding_keys": 0
+    },
+    "package_version": "0.16.0",
+    "git_commit": null,
+    "git_dirty": null,
+    "config_fingerprint": "e77d893d9f290cd3ea10ba64361cc558cadd5f9bc071a0c0a8308b7778bc01f3",
+    "base_revision_id": "05dcaeadcdb94f6e9b07ebca8a6f4ff5"
+  },
+  "generation_path": "revisions/data/trading_calendar/9e86d640edd74eef98fbea78293504b2",
+  "generation_files": [
+    {
+      "path": "trading_calendar/trade_date=2016/part-merged.parquet",
+      "size_bytes": 3357,
+      "sha256": "e5b04d06c2cf344258ed54fdbc415abe03c025975c1188d8c242a083f3d40c03"
+    },
+    {
+      "path": "trading_calendar/trade_date=2017/part-merged.parquet",
+      "size_bytes": 3354,
+      "sha256": "f817231902f04d75d9082554bdc6481057eab1f2b91beb3640ee6ffd4234913d"
+    },
+    {
+      "path": "trading_calendar/trade_date=2018/part-merged.parquet",
+      "size_bytes": 3361,
+      "sha256": "1dd5c71970efd178db439dae7d939c299dc31b5ffff6fbc3995689ec1136e90f"
+    },
+    {
+      "path": "trading_calendar/trade_date=2019/part-merged.parquet",
+      "size_bytes": 3351,
+      "sha256": "b711e3731e8ae6fac8e5f276774ab6c8bcdf38bc409cb7fafcf7181a8138437f"
+    },
+    {
+      "path": "trading_calendar/trade_date=2020/part-merged.parquet",
+      "size_bytes": 3365,
+      "sha256": "20d2e2901bc13f8f6efae5b1547e89b1c7d28c48a804f126498b98c4971a1b17"
+    },
+    {
+      "path": "trading_calendar/trade_date=2021/part-merged.parquet",
+      "size_bytes": 3352,
+      "sha256": "96a90cb97084c58b13ce57c42f71bb84d1e4e21edda121eb92ba562285002712"
+    },
+    {
+      "path": "trading_calendar/trade_date=2022/part-merged.parquet",
+      "size_bytes": 3358,
+      "sha256": "854047216539fef8e95838e602cd9950968db72060b318068832d7ccddaa3cbc"
+    },
+    {
+      "path": "trading_calendar/trade_date=2023/part-merged.parquet",
+      "size_bytes": 3356,
+      "sha256": "96ca50896394241a07ec23b7f1662e6c792b2420a4f832ccfeb882c11f7daf54"
+    },
+    {
+      "path": "trading_calendar/trade_date=2024/part-merged.parquet",
+      "size_bytes": 3358,
+      "sha256": "988a7212471d5e49360eeda686978d0e15216bd8c89c771ba65b3776d57cb363"
+    },
+    {
+      "path": "trading_calendar/trade_date=2025/part-merged.parquet",
+      "size_bytes": 3361,
+      "sha256": "801d7a65ed7700c5a26deb78cbf959f16e92a26bff3e33857f7765d6883129d0"
+    },
+    {
+      "path": "trading_calendar/trade_date=2026/part-merged.parquet",
+      "size_bytes": 3360,
+      "sha256": "74fd9f204e7f0838ea1352afc36474055d488130cff0e85f21fbf981fcdadb45"
+    },
+    {
+      "path": "trading_calendar/trade_date=2027/part-merged.parquet",
+      "size_bytes": 3161,
+      "sha256": "58dcf1bef51bcdd2b67aa28f9fadbe31457a7580ffd44a1346315871f6d0f5e5"
+    }
+  ],
+  "pointer_path": "revisions/trading_calendar/current.json"
+}

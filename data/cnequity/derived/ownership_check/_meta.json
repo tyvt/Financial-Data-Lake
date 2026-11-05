@@ -1,0 +1,26 @@
+{
+  "dataset": "ownership_check",
+  "layer": "derived",
+  "generated_at": "2026-11-05T11:58:03",
+  "rows": 85,
+  "columns": [
+    "code",
+    "name",
+    "actual_holder",
+    "owner_type",
+    "governance_ok",
+    "reason",
+    "source",
+    "fetched_at"
+  ],
+  "source": "eastmoney:F10 RPT_F10_BASIC_ORGINFO（实控人字段）",
+  "decision_basis": "国资主体白名单.csv / 非国资法人名单.csv + 名称标记",
+  "governance_ok_true": 55,
+  "governance_ok_false": 24,
+  "governance_ok_null": 6,
+  "fetched_at_range": [
+    "2026-10-23",
+    "2026-11-05"
+  ],
+  "note": "未注册为 cne 数据集（数据集清单在包内，外部无法追加）；用 duckdb read_parquet 直接查，或 ownership.load_from_lake()。"
+}

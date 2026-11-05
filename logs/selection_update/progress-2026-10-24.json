@@ -1,0 +1,526 @@
+{
+  "date": "2026-10-24",
+  "stages": {
+    "market": {
+      "run_id": "b8ce69f5-c688-4b40-8691-837c5a7a182e",
+      "status": "skipped_non_trading_day",
+      "trade_date": "2026-10-24"
+    },
+    "fundamentals": {
+      "run_id": "1e2b702c-34ec-4f6c-b6ec-db35fbdf4feb",
+      "status": "skipped_non_trading_day",
+      "trade_date": "2026-10-24"
+    },
+    "events": {
+      "run_id": "6ef2e2cc-58b7-4de0-b188-4f87de792df9",
+      "status": "success",
+      "retried": 38,
+      "missing_steps": [
+        "regulatory_events"
+      ],
+      "missing_steps_unresolved": [],
+      "stale_marked_failed": 0,
+      "batch_timeout": {
+        "running_to_stale": 0,
+        "stale_to_failed": 0
+      },
+      "results": [
+        {
+          "step": "announcement_index",
+          "status": "success",
+          "elapsed": 756.6119968998246,
+          "rows_read": 26036,
+          "rows_written": 26036,
+          "metrics": {
+            "run_id": "6ef2e2cc-58b7-4de0-b188-4f87de792df9",
+            "dataset": "announcement",
+            "range_start": "2026-09-26",
+            "range_end": "2026-09-26",
+            "started_at": "2026-10-28T22:30:04.978683+08:00",
+            "requests": 749,
+            "concurrency_wait_seconds": 1.660140703432262,
+            "concurrency_peak": 1,
+            "request_seconds": 737.108552405145,
+            "slices_completed": 28,
+            "slices": [
+              {
+                "column": "szse",
+                "start": "2026-09-26",
+                "end": "2026-09-26",
+                "pages": 1,
+                "rows": 0,
+                "raw_rows": 0,
+                "unique_keys": 0,
+                "reported_pages": 0,
+                "reported_rows": 0
+              },
+              {
+                "column": "szse",
+                "start": "2026-09-27",
+                "end": "2026-09-27",
+                "pages": 1,
+                "rows": 0,
+                "raw_rows": 0,
+                "unique_keys": 0,
+                "reported_pages": 0,
+                "reported_rows": 0
+              },
+              {
+                "column": "szse",
+                "start": "2026-09-29",
+                "end": "2026-09-29",
+                "pages": 60,
+                "rows": 1787,
+                "raw_rows": 1787,
+                "unique_keys": 1786,
+                "reported_pages": 59,
+                "reported_rows": 1787
+              },
+              {
+                "column": "szse",
+                "start": "2026-09-30",
+                "end": "2026-09-30",
+                "pages": 75,
+                "rows": 2238,
+                "raw_rows": 2238,
+                "unique_keys": 2237,
+                "reported_pages": 74,
+                "reported_rows": 2238
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-01",
+                "end": "2026-10-01",
+                "pages": 25,
+                "rows": 722,
+                "raw_rows": 722,
+                "unique_keys": 722,
+                "reported_pages": 24,
+                "reported_rows": 722
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-02",
+                "end": "2026-10-02",
+                "pages": 1,
+                "rows": 0,
+                "raw_rows": 0,
+                "unique_keys": 0,
+                "reported_pages": 0,
+                "reported_rows": 0
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-03",
+                "end": "2026-10-03",
+                "pages": 1,
+                "rows": 0,
+                "raw_rows": 0,
+                "unique_keys": 0,
+                "reported_pages": 0,
+                "reported_rows": 0
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-04",
+                "end": "2026-10-04",
+                "pages": 1,
+                "rows": 0,
+                "raw_rows": 0,
+                "unique_keys": 0,
+                "reported_pages": 0,
+                "reported_rows": 0
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-05",
+                "end": "2026-10-05",
+                "pages": 1,
+                "rows": 0,
+                "raw_rows": 0,
+                "unique_keys": 0,
+                "reported_pages": 0,
+                "reported_rows": 0
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-06",
+                "end": "2026-10-06",
+                "pages": 1,
+                "rows": 0,
+                "raw_rows": 0,
+                "unique_keys": 0,
+                "reported_pages": 0,
+                "reported_rows": 0
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-07",
+                "end": "2026-10-07",
+                "pages": 1,
+                "rows": 0,
+                "raw_rows": 0,
+                "unique_keys": 0,
+                "reported_pages": 0,
+                "reported_rows": 0
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-08",
+                "end": "2026-10-08",
+                "pages": 31,
+                "rows": 908,
+                "raw_rows": 908,
+                "unique_keys": 908,
+                "reported_pages": 30,
+                "reported_rows": 908
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-09",
+                "end": "2026-10-09",
+                "pages": 59,
+                "rows": 1755,
+                "raw_rows": 1755,
+                "unique_keys": 1755,
+                "reported_pages": 58,
+                "reported_rows": 1755
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-10",
+                "end": "2026-10-10",
+                "pages": 38,
+                "rows": 1127,
+                "raw_rows": 1127,
+                "unique_keys": 1127,
+                "reported_pages": 37,
+                "reported_rows": 1127
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-11",
+                "end": "2026-10-11",
+                "pages": 1,
+                "rows": 0,
+                "raw_rows": 0,
+                "unique_keys": 0,
+                "reported_pages": 0,
+                "reported_rows": 0
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-12",
+                "end": "2026-10-12",
+                "pages": 20,
+                "rows": 583,
+                "raw_rows": 583,
+                "unique_keys": 583,
+                "reported_pages": 19,
+                "reported_rows": 583
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-13",
+                "end": "2026-10-13",
+                "pages": 45,
+                "rows": 1346,
+                "raw_rows": 1346,
+                "unique_keys": 1346,
+                "reported_pages": 44,
+                "reported_rows": 1346
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-14",
+                "end": "2026-10-14",
+                "pages": 37,
+                "rows": 1107,
+                "raw_rows": 1107,
+                "unique_keys": 1107,
+                "reported_pages": 36,
+                "reported_rows": 1107
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-15",
+                "end": "2026-10-15",
+                "pages": 37,
+                "rows": 1097,
+                "raw_rows": 1097,
+                "unique_keys": 1097,
+                "reported_pages": 36,
+                "reported_rows": 1097
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-16",
+                "end": "2026-10-16",
+                "pages": 44,
+                "rows": 1313,
+                "raw_rows": 1313,
+                "unique_keys": 1313,
+                "reported_pages": 43,
+                "reported_rows": 1313
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-17",
+                "end": "2026-10-17",
+                "pages": 40,
+                "rows": 1177,
+                "raw_rows": 1177,
+                "unique_keys": 1177,
+                "reported_pages": 39,
+                "reported_rows": 1177
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-18",
+                "end": "2026-10-18",
+                "pages": 1,
+                "rows": 1,
+                "raw_rows": 1,
+                "unique_keys": 1,
+                "reported_pages": 0,
+                "reported_rows": 1
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-19",
+                "end": "2026-10-19",
+                "pages": 10,
+                "rows": 278,
+                "raw_rows": 278,
+                "unique_keys": 278,
+                "reported_pages": 9,
+                "reported_rows": 278
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-20",
+                "end": "2026-10-20",
+                "pages": 40,
+                "rows": 1199,
+                "raw_rows": 1199,
+                "unique_keys": 1199,
+                "reported_pages": 39,
+                "reported_rows": 1199
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-21",
+                "end": "2026-10-21",
+                "pages": 40,
+                "rows": 1183,
+                "raw_rows": 1183,
+                "unique_keys": 1183,
+                "reported_pages": 39,
+                "reported_rows": 1183
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-22",
+                "end": "2026-10-22",
+                "pages": 38,
+                "rows": 1112,
+                "raw_rows": 1112,
+                "unique_keys": 1112,
+                "reported_pages": 37,
+                "reported_rows": 1112
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-23",
+                "end": "2026-10-23",
+                "pages": 59,
+                "rows": 1765,
+                "raw_rows": 1765,
+                "unique_keys": 1765,
+                "reported_pages": 58,
+                "reported_rows": 1765
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-24",
+                "end": "2026-10-24",
+                "pages": 68,
+                "rows": 2039,
+                "raw_rows": 2039,
+                "unique_keys": 2039,
+                "reported_pages": 67,
+                "reported_rows": 2039
+              }
+            ],
+            "raw_rows": 2039,
+            "unique_keys": 2039,
+            "duplicate_rows": 0,
+            "elapsed_seconds": 754.9604619992897,
+            "status": "success",
+            "pages": 740
+          },
+          "execution_status": "completed",
+          "coverage_status": "unknown",
+          "publication_status": "none",
+          "reason_code": null,
+          "result_schema_version": 2
+        },
+        {
+          "step": "compact",
+          "status": "success",
+          "elapsed": 20.359707599971443,
+          "rows_read": 26054,
+          "rows_written": 26054,
+          "dataset_revisions": {
+            "announcement_index": {
+              "revision": 5,
+              "revision_id": "b2b7c94d1cfa430fa9b139cb2be5a628",
+              "content_digest": "b9d803e143d5eb3594fd65dcf6867928484aa838d0af73649b5e9e43cdceaac2",
+              "changed_partitions": [
+                "announcement_index/announce_date=2026-10-23",
+                "announcement_index/announce_date=2026-10-24"
+              ]
+            }
+          },
+          "execution_status": "completed",
+          "coverage_status": "not_applicable",
+          "publication_status": "none",
+          "reason_code": null,
+          "result_schema_version": 2
+        },
+        {
+          "step": "news_headlines",
+          "status": "success",
+          "elapsed": 8.929832300171256,
+          "rows_read": 3377,
+          "rows_written": 3377,
+          "dataset": "news_headlines",
+          "compat_view": "news_headlines",
+          "pages": 17,
+          "publish_dates": [
+            "2026-10-23",
+            "2026-10-24",
+            "2026-10-25",
+            "2026-10-26",
+            "2026-10-27",
+            "2026-10-28"
+          ],
+          "execution_status": "completed",
+          "coverage_status": "unknown",
+          "publication_status": "none",
+          "reason_code": null,
+          "result_schema_version": 2
+        },
+        {
+          "step": "regulatory_events",
+          "status": "success",
+          "elapsed": 0.05253579979762435,
+          "rows_read": 41,
+          "rows_written": 41,
+          "window": {
+            "start": "2026-09-23",
+            "end": "2026-10-24"
+          },
+          "announcements_scanned": 27551,
+          "execution_status": "completed",
+          "coverage_status": "unknown",
+          "publication_status": "none",
+          "reason_code": null,
+          "result_schema_version": 2
+        },
+        {
+          "step": "compact",
+          "status": "success",
+          "elapsed": 18.186633499804884,
+          "rows_read": 35131,
+          "rows_written": 35131,
+          "dataset_revisions": {
+            "news_headlines": {
+              "revision": 6,
+              "revision_id": "7a408dbfff3e4772ac74758d555338e2",
+              "content_digest": "07bd3891f61a46d280e2e0b96f5a00fdd778fff6a8baa0d28f106199e4e32932",
+              "changed_partitions": [
+                "news_headlines/publish_date=2026-10"
+              ]
+            }
+          },
+          "execution_status": "completed",
+          "coverage_status": "not_applicable",
+          "publication_status": "none",
+          "reason_code": null,
+          "result_schema_version": 2
+        }
+      ],
+      "retry_passes": 1,
+      "retry_exhausted": 0,
+      "result_schema_version": 2,
+      "execution_status": "completed",
+      "coverage_status": "unknown",
+      "publication_status": "published",
+      "usable_result": true,
+      "fallback": []
+    },
+    "external": {
+      "started_at": "2026-10-28T14:43:28.846543+00:00",
+      "banks_updated": [
+        "000001.SZ",
+        "002966.SZ",
+        "601288.SH",
+        "601825.SH",
+        "002839.SZ",
+        "601838.SH",
+        "601860.SH",
+        "601916.SH",
+        "601939.SH",
+        "601963.SH",
+        "601988.SH",
+        "601997.SH",
+        "601998.SH",
+        "603323.SH"
+      ],
+      "controllers_updated": [
+        "000429.SZ",
+        "000598.SZ",
+        "000651.SZ",
+        "600461.SH",
+        "601000.SH",
+        "601288.SH",
+        "601298.SH",
+        "601825.SH",
+        "002275.SZ",
+        "002282.SZ",
+        "002287.SZ",
+        "002327.SZ",
+        "002332.SZ",
+        "002352.SZ",
+        "002500.SZ",
+        "002507.SZ",
+        "002807.SZ",
+        "002818.SZ",
+        "002839.SZ",
+        "002884.SZ"
+      ],
+      "errors": [],
+      "status": "success",
+      "finished_at": "2026-10-28T14:44:15.639589+00:00"
+    }
+  },
+  "maintenance": {
+    "status": "success",
+    "keep": 2,
+    "candidate_ids": [],
+    "invalid_retained": [],
+    "referenced_or_held": 29,
+    "bytes_deleted": 0
+  },
+  "audit": {
+    "status": "success",
+    "checks": 319,
+    "match": 229,
+    "mismatch": 26,
+    "inconclusive": 64,
+    "known_issues": 26,
+    "new_issues": [],
+    "history": "D:\\repository\\数据湖\\logs\\selection_update\\public_audit_history.jsonl"
+  }
+}

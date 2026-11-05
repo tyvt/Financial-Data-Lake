@@ -1,0 +1,9 @@
+{
+  "key": "pboc",
+  "source": "pboc",
+  "dataset": "macro_indicators",
+  "run_id": "1f0624a2-5714-4f0f-957c-a2be5a7fc25c",
+  "rows": 141,
+  "validated_at": "2026-10-20T02:57:12+00:00",
+  "sample_kind": "passive"
+}

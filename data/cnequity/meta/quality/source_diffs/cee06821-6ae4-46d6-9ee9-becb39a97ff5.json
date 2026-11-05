@@ -1,0 +1,30 @@
+{
+  "run_id": "cee06821-6ae4-46d6-9ee9-becb39a97ff5",
+  "trade_date": "2026-10-16",
+  "diff_count": 2,
+  "diffs": [
+    {
+      "dataset": "daily_bars",
+      "check": "no_snapshot",
+      "severity": "info",
+      "message": "No backup snapshot for daily_bars source=eastmoney; primary rows available for comparison: 0",
+      "primary_rows": 0,
+      "snapshot_cadence": "daily",
+      "peer_unavailable": true,
+      "retryable": true
+    },
+    {
+      "dataset": "corporate_actions",
+      "check": "no_pk_overlap",
+      "severity": "warning",
+      "message": "primary (2) and backup (46) returned disjoint primary-key sets; no fields were comparable",
+      "primary_source": "eastmoney",
+      "backup_source": "tdx_protocol",
+      "primary_unique_keys": 2,
+      "backup_unique_keys": 46,
+      "overlap_unique_keys": 0,
+      "missing_backup_keys": 2,
+      "missing_primary_keys": 46
+    }
+  ]
+}

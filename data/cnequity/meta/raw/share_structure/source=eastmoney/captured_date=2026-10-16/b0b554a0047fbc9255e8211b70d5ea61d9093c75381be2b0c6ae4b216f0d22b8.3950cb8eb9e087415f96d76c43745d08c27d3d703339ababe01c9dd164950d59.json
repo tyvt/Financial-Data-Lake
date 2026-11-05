@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "dataset": "share_structure",
+  "source": "eastmoney",
+  "captured_at": "2026-10-16T06:14:11.741969+00:00",
+  "payload_sha256": "b0b554a0047fbc9255e8211b70d5ea61d9093c75381be2b0c6ae4b216f0d22b8",
+  "payload_bytes": 117958,
+  "compressed_bytes": 13389,
+  "compression": "gzip",
+  "payload_format": "bytes",
+  "payload_path": "raw/share_structure/source=eastmoney/captured_date=2026-10-16/b0b554a0047fbc9255e8211b70d5ea61d9093c75381be2b0c6ae4b216f0d22b8.gz",
+  "metadata_path": "raw/share_structure/source=eastmoney/captured_date=2026-10-16/b0b554a0047fbc9255e8211b70d5ea61d9093c75381be2b0c6ae4b216f0d22b8.3950cb8eb9e087415f96d76c43745d08c27d3d703339ababe01c9dd164950d59.json",
+  "request_params": {
+    "report": "RPT_F10_EH_EQUITY",
+    "columns": "SECUCODE,END_DATE,TOTAL_SHARES,LIMITED_SHARES,UNLIMITED_SHARES,FREELIQCI_SHARES,CHANGE_REASON,NOTICE_DATE",
+    "filter": "(NOTICE_DATE>='2026-09-16')(NOTICE_DATE<='2026-10-16')",
+    "page_size": 500,
+    "page_number": 2
+  },
+  "run_id": "6ef2eb7a-4931-4eb6-b5f9-f739f9373482",
+  "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_F10_EH_EQUITY&columns=SECUCODE%2CEND_DATE%2CTOTAL_SHARES%2CLIMITED_SHARES%2CUNLIMITED_SHARES%2CFREELIQCI_SHARES%2CCHANGE_REASON%2CNOTICE_DATE&pageSize=500&pageNumber=2&filter=%28NOTICE_DATE%3E%3D%272026-09-16%27%29%28NOTICE_DATE%3C%3D%272026-10-16%27%29&sortColumns=SECUCODE&sortTypes=1",
+  "response_status": 200,
+  "http_metadata": {
+    "wire_exact": true,
+    "json_parsed": true,
+    "response_envelope": "json",
+    "content_type": "text/plain;charset=UTF-8"
+  },
+  "pagination": {
+    "page": 2,
+    "page_size": 500
+  },
+  "observation_id": "6ef2eb7a-4931-4eb6-b5f9-f739f9373482:eastmoney:RPT_F10_EH_EQUITY:(NOTICE_DATE>='2026-09-16')(NOTICE_DATE<='2026-10-16'):2:scope=notice_date:2026-09-16:2026-10-16",
+  "request_scope": "notice_date:2026-09-16:2026-10-16"
+}

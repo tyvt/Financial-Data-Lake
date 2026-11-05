@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "dataset": "corporate_actions",
+  "source": "eastmoney",
+  "captured_at": "2026-10-17T02:27:00.663288+00:00",
+  "payload_sha256": "adecc627104399b4c826db72b335b49f4c0e0348fff2719c585e7dd42dd920be",
+  "payload_bytes": 132897,
+  "compressed_bytes": 6783,
+  "compression": "gzip",
+  "payload_format": "bytes",
+  "payload_path": "raw/corporate_actions/source=eastmoney/captured_date=2026-10-17/adecc627104399b4c826db72b335b49f4c0e0348fff2719c585e7dd42dd920be.gz",
+  "metadata_path": "raw/corporate_actions/source=eastmoney/captured_date=2026-10-17/adecc627104399b4c826db72b335b49f4c0e0348fff2719c585e7dd42dd920be.3b0322d2d7b211a392c15f8b269e2272ebb7e41f6eb187eccea6b0c0402ee55a.json",
+  "request_params": {
+    "report": "RPT_SHAREBONUS_DET",
+    "columns": "SECURITY_CODE,SECUCODE,EX_DIVIDEND_DATE,EQUITY_RECORD_DATE,PRETAX_BONUS_RMB,BONUS_RATIO,IT_RATIO,BONUS_IT_RATIO,IMPL_PLAN_PROFILE,ASSIGN_PROGRESS",
+    "filter": "(EX_DIVIDEND_DATE in ('2026-09-17','2026-09-18','2026-09-21','2026-09-22','2026-09-23','2026-09-24','2026-09-28','2026-09-29','2026-09-30','2026-10-08','2026-10-09','2026-10-12','2026-10-13','2026-10-14','2026-10-15','2026-10-16'))",
+    "page_size": 500,
+    "page_number": 1
+  },
+  "run_id": "7c03c0a5-00c3-4971-9310-659db4e09dc0",
+  "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_SHAREBONUS_DET&columns=SECURITY_CODE%2CSECUCODE%2CEX_DIVIDEND_DATE%2CEQUITY_RECORD_DATE%2CPRETAX_BONUS_RMB%2CBONUS_RATIO%2CIT_RATIO%2CBONUS_IT_RATIO%2CIMPL_PLAN_PROFILE%2CASSIGN_PROGRESS&pageSize=500&pageNumber=1&filter=%28EX_DIVIDEND_DATE+in+%28%272026-09-17%27%2C%272026-09-18%27%2C%272026-09-21%27%2C%272026-09-22%27%2C%272026-09-23%27%2C%272026-09-24%27%2C%272026-09-28%27%2C%272026-09-29%27%2C%272026-09-30%27%2C%272026-10-08%27%2C%272026-10-09%27%2C%272026-10-12%27%2C%272026-10-13%27%2C%272026-10-14%27%2C%272026-10-15%27%2C%272026-10-16%27%29%29&sortColumns=EX_DIVIDEND_DATE&sortTypes=-1",
+  "response_status": 200,
+  "http_metadata": {
+    "wire_exact": true,
+    "json_parsed": true,
+    "response_envelope": "json",
+    "content_type": "text/plain;charset=UTF-8"
+  },
+  "pagination": {
+    "page": 1,
+    "page_size": 500
+  },
+  "observation_id": "7c03c0a5-00c3-4971-9310-659db4e09dc0:eastmoney:RPT_SHAREBONUS_DET:(EX_DIVIDEND_DATE in ('2026-09-17','2026-09-18','2026-09-21','2026-09-22','2026-09-23','2026-09-24','2026-09-28','2026-09-29','2026-09-30','2026-10-08','2026-10-09','2026-10-12','2026-10-13','2026-10-14','2026-10-15','2026-10-16')):1:scope=scope-unknown",
+  "request_scope": "daily:2026-10-16"
+}

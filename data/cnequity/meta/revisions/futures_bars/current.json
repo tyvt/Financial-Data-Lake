@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "futures_bars",
+  "revision": 3,
+  "revision_id": "65ce9cac1f9c441f95182ddd04191fbe",
+  "generation_path": "revisions/data/futures_bars/65ce9cac1f9c441f95182ddd04191fbe",
+  "receipt": "revisions/futures_bars/00000003-65ce9cac1f9c441f95182ddd04191fbe.json",
+  "content_digest": "5aea2c8e2a16a919427b5418156793ca73a7e2b81ba81b1b292b9dadb167c981",
+  "committed_at": "2026-10-23T14:08:41.473097+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "dataset": "option_greeks",
+  "revision": 4,
+  "revision_id": "a094aa3437c447e28fea57f32f9576d2",
+  "committed_at": "2026-10-23T14:09:45.883643+00:00",
+  "run_id": "selection-scope-retirement-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "62c36c1502e3b7054ed7e59f9d5fd781c6ff9153ed8bb69d5ff4663e63f5ac86",
+  "content_digest": "3ee3b916e86c3f755180aeb6a603be2e7245d6eeb0848c68b2c0cf412fc2be8b",
+  "changed_partitions": [
+    "option_greeks/trade_date=2020-01-02"
+  ],
+  "files": [
+    {
+      "path": "option_greeks/trade_date=2020-01-02/part-000.parquet",
+      "size_bytes": 3177,
+      "sha256": "37d600d3e11619a55e3c706d407aded97162403d8c3717ee1343a018ad1550fa"
+    }
+  ],
+  "metadata": {
+    "operation": "user_authorized_retirement",
+    "rows": 0,
+    "base_revision_id": "1bbf3be2d6de4138882ba02f1ad85237"
+  },
+  "generation_path": "revisions/data/option_greeks/a094aa3437c447e28fea57f32f9576d2",
+  "generation_files": [
+    {
+      "path": "option_greeks/trade_date=2020-01-02/part-000.parquet",
+      "size_bytes": 3177,
+      "sha256": "37d600d3e11619a55e3c706d407aded97162403d8c3717ee1343a018ad1550fa"
+    }
+  ],
+  "pointer_path": "revisions/option_greeks/current.json"
+}

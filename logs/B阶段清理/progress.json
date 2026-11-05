@@ -1,0 +1,252 @@
+{
+  "targets": [
+    "analyst_consensus",
+    "block_trades",
+    "commodity_bars",
+    "dragon_tiger",
+    "etf_profiles",
+    "fund_flow",
+    "macro_indicators",
+    "margin_trading",
+    "market_breadth",
+    "northbound_flows",
+    "northbound_holdings",
+    "sector_bars",
+    "sector_members",
+    "sentiment_scores",
+    "valuation_metrics"
+  ],
+  "before_total_bytes": 4198865032,
+  "before_counts": {
+    "announcement_index": 8012,
+    "corporate_actions": 69976,
+    "daily_bars": 11187520,
+    "earnings_disclosure_schedule": 11120,
+    "financial_statement_items": 2791767,
+    "index_bars": 19978,
+    "index_constituents": 6284,
+    "industry_members": 437058,
+    "institutional_holdings": 20647,
+    "instruments": 8082,
+    "news_headlines": 1588,
+    "regulatory_events": 23,
+    "shareholder_counts": 2839,
+    "share_structure": 62182,
+    "share_unlock_schedule": 813,
+    "top_holders": 1022791,
+    "trading_calendar": 4310,
+    "trading_status": 49027,
+    "daily_bars_adj": 11187520
+  },
+  "completed": [
+    "analyst_consensus",
+    "block_trades",
+    "commodity_bars",
+    "dragon_tiger",
+    "etf_profiles",
+    "fund_flow",
+    "macro_indicators",
+    "margin_trading",
+    "market_breadth",
+    "northbound_flows",
+    "northbound_holdings",
+    "sector_bars",
+    "sector_members",
+    "sentiment_scores",
+    "valuation_metrics"
+  ],
+  "files_deleted_bytes": 400325074,
+  "stage": "complete",
+  "blocked": [
+    {
+      "id": "revision/analyst_consensus/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    },
+    {
+      "id": "revision/block_trades/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    },
+    {
+      "id": "revision/commodity_bars/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    },
+    {
+      "id": "revision/dragon_tiger/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    },
+    {
+      "id": "revision/etf_profiles/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    },
+    {
+      "id": "revision/fund_flow/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    },
+    {
+      "id": "revision/macro_indicators/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    },
+    {
+      "id": "revision/margin_trading/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    },
+    {
+      "id": "revision/market_breadth/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    },
+    {
+      "id": "revision/northbound_flows/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    },
+    {
+      "id": "revision/northbound_holdings/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    },
+    {
+      "id": "revision/sector_bars/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    },
+    {
+      "id": "revision/sector_members/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    },
+    {
+      "id": "revision/sentiment_scores/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    },
+    {
+      "id": "revision/valuation_metrics/legacy",
+      "reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ]
+    }
+  ],
+  "purge_plan_id": "c2a550422d7d970dbdce736dc71a3e6b56649b5eea0d21d63cb06077b6c69953",
+  "purge_result": {
+    "schema_version": 1,
+    "plan_id": "c2a550422d7d970dbdce736dc71a3e6b56649b5eea0d21d63cb06077b6c69953",
+    "lake_id": "389524ca2c854c57aa0567c2191a7a7d",
+    "status": "complete",
+    "items": {
+      "revision/analyst_consensus/35c724dcd640421f86a9e1a7cef6a359": "deleted",
+      "revision/analyst_consensus/b7024adec3e242b4bc993e800cb28d5b": "deleted",
+      "revision/block_trades/6f5e6c7886954c17a6830944079447e0": "deleted",
+      "revision/block_trades/d940c74ddc464f1cb27544d2fa12d434": "deleted",
+      "revision/commodity_bars/494bfe3bc32f4d729c82a0c554946c49": "deleted",
+      "revision/commodity_bars/536be4db2716473599c7fbb901dd2f34": "deleted",
+      "revision/dragon_tiger/03c047d5573a4161a122c968a8908500": "deleted",
+      "revision/dragon_tiger/7111ed7d87fb48d486f152d8244cea18": "deleted",
+      "revision/etf_profiles/ac46308a072f401cabd35ab59b50aa83": "deleted",
+      "revision/fund_flow/57fed00712a041d19d0785a4cb8fb311": "deleted",
+      "revision/macro_indicators/3d6754b134d14c098314c3b8a9418900": "deleted",
+      "revision/macro_indicators/454fa2f600c4404f9d4314c559638cb3": "deleted",
+      "revision/margin_trading/23a0cdbff91c4a8d80d1a9a22ddf609c": "deleted",
+      "revision/margin_trading/c620ad1bc65b4eb795b6c0d7545178ec": "deleted",
+      "revision/market_breadth/1b20ea2df40340e49e39e26316510d0b": "deleted",
+      "revision/market_breadth/235628ccb80b46d9972f9b55303fb218": "deleted",
+      "revision/northbound_flows/996b0889aa614c29b6a1d74cfc87673c": "deleted",
+      "revision/northbound_holdings/e4a737c55a3f44068cd675014409e5c4": "deleted",
+      "revision/sector_bars/3236ef70534e42b7b1893964f8b5b57b": "deleted",
+      "revision/sector_bars/666b58acb7084e6eab0bf0e9295f2013": "deleted",
+      "revision/sector_members/55aab90b3da749dcaa859e0020c16a79": "deleted",
+      "revision/sector_members/8a2485aca40f47a89a693ed7e6cae7ba": "deleted",
+      "revision/sentiment_scores/70cfe8889c4d4c84b02520d833b59c58": "deleted",
+      "revision/sentiment_scores/9e54505f46f14f2b853253fe3e414533": "deleted",
+      "revision/valuation_metrics/69d4bc961b1d46fbb02d7dead8f280dc": "deleted",
+      "revision/valuation_metrics/a2218493160f4a79a3102a950aebee13": "deleted"
+    },
+    "logical_bytes_deleted": 787696371,
+    "filesystem_free_bytes_before": 199827017728,
+    "filesystem_free_bytes_after": 200628121600,
+    "completed_at": "2026-10-23T13:12:15.703658+00:00"
+  },
+  "after_counts": {
+    "announcement_index": 8012,
+    "corporate_actions": 69976,
+    "daily_bars": 11187520,
+    "earnings_disclosure_schedule": 11120,
+    "financial_statement_items": 2791767,
+    "index_bars": 19978,
+    "index_constituents": 6284,
+    "industry_members": 437058,
+    "institutional_holdings": 20647,
+    "instruments": 8082,
+    "news_headlines": 1588,
+    "regulatory_events": 23,
+    "shareholder_counts": 2839,
+    "share_structure": 62182,
+    "share_unlock_schedule": 813,
+    "top_holders": 1022791,
+    "trading_calendar": 4310,
+    "trading_status": 49027,
+    "daily_bars_adj": 11187520
+  },
+  "empty_counts": {
+    "analyst_consensus": 0,
+    "block_trades": 0,
+    "commodity_bars": 0,
+    "dragon_tiger": 0,
+    "etf_profiles": 0,
+    "fund_flow": 0,
+    "macro_indicators": 0,
+    "margin_trading": 0,
+    "market_breadth": 0,
+    "northbound_flows": 0,
+    "northbound_holdings": 0,
+    "sector_bars": 0,
+    "sector_members": 0,
+    "sentiment_scores": 0,
+    "valuation_metrics": 0
+  },
+  "retained_files_verified": 5537,
+  "after_total_bytes": 3011984787,
+  "completed_at": "2026-10-23T13:12:36.404214+00:00",
+  "before_fingerprints_summary": {
+    "files_verified": 5537,
+    "original_manifest_sha256": "684bc249a1e84151374cff478ca9e3d7d80c8d9a79aee875b6f8242a1ca9d908",
+    "note": "逐文件校验已完成；保留数量和摘要，删除一次性哈希清单。"
+  }
+}

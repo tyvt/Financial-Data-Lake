@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "financial_statement_items",
+  "revision": 10,
+  "revision_id": "e992ead6d8824a54b9ee76fb100e6a2c",
+  "generation_path": "revisions/data/financial_statement_items/e992ead6d8824a54b9ee76fb100e6a2c",
+  "receipt": "revisions/financial_statement_items/00000010-e992ead6d8824a54b9ee76fb100e6a2c.json",
+  "content_digest": "ee9bf1b5cf70e135857f917b08139e27944b9b844107c95fdcf9a293d54a5c44",
+  "committed_at": "2026-11-05T01:21:44.699031+00:00"
+}

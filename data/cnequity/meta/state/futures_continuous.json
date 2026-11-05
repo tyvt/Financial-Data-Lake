@@ -1,0 +1,18 @@
+{
+  "last_success_trade_date": "2026-10-16",
+  "updated_at": "2026-10-23T14:09:45.639509+00:00",
+  "revision": 5,
+  "revision_id": "6d0af4a8ee2d4f62a6c10af172edd9a4",
+  "revision_at": "2026-10-23T14:09:45.639509+00:00",
+  "revision_run_id": "selection-scope-retirement-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "c3aa60abc8494cc52602c3bf90ff75db3284edaf73b7ec7c58b3ee2c44b45b3d",
+  "content_digest": "53042177351d9646f1530114344294ad817832b130add16bf74aad6c5a1362bd",
+  "revision_receipt": "revisions/futures_continuous/00000005-6d0af4a8ee2d4f62a6c10af172edd9a4.json",
+  "revision_pointer": "revisions/futures_continuous/current.json",
+  "changed_partitions": [
+    "futures_continuous/trade_date=2002-01"
+  ],
+  "row_count": 0,
+  "retired_by": "selection_lake_policy.json"
+}

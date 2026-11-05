@@ -1,0 +1,120 @@
+{
+  "dataset": "earnings_disclosure_schedule",
+  "revision": 6,
+  "revision_id": "099826e576924e2fa3d7f446256cacb4",
+  "committed_at": "2026-11-05T01:21:44.625544+00:00",
+  "run_id": "3d58731b-bdba-456b-84aa-396ab74de361",
+  "schema_version": 1,
+  "contract_fingerprint": "2fce8c036ae0a261afbe47b1a5db90a6b0e22c52091eeabe5816ca4325db00bf",
+  "content_digest": "fd15ccdd7f48c952d79b91f5de66efd77e6116bbe74c96948c8f21112e40623e",
+  "changed_partitions": [
+    "earnings_disclosure_schedule/report_period=2026Q3"
+  ],
+  "files": [
+    {
+      "path": "earnings_disclosure_schedule/report_period=2026Q3/part-merged.parquet",
+      "size_bytes": 32519,
+      "sha256": "717b5ba7c37c4d9775ab7270da43f9a79cf153e4219ea6c95a006161b38931e6"
+    }
+  ],
+  "metadata": {
+    "trade_date": "2026-11-05",
+    "partition_col": "report_period",
+    "rows_written": 11124,
+    "canonical_policy": "observation_recency_v1",
+    "changes": [
+      {
+        "partition": "report_period=2026Q3",
+        "inserted_keys": 0,
+        "updated_keys": 24,
+        "source_changes": [],
+        "updated_key_sample": [
+          {
+            "symbol": "002044.SZ",
+            "report_period": "2026Q3"
+          },
+          {
+            "symbol": "300068.SZ",
+            "report_period": "2026Q3"
+          },
+          {
+            "symbol": "600165.SH",
+            "report_period": "2026Q3"
+          },
+          {
+            "symbol": "600300.SH",
+            "report_period": "2026Q3"
+          },
+          {
+            "symbol": "600325.SH",
+            "report_period": "2026Q3"
+          },
+          {
+            "symbol": "600481.SH",
+            "report_period": "2026Q3"
+          },
+          {
+            "symbol": "600570.SH",
+            "report_period": "2026Q3"
+          },
+          {
+            "symbol": "600579.SH",
+            "report_period": "2026Q3"
+          },
+          {
+            "symbol": "600671.SH",
+            "report_period": "2026Q3"
+          },
+          {
+            "symbol": "600682.SH",
+            "report_period": "2026Q3"
+          }
+        ]
+      }
+    ],
+    "publication_audit": {
+      "mode": "off",
+      "blocked": false,
+      "report_path": null
+    },
+    "validation": {
+      "schema": "passed",
+      "staging_seals": "passed",
+      "batch_completeness": "passed",
+      "source_diff_gate": "not_configured"
+    },
+    "coverage": {
+      "status": "unknown",
+      "requested_scope": {
+        "start": null,
+        "end": "2026-11-05",
+        "universe": "all_a"
+      },
+      "gaps": {
+        "missing_ranges": [],
+        "missing_units": {},
+        "outstanding_keys": []
+      },
+      "resolved_outstanding_keys": 0
+    },
+    "package_version": "0.16.0",
+    "git_commit": null,
+    "git_dirty": null,
+    "config_fingerprint": "e77d893d9f290cd3ea10ba64361cc558cadd5f9bc071a0c0a8308b7778bc01f3",
+    "base_revision_id": "6bf0074672a9425ba2dea18350266901"
+  },
+  "generation_path": "revisions/data/earnings_disclosure_schedule/099826e576924e2fa3d7f446256cacb4",
+  "generation_files": [
+    {
+      "path": "earnings_disclosure_schedule/report_period=2026Q2/part-merged.parquet",
+      "size_bytes": 33443,
+      "sha256": "dff9d420a0fa6ef1da3629179de6ad83223a09342d9e7b64f04128aee3a56b7b"
+    },
+    {
+      "path": "earnings_disclosure_schedule/report_period=2026Q3/part-merged.parquet",
+      "size_bytes": 32519,
+      "sha256": "717b5ba7c37c4d9775ab7270da43f9a79cf153e4219ea6c95a006161b38931e6"
+    }
+  ],
+  "pointer_path": "revisions/earnings_disclosure_schedule/current.json"
+}

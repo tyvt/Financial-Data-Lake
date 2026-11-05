@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "dataset": "corporate_actions",
+  "source": "tdx_protocol",
+  "captured_at": "2026-10-16T06:29:17.963457+00:00",
+  "payload_sha256": "4ca6c2b50f26fbc6ff65d305b258b37be2e03cc7a37927c7088ece6611802450",
+  "payload_bytes": 27,
+  "compressed_bytes": 45,
+  "compression": "gzip",
+  "payload_format": "bytes",
+  "payload_path": "raw/corporate_actions/source=tdx_protocol/captured_date=2026-10-16/4ca6c2b50f26fbc6ff65d305b258b37be2e03cc7a37927c7088ece6611802450.gz",
+  "metadata_path": "raw/corporate_actions/source=tdx_protocol/captured_date=2026-10-16/4ca6c2b50f26fbc6ff65d305b258b37be2e03cc7a37927c7088ece6611802450.dcde1e89bc520d05733c18e6b0ec380932706304e7cd466b9192022aa70101d2.json",
+  "request_params": {
+    "symbol": "512740",
+    "market": 1
+  },
+  "run_id": "cee06821-6ae4-46d6-9ee9-becb39a97ff5",
+  "url": null,
+  "response_status": null,
+  "http_metadata": {
+    "wire_exact": true,
+    "protocol": "tdx",
+    "compressed_frame": true
+  },
+  "pagination": {},
+  "observation_id": "cee06821-6ae4-46d6-9ee9-becb39a97ff5:xdxr:512740.SH:scope=chunk:corporate_actions-chunk-59f30934933e",
+  "request_scope": "chunk:corporate_actions-chunk-59f30934933e"
+}

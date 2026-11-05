@@ -1,0 +1,23 @@
+{
+  "last_attempt": "2026-10-20T02:52:04.265739+00:00",
+  "updated_at": "2026-10-23T13:11:46.803025+00:00",
+  "revision": 3,
+  "revision_id": "83ab8026dc6041be8cbe7095c1359151",
+  "revision_at": "2026-10-23T13:11:46.803025+00:00",
+  "revision_run_id": "user-approved-B-cleanup-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "6171c6f23573095a357dc697e7e127eb9a8e5f628555a38a71cc3f671e862a20",
+  "content_digest": "0f4ce6f40ea6d26ed445c50f406acc2e351d175de16f8ca1d3220a7bb21e7bad",
+  "revision_receipt": "revisions/margin_trading/00000003-83ab8026dc6041be8cbe7095c1359151.json",
+  "revision_pointer": "revisions/margin_trading/current.json",
+  "changed_partitions": [
+    "margin_trading/trade_date=2026-10-12"
+  ],
+  "missing_ranges": [],
+  "coverage_status": "complete",
+  "last_success_trade_date": "2026-10-19",
+  "observed_max": "2026-10-19",
+  "complete_through": "2026-10-19",
+  "row_count": 0,
+  "cleared_by": "user-approved-B-cleanup-20261023"
+}

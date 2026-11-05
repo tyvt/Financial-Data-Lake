@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "sector_bars",
+  "revision": 3,
+  "revision_id": "a17fecee89b142d4a6fb5c4e9cca7fc9",
+  "generation_path": "revisions/data/sector_bars/a17fecee89b142d4a6fb5c4e9cca7fc9",
+  "receipt": "revisions/sector_bars/00000003-a17fecee89b142d4a6fb5c4e9cca7fc9.json",
+  "content_digest": "79102b2862371a9109717f14d12edd78d7bfa284d766cf5a13c0deed59661e1f",
+  "committed_at": "2026-10-23T13:11:46.890278+00:00"
+}

@@ -1,0 +1,226 @@
+{
+  "contradictions": 14,
+  "symbols": 9,
+  "switch": [],
+  "baostock_unserved": 0,
+  "judged": 14,
+  "verdicts": {
+    "action_missing": 14
+  },
+  "sina_wrong_unproven": 0,
+  "switch_detail": {},
+  "action_missing_sample": [
+    {
+      "symbol": "000022.SZ",
+      "ex_date": "2016-07-28"
+    },
+    {
+      "symbol": "000022.SZ",
+      "ex_date": "2017-08-01"
+    },
+    {
+      "symbol": "000022.SZ",
+      "ex_date": "2018-07-10"
+    },
+    {
+      "symbol": "000043.SZ",
+      "ex_date": "2016-05-18"
+    },
+    {
+      "symbol": "000043.SZ",
+      "ex_date": "2017-06-22"
+    },
+    {
+      "symbol": "000043.SZ",
+      "ex_date": "2018-06-06"
+    },
+    {
+      "symbol": "000043.SZ",
+      "ex_date": "2019-06-06"
+    },
+    {
+      "symbol": "000430.SZ",
+      "ex_date": "2025-12-29"
+    },
+    {
+      "symbol": "000691.SZ",
+      "ex_date": "2026-01-05"
+    },
+    {
+      "symbol": "000697.SZ",
+      "ex_date": "2025-11-28"
+    },
+    {
+      "symbol": "000793.SZ",
+      "ex_date": "2026-06-22"
+    },
+    {
+      "symbol": "000796.SZ",
+      "ex_date": "2023-12-20"
+    },
+    {
+      "symbol": "000908.SZ",
+      "ex_date": "2026-03-11"
+    },
+    {
+      "symbol": "600306.SH",
+      "ex_date": "2023-12-26"
+    }
+  ],
+  "verdict_rows": [
+    {
+      "symbol": "000022.SZ",
+      "ex_date": "2016-07-28",
+      "kind": "step_without_action",
+      "verdict": "action_missing",
+      "sina_step": 0.02512254901960409,
+      "bao_step": 0.025122408307183042,
+      "price_gap": 0.05021971123666047,
+      "prev_date": "2016-07-27",
+      "price_confirms": false
+    },
+    {
+      "symbol": "000022.SZ",
+      "ex_date": "2017-08-01",
+      "kind": "step_without_action",
+      "verdict": "action_missing",
+      "sina_step": 0.01804029970173926,
+      "bao_step": 0.018188543622473352,
+      "price_gap": 0.004666188083273459,
+      "prev_date": "2017-07-31",
+      "price_confirms": false
+    },
+    {
+      "symbol": "000022.SZ",
+      "ex_date": "2018-07-10",
+      "kind": "step_without_action",
+      "verdict": "action_missing",
+      "sina_step": 0.05779764252225261,
+      "bao_step": 0.05784397889312398,
+      "price_gap": 0.13173933427098006,
+      "prev_date": "2017-11-17",
+      "price_confirms": false
+    },
+    {
+      "symbol": "000043.SZ",
+      "ex_date": "2016-05-18",
+      "kind": "step_without_action",
+      "verdict": "action_missing",
+      "sina_step": 0.006684491978609541,
+      "bao_step": 0.006684570166899162,
+      "price_gap": 0.04728789986091786,
+      "prev_date": "2016-05-17",
+      "price_confirms": false
+    },
+    {
+      "symbol": "000043.SZ",
+      "ex_date": "2017-06-22",
+      "kind": "step_without_action",
+      "verdict": "action_missing",
+      "sina_step": 0.007231404958678134,
+      "bao_step": 0.007231458382292555,
+      "price_gap": 0.015625,
+      "prev_date": "2017-06-21",
+      "price_confirms": false
+    },
+    {
+      "symbol": "000043.SZ",
+      "ex_date": "2018-06-06",
+      "kind": "step_without_action",
+      "verdict": "action_missing",
+      "sina_step": 0.012722646310440178,
+      "bao_step": 0.012722609928782935,
+      "price_gap": -0.0050000000000000044,
+      "prev_date": "2018-06-05",
+      "price_confirms": false
+    },
+    {
+      "symbol": "000043.SZ",
+      "ex_date": "2019-06-06",
+      "kind": "step_without_action",
+      "verdict": "action_missing",
+      "sina_step": 0.02857142857142736,
+      "bao_step": 0.028571401068118396,
+      "price_gap": 0.0843373493975903,
+      "prev_date": "2019-06-05",
+      "price_confirms": false
+    },
+    {
+      "symbol": "000430.SZ",
+      "ex_date": "2025-12-29",
+      "kind": "step_without_action",
+      "verdict": "action_missing",
+      "sina_step": 0.1499272199999826,
+      "bao_step": 0.1499270068277685,
+      "price_gap": 0.09570041608876556,
+      "prev_date": "2025-12-25",
+      "price_confirms": false
+    },
+    {
+      "symbol": "000691.SZ",
+      "ex_date": "2026-01-05",
+      "kind": "step_without_action",
+      "verdict": "action_missing",
+      "sina_step": 0.2907801399999699,
+      "bao_step": 0.29078001298368417,
+      "price_gap": 0.2297297297297296,
+      "prev_date": "2025-12-30",
+      "price_confirms": false
+    },
+    {
+      "symbol": "000697.SZ",
+      "ex_date": "2025-11-28",
+      "kind": "step_without_action",
+      "verdict": "action_missing",
+      "sina_step": 0.05838509000000225,
+      "bao_step": 0.05838523507194893,
+      "price_gap": 0.008284023668639007,
+      "prev_date": "2025-11-26",
+      "price_confirms": false
+    },
+    {
+      "symbol": "000793.SZ",
+      "ex_date": "2026-06-22",
+      "kind": "step_without_action",
+      "verdict": "action_missing",
+      "sina_step": 0.04780875999999856,
+      "bao_step": 0.04780870764442269,
+      "price_gap": -0.0037878787878788955,
+      "prev_date": "2026-06-17",
+      "price_confirms": false
+    },
+    {
+      "symbol": "000796.SZ",
+      "ex_date": "2023-12-20",
+      "kind": "step_without_action",
+      "verdict": "action_missing",
+      "sina_step": 0.03816794000000123,
+      "bao_step": 0.03816790524244351,
+      "price_gap": 0.07936507936507953,
+      "prev_date": "2023-12-18",
+      "price_confirms": false
+    },
+    {
+      "symbol": "000908.SZ",
+      "ex_date": "2026-03-11",
+      "kind": "step_without_action",
+      "verdict": "action_missing",
+      "sina_step": 0.46100917000002095,
+      "bao_step": 0.4610093376733453,
+      "price_gap": 0.3908296943231442,
+      "prev_date": "2026-03-09",
+      "price_confirms": false
+    },
+    {
+      "symbol": "600306.SH",
+      "ex_date": "2023-12-26",
+      "kind": "step_without_action",
+      "verdict": "action_missing",
+      "sina_step": 0.47174447000001063,
+      "bao_step": 0.47174419870627693,
+      "price_gap": 0.40116959064327484,
+      "prev_date": "2023-12-22",
+      "price_confirms": false
+    }
+  ]
+}

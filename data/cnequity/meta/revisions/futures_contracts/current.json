@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "futures_contracts",
+  "revision": 4,
+  "revision_id": "8a4cc9b675a74d7d81cda9c699a442b9",
+  "generation_path": "revisions/data/futures_contracts/8a4cc9b675a74d7d81cda9c699a442b9",
+  "receipt": "revisions/futures_contracts/00000004-8a4cc9b675a74d7d81cda9c699a442b9.json",
+  "content_digest": "bca5fd7547c25f85169ea9d1abfa4532630e9d22531dcea4e609a9dde5117dac",
+  "committed_at": "2026-10-23T14:09:45.671823+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "northbound_flows",
+  "revision": 2,
+  "revision_id": "65013a73431443fe87aa83769a22fd45",
+  "generation_path": "revisions/data/northbound_flows/65013a73431443fe87aa83769a22fd45",
+  "receipt": "revisions/northbound_flows/00000002-65013a73431443fe87aa83769a22fd45.json",
+  "content_digest": "b7729e77ea86684ee5cfc5f35f5a9bb553b089d2522a54708f57f03a6c63c435",
+  "committed_at": "2026-10-23T13:11:46.844351+00:00"
+}

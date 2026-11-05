@@ -1,0 +1,9 @@
+{
+  "key": "sina",
+  "source": "sina",
+  "dataset": "daily_bars",
+  "run_id": "7fe4e884-b476-4aa3-ae87-9da4e9e3b557",
+  "rows": 354,
+  "validated_at": "2026-11-05T02:31:09+00:00",
+  "sample_kind": "passive"
+}

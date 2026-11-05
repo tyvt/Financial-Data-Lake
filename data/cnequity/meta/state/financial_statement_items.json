@@ -1,0 +1,28 @@
+{
+  "revision": 10,
+  "revision_id": "e992ead6d8824a54b9ee76fb100e6a2c",
+  "revision_at": "2026-11-05T01:21:44.699031+00:00",
+  "revision_run_id": "3d58731b-bdba-456b-84aa-396ab74de361",
+  "schema_version": 1,
+  "contract_fingerprint": "a509617e3f0b2cd52c83d0df7e79f6d26befa3362f33ebda61f70642bebe07a5",
+  "content_digest": "ee9bf1b5cf70e135857f917b08139e27944b9b844107c95fdcf9a293d54a5c44",
+  "revision_receipt": "revisions/financial_statement_items/00000010-e992ead6d8824a54b9ee76fb100e6a2c.json",
+  "revision_pointer": "revisions/financial_statement_items/current.json",
+  "changed_partitions": [
+    "financial_statement_items/report_period=2023Q3",
+    "financial_statement_items/report_period=2023Q4",
+    "financial_statement_items/report_period=2024Q1",
+    "financial_statement_items/report_period=2024Q2",
+    "financial_statement_items/report_period=2024Q3",
+    "financial_statement_items/report_period=2024Q4",
+    "financial_statement_items/report_period=2025Q1",
+    "financial_statement_items/report_period=2025Q2",
+    "financial_statement_items/report_period=2025Q3",
+    "financial_statement_items/report_period=2025Q4",
+    "financial_statement_items/report_period=2026Q1",
+    "financial_statement_items/report_period=2026Q2",
+    "financial_statement_items/report_period=2026Q3"
+  ],
+  "updated_at": "2026-11-05T01:21:44.699031+00:00",
+  "coverage_status": "unknown"
+}

@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-10-23T14:20:03.527857+00:00",
+  "latest_run_id": "4322e3c5-6ae2-463f-b924-f0ef1a8067a3",
+  "rebuilt_datasets": [
+    "futures_bars",
+    "futures_continuous",
+    "futures_contracts",
+    "index_bars",
+    "index_constituents",
+    "industry_index",
+    "institutional_holdings",
+    "option_bars",
+    "option_contracts",
+    "option_greeks",
+    "share_unlock_schedule",
+    "shareholder_counts",
+    "top_holders"
+  ],
+  "datasets": 13,
+  "empty_datasets": [],
+  "partitions": 13,
+  "rows": 0,
+  "files": 13,
+  "bytes": 34945,
+  "elapsed_seconds": 0.47
+}

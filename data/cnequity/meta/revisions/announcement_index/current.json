@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "announcement_index",
+  "revision": 6,
+  "revision_id": "1a7f6873f0df44a387a70313ebb6f49e",
+  "generation_path": "revisions/data/announcement_index/1a7f6873f0df44a387a70313ebb6f49e",
+  "receipt": "revisions/announcement_index/00000006-1a7f6873f0df44a387a70313ebb6f49e.json",
+  "content_digest": "2bae7b10b97a531109e986236a6c1c7e28f5e30486da694ff8f80a99d0ad3e74",
+  "committed_at": "2026-11-05T01:50:42.596240+00:00"
+}

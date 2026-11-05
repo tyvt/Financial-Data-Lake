@@ -1,0 +1,21 @@
+{
+  "revision": 2,
+  "revision_id": "65013a73431443fe87aa83769a22fd45",
+  "revision_at": "2026-10-23T13:11:46.844351+00:00",
+  "revision_run_id": "user-approved-B-cleanup-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "9e64d618ce71bcd10453877a2ec21f65d47d8b5cff176a6baef3fb81952ce74b",
+  "content_digest": "b7729e77ea86684ee5cfc5f35f5a9bb553b089d2522a54708f57f03a6c63c435",
+  "revision_receipt": "revisions/northbound_flows/00000002-65013a73431443fe87aa83769a22fd45.json",
+  "revision_pointer": "revisions/northbound_flows/current.json",
+  "changed_partitions": [
+    "northbound_flows/trade_date=2014"
+  ],
+  "updated_at": "2026-10-23T13:11:46.844351+00:00",
+  "last_success_trade_date": "2024-08-16",
+  "observed_max": "2024-08-16",
+  "complete_through": "2024-08-16",
+  "coverage_status": "complete",
+  "row_count": 0,
+  "cleared_by": "user-approved-B-cleanup-20261023"
+}

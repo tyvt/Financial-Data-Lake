@@ -1,0 +1,496 @@
+{
+  "performed_at": "2026-10-24T07:46:36.284638+08:00",
+  "scope": "Only files outside data/",
+  "deleted": [
+    {
+      "path": "configs/cnequity.toml.bak-20261018",
+      "bytes": 31227,
+      "sha256": "0be44c6f4e6fef2a157ea86360d091b8fdcaf9a5e1ceca0e697393aab23203e0"
+    },
+    {
+      "path": "logs/_ar_fin.log",
+      "bytes": 845,
+      "sha256": "336ffd894d0cd52daec768932bc65061da8021508d7a9339c17628d262f23cde"
+    },
+    {
+      "path": "logs/backfill_fsi.log",
+      "bytes": 6335,
+      "sha256": "6468ee26f564636e15c4c49469f1750bc8e28a072c531f7f1e0c65e58077847a"
+    },
+    {
+      "path": "logs/backfill_fsi_full.log",
+      "bytes": 13215,
+      "sha256": "cda9b997448d5d9d5d21a44364ea76b12de7cea7f797280bae76ff32322c4640"
+    },
+    {
+      "path": "logs/backfill_share_structure.log",
+      "bytes": 2874,
+      "sha256": "f69512a4d01d14040cbe48d3bbaccb204952619741b7803ca50ae1fc8b7bcde5"
+    },
+    {
+      "path": "logs/backfill_valuation.log",
+      "bytes": 313,
+      "sha256": "9396b2e0ad171e3bb3d2b6a22ca55a6c7003ceabbd01d7580cdc5c27971003d4"
+    },
+    {
+      "path": "logs/B阶段清理运行.log",
+      "bytes": 5539,
+      "sha256": "9d903c4b9a3961fcbaf1a0b00b08d468cceccc30e24fce82f7e8f742278f4888"
+    },
+    {
+      "path": "logs/selection_external_bootstrap.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/selection_update/initial_retention.log",
+      "bytes": 1081,
+      "sha256": "2fa915f936fdfcc230c0b415724b9759df144a7aa3d67e0491d5dac1e0974593"
+    },
+    {
+      "path": "logs/当前数据湖盘点.log",
+      "bytes": 4109,
+      "sha256": "3ea59eb7c03dbf3f3ca28e411a4007c5e9705de40c08514b58a4e6a262ae5554"
+    },
+    {
+      "path": "logs/现有定时任务盘点.json",
+      "bytes": 47817,
+      "sha256": "13a6e0fa7800976d3ad29224d4751ab2d579cf2856863405ba2a953677111493"
+    },
+    {
+      "path": "logs/非选股数据退役运行.log",
+      "bytes": 2083,
+      "sha256": "f1e72d23603938ada1d2b4cc44b55d96e13ae609d40c47da0b8d7b584a51d95a"
+    },
+    {
+      "path": "scripts/__pycache__/build_selection_update_report.cpython-310.pyc",
+      "bytes": 9726,
+      "sha256": "5cf35a36cea749395e6ff070834b831bc31ccefa111eb56fdb677a81c528fd4b"
+    },
+    {
+      "path": "scripts/__pycache__/migrate_legacy_actions.cpython-310.pyc",
+      "bytes": 3722,
+      "sha256": "217364923ab1a2d351ad37681bef469fdf68a36d19ed89b80d696f9f76ac1568"
+    },
+    {
+      "path": "scripts/__pycache__/prune_selection_history.cpython-310.pyc",
+      "bytes": 4466,
+      "sha256": "6164a75ef2b14fc1bac17f4bf39004e80cfa5697ba2002da8d1770342eb9d4a7"
+    },
+    {
+      "path": "scripts/__pycache__/update_selection_lake.cpython-310.pyc",
+      "bytes": 8978,
+      "sha256": "17bfb7c1d0f383aac0b74596dfd8120d388cdff9628170de123f72e7dbc6a053"
+    },
+    {
+      "path": "scripts/tests/__pycache__/test_selection_lake.cpython-310.pyc",
+      "bytes": 8593,
+      "sha256": "497ce621b9fa7c7e7d3cc07f5dcf07a85c8b6ff77217cd194d87036fa7c4ea04"
+    },
+    {
+      "path": "scripts/verify_selection_task.ps1",
+      "bytes": 836,
+      "sha256": "08dc1b04bbc8b536afd94f7d87799345e894f0ce3b4786d3d567c061cbbdde16"
+    },
+    {
+      "path": "分析产出/__pycache__/annual_review.cpython-310.pyc",
+      "bytes": 47809,
+      "sha256": "196e772ac62aa483184eb1015e7ff3495cfcd3615f312a49cc74e1fab1f8a637"
+    },
+    {
+      "path": "分析产出/__pycache__/build_bench.cpython-310.pyc",
+      "bytes": 6763,
+      "sha256": "8504c95e6af35c647ec77f180aa7d5f83194322a719dc42bfd4bc34cda16dcae"
+    },
+    {
+      "path": "分析产出/__pycache__/external_lake.cpython-310.pyc",
+      "bytes": 8249,
+      "sha256": "48bede78fc07f22eb1dd0b463808c5ecf54cb72ac43807c894cea8a73a17091e"
+    },
+    {
+      "path": "分析产出/__pycache__/final_portfolio_v2.cpython-310.pyc",
+      "bytes": 59170,
+      "sha256": "4b7b833b719a0e47c956552a4de490b2835b09276a0604a6ad92d8e2c0e81c69"
+    },
+    {
+      "path": "分析产出/__pycache__/lake_base.cpython-310.pyc",
+      "bytes": 2341,
+      "sha256": "8f6dc47e1655706a953d3c6da0bec38c5ffccb8d0ea5b086bc940f431877a796"
+    },
+    {
+      "path": "分析产出/__pycache__/ownership.cpython-310.pyc",
+      "bytes": 20575,
+      "sha256": "9a614db192186ca218b14771b9fb7ce496fbd6051a74ca3f7e2c5fe1be77cbf4"
+    },
+    {
+      "path": "分析产出/__pycache__/qa_checks.cpython-310.pyc",
+      "bytes": 13313,
+      "sha256": "ee831a9472fe5bc1e6ed9f09a0b395e9e29f1e9a7b7348abf0546a515f3a0f08"
+    },
+    {
+      "path": "分析产出/__pycache__/screen_sz.cpython-310.pyc",
+      "bytes": 17168,
+      "sha256": "768c150aaef3cd52b7c99451e101e94569d2247ba3260604024e5d639d6d7f1f"
+    },
+    {
+      "path": "分析产出/__pycache__/tests_qa_negative.cpython-310.pyc",
+      "bytes": 25584,
+      "sha256": "81f617b25d00827554de557bfedfbc969a243bd73245d92df998854857b39671"
+    },
+    {
+      "path": "分析产出/__pycache__/update_external_lake.cpython-310.pyc",
+      "bytes": 7202,
+      "sha256": "89918028a9dff819acee8736473026b2a9ccecfa62dceed1d6341f22a462e719"
+    },
+    {
+      "path": "分析产出/_A阶段核验报告.py",
+      "bytes": 3711,
+      "sha256": "3f0e4f9e03747d13d46ed30362131d2d8fe59f88105cf61ff4a19846847a1778"
+    },
+    {
+      "path": "分析产出/_A阶段检查.py",
+      "bytes": 1658,
+      "sha256": "be0aa2d35406ea6e2fe710b5a7299006141ff2e422cd26a264768d5ee1e4f10f"
+    },
+    {
+      "path": "分析产出/_A阶段清理杂项.py",
+      "bytes": 2945,
+      "sha256": "b3095131f823359127fbd1c0c64ae7bd82de1f8e59a9e98fe6ff7df97eef64ac"
+    },
+    {
+      "path": "分析产出/_A阶段清理版本.py",
+      "bytes": 3573,
+      "sha256": "013acd48683ba3807ece53f01a21c41a050aab5cbcca71593a26ac0d79f5cc4b"
+    },
+    {
+      "path": "分析产出/_B阶段清理.py",
+      "bytes": 7540,
+      "sha256": "a8483c0005e3c73e3d9c983508d3406336b7883a43e2ed52935c486769fc4f00"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/annual_review.py",
+      "bytes": 58726,
+      "sha256": "75d129b7bed40a13b32960bea2613bb6f693891bc15df4c662eedc6bdf045e2c"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/audit_lake.py",
+      "bytes": 7411,
+      "sha256": "ccca3b004f110dc8447bcb07c487e83177da3351347d14895b75cbdf0bb06141"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/build_bench.py",
+      "bytes": 6844,
+      "sha256": "fd101fbadc7364246280a399ace2627d492ab73f44a2cdee1942ab8c957008ba"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/final_portfolio_v2.py",
+      "bytes": 71232,
+      "sha256": "8741afdae58ea2867bc3d13933891179d21a012ec07f3992c965932d311e3d99"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/lake_base.py",
+      "bytes": 2283,
+      "sha256": "09ac8f7b8032ac3b1e8f41ba533f97116b779647a0008306fc32182f3b2d3291"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/ownership.py",
+      "bytes": 20399,
+      "sha256": "c891e52fe6c51809ea06aa46f10c7d27ec6264220efccd8d516a31f470ecd4aa"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/qa_checks.py",
+      "bytes": 11688,
+      "sha256": "140bc47fb5dc3def4e8fa8db108d9af985a616c0c36a76d4452f13da0b694b76"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/rebuild_sz_md.py",
+      "bytes": 3334,
+      "sha256": "c423308566cbf8a513de941cf1ee587886740052a93f8dc024f2d7e42bfee45c"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/screen_sz.py",
+      "bytes": 21249,
+      "sha256": "a92038225e5acc235312b4e8e148e7ead1abbe6c6abbe523c72c09d7472d1edd"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/tests_qa_negative.py",
+      "bytes": 27136,
+      "sha256": "5ddcc3e7040f98f9e705394edeb6b977179b872066e6c1a716b9aa2e4cc30b45"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/修复报告_20261020_DL-1019-01.md",
+      "bytes": 7378,
+      "sha256": "ac06c91a5ca614434edab6fe89345503dc928db7c6dcae3122f066502a07bde3"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/修复报告_20261020_体检问题处置.md",
+      "bytes": 22018,
+      "sha256": "e6ceb65afe83bc4051ba05e4e5d7e5cf8944bbb07b15571cfcc91d1742416259"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/半年报复核_指标明细.csv",
+      "bytes": 2831,
+      "sha256": "e678eed7f462a4e588b180ccab99ec963eb9bc5a08eb13c44d358a5bf65219a0"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/国资主体白名单.csv",
+      "bytes": 3837,
+      "sha256": "e7c6f0f71ee42c1f921204ced3184a23e5880fd6305b991cfc263b610dd22356"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/复核报告_20261020_DL-1018-01与DL-1019-01.md",
+      "bytes": 12031,
+      "sha256": "2f0a8f6a5788d316c1488ebaabfdd3a0bcf23aaeb8f591db713799e59ea672f2"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/实控人核查.csv",
+      "bytes": 9399,
+      "sha256": "59bfeb8d260a9e085da67421b6d77773b6cc9d2e1e7b555e3e5f5a591c4149bb"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/实控人核查_异常.csv",
+      "bytes": 38,
+      "sha256": "eeec6ce283892d3ec5a4ae98f5791cef0248346e2bf47922e95bc997fee5556f"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/工单_DL-2026-1018-01_qfq_close失效.md",
+      "bytes": 12540,
+      "sha256": "fda277dbca3610382cdd3050f1a17c877c0efa4885c8d7016c0c3d2e0582e5a9"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/工单_DL-2026-1018-01_提交正文.md",
+      "bytes": 4972,
+      "sha256": "448afc45796ac4735a348b33fcf4f5cda4314ec0ce5a8ac1096ed05ce3cc19b7"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/工单_DL-2026-1019-01_盘中快照交易日.md",
+      "bytes": 4181,
+      "sha256": "52bc68e45af8473ed4c505bb5b9a75093dc401e059a5369d0fffeee2e8aa7c0f"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/年度复核_指标明细.csv",
+      "bytes": 2872,
+      "sha256": "69fb72665ba174210bd0b964fa7d547ad17982437ae0931c0c1b4e4bc9dd9c6b"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/年度复核结果.txt",
+      "bytes": 7612,
+      "sha256": "4bff5a87f6c2ef700e0a9c0decde3e5f78b1c87cbcbfdeb01f0d37cf7db09179"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/年度复核结果_半年报.txt",
+      "bytes": 3270,
+      "sha256": "4d54c62dfbaa1df5d554a434c325e9b47171a37741515ddbcaaeb87166352a95"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/打新底仓_最终8只组合_v2.csv",
+      "bytes": 1460,
+      "sha256": "fedb657cb6721ab4fb632fd68c891062a3803ecd4b4e3a23edd717742358f97b"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/打新底仓_最终组合_v2.html",
+      "bytes": 39433,
+      "sha256": "ef0a02dd25cacbdd57c3b9b9e569120a9d2b355b58ca90109c29dc9b8f891bba"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/打新底仓_最终配置.md",
+      "bytes": 7308,
+      "sha256": "4937e58ae8a18a80b13a1e981178e9edc1b047768fdf9bc770a245db3c86a64e"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/数据来源清单.md",
+      "bytes": 8463,
+      "sha256": "eaf59779e7b4105b9a84ba22e7cae09b0de05eaf6ce6f122ea1d2330549938e5"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/数据湖体检与使用规范审查_20261020.md",
+      "bytes": 17071,
+      "sha256": "9a21dd438eca55ba4a150679d1dd4e7c82347d81967ce214321f05baec91f036"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/校验器自测结果.txt",
+      "bytes": 37,
+      "sha256": "c4c105fd2d995c9d4a28c5a52b5d6dc21816a7abbde44dfdec5d85092232fffb"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/校验结果.txt",
+      "bytes": 951,
+      "sha256": "4fdee719af5cd6bdf6457b20db4ea3dc49d493139373ec31d152eb3437d5e5da"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/深市专用标准_待确认.csv",
+      "bytes": 1000,
+      "sha256": "5a3304ffef4897dc8d9b32b639967f91d52193148c6bbb0a21cf94f9b2daa8f0"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/深市专用标准_治理否决.csv",
+      "bytes": 2551,
+      "sha256": "50542fcfd9f3e1149d8d9dded80129d11bf7bbc92b198ab8a92e3715da48db63"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/深市专用标准_漏斗.csv",
+      "bytes": 432,
+      "sha256": "0703076618513104bbb0bdb6b6b2b6333b6fa311c453a647e0006ca18b4662df"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/深市专用标准_筛选结果.csv",
+      "bytes": 4395,
+      "sha256": "9055e2e4e09edefaa8e539eb214f4cfa53781ee6af3b07f7f7bc8cbbc5e06093"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/深市打新底仓专用标准.md",
+      "bytes": 18914,
+      "sha256": "3230ec76cffab1b3c7eb58ecf9398ab792c73fb3b9f8666d5ded2515bc4f72f5"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/深市替补席.csv",
+      "bytes": 583,
+      "sha256": "4c84c823c776f55be55792cc51fe3361aa7c8a8479cf5a18b08ac4871b116c50"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/清单拉取与卖出触发_操作手册.md",
+      "bytes": 16661,
+      "sha256": "a09edef611c2ce25d91d804c452e118c2aa12b879518ab29342a700ed0413682"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/筛选标准_最终版.md",
+      "bytes": 41685,
+      "sha256": "71d25a85d9a46a559872b8710736690735cf21fd1d54607bb262ab7bfb1db9a8"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/非国资法人名单.csv",
+      "bytes": 382,
+      "sha256": "ffba959d2aade039057d1a3d0c795838760b3f70141eef14f34092e407a28394"
+    },
+    {
+      "path": "分析产出/_审计修复前备份_20261020/黑天鹅登记簿.csv",
+      "bytes": 51,
+      "sha256": "47b749c791e7c8b17781b4f2fde1b547830935f5347159ae3486f1300a05151e"
+    },
+    {
+      "path": "分析产出/_当前数据湖盘点.py",
+      "bytes": 4886,
+      "sha256": "91f31f2674e47310f4c4115ea5d451ea7a05cbc59d66511203ea7a1e7c92addc"
+    },
+    {
+      "path": "分析产出/_生成当前数据对应报告.py",
+      "bytes": 18636,
+      "sha256": "a387ef3b1de1d27770c8fa690edea3ab8b412f8852458d9825e62b492ffd5c4d"
+    },
+    {
+      "path": "分析产出/_生成瘦身清单.py",
+      "bytes": 8838,
+      "sha256": "fcd4eb077ddc3e330228875c14806adea51bd93a3ed95ec3e97736e7bbb38c4b"
+    },
+    {
+      "path": "分析产出/_瘦身体积盘点.json",
+      "bytes": 9489,
+      "sha256": "6e16eeb3676e804b09a825dbc272abdfb28a39fa68014453fc6070d3325ba254"
+    },
+    {
+      "path": "分析产出/_瘦身只读盘点.py",
+      "bytes": 1475,
+      "sha256": "62acde7b64bb4872ea5509e801ca46caf413dd461f7bf77acb26db1f2d78ba69"
+    },
+    {
+      "path": "分析产出/_瘦身详细盘点.json",
+      "bytes": 698569,
+      "sha256": "692129658bb976a992856c605db65917f46a0d11609766becce70aec37ef3fab"
+    },
+    {
+      "path": "分析产出/_退役非选股数据.py",
+      "bytes": 5176,
+      "sha256": "5ff96689ddac9301ad5a8179d4e3766cf3d42d7f3867358b3d98f5047055cd6e"
+    },
+    {
+      "path": "分析产出/A阶段_引用保护导入.json",
+      "bytes": 691,
+      "sha256": "f857c2fa230f48bb578fc686ef648ab036be543f55287ea406f43b837b93fd8f"
+    },
+    {
+      "path": "分析产出/A阶段_清理计划摘要.json",
+      "bytes": 6169,
+      "sha256": "1120e8e7bfee754b132ff1f5fb3dac5d0a2637a93a5cdce70246e26dcf969c05"
+    },
+    {
+      "path": "分析产出/A阶段_版本保护盘点.json",
+      "bytes": 156082,
+      "sha256": "89ad83f9c9e4825116dc086f93f7728d4a969ddfe9deaf47f3ddee8cdd534797"
+    },
+    {
+      "path": "分析产出/A阶段_版本清理运行.log",
+      "bytes": 12769,
+      "sha256": "a26fe16db4f899d245c8c1a4e9615c55978d102874d8eb2db8a5f0527a101579"
+    },
+    {
+      "path": "分析产出/B阶段_清理结果.json",
+      "bytes": 773262,
+      "sha256": "5acfb43b19f7155afb8ea18a7966b964180750005db1ed84e20b094fcf757fc6"
+    },
+    {
+      "path": "分析产出/当前数据湖_体积与字段盘点.json",
+      "bytes": 61358,
+      "sha256": "29398b86d53bd4453d3dc42aa89e2b3d7ddcda9cef8c080903765737beeff4fa"
+    }
+  ],
+  "compacted": [
+    {
+      "path": "logs/B阶段清理/progress.json",
+      "before_bytes": 773262,
+      "after_bytes": 7915,
+      "before_sha256": "5acfb43b19f7155afb8ea18a7966b964180750005db1ed84e20b094fcf757fc6",
+      "after_sha256": "8c0bbc4f7d7cd794d4fa3758f627af2829ac44dc753855a76b71df516e07a87f",
+      "summary": {
+        "files_verified": 5537,
+        "original_manifest_sha256": "684bc249a1e84151374cff478ca9e3d7d80c8d9a79aee875b6f8242a1ca9d908",
+        "note": "逐文件校验已完成；保留数量和摘要，删除一次性哈希清单。"
+      }
+    },
+    {
+      "path": "logs/非选股数据退役/progress.json",
+      "before_bytes": 750974,
+      "after_bytes": 4051,
+      "before_sha256": "7d27827017fab44bb0f868d79ddbd38fdde95d3f89dc6967fa99fd12455b7a28",
+      "after_sha256": "bb50c456eba063a3a8e543f226fd309ae2599db4c7d0b6e534633647dbe88db4",
+      "summary": {
+        "files_verified": 5523,
+        "original_manifest_sha256": "d047d8a2aaaf9ad2b04014b59629fd3ed6f71c809dd82dc4723b262c18f50165",
+        "note": "逐文件校验已完成；保留数量和摘要，删除一次性哈希清单。"
+      }
+    },
+    {
+      "path": "分析产出/A阶段_杂项清理结果.json",
+      "before_bytes": 1119112,
+      "after_bytes": 346,
+      "before_sha256": "e27a3b62f881ef9ca62c7ef6acf73cef1cdf567f50377201a008ed8f171dde83",
+      "after_sha256": "442e07c3332612e5b48d3e1e36a897d87281996c5f78cf09eb007dc1bf87d2c7",
+      "summary": {
+        "deleted_files_count": 3170
+      }
+    }
+  ],
+  "before_files": 176,
+  "before_bytes": 8951274,
+  "retained_files_verified": 87,
+  "lake_pointers_unchanged": 41,
+  "after_files": 91,
+  "after_bytes": 3717592,
+  "net_bytes_freed": 5233682,
+  "post_cleanup_verification": {
+    "at": "2026-10-24T07:50:18.985505+08:00",
+    "tests_passed": 8,
+    "updater_check": "valid",
+    "report_generator": "ok",
+    "duckdb_tables_ok": [
+      "bank_risk_metrics",
+      "actual_controller_disclosures",
+      "governance_history",
+      "daily_bars",
+      "corporate_actions"
+    ],
+    "stale_doc_references": [],
+    "lake_pointers_verified": 41,
+    "retained_files_verified": 87,
+    "note": "The deletion manifest itself names the removed files; that is the expected record, not a stale link."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "news_headlines",
+  "revision": 8,
+  "revision_id": "54bc165fdd444bbaa2d3638f6d9a81e3",
+  "generation_path": "revisions/data/news_headlines/54bc165fdd444bbaa2d3638f6d9a81e3",
+  "receipt": "revisions/news_headlines/00000008-54bc165fdd444bbaa2d3638f6d9a81e3.json",
+  "content_digest": "b3a3673340591271b26b5e0121336835f5ecd605a322e028cf1434efd053a611",
+  "committed_at": "2026-11-05T01:51:04.325963+00:00"
+}

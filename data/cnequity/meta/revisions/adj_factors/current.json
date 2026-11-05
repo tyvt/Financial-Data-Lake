@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "adj_factors",
+  "revision": 12,
+  "revision_id": "b70dc083101d4b258a9ab5da9c562932",
+  "generation_path": "revisions/data/adj_factors/b70dc083101d4b258a9ab5da9c562932",
+  "receipt": "revisions/adj_factors/00000012-b70dc083101d4b258a9ab5da9c562932.json",
+  "content_digest": "eb6ebd1c7260894fe7b2417fe6bf5952e25275ed345e698e63f58a88e1dc4a9a",
+  "committed_at": "2026-11-05T02:37:51.797225+00:00"
+}

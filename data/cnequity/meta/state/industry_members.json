@@ -1,0 +1,20 @@
+{
+  "last_attempt": "2026-11-05T01:21:35.666163+00:00",
+  "updated_at": "2026-11-05T01:21:44.956683+00:00",
+  "revision": 6,
+  "revision_id": "90fa1072fe4d4bd8bb0bd6e6aac7681e",
+  "revision_at": "2026-11-05T01:21:44.853684+00:00",
+  "revision_run_id": "3d58731b-bdba-456b-84aa-396ab74de361",
+  "schema_version": 1,
+  "contract_fingerprint": "162302465ddd77c14a76a02002312dc2348007b18c2f930f624ecc2aa174ee57",
+  "content_digest": "9e05ea2cc98e030f077ce71dcfffdc1b205485a22e228030e0f03fae8c1a0982",
+  "revision_receipt": "revisions/industry_members/00000006-90fa1072fe4d4bd8bb0bd6e6aac7681e.json",
+  "revision_pointer": "revisions/industry_members/current.json",
+  "changed_partitions": [
+    "industry_members/as_of_date=2026-11-05"
+  ],
+  "missing_ranges": [],
+  "last_success": "2026-11-05T01:21:44.945683+00:00",
+  "coverage_status": "unknown",
+  "last_success_trade_date": "2026-11-05"
+}

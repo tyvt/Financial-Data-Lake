@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "daily_bars",
+  "revision": 14,
+  "revision_id": "9935feb8d8c948ba8cdbb9cb2edc0ae5",
+  "generation_path": "revisions/data/daily_bars/9935feb8d8c948ba8cdbb9cb2edc0ae5",
+  "receipt": "revisions/daily_bars/00000014-9935feb8d8c948ba8cdbb9cb2edc0ae5.json",
+  "content_digest": "d467ba4402959a4c44d4bf7d55f535902f3090272b3f79816244f56e1c7bad39",
+  "committed_at": "2026-11-05T02:32:21.999795+00:00"
+}

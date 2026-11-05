@@ -1,0 +1,83 @@
+{
+  "dataset": "news_headlines",
+  "revision": 8,
+  "revision_id": "54bc165fdd444bbaa2d3638f6d9a81e3",
+  "committed_at": "2026-11-05T01:51:04.325963+00:00",
+  "run_id": "4429bc25-ef33-4a4d-be66-8175e7cafb55",
+  "schema_version": 1,
+  "contract_fingerprint": "ec802ff0caead3f0868477de3bb301de95c7fad1cb90d9c0bb2e24faefc4408d",
+  "content_digest": "b3a3673340591271b26b5e0121336835f5ecd605a322e028cf1434efd053a611",
+  "changed_partitions": [
+    "news_headlines/publish_date=2026-11"
+  ],
+  "files": [
+    {
+      "path": "news_headlines/publish_date=2026-11/part-merged.parquet",
+      "size_bytes": 502343,
+      "sha256": "39f33324ffbe8332e10776548325ac2b843ec6393f35ae9a0de201f90f242f9c"
+    }
+  ],
+  "metadata": {
+    "trade_date": "2026-11-05",
+    "partition_col": "publish_date",
+    "rows_written": 3022,
+    "canonical_policy": "observation_recency_v1",
+    "changes": [
+      {
+        "partition": "publish_date=2026-11",
+        "inserted_keys": 42,
+        "updated_keys": 1,
+        "source_changes": [],
+        "updated_key_sample": [
+          {
+            "news_id": "202611053922636961"
+          }
+        ]
+      }
+    ],
+    "publication_audit": {
+      "mode": "off",
+      "blocked": false,
+      "report_path": null
+    },
+    "validation": {
+      "schema": "passed",
+      "staging_seals": "passed",
+      "batch_completeness": "passed",
+      "source_diff_gate": "not_configured"
+    },
+    "coverage": {
+      "status": "unknown",
+      "requested_scope": {
+        "start": null,
+        "end": "2026-11-05",
+        "universe": "all_a"
+      },
+      "gaps": {
+        "missing_ranges": [],
+        "missing_units": {},
+        "outstanding_keys": []
+      },
+      "resolved_outstanding_keys": 0
+    },
+    "package_version": "0.16.0",
+    "git_commit": null,
+    "git_dirty": null,
+    "config_fingerprint": "e77d893d9f290cd3ea10ba64361cc558cadd5f9bc071a0c0a8308b7778bc01f3",
+    "base_revision_id": "adf4708319dc48b48ef0b25b5dbb9497"
+  },
+  "generation_path": "revisions/data/news_headlines/54bc165fdd444bbaa2d3638f6d9a81e3",
+  "generation_files": [
+    {
+      "path": "news_headlines/publish_date=2026-10/part-merged.parquet",
+      "size_bytes": 1833171,
+      "sha256": "3e2f996c87f0ee3f192ec43c424007da28a70f9c019830c707ed8426967883ce"
+    },
+    {
+      "path": "news_headlines/publish_date=2026-11/part-merged.parquet",
+      "size_bytes": 502343,
+      "sha256": "39f33324ffbe8332e10776548325ac2b843ec6393f35ae9a0de201f90f242f9c"
+    }
+  ],
+  "pointer_path": "revisions/news_headlines/current.json"
+}

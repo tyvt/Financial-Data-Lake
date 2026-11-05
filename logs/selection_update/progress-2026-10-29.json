@@ -1,0 +1,725 @@
+{
+  "date": "2026-10-29",
+  "stages": {
+    "market": {
+      "run_id": "3a0ddfb3-4781-4ca5-bdb4-660c429fe10c",
+      "status": "degraded",
+      "retried": 44,
+      "missing_steps": [],
+      "missing_steps_unresolved": [],
+      "stale_marked_failed": 0,
+      "batch_timeout": {
+        "running_to_stale": 0,
+        "stale_to_failed": 0
+      },
+      "results": [
+        {
+          "step": "instruments",
+          "status": "warning",
+          "elapsed": 42.711233699999866,
+          "rows_read": 7392,
+          "rows_written": 7392,
+          "coverage_status": "partial",
+          "reason_code": "source_scope_incomplete",
+          "context_updates": {
+            "audit_findings": [
+              {
+                "dataset": "instruments",
+                "severity": "warning",
+                "check": "instruments_beijing_coverage",
+                "message": "BSE 当前目录不可用；复用已有 BJ 身份，不视作最新完整目录。"
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "publication_status": "none",
+          "result_schema_version": 2
+        },
+        {
+          "step": "compact",
+          "status": "warning",
+          "elapsed": 57.20337940000172,
+          "rows_read": 91811,
+          "rows_written": 91811,
+          "coverage_status": "partial",
+          "reason_code": "source_scope_incomplete",
+          "dataset_revisions": {
+            "instruments": {
+              "revision": 37,
+              "revision_id": "fa56e558ab764d31a10906c2a3d4e46c",
+              "content_digest": "0efd9ce671422d4185d9f0052de11f069a2d130b871afabd0e39425c510442ff",
+              "changed_partitions": [
+                "instruments"
+              ]
+            }
+          },
+          "context_updates": {
+            "audit_findings": [
+              {
+                "dataset": "instruments",
+                "severity": "warning",
+                "check": "instruments_delist_suppressed",
+                "message": "Partial instrument snapshot; retained absent identities without delist inference",
+                "absent_count": 366,
+                "existing_count": 7758,
+                "absent_ratio": 0.04717710750193349
+              },
+              {
+                "dataset": "daily_bars",
+                "severity": "warning",
+                "check": "daily_bars_bj_session_incomplete",
+                "message": "6 session(s) miss listed Beijing names no status source says were suspended; recorded as missing for the next run to refetch",
+                "sessions": [
+                  {
+                    "trade_date": "2026-10-20",
+                    "expected": 351,
+                    "missing": 351,
+                    "sample": [
+                      "920000.BJ",
+                      "920001.BJ",
+                      "920002.BJ",
+                      "920003.BJ",
+                      "920005.BJ",
+                      "920006.BJ",
+                      "920007.BJ",
+                      "920008.BJ",
+                      "920009.BJ",
+                      "920010.BJ",
+                      "920011.BJ",
+                      "920012.BJ",
+                      "920014.BJ",
+                      "920015.BJ",
+                      "920016.BJ",
+                      "920017.BJ",
+                      "920018.BJ",
+                      "920019.BJ",
+                      "920020.BJ",
+                      "920021.BJ"
+                    ]
+                  },
+                  {
+                    "trade_date": "2026-10-21",
+                    "expected": 351,
+                    "missing": 351,
+                    "sample": [
+                      "920000.BJ",
+                      "920001.BJ",
+                      "920002.BJ",
+                      "920003.BJ",
+                      "920005.BJ",
+                      "920006.BJ",
+                      "920007.BJ",
+                      "920008.BJ",
+                      "920009.BJ",
+                      "920010.BJ",
+                      "920011.BJ",
+                      "920012.BJ",
+                      "920014.BJ",
+                      "920015.BJ",
+                      "920016.BJ",
+                      "920017.BJ",
+                      "920018.BJ",
+                      "920019.BJ",
+                      "920020.BJ",
+                      "920021.BJ"
+                    ]
+                  },
+                  {
+                    "trade_date": "2026-10-22",
+                    "expected": 351,
+                    "missing": 351,
+                    "sample": [
+                      "920000.BJ",
+                      "920001.BJ",
+                      "920002.BJ",
+                      "920003.BJ",
+                      "920005.BJ",
+                      "920006.BJ",
+                      "920007.BJ",
+                      "920008.BJ",
+                      "920009.BJ",
+                      "920010.BJ",
+                      "920011.BJ",
+                      "920012.BJ",
+                      "920014.BJ",
+                      "920015.BJ",
+                      "920016.BJ",
+                      "920017.BJ",
+                      "920018.BJ",
+                      "920019.BJ",
+                      "920020.BJ",
+                      "920021.BJ"
+                    ]
+                  },
+                  {
+                    "trade_date": "2026-10-26",
+                    "expected": 351,
+                    "missing": 351,
+                    "sample": [
+                      "920000.BJ",
+                      "920001.BJ",
+                      "920002.BJ",
+                      "920003.BJ",
+                      "920005.BJ",
+                      "920006.BJ",
+                      "920007.BJ",
+                      "920008.BJ",
+                      "920009.BJ",
+                      "920010.BJ",
+                      "920011.BJ",
+                      "920012.BJ",
+                      "920014.BJ",
+                      "920015.BJ",
+                      "920016.BJ",
+                      "920017.BJ",
+                      "920018.BJ",
+                      "920019.BJ",
+                      "920020.BJ",
+                      "920021.BJ"
+                    ]
+                  },
+                  {
+                    "trade_date": "2026-10-27",
+                    "expected": 351,
+                    "missing": 351,
+                    "sample": [
+                      "920000.BJ",
+                      "920001.BJ",
+                      "920002.BJ",
+                      "920003.BJ",
+                      "920005.BJ",
+                      "920006.BJ",
+                      "920007.BJ",
+                      "920008.BJ",
+                      "920009.BJ",
+                      "920010.BJ",
+                      "920011.BJ",
+                      "920012.BJ",
+                      "920014.BJ",
+                      "920015.BJ",
+                      "920016.BJ",
+                      "920017.BJ",
+                      "920018.BJ",
+                      "920019.BJ",
+                      "920020.BJ",
+                      "920021.BJ"
+                    ]
+                  },
+                  {
+                    "trade_date": "2026-10-28",
+                    "expected": 351,
+                    "missing": 351,
+                    "sample": [
+                      "920000.BJ",
+                      "920001.BJ",
+                      "920002.BJ",
+                      "920003.BJ",
+                      "920005.BJ",
+                      "920006.BJ",
+                      "920007.BJ",
+                      "920008.BJ",
+                      "920009.BJ",
+                      "920010.BJ",
+                      "920011.BJ",
+                      "920012.BJ",
+                      "920014.BJ",
+                      "920015.BJ",
+                      "920016.BJ",
+                      "920017.BJ",
+                      "920018.BJ",
+                      "920019.BJ",
+                      "920020.BJ",
+                      "920021.BJ"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "execution_status": "completed",
+          "publication_status": "none",
+          "result_schema_version": 2
+        },
+        {
+          "step": "compact",
+          "status": "warning",
+          "elapsed": 53.36336219999066,
+          "rows_read": 91811,
+          "rows_written": 91811,
+          "coverage_status": "partial",
+          "reason_code": "source_scope_incomplete",
+          "context_updates": {},
+          "execution_status": "completed",
+          "publication_status": "none",
+          "result_schema_version": 2
+        }
+      ],
+      "retry_passes": 1,
+      "retry_exhausted": 2,
+      "result_schema_version": 2,
+      "execution_status": "completed",
+      "coverage_status": "partial",
+      "publication_status": "partial",
+      "usable_result": true,
+      "fallback": [
+        {
+          "dataset": "daily_bars",
+          "reason_codes": [
+            "source_scope_incomplete"
+          ],
+          "strategy": "use_available_data",
+          "available_data": true,
+          "action": "保留已有湖，交付本次通过校验的数据；缺口留在覆盖记录中，可稍后补数。",
+          "registered_sources": [
+            {
+              "source": "tdx_protocol",
+              "role": "primary",
+              "enabled": true
+            },
+            {
+              "source": "eastmoney",
+              "role": "backup",
+              "enabled": true
+            },
+            {
+              "source": "exchange",
+              "role": "supplementary",
+              "enabled": true
+            },
+            {
+              "source": "bse",
+              "role": "supplementary",
+              "enabled": true
+            },
+            {
+              "source": "sina",
+              "role": "supplementary",
+              "enabled": true
+            },
+            {
+              "source": "ths",
+              "role": "supplementary",
+              "enabled": true
+            },
+            {
+              "source": "ths_official",
+              "role": "supplementary",
+              "enabled": false
+            },
+            {
+              "source": "baostock",
+              "role": "supplementary",
+              "enabled": true
+            }
+          ],
+          "scope": {
+            "start": null,
+            "end": "2026-10-29"
+          },
+          "retry_command": "cne run retry --run-id 3a0ddfb3-4781-4ca5-bdb4-660c429fe10c --config 'D:\\repository\\数据湖\\configs\\cnequity.toml'",
+          "collection_commands": [
+            "cne run daily --group core --config 'D:\\repository\\数据湖\\configs\\cnequity.toml'"
+          ],
+          "earliest_available": null,
+          "source_retired_date": null,
+          "history_mode": "by_date",
+          "history_note": "按原请求范围重试；来源能力不足的范围继续保留为缺口。"
+        },
+        {
+          "dataset": "instruments",
+          "reason_codes": [
+            "source_scope_incomplete"
+          ],
+          "strategy": "use_available_data",
+          "available_data": true,
+          "action": "保留已有湖，交付本次通过校验的数据；缺口留在覆盖记录中，可稍后补数。",
+          "registered_sources": [
+            {
+              "source": "tdx_protocol",
+              "role": "primary",
+              "enabled": true
+            },
+            {
+              "source": "baostock",
+              "role": "backup",
+              "enabled": true
+            },
+            {
+              "source": "baostock",
+              "role": "backfill",
+              "enabled": true
+            },
+            {
+              "source": "bse",
+              "role": "supplementary",
+              "enabled": true
+            },
+            {
+              "source": "sina",
+              "role": "supplementary",
+              "enabled": true
+            }
+          ],
+          "scope": {
+            "start": null,
+            "end": "2026-10-29"
+          },
+          "retry_command": "cne run retry --run-id 3a0ddfb3-4781-4ca5-bdb4-660c429fe10c --config 'D:\\repository\\数据湖\\configs\\cnequity.toml'",
+          "collection_commands": [
+            "cne run daily --group core --config 'D:\\repository\\数据湖\\configs\\cnequity.toml'"
+          ],
+          "earliest_available": null,
+          "source_retired_date": null,
+          "history_mode": "by_date",
+          "history_note": "按原请求范围重试；来源能力不足的范围继续保留为缺口。"
+        }
+      ]
+    },
+    "fundamentals": {
+      "run_id": "3e33d43e-c72d-4530-aca4-f65f72b6e80b",
+      "status": "degraded",
+      "retried": 0,
+      "retry_exhausted": 0,
+      "incomplete_batches": 1,
+      "incomplete_by_status": {
+        "degraded": 1
+      },
+      "stale_marked_failed": 0,
+      "batch_timeout": {
+        "running_to_stale": 0,
+        "stale_to_failed": 0
+      },
+      "results": [],
+      "retry_passes": 0,
+      "missing_steps": [],
+      "missing_steps_unresolved": [],
+      "result_schema_version": 2,
+      "execution_status": "completed",
+      "coverage_status": "partial",
+      "publication_status": "published",
+      "usable_result": true,
+      "fallback": [
+        {
+          "dataset": "share_structure",
+          "reason_codes": [
+            "coverage_limited"
+          ],
+          "strategy": "use_available_data",
+          "available_data": true,
+          "action": "保留已有湖，交付本次通过校验的数据；缺口留在覆盖记录中，可稍后补数。",
+          "registered_sources": [
+            {
+              "source": "eastmoney",
+              "role": "primary",
+              "enabled": true
+            }
+          ],
+          "scope": {
+            "start": null,
+            "end": "2026-10-29"
+          },
+          "retry_command": "cne run retry --run-id 3e33d43e-c72d-4530-aca4-f65f72b6e80b --config 'D:\\repository\\数据湖\\configs\\cnequity.toml'",
+          "collection_commands": [
+            "cne run daily --group fundamentals --config 'D:\\repository\\数据湖\\configs\\cnequity.toml'"
+          ],
+          "earliest_available": "1990-01-01",
+          "source_retired_date": null,
+          "history_mode": "by_date",
+          "history_note": "按原请求范围重试；来源能力不足的范围继续保留为缺口。"
+        }
+      ]
+    },
+    "events": {
+      "run_id": "5f44ee7a-9f8e-4d2f-8174-b6370d10b67f",
+      "status": "pending",
+      "retried": 55,
+      "missing_steps": [],
+      "missing_steps_unresolved": [],
+      "stale_marked_failed": 0,
+      "batch_timeout": {
+        "running_to_stale": 0,
+        "stale_to_failed": 0
+      },
+      "results": [
+        {
+          "step": "announcement_index",
+          "status": "success",
+          "elapsed": 298.028257900005,
+          "rows_read": 21117,
+          "rows_written": 21117,
+          "metrics": {
+            "run_id": "5f44ee7a-9f8e-4d2f-8174-b6370d10b67f",
+            "dataset": "announcement",
+            "range_start": "2026-10-25",
+            "range_end": "2026-10-25",
+            "started_at": "2026-11-05T09:04:17.893829+08:00",
+            "requests": 295,
+            "concurrency_wait_seconds": 0.5915790999279125,
+            "concurrency_peak": 1,
+            "request_seconds": 277.26643450016854,
+            "slices_completed": 7,
+            "slices": [
+              {
+                "column": "szse",
+                "start": "2026-10-25",
+                "end": "2026-10-25",
+                "pages": 1,
+                "rows": 0,
+                "raw_rows": 0,
+                "unique_keys": 0,
+                "reported_pages": 0,
+                "reported_rows": 0
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-28",
+                "end": "2026-10-28",
+                "pages": 82,
+                "rows": 2447,
+                "raw_rows": 2447,
+                "unique_keys": 2447,
+                "reported_pages": 81,
+                "reported_rows": 2447
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-28",
+                "end": "2026-10-28",
+                "pages": 52,
+                "rows": 1559,
+                "raw_rows": 1559,
+                "unique_keys": 1559,
+                "reported_pages": 51,
+                "reported_rows": 1559
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-28",
+                "end": "2026-10-28",
+                "pages": 17,
+                "rows": 495,
+                "raw_rows": 495,
+                "unique_keys": 495,
+                "reported_pages": 16,
+                "reported_rows": 495
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-29",
+                "end": "2026-10-29",
+                "pages": 79,
+                "rows": 2352,
+                "raw_rows": 2352,
+                "unique_keys": 2352,
+                "reported_pages": 78,
+                "reported_rows": 2352
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-29",
+                "end": "2026-10-29",
+                "pages": 59,
+                "rows": 1768,
+                "raw_rows": 1768,
+                "unique_keys": 1768,
+                "reported_pages": 58,
+                "reported_rows": 1768
+              },
+              {
+                "column": "szse",
+                "start": "2026-10-29",
+                "end": "2026-10-29",
+                "pages": 16,
+                "rows": 451,
+                "raw_rows": 451,
+                "unique_keys": 451,
+                "reported_pages": 15,
+                "reported_rows": 451
+              }
+            ],
+            "raw_rows": 4571,
+            "unique_keys": 4571,
+            "duplicate_rows": 0,
+            "elapsed_seconds": 297.71526530000847,
+            "status": "success",
+            "pages": 292,
+            "partition_splits": 2,
+            "partition_buckets": 6,
+            "partition_axes": [
+              "plate",
+              "plate"
+            ]
+          },
+          "execution_status": "completed",
+          "coverage_status": "unknown",
+          "publication_status": "none",
+          "reason_code": null,
+          "result_schema_version": 2
+        },
+        {
+          "step": "news_headlines",
+          "status": "success",
+          "elapsed": 15.29031360000954,
+          "rows_read": 5314,
+          "rows_written": 5314,
+          "dataset": "news_headlines",
+          "compat_view": "news_headlines",
+          "pages": 27,
+          "publish_dates": [
+            "2026-10-28",
+            "2026-10-29",
+            "2026-10-30",
+            "2026-10-31",
+            "2026-11-01",
+            "2026-11-02",
+            "2026-11-03",
+            "2026-11-04",
+            "2026-11-05"
+          ],
+          "execution_status": "completed",
+          "coverage_status": "unknown",
+          "publication_status": "none",
+          "reason_code": null,
+          "result_schema_version": 2
+        },
+        {
+          "step": "compact",
+          "status": "warning",
+          "elapsed": 20.268712799996138,
+          "rows_read": 14385,
+          "rows_written": 14385,
+          "coverage_status": "partial",
+          "reason_code": "source_scope_incomplete",
+          "dataset_revisions": {
+            "news_headlines": {
+              "revision": 7,
+              "revision_id": "adf4708319dc48b48ef0b25b5dbb9497",
+              "content_digest": "7111b260538978121148acbc2c6922eaa6c317332dbf58bd128814972a1bd2d7",
+              "changed_partitions": [
+                "news_headlines/publish_date=2026-10",
+                "news_headlines/publish_date=2026-11"
+              ]
+            }
+          },
+          "execution_status": "completed",
+          "publication_status": "none",
+          "result_schema_version": 2
+        },
+        {
+          "step": "compact",
+          "status": "warning",
+          "elapsed": 20.148376299999654,
+          "rows_read": 14385,
+          "rows_written": 14385,
+          "coverage_status": "partial",
+          "reason_code": "source_scope_incomplete",
+          "execution_status": "completed",
+          "publication_status": "none",
+          "result_schema_version": 2
+        }
+      ],
+      "incomplete_batches": 31,
+      "incomplete_by_status": {
+        "degraded": 1,
+        "running": 1,
+        "warning": 29
+      },
+      "retry_passes": 1,
+      "retry_exhausted": 0,
+      "result_schema_version": 2,
+      "execution_status": "failed",
+      "coverage_status": "partial",
+      "publication_status": "none",
+      "usable_result": true,
+      "fallback": [
+        {
+          "dataset": "regulatory_events",
+          "reason_codes": [
+            "coverage_limited"
+          ],
+          "strategy": "use_available_data",
+          "available_data": true,
+          "action": "保留已有湖，交付本次通过校验的数据；缺口留在覆盖记录中，可稍后补数。",
+          "registered_sources": [
+            {
+              "source": "cninfo",
+              "role": "primary",
+              "enabled": true
+            }
+          ],
+          "scope": {
+            "start": null,
+            "end": "2026-10-29"
+          },
+          "retry_command": "cne run retry --run-id 5f44ee7a-9f8e-4d2f-8174-b6370d10b67f --config 'D:\\repository\\数据湖\\configs\\cnequity.toml'",
+          "collection_commands": [
+            "cne run events --group regulatory --config 'D:\\repository\\数据湖\\configs\\cnequity.toml'"
+          ],
+          "earliest_available": null,
+          "source_retired_date": null,
+          "history_mode": "by_date",
+          "history_note": "按原请求范围重试；来源能力不足的范围继续保留为缺口。"
+        }
+      ]
+    },
+    "external": {
+      "started_at": "2026-11-05T01:10:11.631943+00:00",
+      "banks_updated": [
+        "000001.SZ",
+        "002966.SZ",
+        "601288.SH",
+        "601825.SH",
+        "001227.SZ",
+        "002142.SZ",
+        "002807.SZ",
+        "002936.SZ",
+        "002948.SZ",
+        "002958.SZ",
+        "600000.SH",
+        "600015.SH",
+        "600016.SH",
+        "600036.SH",
+        "600908.SH",
+        "600919.SH"
+      ],
+      "controllers_updated": [
+        "000429.SZ",
+        "000598.SZ",
+        "000651.SZ",
+        "600461.SH",
+        "601000.SH",
+        "601288.SH",
+        "601298.SH",
+        "601825.SH",
+        "002926.SZ",
+        "002939.SZ",
+        "002958.SZ",
+        "002966.SZ",
+        "003000.SZ",
+        "300144.SZ",
+        "300146.SZ",
+        "000001.SZ",
+        "000028.SZ",
+        "000333.SZ",
+        "000423.SZ",
+        "000538.SZ"
+      ],
+      "errors": [],
+      "status": "success",
+      "finished_at": "2026-11-05T01:11:02.181857+00:00"
+    }
+  },
+  "maintenance": {
+    "status": "skipped"
+  },
+  "audit": {
+    "status": "success",
+    "checks": 317,
+    "match": 242,
+    "mismatch": 11,
+    "inconclusive": 64,
+    "known_issues": 11,
+    "new_issues": [],
+    "history": "D:\\repository\\数据湖\\logs\\selection_update\\public_audit_history.jsonl"
+  }
+}

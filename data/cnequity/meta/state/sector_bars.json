@@ -1,0 +1,18 @@
+{
+  "revision": 3,
+  "revision_id": "a17fecee89b142d4a6fb5c4e9cca7fc9",
+  "revision_at": "2026-10-23T13:11:46.890278+00:00",
+  "revision_run_id": "user-approved-B-cleanup-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "c911a4525384589d060e1413ec35f47be808ff40db1775f505169a1fce17dc15",
+  "content_digest": "79102b2862371a9109717f14d12edd78d7bfa284d766cf5a13c0deed59661e1f",
+  "revision_receipt": "revisions/sector_bars/00000003-a17fecee89b142d4a6fb5c4e9cca7fc9.json",
+  "revision_pointer": "revisions/sector_bars/current.json",
+  "changed_partitions": [
+    "sector_bars/trade_date=2026-09"
+  ],
+  "updated_at": "2026-10-23T13:11:46.890278+00:00",
+  "last_success_trade_date": "2026-10-19",
+  "row_count": 0,
+  "cleared_by": "user-approved-B-cleanup-20261023"
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "commodity_bars",
+  "revision": 4,
+  "revision_id": "e16030accaff4c4481863fcad578fb5e",
+  "generation_path": "revisions/data/commodity_bars/e16030accaff4c4481863fcad578fb5e",
+  "receipt": "revisions/commodity_bars/00000004-e16030accaff4c4481863fcad578fb5e.json",
+  "content_digest": "e2f2b7d52e5aeea1d441d3086c53cfc1b1902bcb6efa353f164b48589d5260c7",
+  "committed_at": "2026-10-23T13:11:46.696965+00:00"
+}

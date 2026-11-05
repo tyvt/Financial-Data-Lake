@@ -1,0 +1,10 @@
+{
+  "trade_date": "2026-10-16",
+  "kind": "authority_crosscheck",
+  "checks": {
+    "macro_pmi_vs_nbs": "agreed",
+    "st_labels_vs_exchange": "agreed",
+    "daily_bars_vs_exchange": "skipped_no_curated"
+  },
+  "findings": []
+}

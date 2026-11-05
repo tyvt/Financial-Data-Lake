@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "institutional_holdings",
+  "revision": 3,
+  "revision_id": "14a16014509349c6b2e0733c9e1ea05e",
+  "generation_path": "revisions/data/institutional_holdings/14a16014509349c6b2e0733c9e1ea05e",
+  "receipt": "revisions/institutional_holdings/00000003-14a16014509349c6b2e0733c9e1ea05e.json",
+  "content_digest": "cfca619078124c8c9423984b31a5f2bc308b66da228b720e396d08299b731f64",
+  "committed_at": "2026-10-23T14:08:41.359671+00:00"
+}

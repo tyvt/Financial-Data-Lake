@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "fund_flow",
+  "revision": 2,
+  "revision_id": "e724d22951064a0d9d04334fb26df47b",
+  "generation_path": "revisions/data/fund_flow/e724d22951064a0d9d04334fb26df47b",
+  "receipt": "revisions/fund_flow/00000002-e724d22951064a0d9d04334fb26df47b.json",
+  "content_digest": "5801b02149b9bb68e866921696ce196723e9a2d122e0d92351665b0be6b25eec",
+  "committed_at": "2026-10-23T13:11:46.759472+00:00"
+}

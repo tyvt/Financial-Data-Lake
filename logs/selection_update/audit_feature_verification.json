@@ -1,0 +1,30 @@
+{
+  "audit_task": {
+    "name": "CNEquity-SelectionLake-Audit",
+    "state": "Ready",
+    "last_result": "0",
+    "next_run": "2026-10-31T09:00:00.0000000+08:00",
+    "user": "SYSTEM",
+    "workdir": "D:\\repository\\���ݺ�"
+  },
+  "audit_history_entries": 9,
+  "audit_latest": {
+    "audited_at": "2026-10-24T10:48:17.467647+08:00",
+    "checks": 345,
+    "match": 313,
+    "mismatch": 0,
+    "inconclusive": 32,
+    "new_issues": []
+  },
+  "sufficiency": {
+    "MIN_RETURN_OBS": 200,
+    "MIN_BAR_DAYS": 252,
+    "MIN_AMT_DAYS": 60,
+    "VOL_WINDOW": 252,
+    "AMT_WINDOW": 63
+  },
+  "screening_wired": [
+    "screen_sh.py",
+    "screen_sz.py"
+  ]
+}

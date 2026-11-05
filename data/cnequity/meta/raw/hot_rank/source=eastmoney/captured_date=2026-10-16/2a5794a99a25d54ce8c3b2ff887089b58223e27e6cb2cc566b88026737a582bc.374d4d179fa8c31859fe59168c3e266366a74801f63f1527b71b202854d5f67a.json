@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "dataset": "hot_rank",
+  "source": "eastmoney",
+  "captured_at": "2026-10-16T06:16:01.162435+00:00",
+  "payload_sha256": "2a5794a99a25d54ce8c3b2ff887089b58223e27e6cb2cc566b88026737a582bc",
+  "payload_bytes": 4572,
+  "compressed_bytes": 1005,
+  "compression": "gzip",
+  "payload_format": "bytes",
+  "payload_path": "raw/hot_rank/source=eastmoney/captured_date=2026-10-16/2a5794a99a25d54ce8c3b2ff887089b58223e27e6cb2cc566b88026737a582bc.gz",
+  "metadata_path": "raw/hot_rank/source=eastmoney/captured_date=2026-10-16/2a5794a99a25d54ce8c3b2ff887089b58223e27e6cb2cc566b88026737a582bc.374d4d179fa8c31859fe59168c3e266366a74801f63f1527b71b202854d5f67a.json",
+  "request_params": {
+    "page": 1,
+    "page_size": 100,
+    "body": "{\"appId\": \"appId01\", \"globalId\": \"786e4c21-70dc-435a-93bb-b\", \"pageNo\": 1, \"pageSize\": 100}"
+  },
+  "run_id": "a32a29c9-d102-4942-8b6f-7447ed7464bb",
+  "url": "https://emappdata.eastmoney.com/stockrank/getAllCurrentList",
+  "response_status": 200,
+  "http_metadata": {
+    "wire_exact": true,
+    "json_parsed": true,
+    "response_envelope": "json",
+    "content_type": "application/json"
+  },
+  "pagination": {
+    "page": 1,
+    "page_size": 100
+  },
+  "observation_id": "a32a29c9-d102-4942-8b6f-7447ed7464bb:hot-rank:1",
+  "request_scope": "snapshot:2026-10-16"
+}

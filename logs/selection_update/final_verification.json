@@ -1,0 +1,138 @@
+{
+  "verified_at": "2026-10-24T07:49:15.201895+08:00",
+  "task": {
+    "task_name": "CNEquity-SelectionLake-Update",
+    "state": "Ready",
+    "user": "SYSTEM",
+    "next_run": "2026-10-24T19:30:30.0000000+08:00",
+    "last_result": 1,
+    "python": "C:\\Program Files\\Python310\\python.exe",
+    "arguments": "-X utf8 \"D:\\repository\\数据湖\\scripts\\update_selection_lake.py\"",
+    "times": [
+      "19:30",
+      "22:30"
+    ],
+    "timezone": "China Standard Time"
+  },
+  "system_verification": {
+    "state": "Ready",
+    "last_result": 0,
+    "last_run": "2026-10-23T22:15:15.0000000+08:00",
+    "account": "SYSTEM"
+  },
+  "retired_datasets": {
+    "analyst_consensus": 0,
+    "block_trades": 0,
+    "commodity_bars": 0,
+    "dragon_tiger": 0,
+    "etf_profiles": 0,
+    "fund_flow": 0,
+    "macro_indicators": 0,
+    "margin_trading": 0,
+    "market_breadth": 0,
+    "northbound_flows": 0,
+    "northbound_holdings": 0,
+    "sector_bars": 0,
+    "sector_members": 0,
+    "sentiment_scores": 0,
+    "valuation_metrics": 0,
+    "index_bars": 0,
+    "index_constituents": 0,
+    "institutional_holdings": 0,
+    "share_unlock_schedule": 0,
+    "shareholder_counts": 0,
+    "top_holders": 0,
+    "industry_index": 0,
+    "futures_bars": 0,
+    "futures_continuous": 0,
+    "futures_contracts": 0,
+    "option_bars": 0,
+    "option_contracts": 0,
+    "option_greeks": 0
+  },
+  "active_rows": {
+    "instruments": 8098,
+    "trading_calendar": 4314,
+    "trading_status": 57138,
+    "corporate_actions": 70078,
+    "daily_bars": 11208745,
+    "financial_statement_items": 2815255,
+    "industry_members": 442635,
+    "share_structure": 62329,
+    "earnings_disclosure_schedule": 11122,
+    "announcement_index": 27615,
+    "regulatory_events": 44,
+    "news_headlines": 5670,
+    "delisting_events": 248,
+    "adj_factors": 11207291,
+    "bank_risk_metrics": 355,
+    "actual_controller_disclosures": 59,
+    "governance_history": 177,
+    "ownership_check": 59
+  },
+  "bank_symbols": 32,
+  "banks_checked": 32,
+  "controllers_checked": 40,
+  "removed_bytes": 619837352,
+  "directory_bytes": 2639678734,
+  "tests_passed": 8,
+  "core_parquet_unchanged_during_retirement": true,
+  "latest_run": {
+    "started_at": "2026-10-24T06:55:54.638496+08:00",
+    "finished_at": "2026-10-24T07:03:18.207833+08:00",
+    "status": "warning",
+    "processing_date": "2026-10-23",
+    "mode": "retry-previous-date"
+  },
+  "retention": {
+    "status": "success",
+    "keep": 2,
+    "candidate_ids": [
+      "revision/adj_factors/0e489f976aac4873a172637dd8b40bfc",
+      "revision/announcement_index/0227809441ff404fa17e715cbdfad5eb",
+      "revision/corporate_actions/40a6f7ad1820474e8354b0f20df18fd7",
+      "revision/daily_bars/e049f067461047e7a9e5f5f8400b5160",
+      "revision/earnings_disclosure_schedule/83e868c1fce74fc7942b7b1b96088e61",
+      "revision/financial_statement_items/46b8ce9f44b14e3e8e3412cdd474d0b7",
+      "revision/industry_members/82ceafe9e2a7442a8de64cb756a46e89",
+      "revision/instruments/3355ea98c7184dd1880fc74c3304a359",
+      "revision/news_headlines/92b045df45ba44ee9654dae4dec5814b",
+      "revision/regulatory_events/585d30d085c642d488fecd08c72b2ac9",
+      "revision/share_structure/46e5cda062d94ddfb09b2f46dcba95de",
+      "revision/trading_calendar/f979cf5e1a1a4fc9872af48fee92c23a",
+      "revision/trading_status/59019470a0c04ea5a32a142ac7367881"
+    ],
+    "invalid_retained": [],
+    "referenced_or_held": 29,
+    "bytes_deleted": 487383295,
+    "plan_id": "795af09cdac6e077182d2d2b38a23e01db70e4b211ae759c1e6a6a8511448b67",
+    "candidate_bytes": 487383295,
+    "deletion_status": "complete"
+  },
+  "stage_status": {
+    "external": {
+      "status": "success",
+      "coverage_status": null,
+      "publication_status": null,
+      "run_id": null
+    },
+    "market": {
+      "status": "degraded",
+      "coverage_status": "partial",
+      "publication_status": "partial",
+      "run_id": "f0b7c11f-6e36-474d-9e3d-322a5187db53"
+    },
+    "fundamentals": {
+      "status": "success",
+      "coverage_status": "unknown",
+      "publication_status": "published",
+      "run_id": "d288eeff-31d8-4265-97c3-596f0868c3c0"
+    },
+    "events": {
+      "status": "success",
+      "coverage_status": "unknown",
+      "publication_status": "published",
+      "run_id": "f7d70fc3-c821-4252-883d-2f3cfdd509cd"
+    }
+  }
+}

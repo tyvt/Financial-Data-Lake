@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "dataset": "corporate_actions",
+  "source": "tdx_protocol",
+  "data_version": "v1",
+  "run_id": "c30e5122-a391-4be3-aea5-15b2d944a585",
+  "created_at": "2026-10-16T06:12:50.814514+00:00",
+  "updated_at": "2026-10-16T06:12:50.814514+00:00"
+}

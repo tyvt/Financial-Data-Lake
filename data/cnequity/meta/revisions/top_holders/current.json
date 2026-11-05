@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "top_holders",
+  "revision": 3,
+  "revision_id": "1330aafdf643409cb19fcc252ec0c802",
+  "generation_path": "revisions/data/top_holders/1330aafdf643409cb19fcc252ec0c802",
+  "receipt": "revisions/top_holders/00000003-1330aafdf643409cb19fcc252ec0c802.json",
+  "content_digest": "2a2804f5e829ddc67898dca4c1a67ae3a77508b24e809713c58eb50e6471633e",
+  "committed_at": "2026-10-23T14:08:41.425319+00:00"
+}

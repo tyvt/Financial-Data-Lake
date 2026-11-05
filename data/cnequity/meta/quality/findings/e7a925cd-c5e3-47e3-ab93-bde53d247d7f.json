@@ -1,0 +1,773 @@
+{
+  "run_id": "e7a925cd-c5e3-47e3-ab93-bde53d247d7f",
+  "trade_date": "2026-10-16",
+  "findings": [
+    {
+      "dataset": "instruments",
+      "severity": "info",
+      "check": "row_count",
+      "message": "8075 rows across dataset",
+      "sample_columns": [
+        "symbol",
+        "name",
+        "exchange",
+        "asset_type",
+        "list_date",
+        "delist_date",
+        "prev_symbol",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": null,
+      "partition_value": null,
+      "file_count": null
+    },
+    {
+      "dataset": "etf_profiles",
+      "severity": "info",
+      "check": "row_count",
+      "message": "1706 rows in as_of_date=2026",
+      "sample_columns": [
+        "symbol",
+        "as_of_date",
+        "exchange",
+        "name",
+        "list_date",
+        "tracking_index_code",
+        "tracking_index_name",
+        "fund_category",
+        "investment_category",
+        "eligibility_status"
+      ],
+      "partition_col": "as_of_date",
+      "partition_value": "2026",
+      "file_count": 1
+    },
+    {
+      "dataset": "trading_calendar",
+      "severity": "info",
+      "check": "row_count",
+      "message": "365 rows in trade_date=2026",
+      "sample_columns": [
+        "trade_date",
+        "is_trading",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026",
+      "file_count": 1
+    },
+    {
+      "dataset": "trading_status",
+      "severity": "info",
+      "check": "row_count",
+      "message": "688 rows in trade_date=2026-10",
+      "sample_columns": [
+        "symbol",
+        "trade_date",
+        "is_trading",
+        "status",
+        "risk_warning",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026-10",
+      "file_count": 1
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "row_count",
+      "message": "1 rows in trade_date=2026-07-16",
+      "sample_columns": [
+        "symbol",
+        "trade_date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "pre_close",
+        "volume",
+        "amount",
+        "source"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026-07-16",
+      "file_count": 1
+    },
+    {
+      "dataset": "index_bars",
+      "severity": "info",
+      "check": "row_count",
+      "message": "1496 rows in trade_date=2026",
+      "sample_columns": [
+        "symbol",
+        "trade_date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "pre_close",
+        "volume",
+        "amount",
+        "source"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026",
+      "file_count": 1
+    },
+    {
+      "dataset": "commodity_bars",
+      "severity": "info",
+      "check": "row_count",
+      "message": "64 rows in trade_date=2026",
+      "sample_columns": [
+        "symbol",
+        "name",
+        "exchange",
+        "trade_date",
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "amount"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026",
+      "file_count": 1
+    },
+    {
+      "dataset": "corporate_actions",
+      "severity": "info",
+      "check": "row_count",
+      "message": "5276 rows in ex_date=2026",
+      "sample_columns": [
+        "payment_date",
+        "payment_source",
+        "symbol",
+        "ex_date",
+        "action_type",
+        "cash_dividend",
+        "bonus_ratio",
+        "transfer_ratio",
+        "split_factor",
+        "allotment_ratio"
+      ],
+      "partition_col": "ex_date",
+      "partition_value": "2026",
+      "file_count": 1
+    },
+    {
+      "dataset": "announcement_index",
+      "severity": "info",
+      "check": "row_count",
+      "message": "986 rows in announce_date=2026-10-16",
+      "sample_columns": [
+        "announcement_id",
+        "symbol",
+        "title",
+        "announce_date",
+        "category",
+        "url",
+        "source",
+        "data_version",
+        "fetched_at",
+        "available_at"
+      ],
+      "partition_col": "announce_date",
+      "partition_value": "2026-10-16",
+      "file_count": 1
+    },
+    {
+      "dataset": "earnings_disclosure_schedule",
+      "severity": "info",
+      "check": "row_count",
+      "message": "5574 rows in report_period=2026Q3",
+      "sample_columns": [
+        "symbol",
+        "report_period",
+        "scheduled_date",
+        "first_scheduled_date",
+        "actual_date",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "report_period",
+      "partition_value": "2026Q3",
+      "file_count": 1
+    },
+    {
+      "dataset": "financial_statement_items",
+      "severity": "info",
+      "check": "row_count",
+      "message": "839 rows in report_period=2026Q3",
+      "sample_columns": [
+        "symbol",
+        "report_period",
+        "statement_type",
+        "item_code",
+        "item_value",
+        "announce_date",
+        "source",
+        "data_version",
+        "fetched_at",
+        "available_at"
+      ],
+      "partition_col": "report_period",
+      "partition_value": "2026Q3",
+      "file_count": 1
+    },
+    {
+      "dataset": "share_structure",
+      "severity": "info",
+      "check": "row_count",
+      "message": "770 rows in change_date=2026",
+      "sample_columns": [
+        "symbol",
+        "change_date",
+        "total_shares",
+        "float_shares",
+        "restricted_shares",
+        "free_float_shares",
+        "change_reason",
+        "announce_date",
+        "source",
+        "data_version"
+      ],
+      "partition_col": "change_date",
+      "partition_value": "2026",
+      "file_count": 1
+    },
+    {
+      "dataset": "shareholder_counts",
+      "severity": "info",
+      "check": "row_count",
+      "message": "2585 rows in count_date=2026",
+      "sample_columns": [
+        "symbol",
+        "count_date",
+        "holder_count",
+        "holder_count_change_pct",
+        "avg_float_shares",
+        "avg_holding_value",
+        "announce_date",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "count_date",
+      "partition_value": "2026",
+      "file_count": 1
+    },
+    {
+      "dataset": "top_holders",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for top_holders"
+    },
+    {
+      "dataset": "valuation_metrics",
+      "severity": "info",
+      "check": "row_count",
+      "message": "100 rows in trade_date=2026-10-16",
+      "sample_columns": [
+        "symbol",
+        "trade_date",
+        "pe_ttm",
+        "pb",
+        "ps_ttm",
+        "total_mv",
+        "float_mv",
+        "pe_dynamic",
+        "total_mv_basis",
+        "float_mv_basis"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026-10-16",
+      "file_count": 1
+    },
+    {
+      "dataset": "analyst_consensus",
+      "severity": "info",
+      "check": "row_count",
+      "message": "2900 rows in forecast_date=2026-10-16",
+      "sample_columns": [
+        "symbol",
+        "forecast_date",
+        "forecast_year",
+        "eps_forecast",
+        "pe_forecast",
+        "target_price",
+        "rating",
+        "analyst_count",
+        "source",
+        "data_version"
+      ],
+      "partition_col": "forecast_date",
+      "partition_value": "2026-10-16",
+      "file_count": 1
+    },
+    {
+      "dataset": "fund_flow",
+      "severity": "info",
+      "check": "row_count",
+      "message": "5920 rows in trade_date=2026-10-16",
+      "sample_columns": [
+        "symbol",
+        "trade_date",
+        "main_net_inflow",
+        "super_large_net_inflow",
+        "large_net_inflow",
+        "medium_net_inflow",
+        "small_net_inflow",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026-10-16",
+      "file_count": 1
+    },
+    {
+      "dataset": "margin_trading",
+      "severity": "info",
+      "check": "row_count",
+      "message": "4111 rows in trade_date=2026-10-15",
+      "sample_columns": [
+        "symbol",
+        "trade_date",
+        "margin_balance",
+        "margin_buy",
+        "short_balance",
+        "short_sell_volume",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026-10-15",
+      "file_count": 1
+    },
+    {
+      "dataset": "northbound_holdings",
+      "severity": "info",
+      "check": "row_count",
+      "message": "3953 rows in trade_date=2026-09-30",
+      "sample_columns": [
+        "symbol",
+        "trade_date",
+        "channel",
+        "holding_shares",
+        "holding_mv",
+        "holding_ratio",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026-09-30",
+      "file_count": 1
+    },
+    {
+      "dataset": "northbound_flows",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for northbound_flows"
+    },
+    {
+      "dataset": "dragon_tiger",
+      "severity": "info",
+      "check": "row_count",
+      "message": "287 rows in trade_date=2026-10",
+      "sample_columns": [
+        "symbol",
+        "trade_date",
+        "reason",
+        "buy_amount",
+        "sell_amount",
+        "net_amount",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026-10",
+      "file_count": 1
+    },
+    {
+      "dataset": "block_trades",
+      "severity": "info",
+      "check": "row_count",
+      "message": "170 rows in trade_date=2026-10",
+      "sample_columns": [
+        "symbol",
+        "trade_date",
+        "price",
+        "volume",
+        "amount",
+        "premium_ratio",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026-10",
+      "file_count": 1
+    },
+    {
+      "dataset": "institutional_holdings",
+      "severity": "info",
+      "check": "row_count",
+      "message": "121 rows in report_period=2026Q3",
+      "sample_columns": [
+        "symbol",
+        "holder_type",
+        "report_period",
+        "holding_shares",
+        "holding_ratio",
+        "holding_mv",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "report_period",
+      "partition_value": "2026Q3",
+      "file_count": 1
+    },
+    {
+      "dataset": "institutional_holdings",
+      "severity": "warning",
+      "check": "row_count_mutation",
+      "message": "partition report_period=2026Q3 has 121 rows vs 19939 in 2026Q2 (1% of expected); symbols 41 vs 5520 (1% of prior)",
+      "partition_col": "report_period",
+      "current_partition": "2026Q3",
+      "previous_partition": "2026Q2",
+      "current_rows": 121,
+      "previous_rows": 19939,
+      "row_ratio": 0.0061,
+      "current_symbols": 41,
+      "previous_symbols": 5520,
+      "min_ratio_threshold": 0.5
+    },
+    {
+      "dataset": "sector_members",
+      "severity": "info",
+      "check": "row_count",
+      "message": "88625 rows in as_of_date=2026-10-16",
+      "sample_columns": [
+        "symbol",
+        "sector_code",
+        "sector_name",
+        "as_of_date",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "as_of_date",
+      "partition_value": "2026-10-16",
+      "file_count": 1
+    },
+    {
+      "dataset": "index_constituents",
+      "severity": "info",
+      "check": "row_count",
+      "message": "3142 rows in as_of_date=2026-10",
+      "sample_columns": [
+        "index_symbol",
+        "symbol",
+        "as_of_date",
+        "weight",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "as_of_date",
+      "partition_value": "2026-10",
+      "file_count": 1
+    },
+    {
+      "dataset": "industry_members",
+      "severity": "info",
+      "check": "row_count",
+      "message": "5577 rows in as_of_date=2026-10-16",
+      "sample_columns": [
+        "symbol",
+        "classification_system",
+        "industry_code",
+        "industry_name",
+        "as_of_date",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "as_of_date",
+      "partition_value": "2026-10-16",
+      "file_count": 1
+    },
+    {
+      "dataset": "macro_indicators",
+      "severity": "info",
+      "check": "row_count",
+      "message": "44 rows in obs_date=2026",
+      "sample_columns": [
+        "indicator_id",
+        "obs_date",
+        "value",
+        "frequency",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "obs_date",
+      "partition_value": "2026",
+      "file_count": 1
+    },
+    {
+      "dataset": "market_breadth",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for market_breadth"
+    },
+    {
+      "dataset": "sentiment_scores",
+      "severity": "info",
+      "check": "row_count",
+      "message": "2656 rows in trade_date=2026-10",
+      "sample_columns": [
+        "symbol",
+        "trade_date",
+        "score_channel",
+        "sentiment_score",
+        "headline_count",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "trade_date",
+      "partition_value": "2026-10",
+      "file_count": 1
+    },
+    {
+      "dataset": "hot_rank",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for hot_rank"
+    },
+    {
+      "dataset": "sector_bars",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for sector_bars"
+    },
+    {
+      "dataset": "sector_fund_flow",
+      "severity": "error",
+      "check": "exists",
+      "message": "No curated data for sector_fund_flow"
+    },
+    {
+      "dataset": "fund_flow_ths",
+      "severity": "info",
+      "check": "exists",
+      "message": "No curated data for fund_flow_ths"
+    },
+    {
+      "dataset": "sector_fund_flow_ths",
+      "severity": "info",
+      "check": "exists",
+      "message": "No curated data for sector_fund_flow_ths"
+    },
+    {
+      "dataset": "news_headlines",
+      "severity": "info",
+      "check": "row_count",
+      "message": "445 rows in publish_date=2026-10",
+      "sample_columns": [
+        "news_id",
+        "publish_date",
+        "publish_time",
+        "title",
+        "summary",
+        "related_symbols",
+        "channel",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "publish_date",
+      "partition_value": "2026-10",
+      "file_count": 1
+    },
+    {
+      "dataset": "flash_news_wire",
+      "severity": "info",
+      "check": "exists",
+      "message": "No curated data for flash_news_wire"
+    },
+    {
+      "dataset": "economic_calendar",
+      "severity": "info",
+      "check": "exists",
+      "message": "No curated data for economic_calendar"
+    },
+    {
+      "dataset": "share_unlock_schedule",
+      "severity": "info",
+      "check": "row_count",
+      "message": "405 rows in unlock_date=2026",
+      "sample_columns": [
+        "symbol",
+        "unlock_date",
+        "unlock_shares",
+        "unlock_ratio",
+        "unlock_type",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "unlock_date",
+      "partition_value": "2026",
+      "file_count": 1
+    },
+    {
+      "dataset": "regulatory_events",
+      "severity": "info",
+      "check": "row_count",
+      "message": "11 rows in event_date=2026",
+      "sample_columns": [
+        "event_id",
+        "symbol",
+        "event_date",
+        "event_type",
+        "title",
+        "source",
+        "data_version",
+        "fetched_at"
+      ],
+      "partition_col": "event_date",
+      "partition_value": "2026",
+      "file_count": 1
+    },
+    {
+      "dataset": "trading_status",
+      "severity": "warning",
+      "check": "trading_status_coverage_start",
+      "message": "trading_status rows exist, but no complete current-scope ST evidence receipt covers the bar window (no_matching_complete_receipt)",
+      "coverage_start": "2023-10-24",
+      "st_coverage_start": "2026-10-16",
+      "st_evidence_coverage_start": null,
+      "st_evidence_coverage_end": null,
+      "st_evidence_verified": false,
+      "st_evidence_receipt_reason": "no_matching_complete_receipt",
+      "st_evidence_checkpoint_status": null,
+      "st_evidence_checkpoint_scope_start": null,
+      "st_evidence_checkpoint_scope_end": null,
+      "st_evidence_checkpoint_completed_symbols": null,
+      "st_evidence_checkpoint_expected_symbols": null,
+      "st_evidence_checkpoint_unresolved_symbols": null,
+      "st_evidence_supported_symbols": 101,
+      "st_evidence_unsupported_symbols": 0,
+      "st_evidence_unsupported_exchange_counts": {},
+      "source_limited": false,
+      "daily_bars_start": "2023-10-16",
+      "daily_bars_end": "2026-07-16"
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "error",
+      "check": "daily_bars_calendar_missing_day",
+      "message": "9 calendar trading day(s) in 2023-10-16..2026-07-16 have zero traded bars (e.g. 2026-05-06, 2026-05-07, 2026-05-08, 2026-05-11, 2026-05-12, 2026-05-13, 2026-05-14, 2026-05-15)",
+      "missing_count": 9,
+      "missing_sample": [
+        "2026-05-06",
+        "2026-05-07",
+        "2026-05-08",
+        "2026-05-11",
+        "2026-05-12",
+        "2026-05-13",
+        "2026-05-14",
+        "2026-05-15"
+      ]
+    },
+    {
+      "dataset": "trading_calendar",
+      "severity": "warning",
+      "check": "trading_calendar_beyond_holiday_table",
+      "message": "calendar marks trading days through 2027-10-15 but the bundled holiday table ends 2027-10-07; dates past it only drop weekends, so public holidays are marked as sessions — refresh adapters/calendar/holidays_cn.py and the seed CSV",
+      "calendar_last_trading_day": "2027-10-15",
+      "holiday_table_end": "2027-10-07",
+      "days_beyond": 8
+    },
+    {
+      "dataset": "valuation_metrics",
+      "severity": "warning",
+      "check": "valuation_bars_no_shared_date",
+      "message": "valuation_metrics shares no trade date with daily_bars — cannot reconcile symbol coverage"
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "universe_survivorship",
+      "message": "82/101 symbols stopped trading more than 180 days before 2026-07-16 (81.2% of the lake over 2.7 years)",
+      "retired_symbols": 82,
+      "total_symbols": 101,
+      "span_years": 2.75
+    },
+    {
+      "dataset": "corporate_actions",
+      "severity": "warning",
+      "check": "corporate_action_duplicate_classification",
+      "message": "6 ex-date(s) carry the same ratio as 送 from one source and 转 from another — one event stored twice. Anything that adds bonus_ratio and transfer_ratio double-counts the dilution",
+      "rows": 6
+    },
+    {
+      "dataset": "trading_status",
+      "severity": "warning",
+      "check": "st_label_crosscheck",
+      "message": "ST labels disagree with instrument names on 2026-10-16: 0 labeled ST but not named ST, 198 named ST but not labeled — one of the two feeds is stale or the risk-warning board query changed shape",
+      "trade_date": "2026-10-16",
+      "labeled_not_named": 0,
+      "named_not_labeled": 198,
+      "symbols": [
+        "000010.SZ",
+        "000016.SZ",
+        "000056.SZ",
+        "000078.SZ",
+        "000488.SZ",
+        "000609.SZ",
+        "000610.SZ",
+        "000615.SZ"
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "check": "no_snapshot",
+      "severity": "info",
+      "message": "No backup snapshot for daily_bars source=eastmoney; primary rows available for comparison: 0",
+      "primary_rows": 0,
+      "snapshot_cadence": "daily",
+      "peer_unavailable": true,
+      "retryable": true
+    },
+    {
+      "dataset": "corporate_actions",
+      "check": "backup_coverage_gap",
+      "severity": "warning",
+      "message": "backup is missing 2 of 46 primary key(s); 44 key(s) are comparable; primary is also missing 2 backup key(s)",
+      "primary_source": "eastmoney",
+      "backup_source": "tdx_protocol",
+      "primary_unique_keys": 46,
+      "backup_unique_keys": 46,
+      "overlap_unique_keys": 44,
+      "missing_backup_keys": 2,
+      "missing_primary_keys": 2
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "macro_indicators",
+  "revision": 3,
+  "revision_id": "056b8bbf0c2b41b29dbc5b9eeab66eff",
+  "generation_path": "revisions/data/macro_indicators/056b8bbf0c2b41b29dbc5b9eeab66eff",
+  "receipt": "revisions/macro_indicators/00000003-056b8bbf0c2b41b29dbc5b9eeab66eff.json",
+  "content_digest": "58607108420a23eb22e6a7d9254bc5fe246e4432a0a631c5c5de8431a277ee87",
+  "committed_at": "2026-10-23T13:11:46.780445+00:00"
+}

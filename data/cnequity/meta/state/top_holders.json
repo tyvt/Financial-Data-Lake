@@ -1,0 +1,206 @@
+{
+  "missing_units": {
+    "change_date:2026-01-01:2026-03-31": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 2
+    },
+    "change_date:2026-04-01:2026-06-30": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 2
+    },
+    "change_date:2026-07-01:2026-09-30": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 2
+    },
+    "change_date:2026-10-01:2026-10-17": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-17T07:15:57.442146+00:00",
+      "next_retry_at": "2026-10-17T07:15:57.442146+00:00",
+      "attempts": 1
+    },
+    "change_date:2019-07-01:2019-09-30": {
+      "reason": "EastMoney datacenter RPT_F10_EH_HOLDERS needs more than 100 pages (count=50761, pageSize=500) and pageNumber is capped there; pass keyset_column to page past it",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2019-10-01:2019-12-31": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2020-01-01:2020-03-31": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2020-04-01:2020-06-30": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2020-07-01:2020-09-30": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2020-10-01:2020-12-31": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2021-01-01:2021-03-31": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2021-04-01:2021-06-30": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2021-07-01:2021-09-30": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2021-10-01:2021-12-31": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2022-01-01:2022-03-31": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2022-04-01:2022-06-30": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2022-07-01:2022-09-30": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2022-10-01:2022-12-31": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2023-01-01:2023-03-31": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2023-04-01:2023-06-30": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2023-07-01:2023-09-30": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2023-10-01:2023-12-31": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2024-01-01:2024-03-31": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2024-04-01:2024-06-30": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2024-07-01:2024-09-30": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2024-10-01:2024-12-31": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2025-01-01:2025-03-31": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2025-04-01:2025-06-30": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2025-07-01:2025-09-30": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2025-10-01:2025-12-31": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    },
+    "change_date:2026-10-01:2026-10-18": {
+      "reason": "earlier shareholder window failed",
+      "last_attempt": "2026-10-18T05:04:40.924671+00:00",
+      "next_retry_at": "2026-10-18T05:04:40.924671+00:00",
+      "attempts": 1
+    }
+  },
+  "coverage_status": "incomplete",
+  "updated_at": "2026-10-23T14:08:41.425319+00:00",
+  "revision": 3,
+  "revision_id": "1330aafdf643409cb19fcc252ec0c802",
+  "revision_at": "2026-10-23T14:08:41.425319+00:00",
+  "revision_run_id": "selection-scope-retirement-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "baff3dcc4231b07ed3d737673b6d9caf7504a74212a308986a949a57ca87fe27",
+  "content_digest": "2a2804f5e829ddc67898dca4c1a67ae3a77508b24e809713c58eb50e6471633e",
+  "revision_receipt": "revisions/top_holders/00000003-1330aafdf643409cb19fcc252ec0c802.json",
+  "revision_pointer": "revisions/top_holders/current.json",
+  "changed_partitions": [
+    "top_holders/record_date=2016"
+  ],
+  "row_count": 0,
+  "retired_by": "selection_lake_policy.json"
+}

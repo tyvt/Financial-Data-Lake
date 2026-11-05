@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "corporate_actions",
+  "revision": 12,
+  "revision_id": "c7dca6cefffc4b0e9654cbcfc0668618",
+  "generation_path": "revisions/data/corporate_actions/c7dca6cefffc4b0e9654cbcfc0668618",
+  "receipt": "revisions/corporate_actions/00000012-c7dca6cefffc4b0e9654cbcfc0668618.json",
+  "content_digest": "700c619f5f206c8e3bb7af278424f899b9ccff79ebbba8ee01004c45560b6ad1",
+  "committed_at": "2026-11-05T01:16:48.289496+00:00"
+}

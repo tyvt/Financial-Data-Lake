@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "dataset": "financial_statement_items",
+  "source": "eastmoney",
+  "captured_at": "2026-10-17T02:10:46.887544+00:00",
+  "payload_sha256": "fb78d2dcb040910be2608523db77b278ea69446baf031fce833203393c575ba9",
+  "payload_bytes": 43607,
+  "compressed_bytes": 7039,
+  "compression": "gzip",
+  "payload_format": "bytes",
+  "payload_path": "raw/financial_statement_items/source=eastmoney/captured_date=2026-10-17/fb78d2dcb040910be2608523db77b278ea69446baf031fce833203393c575ba9.gz",
+  "metadata_path": "raw/financial_statement_items/source=eastmoney/captured_date=2026-10-17/fb78d2dcb040910be2608523db77b278ea69446baf031fce833203393c575ba9.61c9675de93bca8bf178a9dfb62b38c45b5239d547d07f84503924179668a0fa.json",
+  "request_params": {
+    "report": "RPT_DMSK_FN_CASHFLOW",
+    "columns": "SECURITY_CODE,SECUCODE,REPORT_DATE,NOTICE_DATE,NETCASH_OPERATE,NETCASH_INVEST,NETCASH_FINANCE,CONSTRUCT_LONG_ASSET,END_CCE",
+    "filter": "(NOTICE_DATE>='2026-09-17') AND (NOTICE_DATE<='2026-10-16')",
+    "page_size": 500,
+    "page_number": 1
+  },
+  "run_id": "81238017-754c-4b7e-8ae0-98c5f76d4701",
+  "url": "https://datacenter-web.eastmoney.com/api/data/v1/get?reportName=RPT_DMSK_FN_CASHFLOW&columns=SECURITY_CODE%2CSECUCODE%2CREPORT_DATE%2CNOTICE_DATE%2CNETCASH_OPERATE%2CNETCASH_INVEST%2CNETCASH_FINANCE%2CCONSTRUCT_LONG_ASSET%2CEND_CCE&pageSize=500&pageNumber=1&filter=%28NOTICE_DATE%3E%3D%272026-09-17%27%29+AND+%28NOTICE_DATE%3C%3D%272026-10-16%27%29",
+  "response_status": 200,
+  "http_metadata": {
+    "wire_exact": true,
+    "json_parsed": true,
+    "response_envelope": "json",
+    "content_type": "text/plain;charset=UTF-8"
+  },
+  "pagination": {
+    "page": 1,
+    "page_size": 500
+  },
+  "observation_id": "81238017-754c-4b7e-8ae0-98c5f76d4701:eastmoney:RPT_DMSK_FN_CASHFLOW:(NOTICE_DATE>='2026-09-17') AND (NOTICE_DATE<='2026-10-16'):1:scope=daily:2026-10-16",
+  "request_scope": "daily:2026-10-16"
+}

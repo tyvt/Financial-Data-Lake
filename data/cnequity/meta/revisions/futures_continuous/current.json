@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "futures_continuous",
+  "revision": 5,
+  "revision_id": "6d0af4a8ee2d4f62a6c10af172edd9a4",
+  "generation_path": "revisions/data/futures_continuous/6d0af4a8ee2d4f62a6c10af172edd9a4",
+  "receipt": "revisions/futures_continuous/00000005-6d0af4a8ee2d4f62a6c10af172edd9a4.json",
+  "content_digest": "53042177351d9646f1530114344294ad817832b130add16bf74aad6c5a1362bd",
+  "committed_at": "2026-10-23T14:09:45.639509+00:00"
+}

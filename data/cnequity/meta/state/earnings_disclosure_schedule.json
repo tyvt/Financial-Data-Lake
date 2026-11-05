@@ -1,0 +1,15 @@
+{
+  "revision": 6,
+  "revision_id": "099826e576924e2fa3d7f446256cacb4",
+  "revision_at": "2026-11-05T01:21:44.625544+00:00",
+  "revision_run_id": "3d58731b-bdba-456b-84aa-396ab74de361",
+  "schema_version": 1,
+  "contract_fingerprint": "2fce8c036ae0a261afbe47b1a5db90a6b0e22c52091eeabe5816ca4325db00bf",
+  "content_digest": "fd15ccdd7f48c952d79b91f5de66efd77e6116bbe74c96948c8f21112e40623e",
+  "revision_receipt": "revisions/earnings_disclosure_schedule/00000006-099826e576924e2fa3d7f446256cacb4.json",
+  "revision_pointer": "revisions/earnings_disclosure_schedule/current.json",
+  "changed_partitions": [
+    "earnings_disclosure_schedule/report_period=2026Q3"
+  ],
+  "updated_at": "2026-11-05T01:21:44.625544+00:00"
+}

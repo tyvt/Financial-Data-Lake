@@ -1,0 +1,34 @@
+{
+  "dataset": "futures_contracts",
+  "revision": 4,
+  "revision_id": "8a4cc9b675a74d7d81cda9c699a442b9",
+  "committed_at": "2026-10-23T14:09:45.671823+00:00",
+  "run_id": "selection-scope-retirement-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "42a58058a19e8159de0cceed46187b905d7359a136986af1a432a7ad9cdcc5d8",
+  "content_digest": "bca5fd7547c25f85169ea9d1abfa4532630e9d22531dcea4e609a9dde5117dac",
+  "changed_partitions": [
+    "futures_contracts"
+  ],
+  "files": [
+    {
+      "path": "futures_contracts/part-merged.parquet",
+      "size_bytes": 3025,
+      "sha256": "b03ed8a3498f5935105ce86294fd37ef8b281bb350cc9f60a7f4a1d3cf4caa47"
+    }
+  ],
+  "metadata": {
+    "operation": "user_authorized_retirement",
+    "rows": 0,
+    "base_revision_id": "270d82f91a9d4861bb722a3d799589d4"
+  },
+  "generation_path": "revisions/data/futures_contracts/8a4cc9b675a74d7d81cda9c699a442b9",
+  "generation_files": [
+    {
+      "path": "futures_contracts/part-merged.parquet",
+      "size_bytes": 3025,
+      "sha256": "b03ed8a3498f5935105ce86294fd37ef8b281bb350cc9f60a7f4a1d3cf4caa47"
+    }
+  ],
+  "pointer_path": "revisions/futures_contracts/current.json"
+}

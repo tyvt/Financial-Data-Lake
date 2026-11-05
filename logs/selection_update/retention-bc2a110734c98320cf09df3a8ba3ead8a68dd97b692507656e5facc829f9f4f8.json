@@ -1,0 +1,33 @@
+{
+  "status": "success",
+  "keep": 2,
+  "candidate_ids": [
+    "revision/adj_factors/0a4f9e96bc1d41b58ede8cdb682e4f1a",
+    "revision/adj_factors/1ef20695a750461bb9d7608bee2512ad",
+    "revision/adj_factors/eb76f2136f494eaca8c319fc98124bef",
+    "revision/announcement_index/0b46b64b82034d51a493ac1a6350df18",
+    "revision/corporate_actions/5247fb4494ef49b5b1eab81fcdf52f11",
+    "revision/corporate_actions/f6cf24b493304b04b0d1d942cedd1c99",
+    "revision/daily_bars/425b058aeb2441f4be45abb5094ddb8b",
+    "revision/earnings_disclosure_schedule/94a848dec91540c98872b75ebb37607e",
+    "revision/financial_statement_items/f8a5d80bb99a42198fa3c05eae771a7d",
+    "revision/industry_members/a90c75a598fa4f389d090276ec032d76",
+    "revision/instruments/1aad8aa8a7c04b80888a93d8685b6271",
+    "revision/instruments/6e011d34b44742048f4855fff3ebd2cf",
+    "revision/instruments/b2be96277ef44bf4b66c040e4aaf2d76",
+    "revision/instruments/cd29762ce5254908903d210b0a7cea3c",
+    "revision/instruments/d7c41b1eb16c44f28deec2aaf36f131c",
+    "revision/instruments/fdef198651854a149a7ed09b11359ced",
+    "revision/news_headlines/7a408dbfff3e4772ac74758d555338e2",
+    "revision/news_headlines/fe560f9e91884538a8154c67f1417f8e",
+    "revision/trading_calendar/3ac8b38a35834b1e8d894d18cf27a4f6",
+    "revision/trading_status/0cb4cb0d18ef47aaa8f7e0db920c3891",
+    "revision/trading_status/1097c6d6c17e4e53b243201c953175c5",
+    "revision/trading_status/2017d00135ef437bbc6beb12b37d6f87"
+  ],
+  "invalid_retained": [],
+  "referenced_or_held": 29,
+  "bytes_deleted": 0,
+  "plan_id": "bc2a110734c98320cf09df3a8ba3ead8a68dd97b692507656e5facc829f9f4f8",
+  "candidate_bytes": 750814279
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "valuation_metrics",
+  "revision": 13,
+  "revision_id": "5b7c158be6ba498483cf58158cda3871",
+  "generation_path": "revisions/data/valuation_metrics/5b7c158be6ba498483cf58158cda3871",
+  "receipt": "revisions/valuation_metrics/00000013-5b7c158be6ba498483cf58158cda3871.json",
+  "content_digest": "a14a4f7debbc6e9c39d28da620c8bbf8a5ff0a24bb57adeb20c1d3de0ef9f56e",
+  "committed_at": "2026-10-23T13:11:46.985739+00:00"
+}

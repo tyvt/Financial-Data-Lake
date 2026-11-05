@@ -1,0 +1,25 @@
+{
+  "status": "success",
+  "keep": 1,
+  "candidate_ids": [
+    "revision/adj_factors/4fc351bc25c944ee9a7c014c6d112368",
+    "revision/announcement_index/b2b7c94d1cfa430fa9b139cb2be5a628",
+    "revision/corporate_actions/c994d5978f56457ba4c87c9ad240b03c",
+    "revision/daily_bars/ae4bfb16f0df464a8ac8a5e454484c8d",
+    "revision/earnings_disclosure_schedule/6bf0074672a9425ba2dea18350266901",
+    "revision/financial_statement_items/8260d0d4b6d748faad76a918d886f417",
+    "revision/industry_members/d8b3332aa3164393be8ddcd759a828d6",
+    "revision/instruments/fa56e558ab764d31a10906c2a3d4e46c",
+    "revision/news_headlines/adf4708319dc48b48ef0b25b5dbb9497",
+    "revision/regulatory_events/c156fa8cb2044840af5a8c7dab6b2d91",
+    "revision/share_structure/e5b3228ec70d46619859034fadd0d44a",
+    "revision/trading_calendar/05dcaeadcdb94f6e9b07ebca8a6f4ff5",
+    "revision/trading_status/b9737016b1784732bb5b392cce86a9ef"
+  ],
+  "invalid_retained": [],
+  "referenced_or_held": 17,
+  "bytes_deleted": 502180985,
+  "plan_id": "869920ee1b5369850f79b200f37cd02e2d59583ff40527e8fed385a86b0c6f70",
+  "candidate_bytes": 502180985,
+  "deletion_status": "complete"
+}

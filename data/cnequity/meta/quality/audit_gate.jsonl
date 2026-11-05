@@ -1,0 +1,2 @@
+{"blocked": false, "by_severity": {"error": 29, "info": 16, "warning": 2}, "gate": "shadow", "run_id": "b05d1fa1-7e0a-469f-b9c6-3b3be2a6ac42", "trade_date": "2026-10-16"}
+{"blocked": false, "by_severity": {"error": 17, "info": 38, "warning": 17}, "gate": "shadow", "run_id": "cee06821-6ae4-46d6-9ee9-becb39a97ff5", "trade_date": "2026-10-16"}

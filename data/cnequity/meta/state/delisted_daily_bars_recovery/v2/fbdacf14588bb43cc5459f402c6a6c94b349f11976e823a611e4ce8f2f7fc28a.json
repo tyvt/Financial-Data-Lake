@@ -1,0 +1,938 @@
+{
+  "claim": "delisted_daily_bars_recovery",
+  "completion_run_id": "5a43e6fb-0cbf-4adc-aef3-a862bf97c09d",
+  "expected_no_data_symbols": [
+    "000666.SZ"
+  ],
+  "recovered_spans": {
+    "000004.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-07-13"
+    },
+    "000005.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-03-05"
+    },
+    "000023.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-07-24"
+    },
+    "000040.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-03-31"
+    },
+    "000046.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2023-12-27"
+    },
+    "000413.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-08-14"
+    },
+    "000416.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-04-24"
+    },
+    "000584.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-07-10"
+    },
+    "000622.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-07-15"
+    },
+    "000627.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-08-13"
+    },
+    "000638.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-04-13"
+    },
+    "000836.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-17"
+    },
+    "000851.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-09-26"
+    },
+    "000861.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-08-05"
+    },
+    "000961.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-05-08"
+    },
+    "000971.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-04"
+    },
+    "000976.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-07-25"
+    },
+    "000982.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-21"
+    },
+    "000996.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-27"
+    },
+    "002002.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-01-18"
+    },
+    "002087.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-27"
+    },
+    "002089.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-04-17"
+    },
+    "002231.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-01-29"
+    },
+    "002280.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-26"
+    },
+    "002288.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-26"
+    },
+    "002308.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-08-22"
+    },
+    "002325.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-28"
+    },
+    "002336.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-07-03"
+    },
+    "002341.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-07-02"
+    },
+    "002433.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-07-04"
+    },
+    "002435.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-07-01"
+    },
+    "002502.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-07-16"
+    },
+    "002505.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-07-02"
+    },
+    "002610.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-18"
+    },
+    "002621.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-13"
+    },
+    "002665.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-27"
+    },
+    "002699.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-04-25"
+    },
+    "002740.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-01-19"
+    },
+    "002750.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-06-26"
+    },
+    "002776.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2023-12-26"
+    },
+    "002808.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-07-13"
+    },
+    "002898.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-07-16"
+    },
+    "300029.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-07-09"
+    },
+    "300108.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-04-23"
+    },
+    "300114.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-02-14"
+    },
+    "300116.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-05-16"
+    },
+    "300117.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-03-31"
+    },
+    "300208.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-07-18"
+    },
+    "300262.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-18"
+    },
+    "300280.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-10-13"
+    },
+    "300282.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-07-17"
+    },
+    "300344.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-04-21"
+    },
+    "300379.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-01-21"
+    },
+    "300391.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-04-10"
+    },
+    "300495.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-05-08"
+    },
+    "300630.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-05-21"
+    },
+    "300742.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-07-19"
+    },
+    "300799.SZ": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-07-26"
+    },
+    "600070.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-04-10"
+    },
+    "600083.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-01-16"
+    },
+    "600112.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-07-19"
+    },
+    "600190.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-07-18"
+    },
+    "600193.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-06-29"
+    },
+    "600200.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-12-29"
+    },
+    "600213.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-08-15"
+    },
+    "600220.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-13"
+    },
+    "600225.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-02-27"
+    },
+    "600277.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-21"
+    },
+    "600290.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2023-12-25"
+    },
+    "600297.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-07-17"
+    },
+    "600306.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-19"
+    },
+    "600321.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-05-30"
+    },
+    "600355.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-04-03"
+    },
+    "600387.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-07-04"
+    },
+    "600421.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-06-22"
+    },
+    "600462.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-07-14"
+    },
+    "600565.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-21"
+    },
+    "600599.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-06-22"
+    },
+    "600608.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-06-29"
+    },
+    "600636.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-06-22"
+    },
+    "600647.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-26"
+    },
+    "600696.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-06-22"
+    },
+    "600705.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-04-02"
+    },
+    "600766.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-26"
+    },
+    "600804.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-06-30"
+    },
+    "600811.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-04-14"
+    },
+    "600823.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-05-15"
+    },
+    "600836.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-17"
+    },
+    "600837.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-02-05"
+    },
+    "600898.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-01-10"
+    },
+    "601028.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-03-26"
+    },
+    "601989.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-08-12"
+    },
+    "603003.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-06-30"
+    },
+    "603056.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-01-20"
+    },
+    "603133.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-06-26"
+    },
+    "603388.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-11-10"
+    },
+    "603555.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-03-07"
+    },
+    "603603.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2024-04-18"
+    },
+    "603963.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2025-02-07"
+    },
+    "605081.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-06-29"
+    },
+    "688287.SH": {
+      "first_trade_date": "2023-10-16",
+      "last_trade_date": "2026-06-08"
+    }
+  },
+  "schema_version": 1,
+  "scope": {
+    "end": "2026-10-16",
+    "evidence_version": 2,
+    "scope_id": "fbdacf14588bb43cc5459f402c6a6c94b349f11976e823a611e4ce8f2f7fc28a",
+    "source": "sina",
+    "start": "2023-10-16",
+    "targets": {
+      "000004.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-07-14",
+        "ownership": "dedicated_fetch"
+      },
+      "000005.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-04-26",
+        "ownership": "dedicated_fetch"
+      },
+      "000023.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-09-02",
+        "ownership": "dedicated_fetch"
+      },
+      "000040.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-04-30",
+        "ownership": "dedicated_fetch"
+      },
+      "000046.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-02-07",
+        "ownership": "dedicated_fetch"
+      },
+      "000413.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-10-11",
+        "ownership": "dedicated_fetch"
+      },
+      "000416.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-06-05",
+        "ownership": "dedicated_fetch"
+      },
+      "000584.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-07-11",
+        "ownership": "dedicated_fetch"
+      },
+      "000622.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-07-16",
+        "ownership": "dedicated_fetch"
+      },
+      "000627.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-09-30",
+        "ownership": "dedicated_fetch"
+      },
+      "000638.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-06-03",
+        "ownership": "dedicated_fetch"
+      },
+      "000666.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2023-10-26",
+        "ownership": "dedicated_fetch"
+      },
+      "000836.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-12",
+        "ownership": "dedicated_fetch"
+      },
+      "000851.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-11-11",
+        "ownership": "dedicated_fetch"
+      },
+      "000861.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-09-18",
+        "ownership": "dedicated_fetch"
+      },
+      "000961.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-07-11",
+        "ownership": "dedicated_fetch"
+      },
+      "000971.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-07-24",
+        "ownership": "dedicated_fetch"
+      },
+      "000976.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-27",
+        "ownership": "dedicated_fetch"
+      },
+      "000982.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-12",
+        "ownership": "dedicated_fetch"
+      },
+      "000996.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-06-28",
+        "ownership": "dedicated_fetch"
+      },
+      "002002.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-03-18",
+        "ownership": "dedicated_fetch"
+      },
+      "002087.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-06-28",
+        "ownership": "dedicated_fetch"
+      },
+      "002089.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-04-18",
+        "ownership": "dedicated_fetch"
+      },
+      "002231.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-03-27",
+        "ownership": "dedicated_fetch"
+      },
+      "002280.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-16",
+        "ownership": "dedicated_fetch"
+      },
+      "002288.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-19",
+        "ownership": "dedicated_fetch"
+      },
+      "002308.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-09-27",
+        "ownership": "dedicated_fetch"
+      },
+      "002325.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-15",
+        "ownership": "dedicated_fetch"
+      },
+      "002336.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-07-04",
+        "ownership": "dedicated_fetch"
+      },
+      "002341.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-23",
+        "ownership": "dedicated_fetch"
+      },
+      "002433.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-07-05",
+        "ownership": "dedicated_fetch"
+      },
+      "002435.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-15",
+        "ownership": "dedicated_fetch"
+      },
+      "002502.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-09-05",
+        "ownership": "dedicated_fetch"
+      },
+      "002505.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-30",
+        "ownership": "dedicated_fetch"
+      },
+      "002610.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-12",
+        "ownership": "dedicated_fetch"
+      },
+      "002621.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-05",
+        "ownership": "dedicated_fetch"
+      },
+      "002665.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-26",
+        "ownership": "dedicated_fetch"
+      },
+      "002699.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-06-05",
+        "ownership": "dedicated_fetch"
+      },
+      "002740.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-03-04",
+        "ownership": "dedicated_fetch"
+      },
+      "002750.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-06-27",
+        "ownership": "dedicated_fetch"
+      },
+      "002776.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-01-25",
+        "ownership": "dedicated_fetch"
+      },
+      "002808.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-07-14",
+        "ownership": "dedicated_fetch"
+      },
+      "002898.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-07-17",
+        "ownership": "dedicated_fetch"
+      },
+      "300029.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-07-10",
+        "ownership": "dedicated_fetch"
+      },
+      "300108.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-05-29",
+        "ownership": "dedicated_fetch"
+      },
+      "300114.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-02-17",
+        "ownership": "dedicated_fetch"
+      },
+      "300116.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-07-25",
+        "ownership": "dedicated_fetch"
+      },
+      "300117.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-04-30",
+        "ownership": "dedicated_fetch"
+      },
+      "300208.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-07-21",
+        "ownership": "dedicated_fetch"
+      },
+      "300262.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-19",
+        "ownership": "dedicated_fetch"
+      },
+      "300280.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-10-14",
+        "ownership": "dedicated_fetch"
+      },
+      "300282.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-07-18",
+        "ownership": "dedicated_fetch"
+      },
+      "300344.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-04-22",
+        "ownership": "dedicated_fetch"
+      },
+      "300379.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-01-22",
+        "ownership": "dedicated_fetch"
+      },
+      "300391.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-04-13",
+        "ownership": "dedicated_fetch"
+      },
+      "300495.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-09-20",
+        "ownership": "dedicated_fetch"
+      },
+      "300630.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-05-22",
+        "ownership": "dedicated_fetch"
+      },
+      "300742.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-07-22",
+        "ownership": "dedicated_fetch"
+      },
+      "300799.SZ": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-07-29",
+        "ownership": "dedicated_fetch"
+      },
+      "600070.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-04-30",
+        "ownership": "dedicated_fetch"
+      },
+      "600083.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-03-05",
+        "ownership": "dedicated_fetch"
+      },
+      "600112.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-15",
+        "ownership": "dedicated_fetch"
+      },
+      "600190.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-07-25",
+        "ownership": "dedicated_fetch"
+      },
+      "600193.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-07-06",
+        "ownership": "dedicated_fetch"
+      },
+      "600200.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-12-31",
+        "ownership": "dedicated_fetch"
+      },
+      "600213.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-10-17",
+        "ownership": "dedicated_fetch"
+      },
+      "600220.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-07-10",
+        "ownership": "dedicated_fetch"
+      },
+      "600225.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-03-06",
+        "ownership": "dedicated_fetch"
+      },
+      "600277.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-07-18",
+        "ownership": "dedicated_fetch"
+      },
+      "600290.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-01-16",
+        "ownership": "dedicated_fetch"
+      },
+      "600297.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-28",
+        "ownership": "dedicated_fetch"
+      },
+      "600306.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-06-26",
+        "ownership": "dedicated_fetch"
+      },
+      "600321.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-06-27",
+        "ownership": "dedicated_fetch"
+      },
+      "600355.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-04-27",
+        "ownership": "dedicated_fetch"
+      },
+      "600387.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-07-11",
+        "ownership": "dedicated_fetch"
+      },
+      "600421.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-06-26",
+        "ownership": "dedicated_fetch"
+      },
+      "600462.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-07-21",
+        "ownership": "dedicated_fetch"
+      },
+      "600565.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-08-07",
+        "ownership": "dedicated_fetch"
+      },
+      "600599.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-06-26",
+        "ownership": "dedicated_fetch"
+      },
+      "600608.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-07-03",
+        "ownership": "dedicated_fetch"
+      },
+      "600636.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-06-29",
+        "ownership": "dedicated_fetch"
+      },
+      "600647.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-07-03",
+        "ownership": "dedicated_fetch"
+      },
+      "600696.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-06-29",
+        "ownership": "dedicated_fetch"
+      },
+      "600705.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-05-27",
+        "ownership": "dedicated_fetch"
+      },
+      "600766.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-07-03",
+        "ownership": "dedicated_fetch"
+      },
+      "600804.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-07-03",
+        "ownership": "dedicated_fetch"
+      },
+      "600811.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-04-30",
+        "ownership": "dedicated_fetch"
+      },
+      "600823.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-06-14",
+        "ownership": "dedicated_fetch"
+      },
+      "600836.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-07-11",
+        "ownership": "dedicated_fetch"
+      },
+      "600837.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-03-04",
+        "ownership": "dedicated_fetch"
+      },
+      "600898.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-02-10",
+        "ownership": "dedicated_fetch"
+      },
+      "601028.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-05-27",
+        "ownership": "dedicated_fetch"
+      },
+      "601989.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-09-05",
+        "ownership": "dedicated_fetch"
+      },
+      "603003.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-07-03",
+        "ownership": "dedicated_fetch"
+      },
+      "603056.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-03-31",
+        "ownership": "dedicated_fetch"
+      },
+      "603133.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-07-03",
+        "ownership": "dedicated_fetch"
+      },
+      "603388.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-12-05",
+        "ownership": "dedicated_fetch"
+      },
+      "603555.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-03-29",
+        "ownership": "dedicated_fetch"
+      },
+      "603603.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2024-04-25",
+        "ownership": "dedicated_fetch"
+      },
+      "603963.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2025-03-21",
+        "ownership": "dedicated_fetch"
+      },
+      "605081.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-07-03",
+        "ownership": "dedicated_fetch"
+      },
+      "688287.SH": {
+        "basis": "formal_delist_date",
+        "formal_delist_date": "2026-06-10",
+        "ownership": "dedicated_fetch"
+      }
+    },
+    "targets_count": 102,
+    "targets_sha256": "28747b467f4c68619f7c1c58e6ee826d97da27c2c12af88e4174e026d848c488"
+  },
+  "status": "complete",
+  "unresolved_symbols": [],
+  "updated_at": "2026-10-16T05:56:21.425688+00:00"
+}

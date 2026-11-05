@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "option_greeks",
+  "revision": 4,
+  "revision_id": "a094aa3437c447e28fea57f32f9576d2",
+  "generation_path": "revisions/data/option_greeks/a094aa3437c447e28fea57f32f9576d2",
+  "receipt": "revisions/option_greeks/00000004-a094aa3437c447e28fea57f32f9576d2.json",
+  "content_digest": "3ee3b916e86c3f755180aeb6a603be2e7245d6eeb0848c68b2c0cf412fc2be8b",
+  "committed_at": "2026-10-23T14:09:45.883643+00:00"
+}

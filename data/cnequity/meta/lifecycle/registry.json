@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "lake_id": "389524ca2c854c57aa0567c2191a7a7d",
+  "meta_root": "D:\\repository\\数据湖\\data\\cnequity\\meta",
+  "holds": {
+    "revision/corporate_actions/849564a6e6db4486830a80b8bd34f6ad": [
+      {
+        "reason": "Pre-schema-migration source evidence for the 16 inferred restructuring markers",
+        "created_at": "2026-10-23T22:52:21.001059+00:00"
+      },
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/northbound_holdings/1b2710df0bba4286bb2a239d3c593109": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/sector_bars/a17fecee89b142d4a6fb5c4e9cca7fc9": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/margin_trading/83ab8026dc6041be8cbe7095c1359151": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/sentiment_scores/d5d48d5bbd634efb847b713816114ab1": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/valuation_metrics/5b7c158be6ba498483cf58158cda3871": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/macro_indicators/056b8bbf0c2b41b29dbc5b9eeab66eff": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/block_trades/e342caef48c343b5b990e05a9e99cf5f": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/etf_profiles/d00c0ef8a54e4d7c89a9f49aceb3ac19": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/northbound_flows/65013a73431443fe87aa83769a22fd45": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/sector_members/1e44dd8044ed497ea2e782b24d825d4c": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/market_breadth/72fe7ad05d1d402cafe15e98e323622f": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/fund_flow/e724d22951064a0d9d04334fb26df47b": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/dragon_tiger/db083e4957bf48c2b1a7853b7b6fae7b": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/analyst_consensus/7a0ecf33c7c448f892e871b4756dce59": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ],
+    "revision/commodity_bars/e16030accaff4c4481863fcad578fb5e": [
+      {
+        "kind": "selection_reference",
+        "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+      }
+    ]
+  },
+  "cases": [],
+  "pending": {},
+  "experiments": [],
+  "reference_roots": [
+    {
+      "path": "D:\\repository\\数据湖\\分析产出",
+      "exclude": [
+        "A阶段_版本保护盘点.json",
+        "A阶段_引用保护导入.json",
+        "A阶段_清理计划摘要.json",
+        "A阶段_执行结果.json",
+        "_瘦身体积盘点.json",
+        "_瘦身详细盘点.json"
+      ]
+    },
+    {
+      "path": "D:\\repository\\数据湖\\configs",
+      "exclude": []
+    }
+  ],
+  "reference_fingerprint": "af7953450d9d0c92431a37de3e04f7677c7d8a902a7833ca7aafb8db8aac352c",
+  "imported_at": "2026-11-05T06:08:32.743558+00:00",
+  "import_digest": "4f68dcac486a10c19f81b4d3bf2defbc3dcaac8ed612513eb47ae88c1dac32d0"
+}

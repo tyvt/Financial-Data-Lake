@@ -1,0 +1,3063 @@
+{
+  "schema_version": 1,
+  "meta_root": "D:\\repository\\数据湖\\data\\cnequity\\meta",
+  "keep": 2,
+  "lake_id": "389524ca2c854c57aa0567c2191a7a7d",
+  "registry_digest": "7bd80455ebe0728d830c137c073864cc816e40eb4989bb7880e5dbf42a878ca0",
+  "objects": [
+    {
+      "object_id": "revision/adj_factors/0a4f9e96bc1d41b58ede8cdb682e4f1a",
+      "dataset": "adj_factors",
+      "revision_id": "0a4f9e96bc1d41b58ede8cdb682e4f1a",
+      "revision": 9,
+      "path": "revisions/data/adj_factors/0a4f9e96bc1d41b58ede8cdb682e4f1a",
+      "receipt_digest": "5d90a6abbd44ec9f3f552fe347fa1de522f5db2bfe087642b406a16717d93af2",
+      "directory_identity": [
+        4043248272,
+        3659174698387350,
+        1792796522951694900
+      ],
+      "logical_bytes": 126718780,
+      "current": false,
+      "pointer_digest": "681c229a38eb43aaac6c16ea2df093c81e2c129c02ebf68a06a6a89696125b04",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "bff90000879047a421a68d46b63df9558c17e6e1a590285f3d1d941ebed5f268"
+    },
+    {
+      "object_id": "revision/adj_factors/132ff52bd62c4d6086028e032296b217",
+      "dataset": "adj_factors",
+      "revision_id": "132ff52bd62c4d6086028e032296b217",
+      "revision": 7,
+      "path": "revisions/data/adj_factors/132ff52bd62c4d6086028e032296b217",
+      "receipt_digest": "1187f90f9faf438cc8cefc82bc2a63ff11c20e904f732c0e5fe8e81a0a47977c",
+      "directory_identity": [
+        4043248272,
+        1970324840118759,
+        1792464708838350000
+      ],
+      "logical_bytes": 123869488,
+      "current": false,
+      "pointer_digest": "681c229a38eb43aaac6c16ea2df093c81e2c129c02ebf68a06a6a89696125b04",
+      "blocked_reasons": [
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/adj_factors/1ef20695a750461bb9d7608bee2512ad",
+      "dataset": "adj_factors",
+      "revision_id": "1ef20695a750461bb9d7608bee2512ad",
+      "revision": 10,
+      "path": "revisions/data/adj_factors/1ef20695a750461bb9d7608bee2512ad",
+      "receipt_digest": "7f2f2caa5cd77c597e4c4f5dacdc9edd8614b905716974f85497f7b888c68216",
+      "directory_identity": [
+        4043248272,
+        3096224744955857,
+        1793275334078349300
+      ],
+      "logical_bytes": 126957337,
+      "current": false,
+      "pointer_digest": "681c229a38eb43aaac6c16ea2df093c81e2c129c02ebf68a06a6a89696125b04",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "112bd1573659c562132580c61e36bc2f862f548e0246b1777875f41f7b3a93ee"
+    },
+    {
+      "object_id": "revision/adj_factors/4fc351bc25c944ee9a7c014c6d112368",
+      "dataset": "adj_factors",
+      "revision_id": "4fc351bc25c944ee9a7c014c6d112368",
+      "revision": 11,
+      "path": "revisions/data/adj_factors/4fc351bc25c944ee9a7c014c6d112368",
+      "receipt_digest": "da20773e3364c74e02394ca7b81e2b314e269a23b8c3a14953a699b39cf51fb3",
+      "directory_identity": [
+        4043248272,
+        3659174698419939,
+        1793841585119851000
+      ],
+      "logical_bytes": 126985493,
+      "current": false,
+      "pointer_digest": "681c229a38eb43aaac6c16ea2df093c81e2c129c02ebf68a06a6a89696125b04",
+      "blocked_reasons": [
+        "recent_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/adj_factors/b70dc083101d4b258a9ab5da9c562932",
+      "dataset": "adj_factors",
+      "revision_id": "b70dc083101d4b258a9ab5da9c562932",
+      "revision": 12,
+      "path": "revisions/data/adj_factors/b70dc083101d4b258a9ab5da9c562932",
+      "receipt_digest": "4d62b837367305f611455ef47a7cbd8720aeedb78d9cfa145ef8cc4d7a0f8732",
+      "directory_identity": [
+        4043248272,
+        2533274792754132,
+        1793846274696834400
+      ],
+      "logical_bytes": 127166717,
+      "current": true,
+      "pointer_digest": "681c229a38eb43aaac6c16ea2df093c81e2c129c02ebf68a06a6a89696125b04",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/adj_factors/eb76f2136f494eaca8c319fc98124bef",
+      "dataset": "adj_factors",
+      "revision_id": "eb76f2136f494eaca8c319fc98124bef",
+      "revision": 8,
+      "path": "revisions/data/adj_factors/eb76f2136f494eaca8c319fc98124bef",
+      "receipt_digest": "9cc39651da9370b22ebf05325584efd0466c0fbb9a963e84ff02f7f420dfba1a",
+      "directory_identity": [
+        4043248272,
+        16325548650359538,
+        1792766968362472400
+      ],
+      "logical_bytes": 126445651,
+      "current": false,
+      "pointer_digest": "681c229a38eb43aaac6c16ea2df093c81e2c129c02ebf68a06a6a89696125b04",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "55a14b0e3c9493cc3c6ad2f528af5b595483abf3cb5db17f0be16967f3757439"
+    },
+    {
+      "object_id": "revision/adj_factors/legacy",
+      "dataset": "adj_factors",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/adj_factors/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        4503599628510127,
+        1792130191490430100
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "681c229a38eb43aaac6c16ea2df093c81e2c129c02ebf68a06a6a89696125b04",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/analyst_consensus/7a0ecf33c7c448f892e871b4756dce59",
+      "dataset": "analyst_consensus",
+      "revision_id": "7a0ecf33c7c448f892e871b4756dce59",
+      "revision": 4,
+      "path": "revisions/data/analyst_consensus/7a0ecf33c7c448f892e871b4756dce59",
+      "receipt_digest": "570aa347ed62960701bedebd90e08a4bb4fe0b6c1fd878ee2c43f7695fe4bb8f",
+      "directory_identity": [
+        4043248272,
+        18295873486261033,
+        1792761106656218400
+      ],
+      "logical_bytes": 2048,
+      "current": true,
+      "pointer_digest": "dac8e003b2569680caf3bce730c8af95040b69b4c19517681363ae815f694a2f",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/analyst_consensus/legacy",
+      "dataset": "analyst_consensus",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/analyst_consensus/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        5910974512073125,
+        1792131418817025800
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "dac8e003b2569680caf3bce730c8af95040b69b4c19517681363ae815f694a2f",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/announcement_index/0b46b64b82034d51a493ac1a6350df18",
+      "dataset": "announcement_index",
+      "revision_id": "0b46b64b82034d51a493ac1a6350df18",
+      "revision": 4,
+      "path": "revisions/data/announcement_index/0b46b64b82034d51a493ac1a6350df18",
+      "receipt_digest": "f8cc6024921ea0b67981e316821633eef51ab33ba6fee16b41f1b61d957c4c64",
+      "directory_identity": [
+        4043248272,
+        5066549582309775,
+        1792767991448780600
+      ],
+      "logical_bytes": 1360099,
+      "current": false,
+      "pointer_digest": "6b82a8cbe7fc25796fb24ab9b77796ca0f426c514271bc4e9ffbe4dcb9641e94",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "33752a53abacce07e6f40ae70b61973200a989173183973469b2127c07195072"
+    },
+    {
+      "object_id": "revision/announcement_index/1a7f6873f0df44a387a70313ebb6f49e",
+      "dataset": "announcement_index",
+      "revision_id": "1a7f6873f0df44a387a70313ebb6f49e",
+      "revision": 6,
+      "path": "revisions/data/announcement_index/1a7f6873f0df44a387a70313ebb6f49e",
+      "receipt_digest": "c97411c8476d8cb7b938bff57d4f9af1f173fff819726c8d2b9a12698a57de0e",
+      "directory_identity": [
+        4043248272,
+        6755399443175666,
+        1793843442631210300
+      ],
+      "logical_bytes": 2482684,
+      "current": true,
+      "pointer_digest": "6b82a8cbe7fc25796fb24ab9b77796ca0f426c514271bc4e9ffbe4dcb9641e94",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/announcement_index/761f8caf5b8e45d5aea76c396998171b",
+      "dataset": "announcement_index",
+      "revision_id": "761f8caf5b8e45d5aea76c396998171b",
+      "revision": 3,
+      "path": "revisions/data/announcement_index/761f8caf5b8e45d5aea76c396998171b",
+      "receipt_digest": "88e67e44c9b08750eba3c51df654f2b193f52fea3ec960045ff4a1dd4675e478",
+      "directory_identity": [
+        4043248272,
+        844424932952409,
+        1792411238195031800
+      ],
+      "logical_bytes": 413124,
+      "current": false,
+      "pointer_digest": "6b82a8cbe7fc25796fb24ab9b77796ca0f426c514271bc4e9ffbe4dcb9641e94",
+      "blocked_reasons": [
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/announcement_index/b2b7c94d1cfa430fa9b139cb2be5a628",
+      "dataset": "announcement_index",
+      "revision_id": "b2b7c94d1cfa430fa9b139cb2be5a628",
+      "revision": 5,
+      "path": "revisions/data/announcement_index/b2b7c94d1cfa430fa9b139cb2be5a628",
+      "receipt_digest": "28001d1f1ece127a91d05eb6aaea0e907961c4c5d357049fd99844ba31b48554",
+      "directory_identity": [
+        4043248272,
+        5910974511098941,
+        1793198561831545600
+      ],
+      "logical_bytes": 1445289,
+      "current": false,
+      "pointer_digest": "6b82a8cbe7fc25796fb24ab9b77796ca0f426c514271bc4e9ffbe4dcb9641e94",
+      "blocked_reasons": [
+        "recent_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/announcement_index/legacy",
+      "dataset": "announcement_index",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/announcement_index/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        7599824372334805,
+        1792130783393908900
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "6b82a8cbe7fc25796fb24ab9b77796ca0f426c514271bc4e9ffbe4dcb9641e94",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/block_trades/e342caef48c343b5b990e05a9e99cf5f",
+      "dataset": "block_trades",
+      "revision_id": "e342caef48c343b5b990e05a9e99cf5f",
+      "revision": 4,
+      "path": "revisions/data/block_trades/e342caef48c343b5b990e05a9e99cf5f",
+      "receipt_digest": "18d669b27c2ef9118f7f4c08d176f39c6f0b8bfa28964188ee45872f14c0941c",
+      "directory_identity": [
+        4043248272,
+        13510798882179920,
+        1792761106677207000
+      ],
+      "logical_bytes": 1640,
+      "current": true,
+      "pointer_digest": "d57342bad46e2c335892eaa6e1284e7f5c1baa95ef760d99e99abeeafde7f74b",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/block_trades/legacy",
+      "dataset": "block_trades",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/block_trades/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        4222124651799880,
+        1792131233710977100
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "d57342bad46e2c335892eaa6e1284e7f5c1baa95ef760d99e99abeeafde7f74b",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/commodity_bars/e16030accaff4c4481863fcad578fb5e",
+      "dataset": "commodity_bars",
+      "revision_id": "e16030accaff4c4481863fcad578fb5e",
+      "revision": 4,
+      "path": "revisions/data/commodity_bars/e16030accaff4c4481863fcad578fb5e",
+      "receipt_digest": "ed25a99fd9c8b7e864071df9d847b2afab3232e66b56bc86a756900fa28f9bab",
+      "directory_identity": [
+        4043248272,
+        24769797950606206,
+        1792761106698834100
+      ],
+      "logical_bytes": 2364,
+      "current": true,
+      "pointer_digest": "b42617ac2d0659f2a5dcc3592298eaf9afac821a3553183376f81df84ce60903",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/commodity_bars/legacy",
+      "dataset": "commodity_bars",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/commodity_bars/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        7599824372335194,
+        1792131359612208000
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "b42617ac2d0659f2a5dcc3592298eaf9afac821a3553183376f81df84ce60903",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/corporate_actions/5247fb4494ef49b5b1eab81fcdf52f11",
+      "dataset": "corporate_actions",
+      "revision_id": "5247fb4494ef49b5b1eab81fcdf52f11",
+      "revision": 9,
+      "path": "revisions/data/corporate_actions/5247fb4494ef49b5b1eab81fcdf52f11",
+      "receipt_digest": "cfbeb0255a9a26fa1c323fce051f6d3997bcc6141ee52b8e1988c27272d1b644",
+      "directory_identity": [
+        4043248272,
+        34339947159677177,
+        1792795937562776100
+      ],
+      "logical_bytes": 667664,
+      "current": false,
+      "pointer_digest": "a85b23899f2d18e686c6a58dd77c29b98c57f50657e306f97dcf9b4c4e9cb610",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "f99e57e79d40ff7eb1ef3f11359464a3629a44e7185c94115e5fb766b1813a26"
+    },
+    {
+      "object_id": "revision/corporate_actions/849564a6e6db4486830a80b8bd34f6ad",
+      "dataset": "corporate_actions",
+      "revision_id": "849564a6e6db4486830a80b8bd34f6ad",
+      "revision": 8,
+      "path": "revisions/data/corporate_actions/849564a6e6db4486830a80b8bd34f6ad",
+      "receipt_digest": "be36993e40c2567db9397a756863622c16b26a5dc0986613a8799630a6bf8a99",
+      "directory_identity": [
+        4043248272,
+        2533274792079081,
+        1792469718980436700
+      ],
+      "logical_bytes": 667773,
+      "current": false,
+      "pointer_digest": "a85b23899f2d18e686c6a58dd77c29b98c57f50657e306f97dcf9b4c4e9cb610",
+      "blocked_reasons": [
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "reason": "Pre-schema-migration source evidence for the 16 inferred restructuring markers",
+          "created_at": "2026-10-23T22:52:21.001059+00:00"
+        },
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/corporate_actions/c7dca6cefffc4b0e9654cbcfc0668618",
+      "dataset": "corporate_actions",
+      "revision_id": "c7dca6cefffc4b0e9654cbcfc0668618",
+      "revision": 12,
+      "path": "revisions/data/corporate_actions/c7dca6cefffc4b0e9654cbcfc0668618",
+      "receipt_digest": "918fd6a8448f9b04ed97dde52c94d9440aea6b8918882b1331d79f6c3459ee5e",
+      "directory_identity": [
+        4043248272,
+        48132221017541329,
+        1793841408314289700
+      ],
+      "logical_bytes": 668511,
+      "current": true,
+      "pointer_digest": "a85b23899f2d18e686c6a58dd77c29b98c57f50657e306f97dcf9b4c4e9cb610",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/corporate_actions/c994d5978f56457ba4c87c9ad240b03c",
+      "dataset": "corporate_actions",
+      "revision_id": "c994d5978f56457ba4c87c9ad240b03c",
+      "revision": 11,
+      "path": "revisions/data/corporate_actions/c994d5978f56457ba4c87c9ad240b03c",
+      "receipt_digest": "d43ddfcc1f990e9507ff0342aa0b1012b140aa6e266490a91d18482c82aef1a1",
+      "directory_identity": [
+        4043248272,
+        5629499535398367,
+        1793359955208288400
+      ],
+      "logical_bytes": 668384,
+      "current": false,
+      "pointer_digest": "a85b23899f2d18e686c6a58dd77c29b98c57f50657e306f97dcf9b4c4e9cb610",
+      "blocked_reasons": [
+        "recent_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/corporate_actions/f6cf24b493304b04b0d1d942cedd1c99",
+      "dataset": "corporate_actions",
+      "revision_id": "f6cf24b493304b04b0d1d942cedd1c99",
+      "revision": 10,
+      "path": "revisions/data/corporate_actions/f6cf24b493304b04b0d1d942cedd1c99",
+      "receipt_digest": "ef8c850f6be8a68457ec2d487df2aef6c4bc98f73f9b10f2dc4cbe190af857c6",
+      "directory_identity": [
+        4043248272,
+        12947848929875407,
+        1792796229717439100
+      ],
+      "logical_bytes": 668194,
+      "current": false,
+      "pointer_digest": "a85b23899f2d18e686c6a58dd77c29b98c57f50657e306f97dcf9b4c4e9cb610",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "0a496eb698f137fdb01b0b825463d3e54451744f0b1c47f9c80158bc9c9f4580"
+    },
+    {
+      "object_id": "revision/corporate_actions/legacy",
+      "dataset": "corporate_actions",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/corporate_actions/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        3659174698378103,
+        1792130190242567700
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "a85b23899f2d18e686c6a58dd77c29b98c57f50657e306f97dcf9b4c4e9cb610",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/daily_bars/425b058aeb2441f4be45abb5094ddb8b",
+      "dataset": "daily_bars",
+      "revision_id": "425b058aeb2441f4be45abb5094ddb8b",
+      "revision": 12,
+      "path": "revisions/data/daily_bars/425b058aeb2441f4be45abb5094ddb8b",
+      "receipt_digest": "14237b35fc28c3bcb98e40f8a8793cc43766f6fa8be6720a5f52e841cc6c2e52",
+      "directory_identity": [
+        4043248272,
+        3377699721713717,
+        1792796221849769800
+      ],
+      "logical_bytes": 296937760,
+      "current": false,
+      "pointer_digest": "8830236ca1f721df8c2063dee447abbd44d98123a62bb56021abcf149d424da5",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "84b1c7c67a27e05128264f6e2cb06f240da6b88de3832c5afb8471a231d945de"
+    },
+    {
+      "object_id": "revision/daily_bars/81326aa4911a4b2785fb20d89d905e38",
+      "dataset": "daily_bars",
+      "revision_id": "81326aa4911a4b2785fb20d89d905e38",
+      "revision": 8,
+      "path": "revisions/data/daily_bars/81326aa4911a4b2785fb20d89d905e38",
+      "receipt_digest": "15ee57a5773ac3fb2112187e5fc11045a8ac717b030cd4c4b746c496d6d37970",
+      "directory_identity": [
+        4043248272,
+        562949956622760,
+        1792471334042509500
+      ],
+      "logical_bytes": 279054476,
+      "current": false,
+      "pointer_digest": "8830236ca1f721df8c2063dee447abbd44d98123a62bb56021abcf149d424da5",
+      "blocked_reasons": [
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "reason": "A cleanup: content verification failed; retain for repair",
+          "created_at": "2026-10-23T12:58:00.081437+00:00"
+        },
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\_A阶段核验报告.py"
+        },
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\A阶段_清理后核验.json"
+        },
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\数据湖瘦身_A阶段执行报告.md"
+        },
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\归档_20261105\\瘦身与清理过程\\A阶段_清理后核验.json"
+        },
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\归档_20261105\\瘦身与清理过程\\数据湖瘦身_A阶段执行报告.md"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/daily_bars/9935feb8d8c948ba8cdbb9cb2edc0ae5",
+      "dataset": "daily_bars",
+      "revision_id": "9935feb8d8c948ba8cdbb9cb2edc0ae5",
+      "revision": 14,
+      "path": "revisions/data/daily_bars/9935feb8d8c948ba8cdbb9cb2edc0ae5",
+      "receipt_digest": "10cdd0cca8d95522386e3bd01ce48f108926cfe03b84f4e88277f5081cbb99c8",
+      "directory_identity": [
+        4043248272,
+        101893941569300784,
+        1793845945275585100
+      ],
+      "logical_bytes": 297940031,
+      "current": true,
+      "pointer_digest": "8830236ca1f721df8c2063dee447abbd44d98123a62bb56021abcf149d424da5",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/daily_bars/ae4bfb16f0df464a8ac8a5e454484c8d",
+      "dataset": "daily_bars",
+      "revision_id": "ae4bfb16f0df464a8ac8a5e454484c8d",
+      "revision": 13,
+      "path": "revisions/data/daily_bars/ae4bfb16f0df464a8ac8a5e454484c8d",
+      "receipt_digest": "212f8662955335b8ff72df00bce4903fd16846584413f78a90d03d72a7034847",
+      "directory_identity": [
+        4043248272,
+        4222124651845171,
+        1793275151700252700
+      ],
+      "logical_bytes": 297435673,
+      "current": false,
+      "pointer_digest": "8830236ca1f721df8c2063dee447abbd44d98123a62bb56021abcf149d424da5",
+      "blocked_reasons": [
+        "recent_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/daily_bars/d27bc73225b9486ab47cc3000a578abf",
+      "dataset": "daily_bars",
+      "revision_id": "d27bc73225b9486ab47cc3000a578abf",
+      "revision": 11,
+      "path": "revisions/data/daily_bars/d27bc73225b9486ab47cc3000a578abf",
+      "receipt_digest": "f1345d4dc986fab84ae76dd9bc2c981f187995e4607054b6e04c8debf06aafa0",
+      "directory_identity": [
+        4043248272,
+        99360666782089861,
+        1792470907378750700
+      ],
+      "logical_bytes": 296428774,
+      "current": false,
+      "pointer_digest": "8830236ca1f721df8c2063dee447abbd44d98123a62bb56021abcf149d424da5",
+      "blocked_reasons": [
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/daily_bars/legacy",
+      "dataset": "daily_bars",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/daily_bars/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        48976645947657108,
+        1792130181497496900
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "8830236ca1f721df8c2063dee447abbd44d98123a62bb56021abcf149d424da5",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/dragon_tiger/db083e4957bf48c2b1a7853b7b6fae7b",
+      "dataset": "dragon_tiger",
+      "revision_id": "db083e4957bf48c2b1a7853b7b6fae7b",
+      "revision": 3,
+      "path": "revisions/data/dragon_tiger/db083e4957bf48c2b1a7853b7b6fae7b",
+      "receipt_digest": "ffbbaee9e20605b3b5efbde9153cc0d308ab228a1520f33b281beedf1963c734",
+      "directory_identity": [
+        4043248272,
+        31243722414951360,
+        1792761106719574800
+      ],
+      "logical_bytes": 1660,
+      "current": true,
+      "pointer_digest": "cc440135cb89946b5aae6dc5fad756f3e3c6e70334151179c4c749adc70931e4",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/dragon_tiger/legacy",
+      "dataset": "dragon_tiger",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/dragon_tiger/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        9288674232591681,
+        1792131233676704600
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "cc440135cb89946b5aae6dc5fad756f3e3c6e70334151179c4c749adc70931e4",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/earnings_disclosure_schedule/099826e576924e2fa3d7f446256cacb4",
+      "dataset": "earnings_disclosure_schedule",
+      "revision_id": "099826e576924e2fa3d7f446256cacb4",
+      "revision": 6,
+      "path": "revisions/data/earnings_disclosure_schedule/099826e576924e2fa3d7f446256cacb4",
+      "receipt_digest": "10847b8a193b12fe467be0ded45af55b46810b3c0f529184ba02119008046fcc",
+      "directory_identity": [
+        4043248272,
+        6755399441221813,
+        1793841704628543700
+      ],
+      "logical_bytes": 65962,
+      "current": true,
+      "pointer_digest": "ba36ca2b59555adced1928f4aa1fea0137438c61f7f1e68b2519a635455a368e",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/earnings_disclosure_schedule/6bf0074672a9425ba2dea18350266901",
+      "dataset": "earnings_disclosure_schedule",
+      "revision_id": "6bf0074672a9425ba2dea18350266901",
+      "revision": 5,
+      "path": "revisions/data/earnings_disclosure_schedule/6bf0074672a9425ba2dea18350266901",
+      "receipt_digest": "7e59a9b88d823a841304e641ee92e8b2d24ea433581ed4cee98f1849716454c0",
+      "directory_identity": [
+        4043248272,
+        5910974512441144,
+        1793360175533879500
+      ],
+      "logical_bytes": 65948,
+      "current": false,
+      "pointer_digest": "ba36ca2b59555adced1928f4aa1fea0137438c61f7f1e68b2519a635455a368e",
+      "blocked_reasons": [
+        "recent_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/earnings_disclosure_schedule/87e30079c5ca4b0f9fe840213ba92bd0",
+      "dataset": "earnings_disclosure_schedule",
+      "revision_id": "87e30079c5ca4b0f9fe840213ba92bd0",
+      "revision": 3,
+      "path": "revisions/data/earnings_disclosure_schedule/87e30079c5ca4b0f9fe840213ba92bd0",
+      "receipt_digest": "8089131093d43f622c128f392b0a0e533cd3045a63c8f9a18cba6bd4bc8eb4dd",
+      "directory_identity": [
+        4043248272,
+        562949956606679,
+        1792464991693436300
+      ],
+      "logical_bytes": 62908,
+      "current": false,
+      "pointer_digest": "ba36ca2b59555adced1928f4aa1fea0137438c61f7f1e68b2519a635455a368e",
+      "blocked_reasons": [
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/earnings_disclosure_schedule/94a848dec91540c98872b75ebb37607e",
+      "dataset": "earnings_disclosure_schedule",
+      "revision_id": "94a848dec91540c98872b75ebb37607e",
+      "revision": 4,
+      "path": "revisions/data/earnings_disclosure_schedule/94a848dec91540c98872b75ebb37607e",
+      "receipt_digest": "9d2452026610bc55d19e9d75f54e2708480461551701af882530d26ba33e89d7",
+      "directory_identity": [
+        4043248272,
+        5066549582309398,
+        1792767020875375400
+      ],
+      "logical_bytes": 63661,
+      "current": false,
+      "pointer_digest": "ba36ca2b59555adced1928f4aa1fea0137438c61f7f1e68b2519a635455a368e",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "2096b86f62b74c8a2519a5f08d48eb099ab0b2c4bbbbf159e452782a9807c9d9"
+    },
+    {
+      "object_id": "revision/earnings_disclosure_schedule/legacy",
+      "dataset": "earnings_disclosure_schedule",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/earnings_disclosure_schedule/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        7318349395617340,
+        1792131285630374700
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "ba36ca2b59555adced1928f4aa1fea0137438c61f7f1e68b2519a635455a368e",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/etf_profiles/d00c0ef8a54e4d7c89a9f49aceb3ac19",
+      "dataset": "etf_profiles",
+      "revision_id": "d00c0ef8a54e4d7c89a9f49aceb3ac19",
+      "revision": 2,
+      "path": "revisions/data/etf_profiles/d00c0ef8a54e4d7c89a9f49aceb3ac19",
+      "receipt_digest": "1d8f460678cd779685cba21b8e4389a3f32209d1a3c7b99aa4bdfaccd300ea71",
+      "directory_identity": [
+        4043248272,
+        13792273858890704,
+        1792761106740607800
+      ],
+      "logical_bytes": 2775,
+      "current": true,
+      "pointer_digest": "f6ddfa24cb540c80559dcf30302119af9f6581e287add1f133ff5372dd998fd7",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/etf_profiles/legacy",
+      "dataset": "etf_profiles",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/etf_profiles/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        10696049116154269,
+        1792131418787424900
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "f6ddfa24cb540c80559dcf30302119af9f6581e287add1f133ff5372dd998fd7",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/financial_statement_items/8260d0d4b6d748faad76a918d886f417",
+      "dataset": "financial_statement_items",
+      "revision_id": "8260d0d4b6d748faad76a918d886f417",
+      "revision": 9,
+      "path": "revisions/data/financial_statement_items/8260d0d4b6d748faad76a918d886f417",
+      "receipt_digest": "cf131a7b3ce04017ed920105cc73f9a4a27ca21f3581bfbc002b9ffc543815f1",
+      "directory_identity": [
+        4043248272,
+        5348024559019840,
+        1793360175699654300
+      ],
+      "logical_bytes": 68275605,
+      "current": false,
+      "pointer_digest": "955040ad9f01de43340150572e9004b10df3d49f9c87054211c18ad655f8a030",
+      "blocked_reasons": [
+        "recent_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/financial_statement_items/c8794e7dbcb44383ae337c5dad2474d5",
+      "dataset": "financial_statement_items",
+      "revision_id": "c8794e7dbcb44383ae337c5dad2474d5",
+      "revision": 7,
+      "path": "revisions/data/financial_statement_items/c8794e7dbcb44383ae337c5dad2474d5",
+      "receipt_digest": "27f6ef365dd673d62b7c020ca99dbbd9f9bc76eb03c3d16dd17121bca5badbdb",
+      "directory_identity": [
+        4043248272,
+        1407374885948045,
+        1792469436750512300
+      ],
+      "logical_bytes": 64464012,
+      "current": false,
+      "pointer_digest": "955040ad9f01de43340150572e9004b10df3d49f9c87054211c18ad655f8a030",
+      "blocked_reasons": [
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/financial_statement_items/e992ead6d8824a54b9ee76fb100e6a2c",
+      "dataset": "financial_statement_items",
+      "revision_id": "e992ead6d8824a54b9ee76fb100e6a2c",
+      "revision": 10,
+      "path": "revisions/data/financial_statement_items/e992ead6d8824a54b9ee76fb100e6a2c",
+      "receipt_digest": "6fa9f6bdbb63e53aed4181f686556f28e88cdd46d02da6c50611067864bf9096",
+      "directory_identity": [
+        4043248272,
+        68398419340727079,
+        1793841704805029700
+      ],
+      "logical_bytes": 70381740,
+      "current": true,
+      "pointer_digest": "955040ad9f01de43340150572e9004b10df3d49f9c87054211c18ad655f8a030",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/financial_statement_items/f8a5d80bb99a42198fa3c05eae771a7d",
+      "dataset": "financial_statement_items",
+      "revision_id": "f8a5d80bb99a42198fa3c05eae771a7d",
+      "revision": 8,
+      "path": "revisions/data/financial_statement_items/f8a5d80bb99a42198fa3c05eae771a7d",
+      "receipt_digest": "d7717943bb6cef86c4b9973b41208a805727cf4acfb803e200962c15c4d7127a",
+      "directory_identity": [
+        4043248272,
+        4503599628888094,
+        1792767021068605600
+      ],
+      "logical_bytes": 64674689,
+      "current": false,
+      "pointer_digest": "955040ad9f01de43340150572e9004b10df3d49f9c87054211c18ad655f8a030",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "d5922c1776414154a953b1739456f68e6a438c07af7780ad0fcfd97f557a3333"
+    },
+    {
+      "object_id": "revision/financial_statement_items/legacy",
+      "dataset": "financial_statement_items",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/financial_statement_items/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        4785074605221445,
+        1792131285670806100
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "955040ad9f01de43340150572e9004b10df3d49f9c87054211c18ad655f8a030",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/fund_flow/e724d22951064a0d9d04334fb26df47b",
+      "dataset": "fund_flow",
+      "revision_id": "e724d22951064a0d9d04334fb26df47b",
+      "revision": 2,
+      "path": "revisions/data/fund_flow/e724d22951064a0d9d04334fb26df47b",
+      "receipt_digest": "329d663e952009d181cd2cdb030ae120a8f66f3e55e9842790bfe6f82ede7bed",
+      "directory_identity": [
+        4043248272,
+        3096224743922556,
+        1792761106762111100
+      ],
+      "logical_bytes": 1949,
+      "current": true,
+      "pointer_digest": "79da842db7c80427c0387beb56e7c96692e0b7ac7a464d53296339c1b09dbb8b",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/fund_flow/legacy",
+      "dataset": "fund_flow",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/fund_flow/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        7599824372327661,
+        1792131221502435700
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "79da842db7c80427c0387beb56e7c96692e0b7ac7a464d53296339c1b09dbb8b",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/futures_bars/65ce9cac1f9c441f95182ddd04191fbe",
+      "dataset": "futures_bars",
+      "revision_id": "65ce9cac1f9c441f95182ddd04191fbe",
+      "revision": 3,
+      "path": "revisions/data/futures_bars/65ce9cac1f9c441f95182ddd04191fbe",
+      "receipt_digest": "12a5408e7733eaabb28abf106f40b5fcd1a8bfd7cbfe81ef8eef31913c3b6d5e",
+      "directory_identity": [
+        4043248272,
+        4222124650765504,
+        1792764521488224400
+      ],
+      "logical_bytes": 3018,
+      "current": true,
+      "pointer_digest": "d82a8207633186343b304269941bd6b982f41ae83e9ad7c2530dce4a221fcd46",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/futures_bars/legacy",
+      "dataset": "futures_bars",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/futures_bars/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        1407374885711376,
+        1792222619413241100
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "d82a8207633186343b304269941bd6b982f41ae83e9ad7c2530dce4a221fcd46",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/futures_continuous/6d0af4a8ee2d4f62a6c10af172edd9a4",
+      "dataset": "futures_continuous",
+      "revision_id": "6d0af4a8ee2d4f62a6c10af172edd9a4",
+      "revision": 5,
+      "path": "revisions/data/futures_continuous/6d0af4a8ee2d4f62a6c10af172edd9a4",
+      "receipt_digest": "bda2d8478556054742a559621927f28c94e65de8371ed5d3cca24a6f5c08692b",
+      "directory_identity": [
+        4043248272,
+        4222124650765518,
+        1792764585652542600
+      ],
+      "logical_bytes": 3119,
+      "current": true,
+      "pointer_digest": "90d701be069ba072f55e28a5206a80c25290c2cbdcad69c3e9d61ccadf3e835d",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/futures_continuous/legacy",
+      "dataset": "futures_continuous",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/futures_continuous/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        1125899909098758,
+        1792246378191006700
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "90d701be069ba072f55e28a5206a80c25290c2cbdcad69c3e9d61ccadf3e835d",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/futures_contracts/8a4cc9b675a74d7d81cda9c699a442b9",
+      "dataset": "futures_contracts",
+      "revision_id": "8a4cc9b675a74d7d81cda9c699a442b9",
+      "revision": 4,
+      "path": "revisions/data/futures_contracts/8a4cc9b675a74d7d81cda9c699a442b9",
+      "receipt_digest": "466a20062d2e6f7b5ffd454baaaef8ce7f31146901d17e06381fb30ad6902f8a",
+      "directory_identity": [
+        4043248272,
+        2251799813862144,
+        1792764585674630600
+      ],
+      "logical_bytes": 3025,
+      "current": true,
+      "pointer_digest": "8b23a73125894144b182513dd3a2c83284e6b42df49298577ca584962c4c1cd7",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/futures_contracts/legacy",
+      "dataset": "futures_contracts",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/futures_contracts/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        1125899909098520,
+        1792246336297553800
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "8b23a73125894144b182513dd3a2c83284e6b42df49298577ca584962c4c1cd7",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/index_bars/a9df72f2b56d45098bb57b10e03d31ae",
+      "dataset": "index_bars",
+      "revision_id": "a9df72f2b56d45098bb57b10e03d31ae",
+      "revision": 7,
+      "path": "revisions/data/index_bars/a9df72f2b56d45098bb57b10e03d31ae",
+      "receipt_digest": "6cdd25146d2bad064261f7e2a7b6752450cc93239405c4162cbc74703cc3bc24",
+      "directory_identity": [
+        4043248272,
+        3377699720633432,
+        1792764521288802100
+      ],
+      "logical_bytes": 2210,
+      "current": true,
+      "pointer_digest": "a6234c97bb8fd9525adfabda18b55681d4251d7d874814b7e972127a24127ed6",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/index_bars/legacy",
+      "dataset": "index_bars",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/index_bars/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        3659174698378090,
+        1792130190153111200
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "a6234c97bb8fd9525adfabda18b55681d4251d7d874814b7e972127a24127ed6",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/index_constituents/a6a814141675460c8920bfed9b17f8bc",
+      "dataset": "index_constituents",
+      "revision_id": "a6a814141675460c8920bfed9b17f8bc",
+      "revision": 3,
+      "path": "revisions/data/index_constituents/a6a814141675460c8920bfed9b17f8bc",
+      "receipt_digest": "4e59c214856ce70020a4f1e8de38f681b0d74ecb8a88f230b0fdf5b05badcaed",
+      "directory_identity": [
+        4043248272,
+        3377699720633441,
+        1792764521338178200
+      ],
+      "logical_bytes": 1348,
+      "current": true,
+      "pointer_digest": "7f00ef9e1203f5c1887b5e8c18e682968cef1d12da00beed46127222178aabb8",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/index_constituents/legacy",
+      "dataset": "index_constituents",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/index_constituents/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        4222124651800180,
+        1792131285962005600
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "7f00ef9e1203f5c1887b5e8c18e682968cef1d12da00beed46127222178aabb8",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/industry_index/b670c566d0a648c39352b157424ec993",
+      "dataset": "industry_index",
+      "revision_id": "b670c566d0a648c39352b157424ec993",
+      "revision": 7,
+      "path": "revisions/data/industry_index/b670c566d0a648c39352b157424ec993",
+      "receipt_digest": "3ca6bb1e1bee32449f2289f876f578e23a113a02dcf3a68213cda8bfb433c7fa",
+      "directory_identity": [
+        4043248272,
+        7318349394582678,
+        1792764521448796500
+      ],
+      "logical_bytes": 2144,
+      "current": true,
+      "pointer_digest": "d4d06684f1eb62ccb997e41cf5ea1eda8f2dbe90e1c90292674396325a70f07d",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/industry_index/legacy",
+      "dataset": "industry_index",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/industry_index/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        5348024559022559,
+        1792151500194407300
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "d4d06684f1eb62ccb997e41cf5ea1eda8f2dbe90e1c90292674396325a70f07d",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/industry_members/90fa1072fe4d4bd8bb0bd6e6aac7681e",
+      "dataset": "industry_members",
+      "revision_id": "90fa1072fe4d4bd8bb0bd6e6aac7681e",
+      "revision": 6,
+      "path": "revisions/data/industry_members/90fa1072fe4d4bd8bb0bd6e6aac7681e",
+      "receipt_digest": "0edf832129eda5c1f8456a7fcd1a96c072c29b7413c5eab6e5028e8aca2f13c0",
+      "directory_identity": [
+        4043248272,
+        30680772461954668,
+        1793841704933684300
+      ],
+      "logical_bytes": 2061382,
+      "current": true,
+      "pointer_digest": "3a9df3cdbfdb40ff6f04b78e49fbc32d0d011fd861aae2c396e36cca5b932e56",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/industry_members/a90c75a598fa4f389d090276ec032d76",
+      "dataset": "industry_members",
+      "revision_id": "a90c75a598fa4f389d090276ec032d76",
+      "revision": 4,
+      "path": "revisions/data/industry_members/a90c75a598fa4f389d090276ec032d76",
+      "receipt_digest": "b647f5b9a35e2443f04b10752f06a64c5b3e594de71e4685afa7a831bb95c85c",
+      "directory_identity": [
+        4043248272,
+        5348024559019806,
+        1792767021199515300
+      ],
+      "logical_bytes": 1992632,
+      "current": false,
+      "pointer_digest": "3a9df3cdbfdb40ff6f04b78e49fbc32d0d011fd861aae2c396e36cca5b932e56",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "0c0f1c98fe3b4457728f243b709149655173bbd842aeb9c3338c37a59d33e493"
+    },
+    {
+      "object_id": "revision/industry_members/b2ff3edc6ffb4246811bcb2d910418dc",
+      "dataset": "industry_members",
+      "revision_id": "b2ff3edc6ffb4246811bcb2d910418dc",
+      "revision": 3,
+      "path": "revisions/data/industry_members/b2ff3edc6ffb4246811bcb2d910418dc",
+      "receipt_digest": "e44058d4c315e20bf465c4e3a712be0005eeeadfdb9873af4fd625af2706dbcf",
+      "directory_identity": [
+        4043248272,
+        562949956606853,
+        1792464993610130000
+      ],
+      "logical_bytes": 1957671,
+      "current": false,
+      "pointer_digest": "3a9df3cdbfdb40ff6f04b78e49fbc32d0d011fd861aae2c396e36cca5b932e56",
+      "blocked_reasons": [
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/industry_members/d8b3332aa3164393be8ddcd759a828d6",
+      "dataset": "industry_members",
+      "revision_id": "d8b3332aa3164393be8ddcd759a828d6",
+      "revision": 5,
+      "path": "revisions/data/industry_members/d8b3332aa3164393be8ddcd759a828d6",
+      "receipt_digest": "041f3112fdfaa47f54fc00d46ea02e5219c4953adbff66002ec03384632ad573",
+      "directory_identity": [
+        4043248272,
+        43628621390725229,
+        1793839433153188900
+      ],
+      "logical_bytes": 2027201,
+      "current": false,
+      "pointer_digest": "3a9df3cdbfdb40ff6f04b78e49fbc32d0d011fd861aae2c396e36cca5b932e56",
+      "blocked_reasons": [
+        "recent_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/industry_members/legacy",
+      "dataset": "industry_members",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/industry_members/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        4785074605221499,
+        1792131285993680100
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "3a9df3cdbfdb40ff6f04b78e49fbc32d0d011fd861aae2c396e36cca5b932e56",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/institutional_holdings/14a16014509349c6b2e0733c9e1ea05e",
+      "dataset": "institutional_holdings",
+      "revision_id": "14a16014509349c6b2e0733c9e1ea05e",
+      "revision": 3,
+      "path": "revisions/data/institutional_holdings/14a16014509349c6b2e0733c9e1ea05e",
+      "receipt_digest": "f7b0e11ff33f42c80702b78400eab24be91a7b4a31d14ba3d6b1a6019f7580af",
+      "directory_identity": [
+        4043248272,
+        4503599627476074,
+        1792764521361678300
+      ],
+      "logical_bytes": 1700,
+      "current": true,
+      "pointer_digest": "4ad93fd1d75c189038ba47bbfbf124205ffb93fbacafa1fd9420c34e972628b8",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/institutional_holdings/legacy",
+      "dataset": "institutional_holdings",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/institutional_holdings/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        4503599628519854,
+        1792131418845906400
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "4ad93fd1d75c189038ba47bbfbf124205ffb93fbacafa1fd9420c34e972628b8",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/instruments/00f143c642114f04814161ab4f3c9a9e",
+      "dataset": "instruments",
+      "revision_id": "00f143c642114f04814161ab4f3c9a9e",
+      "revision": 38,
+      "path": "revisions/data/instruments/00f143c642114f04814161ab4f3c9a9e",
+      "receipt_digest": "89863da68353989fd0589a9da3b5fa710b9712dbe3350af55b6f1194359938aa",
+      "directory_identity": [
+        4043248272,
+        12947848928856330,
+        1793841408129209100
+      ],
+      "logical_bytes": 107825,
+      "current": true,
+      "pointer_digest": "3efa18d268e8657f6a3ce7d35afa69ef3f6ec249b492c84b14823d2391fdacd0",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/instruments/1aad8aa8a7c04b80888a93d8685b6271",
+      "dataset": "instruments",
+      "revision_id": "1aad8aa8a7c04b80888a93d8685b6271",
+      "revision": 32,
+      "path": "revisions/data/instruments/1aad8aa8a7c04b80888a93d8685b6271",
+      "receipt_digest": "5df4b2b54eb931e3cf9225931667fd3c290fd8252d67b5af34a98eab5cc8ee22",
+      "directory_identity": [
+        4043248272,
+        186336434583592767,
+        1793275147902838500
+      ],
+      "logical_bytes": 107814,
+      "current": false,
+      "pointer_digest": "3efa18d268e8657f6a3ce7d35afa69ef3f6ec249b492c84b14823d2391fdacd0",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "49697d3d7229d1e7df629399ce906b0d45d93f7f087ee4640bf2fd0f571b6d16"
+    },
+    {
+      "object_id": "revision/instruments/6e011d34b44742048f4855fff3ebd2cf",
+      "dataset": "instruments",
+      "revision_id": "6e011d34b44742048f4855fff3ebd2cf",
+      "revision": 36,
+      "path": "revisions/data/instruments/6e011d34b44742048f4855fff3ebd2cf",
+      "receipt_digest": "33aa71cdfab7e8befb66259719fdec8ef19a8e09bce27e1691c46bd13244fa3d",
+      "directory_identity": [
+        4043248272,
+        53198770598381690,
+        1793792006932662500
+      ],
+      "logical_bytes": 107787,
+      "current": false,
+      "pointer_digest": "3efa18d268e8657f6a3ce7d35afa69ef3f6ec249b492c84b14823d2391fdacd0",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "bd2bb84d181e7248c2e8b85ca649854f626bdbaeeefea8d580fb6499289fc4d5"
+    },
+    {
+      "object_id": "revision/instruments/b2be96277ef44bf4b66c040e4aaf2d76",
+      "dataset": "instruments",
+      "revision_id": "b2be96277ef44bf4b66c040e4aaf2d76",
+      "revision": 33,
+      "path": "revisions/data/instruments/b2be96277ef44bf4b66c040e4aaf2d76",
+      "receipt_digest": "285ab29ee841718207f766dbd35c4441e86cae79501bd881025eeba535f2bdb3",
+      "directory_identity": [
+        4043248272,
+        4785074605266412,
+        1793359955168360500
+      ],
+      "logical_bytes": 107857,
+      "current": false,
+      "pointer_digest": "3efa18d268e8657f6a3ce7d35afa69ef3f6ec249b492c84b14823d2391fdacd0",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "e916b1e4ad706d825cdb6db261ea5c88a39a68b38832ad0e143ffa0e7a23f131"
+    },
+    {
+      "object_id": "revision/instruments/cd29762ce5254908903d210b0a7cea3c",
+      "dataset": "instruments",
+      "revision_id": "cd29762ce5254908903d210b0a7cea3c",
+      "revision": 35,
+      "path": "revisions/data/instruments/cd29762ce5254908903d210b0a7cea3c",
+      "receipt_digest": "16ea65b3dbb9a527822e6b6a6d99e0a5cb3e67474104a1c06d8c35302c0d3c3d",
+      "directory_identity": [
+        4043248272,
+        42221246506608635,
+        1793705533315781300
+      ],
+      "logical_bytes": 107930,
+      "current": false,
+      "pointer_digest": "3efa18d268e8657f6a3ce7d35afa69ef3f6ec249b492c84b14823d2391fdacd0",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "4572f50307a5a4bf775c488a353c4879971c6f6c4c593b968974eb6257fc7167"
+    },
+    {
+      "object_id": "revision/instruments/d7c41b1eb16c44f28deec2aaf36f131c",
+      "dataset": "instruments",
+      "revision_id": "d7c41b1eb16c44f28deec2aaf36f131c",
+      "revision": 34,
+      "path": "revisions/data/instruments/d7c41b1eb16c44f28deec2aaf36f131c",
+      "receipt_digest": "cddb5148c5f8ddbfc21f61a077bbb8a52f458324343fec31ffc0f3f3caf49d38",
+      "directory_identity": [
+        4043248272,
+        202661983231673493,
+        1793619105072590000
+      ],
+      "logical_bytes": 107886,
+      "current": false,
+      "pointer_digest": "3efa18d268e8657f6a3ce7d35afa69ef3f6ec249b492c84b14823d2391fdacd0",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "3df2f175dba4f9cb8724f208b162e383cb5c3b86d61cd3f596b5d37d7b50af9f"
+    },
+    {
+      "object_id": "revision/instruments/f6c06a737ef242ff9cb1445f99b92058",
+      "dataset": "instruments",
+      "revision_id": "f6c06a737ef242ff9cb1445f99b92058",
+      "revision": 30,
+      "path": "revisions/data/instruments/f6c06a737ef242ff9cb1445f99b92058",
+      "receipt_digest": "1166b4898c04caf50ad52f964f2ead72035e3ed84dcdfb4b35a12b87dd1efa08",
+      "directory_identity": [
+        4043248272,
+        562949956487796,
+        1792462845796684000
+      ],
+      "logical_bytes": 107591,
+      "current": false,
+      "pointer_digest": "3efa18d268e8657f6a3ce7d35afa69ef3f6ec249b492c84b14823d2391fdacd0",
+      "blocked_reasons": [
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/instruments/fa56e558ab764d31a10906c2a3d4e46c",
+      "dataset": "instruments",
+      "revision_id": "fa56e558ab764d31a10906c2a3d4e46c",
+      "revision": 37,
+      "path": "revisions/data/instruments/fa56e558ab764d31a10906c2a3d4e46c",
+      "receipt_digest": "4ae1cab96e2c7f63dffee2c3cdd15344429e9e9326e028f6644cd37d8221ecfb",
+      "directory_identity": [
+        4043248272,
+        23362423067106249,
+        1793840559540355100
+      ],
+      "logical_bytes": 107957,
+      "current": false,
+      "pointer_digest": "3efa18d268e8657f6a3ce7d35afa69ef3f6ec249b492c84b14823d2391fdacd0",
+      "blocked_reasons": [
+        "recent_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/instruments/fdef198651854a149a7ed09b11359ced",
+      "dataset": "instruments",
+      "revision_id": "fdef198651854a149a7ed09b11359ced",
+      "revision": 31,
+      "path": "revisions/data/instruments/fdef198651854a149a7ed09b11359ced",
+      "receipt_digest": "129f3c64f64d52dc64dc1bb19341ca811ca0c6f40f01ad0405036bd393cbc138",
+      "directory_identity": [
+        4043248272,
+        4222124651845440,
+        1792796218861243400
+      ],
+      "logical_bytes": 107900,
+      "current": false,
+      "pointer_digest": "3efa18d268e8657f6a3ce7d35afa69ef3f6ec249b492c84b14823d2391fdacd0",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "f8e8711e926f3d67ebd9d453250aae2fdd1bea5d249b9a71a856d2f8f1ab3bd2"
+    },
+    {
+      "object_id": "revision/instruments/legacy",
+      "dataset": "instruments",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/instruments/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        79094468455697219,
+        1792130181471647700
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "3efa18d268e8657f6a3ce7d35afa69ef3f6ec249b492c84b14823d2391fdacd0",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/macro_indicators/056b8bbf0c2b41b29dbc5b9eeab66eff",
+      "dataset": "macro_indicators",
+      "revision_id": "056b8bbf0c2b41b29dbc5b9eeab66eff",
+      "revision": 3,
+      "path": "revisions/data/macro_indicators/056b8bbf0c2b41b29dbc5b9eeab66eff",
+      "receipt_digest": "1c592c01085721df8be22cc239ecbaeb93082716d429becac76460b544b9e1e4",
+      "directory_identity": [
+        4043248272,
+        4222124650765189,
+        1792761106783954800
+      ],
+      "logical_bytes": 1348,
+      "current": true,
+      "pointer_digest": "47f071451b0acfa77cb90787ce5996d41ee0a3ea9620e22b7eb645137ad33f4a",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/macro_indicators/legacy",
+      "dataset": "macro_indicators",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/macro_indicators/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        4785074605228646,
+        1792131359649050800
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "47f071451b0acfa77cb90787ce5996d41ee0a3ea9620e22b7eb645137ad33f4a",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/margin_trading/83ab8026dc6041be8cbe7095c1359151",
+      "dataset": "margin_trading",
+      "revision_id": "83ab8026dc6041be8cbe7095c1359151",
+      "revision": 3,
+      "path": "revisions/data/margin_trading/83ab8026dc6041be8cbe7095c1359151",
+      "receipt_digest": "6280b166278a07dfaa42f1bc25b12458a6630b110fa17508af0861749e5fe960",
+      "directory_identity": [
+        4043248272,
+        3377699720633232,
+        1792761106805024200
+      ],
+      "logical_bytes": 1720,
+      "current": true,
+      "pointer_digest": "29dfc99fc1dc432df4a935dafe17d5511a86343b1749647201705161afd8790b",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/margin_trading/legacy",
+      "dataset": "margin_trading",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/margin_trading/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        4503599628510452,
+        1792131221534310300
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "29dfc99fc1dc432df4a935dafe17d5511a86343b1749647201705161afd8790b",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/market_breadth/72fe7ad05d1d402cafe15e98e323622f",
+      "dataset": "market_breadth",
+      "revision_id": "72fe7ad05d1d402cafe15e98e323622f",
+      "revision": 3,
+      "path": "revisions/data/market_breadth/72fe7ad05d1d402cafe15e98e323622f",
+      "receipt_digest": "2ae53ce84322645916c77c92e4135b08f87f3eeac1f3a3a2924386f5ad1ca1ef",
+      "directory_identity": [
+        4043248272,
+        3096224743922586,
+        1792761106826152700
+      ],
+      "logical_bytes": 1189,
+      "current": true,
+      "pointer_digest": "a57dccc27faa038e5cb866eb6630f202ef148b519b449a0d25291d9a88accee7",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/market_breadth/legacy",
+      "dataset": "market_breadth",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/market_breadth/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        1407374885451766,
+        1792213514394743700
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "a57dccc27faa038e5cb866eb6630f202ef148b519b449a0d25291d9a88accee7",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/news_headlines/54bc165fdd444bbaa2d3638f6d9a81e3",
+      "dataset": "news_headlines",
+      "revision_id": "54bc165fdd444bbaa2d3638f6d9a81e3",
+      "revision": 8,
+      "path": "revisions/data/news_headlines/54bc165fdd444bbaa2d3638f6d9a81e3",
+      "receipt_digest": "c4cfc71f9f6a6ae9a7fa74656177d497eb13c9d5b436a2ca3a3f7ce29adcc7b1",
+      "directory_identity": [
+        4043248272,
+        13510798882277622,
+        1793843464331318100
+      ],
+      "logical_bytes": 2335514,
+      "current": true,
+      "pointer_digest": "9b88c9f150dd1cba98d59a7f5cbf0c8750f1b65c59cb53a995eab2905c1baf94",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/news_headlines/7a408dbfff3e4772ac74758d555338e2",
+      "dataset": "news_headlines",
+      "revision_id": "7a408dbfff3e4772ac74758d555338e2",
+      "revision": 6,
+      "path": "revisions/data/news_headlines/7a408dbfff3e4772ac74758d555338e2",
+      "receipt_digest": "cd373f676fc23d7a0fc243843edac497370fe82b252052d868b1ca7763878d7f",
+      "directory_identity": [
+        4043248272,
+        37717646879297040,
+        1793198591272964600
+      ],
+      "logical_bytes": 1468128,
+      "current": false,
+      "pointer_digest": "9b88c9f150dd1cba98d59a7f5cbf0c8750f1b65c59cb53a995eab2905c1baf94",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "5de0bea3c9ff33f7aef8fa1eb57d048d37e2b334fcd0875ce9c4993750ede4ca"
+    },
+    {
+      "object_id": "revision/news_headlines/adf4708319dc48b48ef0b25b5dbb9497",
+      "dataset": "news_headlines",
+      "revision_id": "adf4708319dc48b48ef0b25b5dbb9497",
+      "revision": 7,
+      "path": "revisions/data/news_headlines/adf4708319dc48b48ef0b25b5dbb9497",
+      "receipt_digest": "b0d9311cd210477998ce999befaa8c6d65e03d4ec1fcaf41caf705396f34ddcd",
+      "directory_identity": [
+        4043248272,
+        12384898975434939,
+        1793840971308093500
+      ],
+      "logical_bytes": 2331152,
+      "current": false,
+      "pointer_digest": "9b88c9f150dd1cba98d59a7f5cbf0c8750f1b65c59cb53a995eab2905c1baf94",
+      "blocked_reasons": [
+        "recent_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/news_headlines/bf5cfbda3dc54cf79aee4f5950a2bedb",
+      "dataset": "news_headlines",
+      "revision_id": "bf5cfbda3dc54cf79aee4f5950a2bedb",
+      "revision": 4,
+      "path": "revisions/data/news_headlines/bf5cfbda3dc54cf79aee4f5950a2bedb",
+      "receipt_digest": "ed61d2f522c7e13e7767ebce70b4a73e0657c0f21fed0d495f4648aef06b8630",
+      "directory_identity": [
+        4043248272,
+        1407374886048755,
+        1792386937875291600
+      ],
+      "logical_bytes": 291367,
+      "current": false,
+      "pointer_digest": "9b88c9f150dd1cba98d59a7f5cbf0c8750f1b65c59cb53a995eab2905c1baf94",
+      "blocked_reasons": [
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/news_headlines/fe560f9e91884538a8154c67f1417f8e",
+      "dataset": "news_headlines",
+      "revision_id": "fe560f9e91884538a8154c67f1417f8e",
+      "revision": 5,
+      "path": "revisions/data/news_headlines/fe560f9e91884538a8154c67f1417f8e",
+      "receipt_digest": "07a4bb164c726eafbbabdf384a399b8cdb2352910ed16d2f6770c4f92e307349",
+      "directory_identity": [
+        4043248272,
+        5629499535731044,
+        1792768020904479100
+      ],
+      "logical_bytes": 936359,
+      "current": false,
+      "pointer_digest": "9b88c9f150dd1cba98d59a7f5cbf0c8750f1b65c59cb53a995eab2905c1baf94",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "cfce5d2c2e15421bea5c8306bf798aecf0f4ec801e3f1b58d53195a09f83b826"
+    },
+    {
+      "object_id": "revision/news_headlines/legacy",
+      "dataset": "news_headlines",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/news_headlines/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        4503599628517646,
+        1792130787971702000
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "9b88c9f150dd1cba98d59a7f5cbf0c8750f1b65c59cb53a995eab2905c1baf94",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/northbound_flows/65013a73431443fe87aa83769a22fd45",
+      "dataset": "northbound_flows",
+      "revision_id": "65013a73431443fe87aa83769a22fd45",
+      "revision": 2,
+      "path": "revisions/data/northbound_flows/65013a73431443fe87aa83769a22fd45",
+      "receipt_digest": "b34412d3ce61203023328f4bd0e8e8b496551e186a552798793667fe6b1901ec",
+      "directory_identity": [
+        4043248272,
+        3377699720633252,
+        1792761106847351600
+      ],
+      "logical_bytes": 1505,
+      "current": true,
+      "pointer_digest": "737faa09b3cc17623d96d39e10b9431ec935d9c83d9b2958594d007e68d7d2be",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/northbound_flows/legacy",
+      "dataset": "northbound_flows",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/northbound_flows/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        1407374885457768,
+        1792213580443271000
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "737faa09b3cc17623d96d39e10b9431ec935d9c83d9b2958594d007e68d7d2be",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/northbound_holdings/1b2710df0bba4286bb2a239d3c593109",
+      "dataset": "northbound_holdings",
+      "revision_id": "1b2710df0bba4286bb2a239d3c593109",
+      "revision": 2,
+      "path": "revisions/data/northbound_holdings/1b2710df0bba4286bb2a239d3c593109",
+      "receipt_digest": "516067db334ffcb67d80a168e7672332513c7ad284e71ae936dac5df902619d2",
+      "directory_identity": [
+        4043248272,
+        3659174697343917,
+        1792761106871502000
+      ],
+      "logical_bytes": 1686,
+      "current": true,
+      "pointer_digest": "0e76aa4c97b278ee97c9a126c45cd2dfe23c449834b2fa7cc522b4a34ab193cc",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/northbound_holdings/legacy",
+      "dataset": "northbound_holdings",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/northbound_holdings/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        6473924465485057,
+        1792131221594586700
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "0e76aa4c97b278ee97c9a126c45cd2dfe23c449834b2fa7cc522b4a34ab193cc",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/option_bars/189a18f656bd4275b85ac39382786322",
+      "dataset": "option_bars",
+      "revision_id": "189a18f656bd4275b85ac39382786322",
+      "revision": 3,
+      "path": "revisions/data/option_bars/189a18f656bd4275b85ac39382786322",
+      "receipt_digest": "4c882a4338893c43d3f6549cff90b23650cc8c9ec9d2e341b0e2d132f283c886",
+      "directory_identity": [
+        4043248272,
+        4785074604426595,
+        1792764585834645100
+      ],
+      "logical_bytes": 4171,
+      "current": true,
+      "pointer_digest": "465d70e0d866a186482f97af1dbec1102c3ff02ba58c3fc7667455e285e902ee",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/option_bars/legacy",
+      "dataset": "option_bars",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/option_bars/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        1125899909100007,
+        1792246398930516400
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "465d70e0d866a186482f97af1dbec1102c3ff02ba58c3fc7667455e285e902ee",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/option_contracts/ab65de20155d4b939fb5fd27f9e4f9d5",
+      "dataset": "option_contracts",
+      "revision_id": "ab65de20155d4b939fb5fd27f9e4f9d5",
+      "revision": 3,
+      "path": "revisions/data/option_contracts/ab65de20155d4b939fb5fd27f9e4f9d5",
+      "receipt_digest": "b54612a2e08c9a980bc1386dedc2acae5ea363572473b81659204cbc9dac0f12",
+      "directory_identity": [
+        4043248272,
+        38843546786503088,
+        1792764585858335500
+      ],
+      "logical_bytes": 3689,
+      "current": true,
+      "pointer_digest": "35a3caaab49da46dbd1d1581cfb0e06cb968e7fce6e27becde2ba3ab1ac5ac53",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/option_contracts/legacy",
+      "dataset": "option_contracts",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/option_contracts/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        1125899909100011,
+        1792246398948218000
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "35a3caaab49da46dbd1d1581cfb0e06cb968e7fce6e27becde2ba3ab1ac5ac53",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/option_greeks/a094aa3437c447e28fea57f32f9576d2",
+      "dataset": "option_greeks",
+      "revision_id": "a094aa3437c447e28fea57f32f9576d2",
+      "revision": 4,
+      "path": "revisions/data/option_greeks/a094aa3437c447e28fea57f32f9576d2",
+      "receipt_digest": "a94b78b03194748f6f3888f1412bc82b715425bd511fe8a4833204a4f90e8aed",
+      "directory_identity": [
+        4043248272,
+        19984723347407513,
+        1792764585905786100
+      ],
+      "logical_bytes": 3177,
+      "current": true,
+      "pointer_digest": "b267f4066e4aa7f7b1bb8e336462d59ea892b943e21909404822af39edad4cdf",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/option_greeks/legacy",
+      "dataset": "option_greeks",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/option_greeks/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        1125899909100000,
+        1792246398616834100
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "b267f4066e4aa7f7b1bb8e336462d59ea892b943e21909404822af39edad4cdf",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/regulatory_events/43f418d5328647499d77cf8f9a213333",
+      "dataset": "regulatory_events",
+      "revision_id": "43f418d5328647499d77cf8f9a213333",
+      "revision": 5,
+      "path": "revisions/data/regulatory_events/43f418d5328647499d77cf8f9a213333",
+      "receipt_digest": "38e7ef215c0da5123427ec2421ca84b63599296630d2c2a65b5550a7a23dca88",
+      "directory_identity": [
+        4043248272,
+        14073748835698949,
+        1793843464350442200
+      ],
+      "logical_bytes": 6034,
+      "current": true,
+      "pointer_digest": "8058784f3fd20fb76f9f1ea8c46228b21fa5aeea1d09705cac6b62734796952a",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/regulatory_events/c156fa8cb2044840af5a8c7dab6b2d91",
+      "dataset": "regulatory_events",
+      "revision_id": "c156fa8cb2044840af5a8c7dab6b2d91",
+      "revision": 4,
+      "path": "revisions/data/regulatory_events/c156fa8cb2044840af5a8c7dab6b2d91",
+      "receipt_digest": "8a102cba83ae46be6a1506cdf8c5648e9f93b94e6df3c2894a1660a9bddbe60e",
+      "directory_identity": [
+        4043248272,
+        4785074605599082,
+        1792768020924488300
+      ],
+      "logical_bytes": 5524,
+      "current": false,
+      "pointer_digest": "8058784f3fd20fb76f9f1ea8c46228b21fa5aeea1d09705cac6b62734796952a",
+      "blocked_reasons": [
+        "recent_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/regulatory_events/f84c67d27d45401baf231d4fe41694ca",
+      "dataset": "regulatory_events",
+      "revision_id": "f84c67d27d45401baf231d4fe41694ca",
+      "revision": 3,
+      "path": "revisions/data/regulatory_events/f84c67d27d45401baf231d4fe41694ca",
+      "receipt_digest": "be85396392251e7b0c922a1e08745cecf1c678583be750864d05a7ad877aa57d",
+      "directory_identity": [
+        4043248272,
+        844424932954142,
+        1792411279018114000
+      ],
+      "logical_bytes": 4641,
+      "current": false,
+      "pointer_digest": "8058784f3fd20fb76f9f1ea8c46228b21fa5aeea1d09705cac6b62734796952a",
+      "blocked_reasons": [
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/regulatory_events/legacy",
+      "dataset": "regulatory_events",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/regulatory_events/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        8162774325756122,
+        1792130784782989300
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "8058784f3fd20fb76f9f1ea8c46228b21fa5aeea1d09705cac6b62734796952a",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/sector_bars/a17fecee89b142d4a6fb5c4e9cca7fc9",
+      "dataset": "sector_bars",
+      "revision_id": "a17fecee89b142d4a6fb5c4e9cca7fc9",
+      "revision": 3,
+      "path": "revisions/data/sector_bars/a17fecee89b142d4a6fb5c4e9cca7fc9",
+      "receipt_digest": "d0c2abd43356dd064073fc11839780f7f557190ed4cdfb8aaf902ec3f3de0147",
+      "directory_identity": [
+        4043248272,
+        4222124650765238,
+        1792761106893278900
+      ],
+      "logical_bytes": 2398,
+      "current": true,
+      "pointer_digest": "56055ee2dbd9f003610f6e5093a6a564fd38f3407e9629b81e2d731210dab10e",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/sector_bars/legacy",
+      "dataset": "sector_bars",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/sector_bars/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        4503599628945133,
+        1792204241990409800
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "56055ee2dbd9f003610f6e5093a6a564fd38f3407e9629b81e2d731210dab10e",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/sector_members/1e44dd8044ed497ea2e782b24d825d4c",
+      "dataset": "sector_members",
+      "revision_id": "1e44dd8044ed497ea2e782b24d825d4c",
+      "revision": 3,
+      "path": "revisions/data/sector_members/1e44dd8044ed497ea2e782b24d825d4c",
+      "receipt_digest": "520822cbb38b474eeb4330e67ff0626835efff2ab5a2cb0cce160d8387630ed5",
+      "directory_identity": [
+        4043248272,
+        3659174697343935,
+        1792761106914169000
+      ],
+      "logical_bytes": 1362,
+      "current": true,
+      "pointer_digest": "f0caab978517d156762aca23af1bdd4061da768ce74bb1c3552cb906d92ae1b6",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/sector_members/legacy",
+      "dataset": "sector_members",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/sector_members/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        6755399442195720,
+        1792131221622262300
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "f0caab978517d156762aca23af1bdd4061da768ce74bb1c3552cb906d92ae1b6",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/sentiment_scores/d5d48d5bbd634efb847b713816114ab1",
+      "dataset": "sentiment_scores",
+      "revision_id": "d5d48d5bbd634efb847b713816114ab1",
+      "revision": 3,
+      "path": "revisions/data/sentiment_scores/d5d48d5bbd634efb847b713816114ab1",
+      "receipt_digest": "3c91e829a2282f1f193cf59ef66355c1dc4c36678c35b4b7c1d5e5a095171051",
+      "directory_identity": [
+        4043248272,
+        7036874417871818,
+        1792761106934211500
+      ],
+      "logical_bytes": 1569,
+      "current": true,
+      "pointer_digest": "2f68644b09e04330c3af6f66c49ce66d2bfa74fc80a49ace5cf122d064f29c85",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/sentiment_scores/legacy",
+      "dataset": "sentiment_scores",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/sentiment_scores/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        4222124651809207,
+        1792131418910881600
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "2f68644b09e04330c3af6f66c49ce66d2bfa74fc80a49ace5cf122d064f29c85",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/share_structure/74ab2d1d22634065b402e7e112ef78b2",
+      "dataset": "share_structure",
+      "revision_id": "74ab2d1d22634065b402e7e112ef78b2",
+      "revision": 3,
+      "path": "revisions/data/share_structure/74ab2d1d22634065b402e7e112ef78b2",
+      "receipt_digest": "874b0528c8be6360166d731e29d0ba3ce9074954fef3e5a95ea6315995b3d51d",
+      "directory_identity": [
+        4043248272,
+        562949956606782,
+        1792464992478186000
+      ],
+      "logical_bytes": 2361417,
+      "current": false,
+      "pointer_digest": "32823ff04939a9bce2e18d61e63fa5c9c6a1473c02941783c55f0d2e9b9d1bd2",
+      "blocked_reasons": [
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/share_structure/e5b3228ec70d46619859034fadd0d44a",
+      "dataset": "share_structure",
+      "revision_id": "e5b3228ec70d46619859034fadd0d44a",
+      "revision": 4,
+      "path": "revisions/data/share_structure/e5b3228ec70d46619859034fadd0d44a",
+      "receipt_digest": "cb6eb17de32a04db27ad9de8be3e42878391b1f519b8a5e7cdeacbb7615b6790",
+      "directory_identity": [
+        4043248272,
+        4503599628888152,
+        1792767021094959800
+      ],
+      "logical_bytes": 2366846,
+      "current": false,
+      "pointer_digest": "32823ff04939a9bce2e18d61e63fa5c9c6a1473c02941783c55f0d2e9b9d1bd2",
+      "blocked_reasons": [
+        "recent_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/share_structure/ffb65e1ab72842da871634087bb055d7",
+      "dataset": "share_structure",
+      "revision_id": "ffb65e1ab72842da871634087bb055d7",
+      "revision": 5,
+      "path": "revisions/data/share_structure/ffb65e1ab72842da871634087bb055d7",
+      "receipt_digest": "e6f0445db84c825f610434a5408b973ede0d086fe83f31e40c4b9b42fd84c6d9",
+      "directory_identity": [
+        4043248272,
+        42784196460057365,
+        1793841704837025000
+      ],
+      "logical_bytes": 2380837,
+      "current": true,
+      "pointer_digest": "32823ff04939a9bce2e18d61e63fa5c9c6a1473c02941783c55f0d2e9b9d1bd2",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/share_structure/legacy",
+      "dataset": "share_structure",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/share_structure/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        6755399442196070,
+        1792131285862333200
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "32823ff04939a9bce2e18d61e63fa5c9c6a1473c02941783c55f0d2e9b9d1bd2",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/share_unlock_schedule/7719c1797fe5458ba0f9e2266a0d9833",
+      "dataset": "share_unlock_schedule",
+      "revision_id": "7719c1797fe5458ba0f9e2266a0d9833",
+      "revision": 3,
+      "path": "revisions/data/share_unlock_schedule/7719c1797fe5458ba0f9e2266a0d9833",
+      "receipt_digest": "3b2438dbc40c0a057a59e69a25c58516941354797bc99fae04c4ccc6f542716e",
+      "directory_identity": [
+        4043248272,
+        6192449487740020,
+        1792764521382817400
+      ],
+      "logical_bytes": 1539,
+      "current": true,
+      "pointer_digest": "b03d58c29f9803c2bdfa7f4c74631a96f9d7273a6c962abc5b1f4eb621c44b9e",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/share_unlock_schedule/legacy",
+      "dataset": "share_unlock_schedule",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/share_unlock_schedule/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        6192449488782020,
+        1792131359791325000
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "b03d58c29f9803c2bdfa7f4c74631a96f9d7273a6c962abc5b1f4eb621c44b9e",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/shareholder_counts/a35ab482b6494825af68a239c7907e93",
+      "dataset": "shareholder_counts",
+      "revision_id": "a35ab482b6494825af68a239c7907e93",
+      "revision": 4,
+      "path": "revisions/data/shareholder_counts/a35ab482b6494825af68a239c7907e93",
+      "receipt_digest": "3535413d51db796b0c6e413b26e39e588c0fe0fae878a0eb50f3d7ad396ba525",
+      "directory_identity": [
+        4043248272,
+        5629499534318722,
+        1792764521405620600
+      ],
+      "logical_bytes": 2699,
+      "current": true,
+      "pointer_digest": "ec49c104c806486cdc71feda1c6d8b153c95d62bdd76f71617e9857971fe0568",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/shareholder_counts/legacy",
+      "dataset": "shareholder_counts",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/shareholder_counts/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        4785074605221485,
+        1792131285900955900
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "ec49c104c806486cdc71feda1c6d8b153c95d62bdd76f71617e9857971fe0568",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/top_holders/1330aafdf643409cb19fcc252ec0c802",
+      "dataset": "top_holders",
+      "revision_id": "1330aafdf643409cb19fcc252ec0c802",
+      "revision": 3,
+      "path": "revisions/data/top_holders/1330aafdf643409cb19fcc252ec0c802",
+      "receipt_digest": "c4a8d39faf3b592ebc0ba877eb19e997254dd0f81fec8b4adeda13b1b3187e0a",
+      "directory_identity": [
+        4043248272,
+        4785074604186763,
+        1792764521427426900
+      ],
+      "logical_bytes": 3106,
+      "current": true,
+      "pointer_digest": "adce960d4ef27fb1a92a4725c4d62f78ae47e00e5ace80ee2b8436134d761dd1",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/top_holders/legacy",
+      "dataset": "top_holders",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/top_holders/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        8444249303410584,
+        1792221357497684900
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "adce960d4ef27fb1a92a4725c4d62f78ae47e00e5ace80ee2b8436134d761dd1",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/trading_calendar/03e0ecb18bbe48209bba6213e7f6dfd7",
+      "dataset": "trading_calendar",
+      "revision_id": "03e0ecb18bbe48209bba6213e7f6dfd7",
+      "revision": 3,
+      "path": "revisions/data/trading_calendar/03e0ecb18bbe48209bba6213e7f6dfd7",
+      "receipt_digest": "62006ab543662a4d77c3f15369b0a795d75ad8f0136d267ca72691a3986d944d",
+      "directory_identity": [
+        4043248272,
+        562949956487815,
+        1792462846075130900
+      ],
+      "logical_bytes": 40032,
+      "current": false,
+      "pointer_digest": "a2c51f4b0b09c4d0fc01209820ec982ae277542d1b577d175f006d3db25371c8",
+      "blocked_reasons": [
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/trading_calendar/05dcaeadcdb94f6e9b07ebca8a6f4ff5",
+      "dataset": "trading_calendar",
+      "revision_id": "05dcaeadcdb94f6e9b07ebca8a6f4ff5",
+      "revision": 5,
+      "path": "revisions/data/trading_calendar/05dcaeadcdb94f6e9b07ebca8a6f4ff5",
+      "receipt_digest": "8bad78311525d44500b0f4ea0195d73044c09c8065210671ff67d6772e10e9fc",
+      "directory_identity": [
+        4043248272,
+        4222124651845088,
+        1793275147929839300
+      ],
+      "logical_bytes": 40067,
+      "current": false,
+      "pointer_digest": "a2c51f4b0b09c4d0fc01209820ec982ae277542d1b577d175f006d3db25371c8",
+      "blocked_reasons": [
+        "recent_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/trading_calendar/3ac8b38a35834b1e8d894d18cf27a4f6",
+      "dataset": "trading_calendar",
+      "revision_id": "3ac8b38a35834b1e8d894d18cf27a4f6",
+      "revision": 4,
+      "path": "revisions/data/trading_calendar/3ac8b38a35834b1e8d894d18cf27a4f6",
+      "receipt_digest": "94069fd4f3d1a7c68b397e03e79cbee40ef82c38b3b65f38a4e7c93636a43425",
+      "directory_identity": [
+        4043248272,
+        3377699721713477,
+        1792796218889677600
+      ],
+      "logical_bytes": 40040,
+      "current": false,
+      "pointer_digest": "a2c51f4b0b09c4d0fc01209820ec982ae277542d1b577d175f006d3db25371c8",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "f6fa90f01fe0114595245aef7a478fd6b5fbdff318de5f1a982f7ccbf707e8ff"
+    },
+    {
+      "object_id": "revision/trading_calendar/9e86d640edd74eef98fbea78293504b2",
+      "dataset": "trading_calendar",
+      "revision_id": "9e86d640edd74eef98fbea78293504b2",
+      "revision": 6,
+      "path": "revisions/data/trading_calendar/9e86d640edd74eef98fbea78293504b2",
+      "receipt_digest": "14eac15fa6fc8cda931bd1f9367c6e4a62fdc27bc59e8874740485b3ce957b5f",
+      "directory_identity": [
+        4043248272,
+        19140298416440085,
+        1793841408157824500
+      ],
+      "logical_bytes": 40094,
+      "current": true,
+      "pointer_digest": "a2c51f4b0b09c4d0fc01209820ec982ae277542d1b577d175f006d3db25371c8",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/trading_calendar/legacy",
+      "dataset": "trading_calendar",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/trading_calendar/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        10696049116144467,
+        1792130190087910600
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "a2c51f4b0b09c4d0fc01209820ec982ae277542d1b577d175f006d3db25371c8",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/trading_status/0cb4cb0d18ef47aaa8f7e0db920c3891",
+      "dataset": "trading_status",
+      "revision_id": "0cb4cb0d18ef47aaa8f7e0db920c3891",
+      "revision": 11,
+      "path": "revisions/data/trading_status/0cb4cb0d18ef47aaa8f7e0db920c3891",
+      "receipt_digest": "b8fd72f90157e88b627ec5e45abe6b9134a400d05a138060fcf6ec2952bb404a",
+      "directory_identity": [
+        4043248272,
+        10414574139479529,
+        1793275148033530700
+      ],
+      "logical_bytes": 407664,
+      "current": false,
+      "pointer_digest": "8eafc738e13b4b706e6a871faf2c8ace13ba4daaf5e4ed8f3e33c8c5b40ce008",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "3d3adaccee2222f97e32a189b98c589c90a176e0a6009270ff8080ca4dba7a6d"
+    },
+    {
+      "object_id": "revision/trading_status/1097c6d6c17e4e53b243201c953175c5",
+      "dataset": "trading_status",
+      "revision_id": "1097c6d6c17e4e53b243201c953175c5",
+      "revision": 12,
+      "path": "revisions/data/trading_status/1097c6d6c17e4e53b243201c953175c5",
+      "receipt_digest": "62406f4cf8919dc1d3e6904195f597d388ec12159c3ba47b46deec80873a033f",
+      "directory_identity": [
+        4043248272,
+        10977524092900818,
+        1793284341989839600
+      ],
+      "logical_bytes": 420987,
+      "current": false,
+      "pointer_digest": "8eafc738e13b4b706e6a871faf2c8ace13ba4daaf5e4ed8f3e33c8c5b40ce008",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "64efa4754021aa322657eb6548c06d539322a8c700d65a41c3b029e0d3fe7895"
+    },
+    {
+      "object_id": "revision/trading_status/2017d00135ef437bbc6beb12b37d6f87",
+      "dataset": "trading_status",
+      "revision_id": "2017d00135ef437bbc6beb12b37d6f87",
+      "revision": 10,
+      "path": "revisions/data/trading_status/2017d00135ef437bbc6beb12b37d6f87",
+      "receipt_digest": "26d535667b8b5b18689f81d4753106be9fc78cef6b89125efcc495b1443ec4f4",
+      "directory_identity": [
+        4043248272,
+        3377699721713505,
+        1792796218999212900
+      ],
+      "logical_bytes": 407460,
+      "current": false,
+      "pointer_digest": "8eafc738e13b4b706e6a871faf2c8ace13ba4daaf5e4ed8f3e33c8c5b40ce008",
+      "blocked_reasons": [],
+      "holds": [],
+      "pending": null,
+      "tree_signature": "9ce9256727f8de145d3e58511b1fac7eed79756fd017911168350c562d8c0f9a"
+    },
+    {
+      "object_id": "revision/trading_status/b9737016b1784732bb5b392cce86a9ef",
+      "dataset": "trading_status",
+      "revision_id": "b9737016b1784732bb5b392cce86a9ef",
+      "revision": 13,
+      "path": "revisions/data/trading_status/b9737016b1784732bb5b392cce86a9ef",
+      "receipt_digest": "3cecc65d221bc98814182f3fedfb491967b13295c2bacb8e4d622cbb65506785",
+      "directory_identity": [
+        4043248272,
+        23362423067060546,
+        1793841408270944100
+      ],
+      "logical_bytes": 425846,
+      "current": false,
+      "pointer_digest": "8eafc738e13b4b706e6a871faf2c8ace13ba4daaf5e4ed8f3e33c8c5b40ce008",
+      "blocked_reasons": [
+        "recent_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/trading_status/d1fe017c284343c1b9aae78f75ec6826",
+      "dataset": "trading_status",
+      "revision_id": "d1fe017c284343c1b9aae78f75ec6826",
+      "revision": 9,
+      "path": "revisions/data/trading_status/d1fe017c284343c1b9aae78f75ec6826",
+      "receipt_digest": "acff86b1818e6deb8388a03cf81fdb598337628fa22572c469a7841136fc4781",
+      "directory_identity": [
+        4043248272,
+        844424933265690,
+        1792464515050834600
+      ],
+      "logical_bytes": 390760,
+      "current": false,
+      "pointer_digest": "8eafc738e13b4b706e6a871faf2c8ace13ba4daaf5e4ed8f3e33c8c5b40ce008",
+      "blocked_reasons": [
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/trading_status/e961950204f447c991572e7044cdcdbf",
+      "dataset": "trading_status",
+      "revision_id": "e961950204f447c991572e7044cdcdbf",
+      "revision": 14,
+      "path": "revisions/data/trading_status/e961950204f447c991572e7044cdcdbf",
+      "receipt_digest": "2f00f8bb7809197528fc0579a22e5ad67d42a817893ef2792946a4e71cac4a93",
+      "directory_identity": [
+        4043248272,
+        41095346599776677,
+        1793845941520290400
+      ],
+      "logical_bytes": 426021,
+      "current": true,
+      "pointer_digest": "8eafc738e13b4b706e6a871faf2c8ace13ba4daaf5e4ed8f3e33c8c5b40ce008",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/trading_status/legacy",
+      "dataset": "trading_status",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/trading_status/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        3659174698378083,
+        1792130190129111700
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "8eafc738e13b4b706e6a871faf2c8ace13ba4daaf5e4ed8f3e33c8c5b40ce008",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    },
+    {
+      "object_id": "revision/valuation_metrics/5b7c158be6ba498483cf58158cda3871",
+      "dataset": "valuation_metrics",
+      "revision_id": "5b7c158be6ba498483cf58158cda3871",
+      "revision": 13,
+      "path": "revisions/data/valuation_metrics/5b7c158be6ba498483cf58158cda3871",
+      "receipt_digest": "b9de41bf246637e529700224ccbb43f07a4bb9a9f1442ae82236fb40937736a6",
+      "directory_identity": [
+        4043248272,
+        5066549580897235,
+        1792761107090423800
+      ],
+      "logical_bytes": 2448,
+      "current": true,
+      "pointer_digest": "8daf51a05b50da4199a41b9a7be7688a1fc944342680db7140d3fd01410c017c",
+      "blocked_reasons": [
+        "recent_generation",
+        "current_generation",
+        "explicit_hold"
+      ],
+      "holds": [
+        {
+          "kind": "selection_reference",
+          "path": "分析产出\\当前数据湖_体积与字段盘点.json"
+        }
+      ],
+      "pending": null
+    },
+    {
+      "object_id": "revision/valuation_metrics/legacy",
+      "dataset": "valuation_metrics",
+      "revision_id": "legacy",
+      "revision": 0,
+      "path": "revisions/data/valuation_metrics/legacy",
+      "receipt_digest": null,
+      "directory_identity": [
+        4043248272,
+        6192449488774374,
+        1792131221476561500
+      ],
+      "logical_bytes": 0,
+      "current": false,
+      "pointer_digest": "8daf51a05b50da4199a41b9a7be7688a1fc944342680db7140d3fd01410c017c",
+      "blocked_reasons": [
+        "unreceipted_generation",
+        "missing_file_manifest"
+      ],
+      "holds": [],
+      "pending": null
+    }
+  ],
+  "experiments": [],
+  "artifacts": {},
+  "experiment_pending": {},
+  "resource_holds": {},
+  "purge_available": true,
+  "candidate_ids": [
+    "revision/adj_factors/0a4f9e96bc1d41b58ede8cdb682e4f1a",
+    "revision/adj_factors/1ef20695a750461bb9d7608bee2512ad",
+    "revision/adj_factors/eb76f2136f494eaca8c319fc98124bef",
+    "revision/announcement_index/0b46b64b82034d51a493ac1a6350df18",
+    "revision/corporate_actions/5247fb4494ef49b5b1eab81fcdf52f11",
+    "revision/corporate_actions/f6cf24b493304b04b0d1d942cedd1c99",
+    "revision/daily_bars/425b058aeb2441f4be45abb5094ddb8b",
+    "revision/earnings_disclosure_schedule/94a848dec91540c98872b75ebb37607e",
+    "revision/financial_statement_items/f8a5d80bb99a42198fa3c05eae771a7d",
+    "revision/industry_members/a90c75a598fa4f389d090276ec032d76",
+    "revision/instruments/1aad8aa8a7c04b80888a93d8685b6271",
+    "revision/instruments/6e011d34b44742048f4855fff3ebd2cf",
+    "revision/instruments/b2be96277ef44bf4b66c040e4aaf2d76",
+    "revision/instruments/cd29762ce5254908903d210b0a7cea3c",
+    "revision/instruments/d7c41b1eb16c44f28deec2aaf36f131c",
+    "revision/instruments/fdef198651854a149a7ed09b11359ced",
+    "revision/news_headlines/7a408dbfff3e4772ac74758d555338e2",
+    "revision/news_headlines/fe560f9e91884538a8154c67f1417f8e",
+    "revision/trading_calendar/3ac8b38a35834b1e8d894d18cf27a4f6",
+    "revision/trading_status/0cb4cb0d18ef47aaa8f7e0db920c3891",
+    "revision/trading_status/1097c6d6c17e4e53b243201c953175c5",
+    "revision/trading_status/2017d00135ef437bbc6beb12b37d6f87"
+  ],
+  "logical_bytes_selected": 750814279,
+  "grace_days": 7,
+  "purge_ids": [
+    "revision/adj_factors/0a4f9e96bc1d41b58ede8cdb682e4f1a",
+    "revision/adj_factors/1ef20695a750461bb9d7608bee2512ad",
+    "revision/adj_factors/eb76f2136f494eaca8c319fc98124bef",
+    "revision/announcement_index/0b46b64b82034d51a493ac1a6350df18",
+    "revision/corporate_actions/5247fb4494ef49b5b1eab81fcdf52f11",
+    "revision/corporate_actions/f6cf24b493304b04b0d1d942cedd1c99",
+    "revision/daily_bars/425b058aeb2441f4be45abb5094ddb8b",
+    "revision/earnings_disclosure_schedule/94a848dec91540c98872b75ebb37607e",
+    "revision/financial_statement_items/f8a5d80bb99a42198fa3c05eae771a7d",
+    "revision/industry_members/a90c75a598fa4f389d090276ec032d76",
+    "revision/instruments/1aad8aa8a7c04b80888a93d8685b6271",
+    "revision/instruments/6e011d34b44742048f4855fff3ebd2cf",
+    "revision/instruments/b2be96277ef44bf4b66c040e4aaf2d76",
+    "revision/instruments/cd29762ce5254908903d210b0a7cea3c",
+    "revision/instruments/d7c41b1eb16c44f28deec2aaf36f131c",
+    "revision/instruments/fdef198651854a149a7ed09b11359ced",
+    "revision/news_headlines/7a408dbfff3e4772ac74758d555338e2",
+    "revision/news_headlines/fe560f9e91884538a8154c67f1417f8e",
+    "revision/trading_calendar/3ac8b38a35834b1e8d894d18cf27a4f6",
+    "revision/trading_status/0cb4cb0d18ef47aaa8f7e0db920c3891",
+    "revision/trading_status/1097c6d6c17e4e53b243201c953175c5",
+    "revision/trading_status/2017d00135ef437bbc6beb12b37d6f87"
+  ],
+  "logical_bytes_to_purge": 750814279,
+  "explicit_selection": true,
+  "phase": "purge",
+  "created_at": "2026-11-05T05:38:01.306530+00:00"
+}

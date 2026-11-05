@@ -1,0 +1,21 @@
+{
+  "last_attempt": "2026-10-16T06:13:13.162412+00:00",
+  "updated_at": "2026-10-23T13:11:46.759472+00:00",
+  "revision": 2,
+  "revision_id": "e724d22951064a0d9d04334fb26df47b",
+  "revision_at": "2026-10-23T13:11:46.759472+00:00",
+  "revision_run_id": "user-approved-B-cleanup-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "05e696a535d47b306fef7982e8f479c38d1e5271e6f83fd30c721b15bd3e1b77",
+  "content_digest": "5801b02149b9bb68e866921696ce196723e9a2d122e0d92351665b0be6b25eec",
+  "revision_receipt": "revisions/fund_flow/00000002-e724d22951064a0d9d04334fb26df47b.json",
+  "revision_pointer": "revisions/fund_flow/current.json",
+  "changed_partitions": [
+    "fund_flow/trade_date=2026-10-16"
+  ],
+  "missing_ranges": [],
+  "coverage_status": "unknown",
+  "last_success_trade_date": "2026-10-16",
+  "row_count": 0,
+  "cleared_by": "user-approved-B-cleanup-20261023"
+}

@@ -1,0 +1,9 @@
+{
+  "key": "cninfo",
+  "source": "cninfo",
+  "dataset": "announcement_index",
+  "run_id": "4429bc25-ef33-4a4d-be66-8175e7cafb55",
+  "rows": 741,
+  "validated_at": "2026-11-05T01:50:41+00:00",
+  "sample_kind": "passive"
+}

@@ -1,0 +1,329 @@
+{
+  "run_id": "ad0831cf-eac2-4144-a463-9f0ad45b8efc",
+  "trade_date": "2026-10-19",
+  "findings": [
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "fallback_source_incomplete",
+      "message": "8/8 symbols without a TDX route failed to fetch from the fallback vendor (e.g. 000016.SZ, 001381.SZ, 002388.SZ, 002731.SZ, 600293.SH)",
+      "empty_symbols": 8
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_sina_source_empty",
+      "message": "Sina returned an explicit empty payload for 8 symbol(s); a second independent empty source is required before no-data certification",
+      "symbols": [
+        "000016.SZ",
+        "001381.SZ",
+        "002388.SZ",
+        "002731.SZ",
+        "600293.SH",
+        "601059.SH",
+        "601198.SH",
+        "688496.SH"
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_eastmoney_gapfill",
+      "message": "EastMoney historical fallback wrote 0 row(s) for 8 remaining symbol(s); status=failed",
+      "status": "failed",
+      "requests": 8,
+      "rows": 0,
+      "rows_written": 0,
+      "empty_symbols": 0,
+      "failed_symbols": 3,
+      "failure_reasons": {
+        "000016.SZ": "transport_error",
+        "001381.SZ": "transport_error",
+        "002388.SZ": "transport_error"
+      },
+      "proxy_failed": 0,
+      "direct_failed": 0,
+      "direct_succeeded": 0
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_ths_gapfill",
+      "message": "THS final fallback wrote 0 row(s) for 8 remaining symbol(s); empty=8, failed=0",
+      "rows_written": 0,
+      "empty_symbols": [
+        "000016.SZ",
+        "001381.SZ",
+        "002388.SZ",
+        "002731.SZ",
+        "600293.SH",
+        "601059.SH",
+        "601198.SH",
+        "688496.SH"
+      ],
+      "failed_symbols": []
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_baostock_gapfill",
+      "message": "baostock final fallback wrote 0 row(s) for 8 remaining symbol(s); empty=8, failed=0",
+      "rows_written": 0,
+      "empty_symbols": [
+        "000016.SZ",
+        "001381.SZ",
+        "002388.SZ",
+        "002731.SZ",
+        "600293.SH",
+        "601059.SH",
+        "601198.SH",
+        "688496.SH"
+      ],
+      "failed_symbols": []
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_suspension_evidence",
+      "message": "30 absent key(s) confirmed as suspensions by baostock and recorded in trading_status",
+      "suspended_keys": 30
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_window_fully_suspended",
+      "message": "2 symbol(s) were suspended for every session in 2026-10-12..2026-10-19 — certified from the vendor's own trading status, not from an absence of rows",
+      "symbols": [
+        "000016.SZ",
+        "002388.SZ"
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_multi_source_no_data",
+      "message": "certified 1 symbol(s) as source-empty only after two independent per-symbol sources agreed",
+      "symbols": [
+        "001381.SZ"
+      ],
+      "evidence": {
+        "001381.SZ": [
+          "baostock",
+          "sina",
+          "ths"
+        ]
+      }
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_gapfill_incomplete",
+      "message": "multi-source gap-fill left 5 symbol×session key(s) unresolved over 2026-10-12..2026-10-19",
+      "missing_keys": 5,
+      "sample_keys": [
+        {
+          "symbol": "002731.SZ",
+          "trade_date": "2026-10-19"
+        },
+        {
+          "symbol": "600293.SH",
+          "trade_date": "2026-10-19"
+        },
+        {
+          "symbol": "601059.SH",
+          "trade_date": "2026-10-19"
+        },
+        {
+          "symbol": "601198.SH",
+          "trade_date": "2026-10-19"
+        },
+        {
+          "symbol": "688496.SH",
+          "trade_date": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_eastmoney_gapfill",
+      "message": "EastMoney historical fallback wrote 0 row(s) for 363 remaining symbol(s); status=failed",
+      "status": "failed",
+      "requests": 363,
+      "rows": 0,
+      "rows_written": 0,
+      "empty_symbols": 0,
+      "failed_symbols": 3,
+      "failure_reasons": {
+        "000668.SZ": "transport_error",
+        "002717.SZ": "transport_error",
+        "002813.SZ": "transport_error"
+      },
+      "proxy_failed": 0,
+      "direct_failed": 0,
+      "direct_succeeded": 0
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_ths_gapfill",
+      "message": "THS final fallback wrote 0 row(s) for 12 remaining symbol(s); empty=12, failed=0",
+      "rows_written": 0,
+      "empty_symbols": [
+        "000668.SZ",
+        "002717.SZ",
+        "002813.SZ",
+        "002860.SZ",
+        "300082.SZ",
+        "300773.SZ",
+        "301314.SZ",
+        "301468.SZ",
+        "600825.SH",
+        "603517.SH",
+        "603759.SH",
+        "603838.SH"
+      ],
+      "failed_symbols": []
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_baostock_gapfill",
+      "message": "baostock final fallback wrote 0 row(s) for 12 remaining symbol(s); empty=12, failed=0",
+      "rows_written": 0,
+      "empty_symbols": [
+        "000668.SZ",
+        "002717.SZ",
+        "002813.SZ",
+        "002860.SZ",
+        "300082.SZ",
+        "300773.SZ",
+        "301314.SZ",
+        "301468.SZ",
+        "600825.SH",
+        "603517.SH",
+        "603759.SH",
+        "603838.SH"
+      ],
+      "failed_symbols": []
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_suspension_evidence",
+      "message": "24 absent key(s) confirmed as suspensions by baostock and recorded in trading_status",
+      "suspended_keys": 24
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_gapfill_incomplete",
+      "message": "multi-source gap-fill left 1750 symbol×session key(s) unresolved over 2026-10-12..2026-10-19",
+      "missing_keys": 1750,
+      "sample_keys": [
+        {
+          "symbol": "002717.SZ",
+          "trade_date": "2026-10-19"
+        },
+        {
+          "symbol": "603759.SH",
+          "trade_date": "2026-10-19"
+        },
+        {
+          "symbol": "920000.BJ",
+          "trade_date": "2026-10-12"
+        },
+        {
+          "symbol": "920000.BJ",
+          "trade_date": "2026-10-13"
+        },
+        {
+          "symbol": "920000.BJ",
+          "trade_date": "2026-10-14"
+        },
+        {
+          "symbol": "920000.BJ",
+          "trade_date": "2026-10-15"
+        },
+        {
+          "symbol": "920000.BJ",
+          "trade_date": "2026-10-16"
+        },
+        {
+          "symbol": "920001.BJ",
+          "trade_date": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_undated_probe",
+      "message": "1 undated equity code(s) probed: 0 listed (bars staged), 0 not yet listed, 1 unanswered",
+      "listed": [],
+      "not_listed": []
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "info",
+      "check": "daily_bars_expected_no_data",
+      "message": "daily_bars 2026-10-12..2026-10-19: 3 missing key(s) were excluded by explicit listing/status/negative evidence",
+      "symbols": [
+        "000016.SZ",
+        "001381.SZ",
+        "002388.SZ"
+      ],
+      "reasons": {
+        "000016.SZ": "source_empty",
+        "001381.SZ": "source_empty",
+        "002388.SZ": "source_empty"
+      }
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_unknown_missing_symbols",
+      "message": "daily_bars 2026-10-12..2026-10-19: 11 expected key(s) remain unknown after failover (002717.SZ, 002731.SZ, 301314.SZ, 301468.SZ, 600293.SH, 601059.SH, 601198.SH, 603517.SH...); valid rows will be published; missing keys remain recorded",
+      "missing_keys": 11,
+      "symbols": [
+        "002717.SZ",
+        "002731.SZ",
+        "301314.SZ",
+        "301468.SZ",
+        "600293.SH",
+        "601059.SH",
+        "601198.SH",
+        "603517.SH",
+        "603759.SH",
+        "603838.SH",
+        "688496.SH"
+      ],
+      "tolerated": true,
+      "tolerance_keys": 55
+    },
+    {
+      "dataset": "daily_bars",
+      "severity": "warning",
+      "check": "daily_bars_interior_gap",
+      "message": "daily_bars 2026-10-12..2026-10-19: 2 interior symbol×session key(s) remain absent across 2 symbol(s); valid rows will be published; missing keys remain recorded\n  Full list and per-key reasons: D:\\repository\\数据湖\\data\\cnequity\\meta\\quality\\findings\\ad0831cf-eac2-4144-a463-9f0ad45b8efc.json\n  Which vendor is down: cne sources probe\n  Resume this run once it is back: cne run retry --run-id ad0831cf-eac2-4144-a463-9f0ad45b8efc\n  Or repair just these keys: cne backfill daily_bars --symbols 002717.SZ,603759.SH --start 2026-10-12 --end 2026-10-19",
+      "missing_keys": 2,
+      "missing_symbols": [
+        "002717.SZ",
+        "603759.SH"
+      ],
+      "tolerated": true,
+      "tolerance_keys": 313,
+      "expected_keys": 31344,
+      "sample_keys": [
+        {
+          "symbol": "002717.SZ",
+          "trade_date": "2026-10-19"
+        },
+        {
+          "symbol": "603759.SH",
+          "trade_date": "2026-10-19"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "last_attempt": "2026-10-20T02:57:01.831016+00:00",
+  "updated_at": "2026-10-23T14:08:41.380817+00:00",
+  "last_snapshot_date": "2026-10-19",
+  "revision": 3,
+  "revision_id": "7719c1797fe5458ba0f9e2266a0d9833",
+  "revision_at": "2026-10-23T14:08:41.380817+00:00",
+  "revision_run_id": "selection-scope-retirement-20261023",
+  "schema_version": 1,
+  "contract_fingerprint": "b1692dca4c20c342ba7f0fbb0a0e99390ecafb60a4d8164be4fb819d6ce35890",
+  "content_digest": "264a1c115ef88ca030666a240e698fd62f2328c97b62fbac220d876d1255392f",
+  "revision_receipt": "revisions/share_unlock_schedule/00000003-7719c1797fe5458ba0f9e2266a0d9833.json",
+  "revision_pointer": "revisions/share_unlock_schedule/current.json",
+  "changed_partitions": [
+    "share_unlock_schedule/unlock_date=2026"
+  ],
+  "missing_ranges": [],
+  "coverage_status": "unknown",
+  "row_count": 0,
+  "retired_by": "selection_lake_policy.json"
+}

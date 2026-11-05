@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "dataset": "sector_members",
+  "revision": 3,
+  "revision_id": "1e44dd8044ed497ea2e782b24d825d4c",
+  "generation_path": "revisions/data/sector_members/1e44dd8044ed497ea2e782b24d825d4c",
+  "receipt": "revisions/sector_members/00000003-1e44dd8044ed497ea2e782b24d825d4c.json",
+  "content_digest": "3c60ccf8c71e98259d817aa96e93b3b3a93955a302eb623f697a36df2f425708",
+  "committed_at": "2026-10-23T13:11:46.911169+00:00"
+}
